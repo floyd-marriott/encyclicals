@@ -1,0 +1,37 @@
+{
+  "slug": "democracy-and-a-lasting-peace",
+  "incipit": "Democracy And A Lasting Peace",
+  "englishTitle": "\\[Christmas Message\\]",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1944,
+  "date": "1944",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "democracy",
+    "human-dignity",
+    "justice",
+    "liturgy",
+    "marian",
+    "moral-theology",
+    "peace",
+    "saints"
+  ],
+  "wordCount": 5491,
+  "fileSize": 32327,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

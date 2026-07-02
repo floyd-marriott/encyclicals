@@ -1,0 +1,34 @@
+{
+  "slug": "princeps-pastorum",
+  "incipit": "Princeps Pastorum",
+  "englishTitle": "The Pope as Christ's Prince of Shepherds",
+  "pope": {
+    "slug": "john23",
+    "name": "John XXIII",
+    "regnalName": "John",
+    "number": 23,
+    "fullName": "John XXIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1959,
+  "date": "1959-11-28",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "eucharist",
+    "missions",
+    "papacy",
+    "peace",
+    "saints"
+  ],
+  "wordCount": 10122,
+  "fileSize": 61864,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on November 28, 1959, the second year of Our Pontificate."
+}

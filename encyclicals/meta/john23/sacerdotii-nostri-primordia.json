@@ -1,0 +1,37 @@
+{
+  "slug": "sacerdotii-nostri-primordia",
+  "incipit": "Sacerdotii Nostri Primordia",
+  "englishTitle": "St. John Vianney",
+  "pope": {
+    "slug": "john23",
+    "name": "John XXIII",
+    "regnalName": "John",
+    "number": 23,
+    "fullName": "John XXIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1959,
+  "date": "1959-08-01",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "colonialism",
+    "eucharist",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 12860,
+  "fileSize": 72361,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on August 1,1959, the first year of Our Pontificate."
+}

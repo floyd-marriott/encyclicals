@@ -1,0 +1,39 @@
+{
+  "slug": "non-abbiamo-bisogno",
+  "incipit": "Non Abbiamo Bisogno",
+  "englishTitle": "Catholic Action in Italy",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1931,
+  "date": "1931",
+  "dateApproximate": true,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "catholic-action",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "papacy",
+    "peace",
+    "prayer",
+    "sacred-heart",
+    "saints",
+    "usury"
+  ],
+  "wordCount": 10601,
+  "fileSize": 62466,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

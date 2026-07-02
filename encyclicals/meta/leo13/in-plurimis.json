@@ -1,0 +1,36 @@
+{
+  "slug": "in-plurimis",
+  "incipit": "In Plurimis",
+  "englishTitle": "On the Abolition of Slavery",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1888,
+  "date": "1888-05-05",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "family",
+    "human-dignity",
+    "justice",
+    "missions",
+    "moral-theology",
+    "saints",
+    "slavery"
+  ],
+  "wordCount": 7136,
+  "fileSize": 41102,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, in Rome, the fifth day of May, 1888, the eleventh of Our pontificate."
+}

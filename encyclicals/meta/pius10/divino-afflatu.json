@@ -1,0 +1,29 @@
+{
+  "slug": "divino-afflatu",
+  "incipit": "Divino Afflatu",
+  "englishTitle": "Reform of the Roman Breviary",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": null,
+  "year": 1911,
+  "date": "1911",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "ecclesiology",
+    "saints"
+  ],
+  "wordCount": 1424,
+  "fileSize": 10982,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

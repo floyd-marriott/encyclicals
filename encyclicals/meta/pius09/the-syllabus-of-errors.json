@@ -1,0 +1,35 @@
+{
+  "slug": "the-syllabus-of-errors",
+  "incipit": "The Syllabus Of Errors",
+  "englishTitle": null,
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": "apostolic-letter",
+  "year": 1864,
+  "date": "1864",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "science",
+    "scripture"
+  ],
+  "wordCount": 4173,
+  "fileSize": 25732,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

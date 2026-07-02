@@ -1,0 +1,33 @@
+{
+  "slug": "vigilanti-cura",
+  "incipit": "Vigilanti Cura",
+  "englishTitle": "On Motion Pictures",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1936,
+  "date": "1936",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "education",
+    "justice",
+    "moral-theology",
+    "religious-life"
+  ],
+  "wordCount": 4654,
+  "fileSize": 27679,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St Peter’s, the 29th day of June, Feast of SS Peter and Paul, in the year 1936, the fifteenth of Our Pontificate."
+}

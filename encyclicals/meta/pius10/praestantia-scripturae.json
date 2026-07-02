@@ -1,0 +1,36 @@
+{
+  "slug": "praestantia-scripturae",
+  "incipit": "Praestantia Scripturae",
+  "englishTitle": "On the Bible Against the Modernists",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": "encyclical-letter",
+  "year": 1907,
+  "date": "1907-11-18",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "ecclesiology",
+    "education",
+    "human-dignity",
+    "missions",
+    "modernism",
+    "moral-theology",
+    "papacy",
+    "scripture"
+  ],
+  "wordCount": 1081,
+  "fileSize": 6678,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome in Saint Peter’s, the 18th November, 1907, the fifth year of our Pontificate."
+}

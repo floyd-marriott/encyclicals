@@ -1,0 +1,39 @@
+{
+  "slug": "quartus-supra",
+  "incipit": "Quartus Supra",
+  "englishTitle": "On the Church in Armenia",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1873,
+  "date": "1873",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brothers Anthony Peter IX, Patriarch of Cilicia, and the Archbishops, Bishops, Clergy and Laity, Our Beloved Children of the Armenian Rite Who are in Loving Communion with the Apostolic See.",
+  "addresseeScope": "armenia",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "eucharist",
+    "family",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "saints"
+  ],
+  "wordCount": 9803,
+  "fileSize": 58230,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome in St. Peter’s on the 6th of January 1873, the 27th year of Our Pontificate."
+}

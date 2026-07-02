@@ -1,0 +1,39 @@
+{
+  "slug": "doctor-mellifluus",
+  "incipit": "Doctor Mellifluus",
+  "englishTitle": "On St. Bernard of Clairvaux, Last of the Fathers",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1953,
+  "date": "1953",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops and other Local Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints",
+    "scripture"
+  ],
+  "wordCount": 6443,
+  "fileSize": 36709,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, St. Peter’s, on the 24th of May, on the feast of Pentecost, 1953, in the 15th year of our pontificate."
+}

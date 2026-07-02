@@ -1,0 +1,32 @@
+{
+  "slug": "summa-providit-altitudo-consilii",
+  "incipit": "Summa providit altitudo consilii",
+  "englishTitle": "\\[Bull\\] Latin",
+  "pope": {
+    "slug": "john22",
+    "name": "John XXII",
+    "regnalName": "John",
+    "number": 22,
+    "fullName": "John XXII"
+  },
+  "type": null,
+  "year": 1333,
+  "date": "1333",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "moral-theology",
+    "religious-life"
+  ],
+  "wordCount": 499,
+  "fileSize": 3748,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

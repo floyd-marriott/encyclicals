@@ -1,0 +1,30 @@
+{
+  "slug": "ex-supernae-dispositionis-arbitrio",
+  "incipit": "Ex Supernae Dispositionis Arbitrio",
+  "englishTitle": "Latin",
+  "pope": {
+    "slug": "clem08",
+    "name": "Clement VIII",
+    "regnalName": "Clement",
+    "number": 8,
+    "fullName": "Clement VIII"
+  },
+  "type": null,
+  "year": 1595,
+  "date": "1595",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "moral-theology",
+    "religious-life"
+  ],
+  "wordCount": 822,
+  "fileSize": 6369,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "iampridem",
+  "incipit": "Iampridem",
+  "englishTitle": "On Catholicism in Germany",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1886,
+  "date": "1886-01-06",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "persecution",
+    "usury"
+  ],
+  "wordCount": 2905,
+  "fileSize": 17242,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, on the sixth day of January, 1886, in the eighth year of Our pontificate."
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "diuturnum",
+  "incipit": "Diuturnum",
+  "englishTitle": "On the Origin of Civil Power",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1881,
+  "date": "1881",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "justice",
+    "papacy"
+  ],
+  "wordCount": 5534,
+  "fileSize": 31810,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s in Rome, the twenty-ninth day of June, 1881, the third year of Our pontificate."
+}

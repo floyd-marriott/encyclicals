@@ -1,0 +1,36 @@
+{
+  "slug": "optime-noscitis",
+  "incipit": "Optime Noscitis",
+  "englishTitle": "On Episcopal Meetings",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1855,
+  "date": "1855-11-05",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "human-dignity",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "prayer"
+  ],
+  "wordCount": 1443,
+  "fileSize": 8469,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, on the fifth day of November in the year 1855, the tenth year of Our Pontificate."
+}

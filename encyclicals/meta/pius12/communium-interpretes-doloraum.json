@@ -1,0 +1,40 @@
+{
+  "slug": "communium-interpretes-doloraum",
+  "incipit": "Communium Interpretes Doloraum",
+  "englishTitle": "Ending the 2nd World War",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1945,
+  "date": "1945",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, Patriarchs, Primates, Archbishops, other Ordinaries of Places in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "eucharist",
+    "family",
+    "human-dignity",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 1083,
+  "fileSize": 6447,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, Sunday, the 15 of April, sacred to the Good Shepherd Jesus Christ, 1945, in the seventh year of Our pontificate."
+}

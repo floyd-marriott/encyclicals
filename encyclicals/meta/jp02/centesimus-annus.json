@@ -1,0 +1,34 @@
+{
+  "slug": "centesimus-annus",
+  "incipit": "Centesimus Annus",
+  "englishTitle": "THE HUNDRETH ANNIVERSARY OF RERUM NOVARUM",
+  "pope": {
+    "slug": "jp02",
+    "name": "John Paul II",
+    "regnalName": "John Paul",
+    "number": 2,
+    "fullName": "John Paul II"
+  },
+  "type": "encyclical-letter",
+  "year": 1991,
+  "date": "1991",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "moral-theology",
+    "papacy",
+    "social-doctrine"
+  ],
+  "wordCount": 27518,
+  "fileSize": 170480,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Peter's, on 1 May, the Memorial of Saint Joseph the Worker, in the year 1991, the thirteenth of my Pontificate."
+}

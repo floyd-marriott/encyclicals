@@ -1,0 +1,38 @@
+{
+  "slug": "apostolicae-curae",
+  "incipit": "Apostolicae Curae",
+  "englishTitle": "On the Nullity of Anglican Orders",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1896,
+  "date": null,
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "moral-theology",
+    "peace",
+    "prayer",
+    "saints",
+    "science"
+  ],
+  "wordCount": 5200,
+  "fileSize": 30462,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, in the year of the Incarnation of Our Lord, one thousand eight hundred and ninety-six, on the Ides of September, in the nineteenth year of our pontificate."
+}

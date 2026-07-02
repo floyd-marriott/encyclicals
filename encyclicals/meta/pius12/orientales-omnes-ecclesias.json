@@ -1,0 +1,39 @@
+{
+  "slug": "orientales-omnes-ecclesias",
+  "incipit": "Orientales Omnes Ecclesias",
+  "englishTitle": "250th Anniversary of Reunion of the Ruthenian Church with Rome",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1945,
+  "date": "1945",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "eucharist",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer"
+  ],
+  "wordCount": 9905,
+  "fileSize": 58624,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on 23rd December 1945, the seventh year of our pontificate ."
+}

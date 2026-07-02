@@ -1,0 +1,36 @@
+{
+  "slug": "sertum-laetitiae",
+  "incipit": "Sertum Laetitiae",
+  "englishTitle": "150th Anniversary of the Establishment of the Hierarchy in the USA",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1931,
+  "date": "1939",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace"
+  ],
+  "wordCount": 5199,
+  "fileSize": 30760,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at the Vatican, on the Feast of All Saints, in the Year of Our Lord 1939, the first of Our Pontificate."
+}

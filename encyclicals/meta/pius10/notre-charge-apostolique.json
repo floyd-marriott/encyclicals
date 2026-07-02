@@ -1,0 +1,36 @@
+{
+  "slug": "notre-charge-apostolique",
+  "incipit": "Notre Charge Apostolique",
+  "englishTitle": "Our Apostolic Mandate",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": "encyclical-letter",
+  "year": 1910,
+  "date": "1910-08-25",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "liberalism",
+    "modernism",
+    "prayer",
+    "science",
+    "social-doctrine"
+  ],
+  "wordCount": 8867,
+  "fileSize": 52458,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, Rome, on the 25th August 1910, the eighth year of Our Pontificate."
+}

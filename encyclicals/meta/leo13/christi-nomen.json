@@ -1,0 +1,37 @@
+{
+  "slug": "christi-nomen",
+  "incipit": "Christi Nomen",
+  "englishTitle": "On Propogation of the Faith and Eastern Churches",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1894,
+  "date": "1894-12-24",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Patriarchs,",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "eucharist",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer"
+  ],
+  "wordCount": 1014,
+  "fileSize": 6031,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, December 24, 1894, in the seventeenth year of Our pontificate."
+}

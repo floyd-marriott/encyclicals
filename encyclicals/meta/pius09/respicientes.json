@@ -1,0 +1,37 @@
+{
+  "slug": "respicientes",
+  "incipit": "Respicientes",
+  "englishTitle": "Protesting the Taking of the Pontifical States",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1870,
+  "date": "1870-11-01",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "human-dignity",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 3229,
+  "fileSize": 19235,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, November 1, 1870, the 25th year of Our Pontificate."
+}

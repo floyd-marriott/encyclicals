@@ -1,0 +1,38 @@
+{
+  "slug": "mater-et-magistra",
+  "incipit": "Mater Et Magistra",
+  "englishTitle": "Church as Mother and Teacher of All Nations",
+  "pope": {
+    "slug": "john23",
+    "name": "John XXIII",
+    "regnalName": "John",
+    "number": 23,
+    "fullName": "John XXIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1961,
+  "date": "1961-05-15",
+  "dateApproximate": false,
+  "addressee": "To His Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and all other Local Ordinaries that are at Peace and in Communion with the Apostolic See, and to the Clergy and Faithful of the entire Catholic World.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "family",
+    "justice",
+    "marian",
+    "papacy",
+    "peace"
+  ],
+  "wordCount": 20391,
+  "fileSize": 123303,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the 15th day of May, in the year 1961, the third of Our Pontificate."
+}

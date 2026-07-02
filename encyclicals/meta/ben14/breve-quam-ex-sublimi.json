@@ -1,0 +1,36 @@
+{
+  "slug": "breve-quam-ex-sublimi",
+  "incipit": "Quam Ex Sublimi",
+  "englishTitle": null,
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "brief",
+  "year": 1740,
+  "date": "1755-08-08",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers and Beloved Sons, Metropolitans, Archbishops, Bishops, and other Apostolic Vicars.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": true,
+  "translationSource": "deepl",
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "colonialism",
+    "ecclesiology",
+    "moral-theology",
+    "papacy",
+    "secularism",
+    "social-doctrine"
+  ],
+  "wordCount": 1739,
+  "fileSize": 10869,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Santa Maria Maggiore, under the Fisherman’s Ring, on August 8, 1755, in the fifteenth year of Our Pontificate."
+}

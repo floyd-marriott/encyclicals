@@ -1,0 +1,37 @@
+{
+  "slug": "sancta-dei-civitas",
+  "incipit": "Sancta Dei Civitas",
+  "englishTitle": "On Mission Societies",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1880,
+  "date": "1880-12-03",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "holy-spirit",
+    "missions",
+    "papacy",
+    "prayer",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 2865,
+  "fileSize": 16687,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the 3rd day of December, 1880, in the 3rd year of Our Pontificate."
+}

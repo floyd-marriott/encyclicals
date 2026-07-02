@@ -1,0 +1,37 @@
+{
+  "slug": "ecclesia-de-eucharistia",
+  "incipit": "Ecclesia de Eucharistia",
+  "englishTitle": "THE EUCHARIST IN ITS RELATIONSHIP TO THE CHURCH",
+  "pope": {
+    "slug": "jp02",
+    "name": "John Paul II",
+    "regnalName": "John Paul",
+    "number": 2,
+    "fullName": "John Paul II"
+  },
+  "type": "encyclical-letter",
+  "year": 2003,
+  "date": "2003",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "holy-spirit",
+    "justice",
+    "moral-theology",
+    "prayer",
+    "religious-life",
+    "saints"
+  ],
+  "wordCount": 17725,
+  "fileSize": 108852,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Peter's, on 17 April, Holy Thursday, in the year 2003, the Twenty- fifth of my Pontificate, the Year of the Rosary."
+}

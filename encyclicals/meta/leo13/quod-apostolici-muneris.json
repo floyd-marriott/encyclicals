@@ -1,0 +1,38 @@
+{
+  "slug": "quod-apostolici-muneris",
+  "incipit": "Quod Apostolici Muneris",
+  "englishTitle": "On Socialism",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1878,
+  "date": "1878",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "communism",
+    "eucharist",
+    "family",
+    "justice",
+    "papacy",
+    "prayer",
+    "saints",
+    "scripture",
+    "social-doctrine",
+    "socialism"
+  ],
+  "wordCount": 3892,
+  "fileSize": 22348,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, in Rome, on the twenty-eighth day of December, 1878, in the first year of Our pontificate."
+}

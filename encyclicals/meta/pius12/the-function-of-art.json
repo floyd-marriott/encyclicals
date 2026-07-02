@@ -1,0 +1,32 @@
+{
+  "slug": "the-function-of-art",
+  "incipit": "The Function Of Art",
+  "englishTitle": null,
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1952,
+  "date": "1952",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "eucharist",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "social-doctrine"
+  ],
+  "wordCount": 999,
+  "fileSize": 5942,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

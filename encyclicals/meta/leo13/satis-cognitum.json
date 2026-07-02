@@ -1,0 +1,34 @@
+{
+  "slug": "satis-cognitum",
+  "incipit": "Satis Cognitum",
+  "englishTitle": "On the Unity of the Church",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1896,
+  "date": "1896-06-29",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "papacy",
+    "peace"
+  ],
+  "wordCount": 14507,
+  "fileSize": 82041,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, Rome, the 29th day of june, in the year 1896, and the nineteenth of our Pontificate."
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "commissum-divinitus",
+  "incipit": "Commissum Divinitus",
+  "englishTitle": "On Church and State",
+  "pope": {
+    "slug": "greg16",
+    "name": "Gregory XVI",
+    "regnalName": "Gregory",
+    "number": 16,
+    "fullName": "Gregory XVI"
+  },
+  "type": null,
+  "year": 1835,
+  "date": "1835-05-17",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "justice",
+    "moral-theology",
+    "scripture",
+    "usury"
+  ],
+  "wordCount": 3518,
+  "fileSize": 20681,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, on the 17th day of May in the year 1835, the fifth year of Our Pontificate."
+}

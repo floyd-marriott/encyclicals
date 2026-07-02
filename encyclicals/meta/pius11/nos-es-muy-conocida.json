@@ -1,0 +1,38 @@
+{
+  "slug": "nos-es-muy-conocida",
+  "incipit": "Nos Es Muy Conocida",
+  "englishTitle": "On the Religious Situation in Mexico",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": "apostolic-letter",
+  "year": 1937,
+  "date": "1937-03-28",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren the Archbishops, Bishops, and other Ordinaries of Mexico in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "mexico",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "persecution",
+    "prayer",
+    "science"
+  ],
+  "wordCount": 5035,
+  "fileSize": 30258,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s in Rome on the Feast of the Resurrection, March 28, 1937, the fifteenth year of Our Pontificate."
+}

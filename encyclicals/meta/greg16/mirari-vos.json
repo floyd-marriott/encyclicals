@@ -1,0 +1,39 @@
+{
+  "slug": "mirari-vos",
+  "incipit": "Mirari Vos",
+  "englishTitle": "On Liberalism and Religious Indifferentism",
+  "pope": {
+    "slug": "greg16",
+    "name": "Gregory XVI",
+    "regnalName": "Gregory",
+    "number": 16,
+    "fullName": "Gregory XVI"
+  },
+  "type": null,
+  "year": 1832,
+  "date": "1832",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "assumption",
+    "christology",
+    "clergy",
+    "justice",
+    "liberalism",
+    "liturgy",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints",
+    "science"
+  ],
+  "wordCount": 4408,
+  "fileSize": 25830,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Mary Major, on August 15, the feast of the Assumption of the Virgin, in the year of Our Lord 1832, the second year of Our Pontificate."
+}

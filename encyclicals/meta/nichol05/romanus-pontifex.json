@@ -1,0 +1,34 @@
+{
+  "slug": "romanus-pontifex",
+  "incipit": "Romanus Pontifex",
+  "englishTitle": "(Granting the Portuguese a perpetual monopoly in trade with Africa) January 8, 1455",
+  "pope": {
+    "slug": "nichol05",
+    "name": "Nicholas V",
+    "regnalName": "Nicholas",
+    "number": 5,
+    "fullName": "Nicholas V"
+  },
+  "type": null,
+  "year": 2017,
+  "date": null,
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "colonialism",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "social-doctrine"
+  ],
+  "wordCount": 3755,
+  "fileSize": 22409,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at Saint Peter’s, on the eighth day of January, in the year of the incarnation of our Lord one thousand four hundred and fifty-four, and in the eighth year of our pontificate."
+}

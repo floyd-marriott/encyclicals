@@ -1,0 +1,39 @@
+{
+  "slug": "quinquagesimo-ante",
+  "incipit": "Quinquagesimo Ante",
+  "englishTitle": "On his Sacred Jubilee",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1929,
+  "date": "1929",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 5550,
+  "fileSize": 32124,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s the twenty-third day of December, 1929, the eighth of Our Pontificate."
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "urbanitatis-veteris",
+  "incipit": "Urbanitatis Veteris",
+  "englishTitle": "On the Foundation of a Seminary in Athens",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1901,
+  "date": "1901",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "prayer",
+    "saints",
+    "science",
+    "social-doctrine"
+  ],
+  "wordCount": 1453,
+  "fileSize": 8519,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, 20 November 1901, in the 25th Year of Our Pontificate."
+}

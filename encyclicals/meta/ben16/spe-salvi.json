@@ -1,0 +1,33 @@
+{
+  "slug": "spe-salvi",
+  "incipit": "Spe salvi",
+  "englishTitle": "CHRISTIAN HOPE",
+  "pope": {
+    "slug": "ben16",
+    "name": "Benedict XVI",
+    "regnalName": "Benedict",
+    "number": 16,
+    "fullName": "Benedict XVI"
+  },
+  "type": "encyclical-letter",
+  "year": 2007,
+  "date": "2007",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "moral-theology",
+    "papacy",
+    "saints",
+    "scripture"
+  ],
+  "wordCount": 19181,
+  "fileSize": 113073,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Peter's, on 30 November, the Feast of Saint Andrew the Apostle, in the year 2007, the third of my Pontificate."
+}

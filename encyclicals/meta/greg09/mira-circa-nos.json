@@ -1,0 +1,35 @@
+{
+  "slug": "mira-circa-nos",
+  "incipit": "Mira Circa Nos",
+  "englishTitle": "Canonizing St. Francis of Assisi",
+  "pope": {
+    "slug": "greg09",
+    "name": "Gregory IX",
+    "regnalName": "Gregory",
+    "number": 9,
+    "fullName": "Gregory IX"
+  },
+  "type": null,
+  "year": 1228,
+  "date": "1228",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "moral-theology",
+    "prayer",
+    "saints",
+    "slavery",
+    "social-doctrine",
+    "st-francis"
+  ],
+  "wordCount": 1611,
+  "fileSize": 9223,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

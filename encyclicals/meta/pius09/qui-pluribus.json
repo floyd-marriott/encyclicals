@@ -1,0 +1,35 @@
+{
+  "slug": "qui-pluribus",
+  "incipit": "Qui Pluribus",
+  "englishTitle": "On Faith and Religion",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1846,
+  "date": "1846",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 5578,
+  "fileSize": 33260,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Mary Major’s on the 9th of November 1846 in the first year of Our Pontificate."
+}

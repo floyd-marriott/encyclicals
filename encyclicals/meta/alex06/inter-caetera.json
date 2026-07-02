@@ -1,0 +1,35 @@
+{
+  "slug": "inter-caetera",
+  "incipit": "Inter Caetera",
+  "englishTitle": "Division of the undiscovered world between Spain and Portugal",
+  "pope": {
+    "slug": "alex06",
+    "name": "Alexander VI",
+    "regnalName": "Alexander",
+    "number": 6,
+    "fullName": "Alexander VI"
+  },
+  "type": null,
+  "year": 1493,
+  "date": null,
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "colonialism",
+    "justice",
+    "liturgy",
+    "moral-theology",
+    "papacy",
+    "social-doctrine"
+  ],
+  "wordCount": 1711,
+  "fileSize": 10197,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, in the year of the incarnation of our Lord one thousand four hundred and ninety-three, the fourth of May, and the first year of our pontificate."
+}

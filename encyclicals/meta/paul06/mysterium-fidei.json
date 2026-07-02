@@ -1,0 +1,38 @@
+{
+  "slug": "mysterium-fidei",
+  "incipit": "Mysterium Fidei",
+  "englishTitle": "Mystery of Faith - On the Doctrine and Worship of the Eucharist",
+  "pope": {
+    "slug": "paul06",
+    "name": "Paul VI",
+    "regnalName": "Paul",
+    "number": 6,
+    "fullName": "Paul VI"
+  },
+  "type": null,
+  "year": 1965,
+  "date": "1965",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "liturgy",
+    "marian",
+    "moral-theology",
+    "peace",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 8950,
+  "fileSize": 52041,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, the third day of September, the Feast of Pope St. Pius X, in the year 1965, the third year of our pontificate."
+}

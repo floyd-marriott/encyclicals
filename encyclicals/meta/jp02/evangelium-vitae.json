@@ -1,0 +1,36 @@
+{
+  "slug": "evangelium-vitae",
+  "incipit": "Evangelium Vitae",
+  "englishTitle": null,
+  "pope": {
+    "slug": "jp02",
+    "name": "John Paul II",
+    "regnalName": "John Paul",
+    "number": 2,
+    "fullName": "John Paul II"
+  },
+  "type": null,
+  "year": 1995,
+  "date": "1995",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "human-dignity",
+    "missions",
+    "moral-theology",
+    "sacred-heart"
+  ],
+  "wordCount": 48433,
+  "fileSize": 284739,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Peter's, on 25 March, the Solemnity of the Annunciation of the Lord, in the year 1995, the seventeenth of my Pontificate."
+}

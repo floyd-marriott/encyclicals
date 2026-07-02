@@ -1,0 +1,37 @@
+{
+  "slug": "exultavit-cor-nostrum",
+  "incipit": "Exultavit Cor Nostrum",
+  "englishTitle": "On the Effects of the Jubilee",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1851,
+  "date": "1851-11-21",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer"
+  ],
+  "wordCount": 1316,
+  "fileSize": 7522,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, November 21, 1851, in the sixth year of Our Pontificate."
+}

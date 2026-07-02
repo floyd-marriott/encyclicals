@@ -1,0 +1,33 @@
+{
+  "slug": "cum-primum",
+  "incipit": "Cum Primum",
+  "englishTitle": "On Civil Obedience",
+  "pope": {
+    "slug": "greg16",
+    "name": "Gregory XVI",
+    "regnalName": "Gregory",
+    "number": 16,
+    "fullName": "Gregory XVI"
+  },
+  "type": "encyclical-letter",
+  "year": 1832,
+  "date": "1832-06-09",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "marian",
+    "moral-theology",
+    "peace",
+    "scripture"
+  ],
+  "wordCount": 1103,
+  "fileSize": 6469,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, June 9, 1832, the second year of Our Pontificate."
+}

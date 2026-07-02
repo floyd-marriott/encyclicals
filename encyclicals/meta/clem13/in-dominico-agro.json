@@ -1,0 +1,35 @@
+{
+  "slug": "in-dominico-agro",
+  "incipit": "In Dominico Agro",
+  "englishTitle": "On Instruction in the Faith",
+  "pope": {
+    "slug": "clem13",
+    "name": "Clement XIII",
+    "regnalName": "Clement",
+    "number": 13,
+    "fullName": "Clement XIII"
+  },
+  "type": null,
+  "year": 1761,
+  "date": "1761",
+  "dateApproximate": true,
+  "addressee": "To the Venerable Brothers, the Patriarchs, Primates, Archbishops and Bishops. Venerable Brothers, Greetings and Apostolic Benediction.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "moral-theology",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 1814,
+  "fileSize": 10697,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "sacerdotalis-caelibatus",
+  "incipit": "Sacerdotalis Caelibatus",
+  "englishTitle": "On Priestly Celibacy",
+  "pope": {
+    "slug": "paul06",
+    "name": "Paul VI",
+    "regnalName": "Paul",
+    "number": 6,
+    "fullName": "Paul VI"
+  },
+  "type": null,
+  "year": 1967,
+  "date": "1967-06-24",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "holy-spirit",
+    "missions",
+    "moral-theology",
+    "saints",
+    "science"
+  ],
+  "wordCount": 13430,
+  "fileSize": 79573,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, June 24, 1967, the feast of St. John the Baptist, in the fifth year of Our pontificate."
+}

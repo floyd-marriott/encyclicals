@@ -1,0 +1,33 @@
+{
+  "slug": "the-states-of-perfection",
+  "incipit": "The States Of Perfection",
+  "englishTitle": null,
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "apostolic-constitution",
+  "year": 1957,
+  "date": "1957",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "marian",
+    "prayer",
+    "social-doctrine"
+  ],
+  "wordCount": 3991,
+  "fileSize": 23814,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

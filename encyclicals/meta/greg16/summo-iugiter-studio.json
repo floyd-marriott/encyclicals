@@ -1,0 +1,33 @@
+{
+  "slug": "summo-iugiter-studio",
+  "incipit": "Summo Iugiter Studio",
+  "englishTitle": "On Mixed Marriages",
+  "pope": {
+    "slug": "greg16",
+    "name": "Gregory XVI",
+    "regnalName": "Gregory",
+    "number": 16,
+    "fullName": "Gregory XVI"
+  },
+  "type": null,
+  "year": 1832,
+  "date": "1832-05-27",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "marriage",
+    "moral-theology",
+    "papacy",
+    "prayer"
+  ],
+  "wordCount": 1791,
+  "fileSize": 10763,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s under the ring of the Fisherman, May 27, 1832, the second year of Our Pontificate."
+}

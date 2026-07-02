@@ -1,0 +1,37 @@
+{
+  "slug": "tametsi-futura-prospicientibus",
+  "incipit": "Tametsi Futura Prospicientibus",
+  "englishTitle": "On Jesus Christ the Redeemer",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1900,
+  "date": "1900-11-01",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "usury"
+  ],
+  "wordCount": 5324,
+  "fileSize": 30538,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s in Rome, the first day of November 1900, in the 23rd year of Our Pontificate."
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "etsi-nos",
+  "incipit": "Etsi Nos",
+  "englishTitle": "On Conditions in Italy",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1882,
+  "date": "1882",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "human-dignity",
+    "marriage",
+    "moral-theology",
+    "papacy"
+  ],
+  "wordCount": 4358,
+  "fileSize": 25273,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the 15th day of February, in the year of Our Lord 1882, and of Our Pontificate the fourth."
+}

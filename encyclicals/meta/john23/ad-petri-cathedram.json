@@ -1,0 +1,37 @@
+{
+  "slug": "ad-petri-cathedram",
+  "incipit": "Ad Petri Cathedram",
+  "englishTitle": "On Truth, Unity and Peace in a Spirit of Charity",
+  "pope": {
+    "slug": "john23",
+    "name": "John XXIII",
+    "regnalName": "John",
+    "number": 23,
+    "fullName": "John XXIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1959,
+  "date": "1959",
+  "dateApproximate": true,
+  "addressee": "To the Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries in Peace and Communion with the Apostolic See, and to all the Priests and Faithful of the Catholic world.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "eucharist",
+    "holy-spirit",
+    "moral-theology",
+    "papacy",
+    "peace"
+  ],
+  "wordCount": 11432,
+  "fileSize": 66811,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

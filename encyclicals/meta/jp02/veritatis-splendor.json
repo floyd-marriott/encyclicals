@@ -1,0 +1,32 @@
+{
+  "slug": "veritatis-splendor",
+  "incipit": "Veritatis Splendor",
+  "englishTitle": null,
+  "pope": {
+    "slug": "jp02",
+    "name": "John Paul II",
+    "regnalName": "John Paul",
+    "number": 2,
+    "fullName": "John Paul II"
+  },
+  "type": null,
+  "year": 1993,
+  "date": "1993",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "family",
+    "human-dignity",
+    "moral-theology",
+    "science"
+  ],
+  "wordCount": 45232,
+  "fileSize": 268456,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Peter's, on 6 August, Feast of the Transfiguration of the Lord, in the year 1993, the fifteenth of my Pontificate."
+}

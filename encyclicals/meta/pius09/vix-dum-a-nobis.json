@@ -1,0 +1,35 @@
+{
+  "slug": "vix-dum-a-nobis",
+  "incipit": "Vix Dum A Nobis",
+  "englishTitle": "On the Church in Austria",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1874,
+  "date": "1874",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "justice",
+    "moral-theology",
+    "persecution",
+    "saints"
+  ],
+  "wordCount": 2183,
+  "fileSize": 12790,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, I March 1874, in the 28th year of Our Pontificate."
+}

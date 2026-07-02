@@ -1,0 +1,37 @@
+{
+  "slug": "ex-quo",
+  "incipit": "Ex Quo",
+  "englishTitle": "On the Euchologion",
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": null,
+  "year": 1756,
+  "date": "1756",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "persecution",
+    "prayer",
+    "secularism"
+  ],
+  "wordCount": 23781,
+  "fileSize": 139213,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome in St. Mary Major’s on the 1st of March 1756 in the sixteenth year of Our Pontificate."
+}

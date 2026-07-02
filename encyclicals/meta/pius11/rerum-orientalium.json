@@ -1,0 +1,41 @@
+{
+  "slug": "rerum-orientalium",
+  "incipit": "Rerum Orientalium",
+  "englishTitle": "On the Promotion of Oriental Studies",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1928,
+  "date": "1928-09-08",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "eucharist",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints",
+    "science",
+    "social-doctrine"
+  ],
+  "wordCount": 4057,
+  "fileSize": 24090,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, on the feast of the Nativity of the Blessed Virgin Mary, September 8, 1928, in the seventh year of Our Pontificate."
+}

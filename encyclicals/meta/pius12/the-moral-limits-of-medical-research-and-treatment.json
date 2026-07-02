@@ -1,0 +1,34 @@
+{
+  "slug": "the-moral-limits-of-medical-research-and-treatment",
+  "incipit": "The Moral Limits Of Medical Research And Treatment",
+  "englishTitle": null,
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1952,
+  "date": "1952",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "justice",
+    "marian",
+    "moral-theology",
+    "science",
+    "social-doctrine",
+    "usury"
+  ],
+  "wordCount": 4417,
+  "fileSize": 26039,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

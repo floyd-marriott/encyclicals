@@ -1,0 +1,36 @@
+{
+  "slug": "appetente-sacro",
+  "incipit": "Appetente Sacro",
+  "englishTitle": "On the Spiritual Advantages in Fasting",
+  "pope": {
+    "slug": "clem13",
+    "name": "Clement XIII",
+    "regnalName": "Clement",
+    "number": 13,
+    "fullName": "Clement XIII"
+  },
+  "type": null,
+  "year": 1759,
+  "date": "1759-12-20",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers the Patriarchs, Primates, Archbishops, and Bishops. Venerable Brothers, Greetings and Apostolic Blessing.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "prayer",
+    "religious-life",
+    "saints"
+  ],
+  "wordCount": 1052,
+  "fileSize": 6208,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Mary Major, on the 20th day of December in the year 1759, in the second year of Our pontificate."
+}

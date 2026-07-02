@@ -1,0 +1,33 @@
+{
+  "slug": "singulari-quidem",
+  "incipit": "Singulari Quidem",
+  "englishTitle": "On the Church in Austria",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1856,
+  "date": "1856-03-17",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "moral-theology",
+    "prayer"
+  ],
+  "wordCount": 5246,
+  "fileSize": 30905,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, on the 17th day of March in the year 1856, in the tenth year of Our pontificate."
+}

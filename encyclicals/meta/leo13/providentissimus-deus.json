@@ -1,0 +1,33 @@
+{
+  "slug": "providentissimus-deus",
+  "incipit": "Providentissimus Deus",
+  "englishTitle": "On the Study of Holy Scripture",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1893,
+  "date": "1893-11-18",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, All Patriarchs, Primates, Archbishops, and Bishops of the Catholic World, in Grace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "papacy",
+    "science",
+    "scripture"
+  ],
+  "wordCount": 10966,
+  "fileSize": 64038,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, at Rome, the 18th day of November, 1893, the eighteenth year of Our Pontificate."
+}

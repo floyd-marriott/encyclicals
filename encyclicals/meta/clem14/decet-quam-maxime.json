@@ -1,0 +1,35 @@
+{
+  "slug": "decet-quam-maxime",
+  "incipit": "Decet Quam Maxime",
+  "englishTitle": "On Abuses in Taxes and Benefices",
+  "pope": {
+    "slug": "clem14",
+    "name": "Clement XIV",
+    "regnalName": "Clement",
+    "number": 14,
+    "fullName": "Clement XIV"
+  },
+  "type": null,
+  "year": 1769,
+  "date": "1769",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "family",
+    "moral-theology",
+    "papacy",
+    "saints",
+    "scripture"
+  ],
+  "wordCount": 10037,
+  "fileSize": 60934,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Mary Major, 21 September 1769, in the first year of Our Pontificate."
+}

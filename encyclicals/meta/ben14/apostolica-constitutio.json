@@ -1,0 +1,35 @@
+{
+  "slug": "apostolica-constitutio",
+  "incipit": "Apostolica Constitutio",
+  "englishTitle": "On Preparation for the Holy Year",
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "apostolic-constitution",
+  "year": 1749,
+  "date": "1749",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "marian",
+    "papacy",
+    "persecution",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 11058,
+  "fileSize": 64996,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

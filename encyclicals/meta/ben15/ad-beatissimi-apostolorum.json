@@ -1,0 +1,35 @@
+{
+  "slug": "ad-beatissimi-apostolorum",
+  "incipit": "Ad Beatissimi Apostolorum",
+  "englishTitle": "Appealing For Peace",
+  "pope": {
+    "slug": "ben15",
+    "name": "Benedict XV",
+    "regnalName": "Benedict",
+    "number": 15,
+    "fullName": "Benedict XV"
+  },
+  "type": null,
+  "year": 1914,
+  "date": "1914-11-01",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "eucharist",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "science",
+    "slavery"
+  ],
+  "wordCount": 6450,
+  "fileSize": 36479,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, Rome, on the Feast of All Saints the first day of November, one thousand nine hundred and fourteen the first year of our Pontificate."
+}

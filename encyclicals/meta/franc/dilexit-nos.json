@@ -1,0 +1,32 @@
+{
+  "slug": "dilexit-nos",
+  "incipit": "Dilexit nos",
+  "englishTitle": "THE HUMAN AND DIVINE LOVE OF THE HEART OF JESUS CHRIST",
+  "pope": {
+    "slug": "franc",
+    "name": "Francis",
+    "regnalName": "Francis",
+    "number": 1,
+    "fullName": "Francis"
+  },
+  "type": "encyclical-letter",
+  "year": 2024,
+  "date": "2024",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "moral-theology",
+    "sacred-heart",
+    "saints",
+    "slavery"
+  ],
+  "wordCount": 30749,
+  "fileSize": 198386,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Peter’s, on 24 October of the year 2024, the twelfth of my Pontificate."
+}

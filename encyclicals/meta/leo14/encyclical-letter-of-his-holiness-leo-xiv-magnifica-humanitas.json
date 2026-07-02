@@ -1,0 +1,33 @@
+{
+  "slug": "encyclical-letter-of-his-holiness-leo-xiv-magnifica-humanitas",
+  "incipit": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
+  "englishTitle": "SAFEGUARDING THE HUMAN PERSON IN THE TIME OF ARTIFICIAL INTELLIGENCE",
+  "pope": {
+    "slug": "leo14",
+    "name": "Leo XIV",
+    "regnalName": "Leo",
+    "number": 14,
+    "fullName": "Leo XIV"
+  },
+  "type": "encyclical-letter",
+  "year": 2026,
+  "date": "2026",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "ecclesiology",
+    "human-dignity",
+    "justice",
+    "science",
+    "scripture",
+    "social-doctrine"
+  ],
+  "wordCount": 40567,
+  "fileSize": 317539,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Peter’s, on 15 May, in the year 2026, the second of my Pontificate."
+}

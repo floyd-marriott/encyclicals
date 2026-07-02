@@ -1,0 +1,37 @@
+{
+  "slug": "affari-vos",
+  "incipit": "Affari Vos",
+  "englishTitle": "On the Manitoba School Question",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1897,
+  "date": "1897-12-08",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "family",
+    "marian",
+    "missions",
+    "moral-theology",
+    "papacy"
+  ],
+  "wordCount": 2592,
+  "fileSize": 15091,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, Rome, on the 8th day of December, 1897, in the twentieth year of Our pontificate."
+}

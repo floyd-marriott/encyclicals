@@ -1,0 +1,40 @@
+{
+  "slug": "rerum-omnium-perturbationem",
+  "incipit": "Rerum Omnium Perturbationem",
+  "englishTitle": "St. Francis De Salles",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1923,
+  "date": "1923",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "family",
+    "justice",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 5916,
+  "fileSize": 34023,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, the twenty-sixth day of January, in the year 1923, the first of Our Pontificate."
+}

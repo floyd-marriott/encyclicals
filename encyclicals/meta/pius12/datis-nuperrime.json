@@ -1,0 +1,37 @@
+{
+  "slug": "datis-nuperrime",
+  "incipit": "Datis Nuperrime",
+  "englishTitle": "Lamenting the Sorrowful Events in Hungary & Condemning the Ruthless Use of Force",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "encyclical-letter",
+  "year": 1956,
+  "date": "1956-11-05",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "eucharist",
+    "human-dignity",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "religious-life",
+    "slavery"
+  ],
+  "wordCount": 526,
+  "fileSize": 3179,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome from St. Peter’s, on the fifth day of November, in the year 1956, the 18th of Our Pontificate."
+}

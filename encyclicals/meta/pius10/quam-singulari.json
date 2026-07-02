@@ -1,0 +1,36 @@
+{
+  "slug": "quam-singulari",
+  "incipit": "Quam Singulari",
+  "englishTitle": "Decree of the Sacred Congregation of the Discipline of the Sacraments on First Communion",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": null,
+  "year": 1910,
+  "date": "1910",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "eucharist",
+    "family",
+    "moral-theology",
+    "religious-life",
+    "saints"
+  ],
+  "wordCount": 2671,
+  "fileSize": 15779,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

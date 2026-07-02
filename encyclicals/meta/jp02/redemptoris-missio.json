@@ -1,0 +1,38 @@
+{
+  "slug": "redemptoris-missio",
+  "incipit": "Redemptoris Missio",
+  "englishTitle": null,
+  "pope": {
+    "slug": "jp02",
+    "name": "John Paul II",
+    "regnalName": "John Paul",
+    "number": 2,
+    "fullName": "John Paul II"
+  },
+  "type": null,
+  "year": 1990,
+  "date": "1990",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "interfaith",
+    "missions",
+    "moral-theology",
+    "prayer",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 33437,
+  "fileSize": 207543,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter's, on December 7, the twenty-fifth anniversary of the Conciliar Decree Ad Gentes, in the year 1990, the thirteenth of my Pontificate."
+}

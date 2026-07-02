@@ -1,0 +1,39 @@
+{
+  "slug": "le-pelerinage-de-lourdes",
+  "incipit": "Le Pelerinage De Lourdes",
+  "englishTitle": "Against Materialism on the Centenary of the Apparitions at Lourdes",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1957,
+  "date": "1957-07-02",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "clergy",
+    "eucharist",
+    "family",
+    "marian",
+    "missions",
+    "papacy",
+    "peace",
+    "prayer",
+    "religious-life",
+    "saints"
+  ],
+  "wordCount": 4945,
+  "fileSize": 29288,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, from Saint Peter’s, on the feast of the Visitation of the Most Holy Virgin, July 2, 1957, the nineteenth year of Our Pontificate."
+}

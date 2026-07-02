@@ -1,0 +1,35 @@
+{
+  "slug": "probe-noscitis-venerabiles",
+  "incipit": "Probe Noscitis Venerabiles",
+  "englishTitle": "On the Discipline for Clergy",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1852,
+  "date": "1852-05-17",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, Archbishops, and Bishops of the Spanish Kingdom.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "colonialism",
+    "ecclesiology",
+    "human-dignity",
+    "justice",
+    "moral-theology",
+    "social-doctrine"
+  ],
+  "wordCount": 1191,
+  "fileSize": 7173,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, May 17, 1852, in the sixth year of Our Pontificate."
+}

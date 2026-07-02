@@ -1,0 +1,34 @@
+{
+  "slug": "exponi-nobis-nuper",
+  "incipit": "Exponi nobis nuper",
+  "englishTitle": "\\[Latin\\]",
+  "pope": {
+    "slug": "pius05",
+    "name": "Pius V",
+    "regnalName": "Pius",
+    "number": 5,
+    "fullName": "Pius V"
+  },
+  "type": null,
+  "year": 1571,
+  "date": "1571",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "ecclesiology",
+    "missions",
+    "moral-theology",
+    "religious-life",
+    "rosary"
+  ],
+  "wordCount": 1050,
+  "fileSize": 7830,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

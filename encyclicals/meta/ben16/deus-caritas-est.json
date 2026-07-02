@@ -1,0 +1,36 @@
+{
+  "slug": "deus-caritas-est",
+  "incipit": "Deus caritas est",
+  "englishTitle": "CHRISTIAN LOVE",
+  "pope": {
+    "slug": "ben16",
+    "name": "Benedict XVI",
+    "regnalName": "Benedict",
+    "number": 16,
+    "fullName": "Benedict XVI"
+  },
+  "type": "encyclical-letter",
+  "year": 2005,
+  "date": "2005",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 15826,
+  "fileSize": 96369,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Peter's, on 25 December, the Solemnity of the Nativity of the Lord, in the year 2005, the first of my Pontificate."
+}

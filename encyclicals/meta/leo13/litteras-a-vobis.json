@@ -1,0 +1,34 @@
+{
+  "slug": "litteras-a-vobis",
+  "incipit": "Litteras A Vobis",
+  "englishTitle": "On the Clergy in Brasil",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1894,
+  "date": "1894-07-02",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "moral-theology",
+    "papacy",
+    "saints"
+  ],
+  "wordCount": 1632,
+  "fileSize": 9665,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, July 2, 1894, in the seventeenth year of Our pontificate."
+}

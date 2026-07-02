@@ -1,0 +1,31 @@
+{
+  "slug": "unigenitus",
+  "incipit": "Unigenitus",
+  "englishTitle": "Condemnation of the Errors of Paschasius",
+  "pope": {
+    "slug": "clem11",
+    "name": "Clement XI",
+    "regnalName": "Clement",
+    "number": 11,
+    "fullName": "Clement XI"
+  },
+  "type": null,
+  "year": 1713,
+  "date": "1713",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "moral-theology",
+    "prayer",
+    "social-doctrine"
+  ],
+  "wordCount": 3489,
+  "fileSize": 19376,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

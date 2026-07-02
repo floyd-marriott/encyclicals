@@ -1,0 +1,38 @@
+{
+  "slug": "solet-annuere",
+  "incipit": "Solet Annuere",
+  "englishTitle": "On the Rules of the Friars Minor",
+  "pope": {
+    "slug": "hon03",
+    "name": "Honorius III",
+    "regnalName": "Honorius",
+    "number": 3,
+    "fullName": "Honorius III"
+  },
+  "type": null,
+  "year": 1226,
+  "date": "1226",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "colonialism",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "religious-life"
+  ],
+  "wordCount": 2334,
+  "fileSize": 13643,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

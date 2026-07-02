@@ -1,0 +1,28 @@
+{
+  "slug": "petitionibus-vestris-benignum-impertientes",
+  "incipit": "Petitionibus Vestris Benignum Impertientes",
+  "englishTitle": null,
+  "pope": {
+    "slug": "alex04",
+    "name": "Alexander IV",
+    "regnalName": "Alexander",
+    "number": 4,
+    "fullName": "Alexander IV"
+  },
+  "type": null,
+  "year": 1255,
+  "date": "1255",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "prayer"
+  ],
+  "wordCount": 144,
+  "fileSize": 1095,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

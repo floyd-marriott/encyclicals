@@ -1,0 +1,39 @@
+{
+  "slug": "amantissimi-redemptoris",
+  "incipit": "Amantissimi Redemptoris",
+  "englishTitle": "On Priests and the Care of Souls",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": "encyclical-letter",
+  "year": 1858,
+  "date": "1858",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brothers, the Patriarchs, Primates, Archbishops, Bishops, other Ordinaries who have Friendship and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints",
+    "secularism"
+  ],
+  "wordCount": 2369,
+  "fileSize": 14054,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, 3 May 1858, in the 12th year of Our Pontificate."
+}

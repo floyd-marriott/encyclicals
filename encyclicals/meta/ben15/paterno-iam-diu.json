@@ -1,0 +1,34 @@
+{
+  "slug": "paterno-iam-diu",
+  "incipit": "Paterno Iam Diu",
+  "englishTitle": "On the Children of Central Europe",
+  "pope": {
+    "slug": "ben15",
+    "name": "Benedict XV",
+    "regnalName": "Benedict",
+    "number": 15,
+    "fullName": "Benedict XV"
+  },
+  "type": null,
+  "year": 1919,
+  "date": "1919",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "eucharist",
+    "family",
+    "papacy",
+    "peace"
+  ],
+  "wordCount": 827,
+  "fileSize": 4897,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, Rome, on the 24th of November, in the year 1919, in the sixth of Our Pontificate."
+}

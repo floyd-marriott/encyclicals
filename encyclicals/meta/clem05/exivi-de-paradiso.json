@@ -1,0 +1,38 @@
+{
+  "slug": "exivi-de-paradiso",
+  "incipit": "Exivi de paradiso",
+  "englishTitle": "On the Rules of the Friar Minor",
+  "pope": {
+    "slug": "clem05",
+    "name": "Clement V",
+    "regnalName": "Clement",
+    "number": 5,
+    "fullName": "Clement V"
+  },
+  "type": null,
+  "year": 1305,
+  "date": "1305",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "ecclesiology",
+    "holy-spirit",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints",
+    "science",
+    "social-doctrine"
+  ],
+  "wordCount": 6259,
+  "fileSize": 36255,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

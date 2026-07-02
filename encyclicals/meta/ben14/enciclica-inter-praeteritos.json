@@ -1,0 +1,30 @@
+{
+  "slug": "enciclica-inter-praeteritos",
+  "incipit": "Inter praeteritos",
+  "englishTitle": null,
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "encyclical-letter",
+  "year": 1740,
+  "date": "1749-12-03",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": true,
+  "translationSource": "deepl",
+  "tags": [
+    "moral-theology",
+    "papacy",
+    "prayer"
+  ],
+  "wordCount": 23510,
+  "fileSize": 144793,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Santa Maria Maggiore, on December 3, 1749, the tenth year of Our Pontificate."
+}

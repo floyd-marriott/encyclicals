@@ -1,0 +1,38 @@
+{
+  "slug": "probe-nostis",
+  "incipit": "Probe Nostis",
+  "englishTitle": "On the Propogation of the Faith",
+  "pope": {
+    "slug": "greg16",
+    "name": "Gregory XVI",
+    "regnalName": "Gregory",
+    "number": 16,
+    "fullName": "Gregory XVI"
+  },
+  "type": null,
+  "year": 1840,
+  "date": "1840-09-18",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "missions",
+    "moral-theology",
+    "religious-life",
+    "saints",
+    "science",
+    "scripture"
+  ],
+  "wordCount": 1941,
+  "fileSize": 11422,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Mary Major with the seal of the fisherman on the 18th day of September 1840, in the tenth year of Our Pontificate."
+}

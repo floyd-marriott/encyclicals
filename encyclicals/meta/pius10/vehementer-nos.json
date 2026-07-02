@@ -1,0 +1,36 @@
+{
+  "slug": "vehementer-nos",
+  "incipit": "Vehementer Nos",
+  "englishTitle": "On the French Law of Separation",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": null,
+  "year": 1906,
+  "date": "1906",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "justice",
+    "marriage",
+    "papacy",
+    "prayer",
+    "secularism"
+  ],
+  "wordCount": 5204,
+  "fileSize": 30669,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on February 11 in the year 1906, the third of Our Pontificate."
+}

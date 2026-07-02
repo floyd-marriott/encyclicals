@@ -1,0 +1,39 @@
+{
+  "slug": "sempiternus-rex-christus",
+  "incipit": "Sempiternus Rex Christus",
+  "englishTitle": "On the the Council of Chalcedon",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "encyclical-letter",
+  "year": 1951,
+  "date": "1951",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Apostolic See.\\[1\\]",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "eucharist",
+    "liturgy",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "persecution",
+    "saints"
+  ],
+  "wordCount": 6976,
+  "fileSize": 40331,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s Basilica, Rome, on the 8th September, the feast of the birthday of the Virgin Mary, in the year 1951, the thirteenth of our pontificate."
+}

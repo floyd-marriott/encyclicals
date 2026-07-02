@@ -1,0 +1,37 @@
+{
+  "slug": "nemo-certe-ignorat",
+  "incipit": "Nemo Certe Ignorat",
+  "englishTitle": "On Discipline for Clergy",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": "apostolic-letter",
+  "year": 1852,
+  "date": "1852-03-25",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, Archbishops, and Bishops of Ireland.",
+  "addresseeScope": "ireland",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints",
+    "usury"
+  ],
+  "wordCount": 1897,
+  "fileSize": 11076,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, March 25, 1852, in the sixth year of Our Pontificate."
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "quia-quorundam",
+  "incipit": "Quia quorundam",
+  "englishTitle": "Explaining earlier papal statements in regards to the Rule of Friar Minors",
+  "pope": {
+    "slug": "john22",
+    "name": "John XXII",
+    "regnalName": "John",
+    "number": 22,
+    "fullName": "John XXII"
+  },
+  "type": null,
+  "year": 1316,
+  "date": "1316",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "moral-theology",
+    "papacy"
+  ],
+  "wordCount": 5734,
+  "fileSize": 34025,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

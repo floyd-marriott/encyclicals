@@ -1,0 +1,39 @@
+{
+  "slug": "graves-de-communi-re",
+  "incipit": "Graves De Communi Re",
+  "englishTitle": "On Christian Democracy",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1901,
+  "date": "1901-01-18",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "democracy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "social-doctrine",
+    "socialism"
+  ],
+  "wordCount": 5451,
+  "fileSize": 31712,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s in Rome, the eighteenth day of January, 1901, the thirteenth year of Our pontificate."
+}

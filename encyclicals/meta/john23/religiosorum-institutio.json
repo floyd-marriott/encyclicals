@@ -1,0 +1,31 @@
+{
+  "slug": "religiosorum-institutio",
+  "incipit": "Religiosorum institutio",
+  "englishTitle": "Instruction on the Careful Selection And Training Of Candidates For The States Of Perfection And Sacred Orders",
+  "pope": {
+    "slug": "john23",
+    "name": "John XXIII",
+    "regnalName": "John",
+    "number": 23,
+    "fullName": "John XXIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1961,
+  "date": "1961",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "marian",
+    "religious-life",
+    "secularism"
+  ],
+  "wordCount": 12643,
+  "fileSize": 78043,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

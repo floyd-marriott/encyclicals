@@ -1,0 +1,38 @@
+{
+  "slug": "arcanum",
+  "incipit": "Arcanum",
+  "englishTitle": "On Christian Marriage",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1880,
+  "date": "1880-02-10",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "justice",
+    "marriage",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "saints"
+  ],
+  "wordCount": 9347,
+  "fileSize": 54916,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s in Rome, the tenth day of February, 1880, the third year of Our pontificate."
+}

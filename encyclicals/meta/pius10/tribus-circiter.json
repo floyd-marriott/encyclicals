@@ -1,0 +1,36 @@
+{
+  "slug": "tribus-circiter",
+  "incipit": "Tribus Circiter",
+  "englishTitle": "On the Miravites: Mystic Priests of Poland",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": null,
+  "year": 1906,
+  "date": null,
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Archbishops of Warsaw, and Bishops of Plotsk and Lublin among the Poles.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "holy-spirit",
+    "justice",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "religious-life"
+  ],
+  "wordCount": 1883,
+  "fileSize": 11087,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, the fifth day of April, MDCCCCVI, in the third year of Our Pontificate."
+}

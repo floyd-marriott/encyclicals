@@ -1,0 +1,38 @@
+{
+  "slug": "ad-diem-illum-laetissimum",
+  "incipit": "Ad Diem Illum Laetissimum",
+  "englishTitle": "On the Immaculate Conception",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": "encyclical-letter",
+  "year": 1904,
+  "date": "1904-02-02",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "immaculate-conception",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 6178,
+  "fileSize": 34526,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome in St. Peter’s on the second day of February, 1904, in the first year of Our Pontificate."
+}

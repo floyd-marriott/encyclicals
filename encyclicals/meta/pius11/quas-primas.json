@@ -1,0 +1,41 @@
+{
+  "slug": "quas-primas",
+  "incipit": "Quas Primas",
+  "englishTitle": "Introducing the Feast of Christ the King",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": "encyclical-letter",
+  "year": 1925,
+  "date": "1925",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christ-the-king",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "marian",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "saints",
+    "social-doctrine",
+    "usury"
+  ],
+  "wordCount": 6476,
+  "fileSize": 36799,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s Rome, on the eleventh day of the month of December, in the Holy Year 1925, the fourth of Our Pontificate."
+}

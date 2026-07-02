@@ -1,0 +1,36 @@
+{
+  "slug": "divinum-illud-munus",
+  "incipit": "Divinum Illud Munus",
+  "englishTitle": "On the Holy Spirit Divinum",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1897,
+  "date": "1897-05-09",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "holy-spirit",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "saints"
+  ],
+  "wordCount": 6548,
+  "fileSize": 36897,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s in Rome, on the 9th day of May, 1897, in the 20th year of Our Pontificate."
+}

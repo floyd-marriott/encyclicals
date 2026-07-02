@@ -1,0 +1,35 @@
+{
+  "slug": "sapientiae-christianae",
+  "incipit": "Sapientiae Christianae",
+  "englishTitle": "On Christians as Citizens",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1890,
+  "date": "1890-01-10",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy"
+  ],
+  "wordCount": 9920,
+  "fileSize": 57391,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s in Rome, the tenth day of January, 1890, the twelfth year of Our pontificate."
+}

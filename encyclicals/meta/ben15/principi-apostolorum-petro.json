@@ -1,0 +1,38 @@
+{
+  "slug": "principi-apostolorum-petro",
+  "incipit": "Principi Apostolorum Petro",
+  "englishTitle": "On St. Ephram the Syrian",
+  "pope": {
+    "slug": "ben15",
+    "name": "Benedict XV",
+    "regnalName": "Benedict",
+    "number": 15,
+    "fullName": "Benedict XV"
+  },
+  "type": null,
+  "year": 1920,
+  "date": "1920",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "liturgy",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "persecution",
+    "saints"
+  ],
+  "wordCount": 4675,
+  "fileSize": 27839,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, Oct. 5, 1920, the seventh year of Our Pontificate."
+}

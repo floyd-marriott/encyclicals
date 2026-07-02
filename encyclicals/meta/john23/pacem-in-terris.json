@@ -1,0 +1,39 @@
+{
+  "slug": "pacem-in-terris",
+  "incipit": "Pacem In Terris",
+  "englishTitle": "Peace on Earth",
+  "pope": {
+    "slug": "john23",
+    "name": "John XXIII",
+    "regnalName": "John",
+    "number": 23,
+    "fullName": "John XXIII"
+  },
+  "type": null,
+  "year": 1963,
+  "date": "1963-04-11",
+  "dateApproximate": false,
+  "addressee": "To our venerable brothers the patriarchs, primates, archbishops, bishops and other local ordinaries in peace and communion with the apostolic see to the clergy and faithful of the whole world and to all men of good will.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "charity",
+    "christology",
+    "clergy",
+    "eucharist",
+    "family",
+    "human-dignity",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "science"
+  ],
+  "wordCount": 15591,
+  "fileSize": 93268,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, on Holy Thursday, the eleventh day of April, in the year 1963, the fifth of Our Pontificate."
+}

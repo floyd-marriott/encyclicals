@@ -1,0 +1,37 @@
+{
+  "slug": "apostolicae-nostrae-caritatis",
+  "incipit": "Apostolicae Nostrae Caritatis",
+  "englishTitle": "Urging Prayers of Peace",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": "encyclical-letter",
+  "year": 1854,
+  "date": "1854-08-01",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries Who Share Grace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "social-doctrine"
+  ],
+  "wordCount": 1579,
+  "fileSize": 9217,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s on the first day of August in the year 1854, the ninth year of Our Pontificate."
+}

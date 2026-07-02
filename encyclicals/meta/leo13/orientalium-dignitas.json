@@ -1,0 +1,39 @@
+{
+  "slug": "orientalium-dignitas",
+  "incipit": "Orientalium Dignitas",
+  "englishTitle": "On the Churches of the East",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1894,
+  "date": null,
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "eucharist",
+    "human-dignity",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "persecution",
+    "saints"
+  ],
+  "wordCount": 3627,
+  "fileSize": 21363,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, the thirtieth of November, in the year of Our Lord’s Incarnation one thousand eight hundred ninety-four, the seventeenth of Our Pontificate."
+}

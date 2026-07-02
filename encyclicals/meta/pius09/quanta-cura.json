@@ -1,0 +1,36 @@
+{
+  "slug": "quanta-cura",
+  "incipit": "Quanta Cura",
+  "englishTitle": "Condemning Current Errors",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": "encyclical-letter",
+  "year": 1864,
+  "date": "1864-12-08",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, all Patriarchs, Primates, Archbishops, and Bishops having favor and Communion of the Holy See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "saints",
+    "slavery"
+  ],
+  "wordCount": 3757,
+  "fileSize": 22594,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, from St. Peter’s, the 8th day of December, in the year 1864, the tenth from the Dogmatic Definition of the Immaculate Conception of the Virgin Mary, Mother of God."
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "enciclica-inter-caetera",
+  "incipit": "Inter Caetera",
+  "englishTitle": null,
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "encyclical-letter",
+  "year": 1740,
+  "date": "1748-01-01",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": true,
+  "translationSource": "deepl",
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy"
+  ],
+  "wordCount": 2556,
+  "fileSize": 15461,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Mary Major, on January 1, 1748, the eighth year of Our Pontificate."
+}

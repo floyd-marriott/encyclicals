@@ -1,0 +1,29 @@
+{
+  "slug": "dignum-arbitramur-et-congruum",
+  "incipit": "Dignum Arbitramur et Congruum",
+  "englishTitle": null,
+  "pope": {
+    "slug": "alex04",
+    "name": "Alexander IV",
+    "regnalName": "Alexander",
+    "number": 4,
+    "fullName": "Alexander IV"
+  },
+  "type": null,
+  "year": 1955,
+  "date": "1955",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "moral-theology"
+  ],
+  "wordCount": 269,
+  "fileSize": 2035,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "regnans-in-excelsis",
+  "incipit": "Regnans in Excelsis",
+  "englishTitle": "Excommunicating Elizabeth I of England",
+  "pope": {
+    "slug": "pius05",
+    "name": "Pius V",
+    "regnalName": "Pius",
+    "number": 5,
+    "fullName": "Pius V"
+  },
+  "type": null,
+  "year": 1570,
+  "date": "1570",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "marian",
+    "papacy",
+    "prayer"
+  ],
+  "wordCount": 1061,
+  "fileSize": 6157,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s at Rome, on 25 February1570 of the Incarnation; in the fifth year of our pontificate."
+}

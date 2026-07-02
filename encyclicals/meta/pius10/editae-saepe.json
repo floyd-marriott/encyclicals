@@ -1,0 +1,40 @@
+{
+  "slug": "editae-saepe",
+  "incipit": "Editae Saepe",
+  "englishTitle": "On St. Charles Borromeo",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": "encyclical-letter",
+  "year": 1910,
+  "date": "1910",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "saints",
+    "scripture",
+    "social-doctrine"
+  ],
+  "wordCount": 8319,
+  "fileSize": 49859,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

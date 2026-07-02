@@ -1,0 +1,35 @@
+{
+  "slug": "dum-multa",
+  "incipit": "Dum Multa",
+  "englishTitle": "Marriage Legislation",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1902,
+  "date": "1902-12-24",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, the Archbishop of Quito and the other Bishops of Ecuador.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "justice",
+    "marriage",
+    "moral-theology"
+  ],
+  "wordCount": 790,
+  "fileSize": 4719,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, on the 24th day of December in the year 1902, the twenty-fifth year of Our Pontificate."
+}

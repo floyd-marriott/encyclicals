@@ -1,0 +1,38 @@
+{
+  "slug": "laetitiae-sanctae",
+  "incipit": "Laetitiae Sanctae",
+  "englishTitle": "Commending Devotion to the Rosary",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1893,
+  "date": "1893",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries, having Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "rosary"
+  ],
+  "wordCount": 3561,
+  "fileSize": 20069,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, Rome, this 8th day of September, in the year of Our Lord 1893, and the 16th of Our Pontificate."
+}

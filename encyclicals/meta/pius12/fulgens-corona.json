@@ -1,0 +1,38 @@
+{
+  "slug": "fulgens-corona",
+  "incipit": "Fulgens Corona",
+  "englishTitle": "Proclaiming a Marian Year",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "apostolic-letter",
+  "year": 1953,
+  "date": "1953",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "immaculate-conception",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 5209,
+  "fileSize": 30535,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s Rome, on the eighth day of September, on the Feast of the Nativity of the Blessed Virgin Mary, in the year 1953, the fifteenth of Our Pontificate."
+}

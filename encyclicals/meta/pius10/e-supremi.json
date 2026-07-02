@@ -1,0 +1,35 @@
+{
+  "slug": "e-supremi",
+  "incipit": "E Supremi",
+  "englishTitle": "On the Restoration of All things in Christ",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": "encyclical-letter",
+  "year": 1903,
+  "date": "1903-10-04",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "saints"
+  ],
+  "wordCount": 4556,
+  "fileSize": 25627,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, on the 4th day of October, 1903, in the first year of Our Pontificate."
+}

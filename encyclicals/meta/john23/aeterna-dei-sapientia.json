@@ -1,0 +1,42 @@
+{
+  "slug": "aeterna-dei-sapientia",
+  "incipit": "Aeterna Dei Sapientia",
+  "englishTitle": "The Eternal Wisdom of God and Pope Leo I",
+  "pope": {
+    "slug": "john23",
+    "name": "John XXIII",
+    "regnalName": "John",
+    "number": 23,
+    "fullName": "John XXIII"
+  },
+  "type": null,
+  "year": 1961,
+  "date": "1961-11-11",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries in Peace and Communion with the Apostolic See: Commemorating the fifteenth centenary of the death of St. Leo the Great, Pope and Doctor of the Church.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "justice",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints",
+    "scripture",
+    "social-doctrine"
+  ],
+  "wordCount": 6989,
+  "fileSize": 40666,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the eleventh day of November in the year 1961, the fourth of Our Pontificate."
+}

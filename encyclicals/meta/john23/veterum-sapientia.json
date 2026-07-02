@@ -1,0 +1,37 @@
+{
+  "slug": "veterum-sapientia",
+  "incipit": "Veterum Sapientia",
+  "englishTitle": "On the Promotion of the Study of Latin",
+  "pope": {
+    "slug": "john23",
+    "name": "John XXIII",
+    "regnalName": "John",
+    "number": 23,
+    "fullName": "John XXIII"
+  },
+  "type": "apostolic-constitution",
+  "year": 1962,
+  "date": "1962-02-22",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "ecclesiology",
+    "education",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints",
+    "scripture"
+  ],
+  "wordCount": 2942,
+  "fileSize": 18048,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at Saint Peter’s, on the feast of Saint Peter’s Throne on the 22nd day of February in the year 1962, the fourth of Our pontificate."
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "quo-graviora",
+  "incipit": "Quo Graviora",
+  "englishTitle": "On Secret Societies",
+  "pope": {
+    "slug": "leo12",
+    "name": "Leo XII",
+    "regnalName": "Leo",
+    "number": 12,
+    "fullName": "Leo XII"
+  },
+  "type": null,
+  "year": 1826,
+  "date": "1738",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "family",
+    "moral-theology",
+    "papacy",
+    "saints"
+  ],
+  "wordCount": 8770,
+  "fileSize": 51846,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at Saint Mary Major in the 1738th year of the Incarnation of the Lord on the 28th day of April, in the eighth year of Our Pontificate.”"
+}

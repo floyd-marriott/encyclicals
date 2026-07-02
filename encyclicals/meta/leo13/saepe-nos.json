@@ -1,0 +1,33 @@
+{
+  "slug": "saepe-nos",
+  "incipit": "Saepe Nos",
+  "englishTitle": "On Boycotting in Ireland",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1888,
+  "date": "1888-06-24",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Bishops of Ireland",
+  "addresseeScope": "ireland",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "moral-theology",
+    "saints"
+  ],
+  "wordCount": 1333,
+  "fileSize": 7820,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, Rome, the 24th day of June, in the year 1888, the eleventh year of Our Pontificate."
+}

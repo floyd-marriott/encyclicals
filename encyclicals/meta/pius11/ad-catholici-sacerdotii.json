@@ -1,0 +1,40 @@
+{
+  "slug": "ad-catholici-sacerdotii",
+  "incipit": "Ad Catholici Sacerdotii",
+  "englishTitle": "On the Catholic Priesthood",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": "apostolic-constitution",
+  "year": 1935,
+  "date": "1935-12-20",
+  "dateApproximate": false,
+  "addressee": "To our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "family",
+    "justice",
+    "liberalism",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "saints",
+    "usury"
+  ],
+  "wordCount": 15431,
+  "fileSize": 89002,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, the twentieth day of December, 1935, in the fifty-sixth anniversary of Our priesthood, the fourteenth of Our Pontificate."
+}

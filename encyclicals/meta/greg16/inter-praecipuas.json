@@ -1,0 +1,34 @@
+{
+  "slug": "inter-praecipuas",
+  "incipit": "Inter Praecipuas",
+  "englishTitle": "On Biblical Societies",
+  "pope": {
+    "slug": "greg16",
+    "name": "Gregory XVI",
+    "regnalName": "Gregory",
+    "number": 16,
+    "fullName": "Gregory XVI"
+  },
+  "type": "encyclical-letter",
+  "year": 1844,
+  "date": "1844-05-08",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, Patriarchs, Primates, Archbishops and Bishops.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "moral-theology",
+    "papacy",
+    "scripture"
+  ],
+  "wordCount": 3401,
+  "fileSize": 20456,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, May 8, 1844, in the fourteenth year of Our Pontificate."
+}

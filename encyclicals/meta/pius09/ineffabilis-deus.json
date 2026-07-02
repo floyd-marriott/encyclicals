@@ -1,0 +1,35 @@
+{
+  "slug": "ineffabilis-deus",
+  "incipit": "Ineffabilis Deus",
+  "englishTitle": "The Immaculate Conception",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1854,
+  "date": "1854-12-08",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "ecclesiology",
+    "holy-spirit",
+    "immaculate-conception",
+    "liturgy",
+    "marian",
+    "moral-theology",
+    "saints"
+  ],
+  "wordCount": 6994,
+  "fileSize": 41770,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s in Rome, the eighth day of December, 1854, in the eighth year of our pontificate."
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "une-fois-encore",
+  "incipit": "Une Fois Encore",
+  "englishTitle": "On the Separation of Church and State",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": null,
+  "year": 1907,
+  "date": "1907-01-06",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Cardinals, Archbishops, and Bishops of France and to the French Clergy and People.",
+  "addresseeScope": "france",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "family",
+    "moral-theology",
+    "papacy",
+    "prayer"
+  ],
+  "wordCount": 2858,
+  "fileSize": 16583,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s on the Feast of the Epiphany, January 6, 1907, the fourth year of Our pontificate."
+}

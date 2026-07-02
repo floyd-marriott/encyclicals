@@ -1,0 +1,36 @@
+{
+  "slug": "libertas-praestantissimum",
+  "incipit": "Libertas Praestantissimum",
+  "englishTitle": "On the Nature of Human Liberty",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1888,
+  "date": "1888-06-20",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "human-dignity",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "saints"
+  ],
+  "wordCount": 10150,
+  "fileSize": 57720,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s in Rome, the twentieth day of June, 1888, the tenth year of Our Pontificate. REFERENCES:"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "ingruentium-malorum",
+  "incipit": "Ingruentium Malorum",
+  "englishTitle": "On Reciting the Rosary",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1951,
+  "date": "1951",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries having Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "assumption",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "persecution",
+    "prayer",
+    "rosary",
+    "saints"
+  ],
+  "wordCount": 2031,
+  "fileSize": 11890,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, the 15th day of September, the Feast of the Seven Sorrows of the Virgin Mary, in the Year 1951, the 13th of Our pontificate."
+}

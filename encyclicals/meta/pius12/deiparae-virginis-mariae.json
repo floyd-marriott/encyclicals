@@ -1,0 +1,38 @@
+{
+  "slug": "deiparae-virginis-mariae",
+  "incipit": "Deiparae Virginis Mariae",
+  "englishTitle": "Should We Define the Assumption?",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1946,
+  "date": "1946-05-01",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "assumption",
+    "christology",
+    "clergy",
+    "eucharist",
+    "immaculate-conception",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 613,
+  "fileSize": 3735,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s on the first day of May in the year 1946, the eighth of our pontificate."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "sacra-propediem",
+  "incipit": "Sacra Propediem",
+  "englishTitle": "On the Third Order of St. Francis",
+  "pope": {
+    "slug": "ben15",
+    "name": "Benedict XV",
+    "regnalName": "Benedict",
+    "number": 15,
+    "fullName": "Benedict XV"
+  },
+  "type": null,
+  "year": 1921,
+  "date": "1921",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "family",
+    "modernism",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "religious-life",
+    "saints",
+    "st-francis"
+  ],
+  "wordCount": 3111,
+  "fileSize": 18083,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, near St. Peter’s, the Feast of the Epiphany of the year 1921, in the seventh year of Our Pontificate."
+}

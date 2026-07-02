@@ -1,0 +1,34 @@
+{
+  "slug": "lumen-fidei",
+  "incipit": "Lumen fidei",
+  "englishTitle": "FAITH",
+  "pope": {
+    "slug": "franc",
+    "name": "Francis",
+    "regnalName": "Francis",
+    "number": 1,
+    "fullName": "Francis"
+  },
+  "type": "encyclical-letter",
+  "year": 2013,
+  "date": "2013",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "papacy",
+    "persecution",
+    "religious-life",
+    "saints"
+  ],
+  "wordCount": 18822,
+  "fileSize": 123682,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Peter’s, on 29 June, the Solemnity of the Holy Apostles Peter and Paul, in the year 2013, the first of my pontificate."
+}

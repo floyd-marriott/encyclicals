@@ -1,0 +1,33 @@
+{
+  "slug": "fides-et-ratio",
+  "incipit": "Fides et Ratio",
+  "englishTitle": "THE RELATIONSHIP BETWEEN FAITH AND REASON",
+  "pope": {
+    "slug": "jp02",
+    "name": "John Paul II",
+    "regnalName": "John Paul",
+    "number": 2,
+    "fullName": "John Paul II"
+  },
+  "type": "encyclical-letter",
+  "year": 1998,
+  "date": "1998",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "missions",
+    "moral-theology",
+    "papacy"
+  ],
+  "wordCount": 35727,
+  "fileSize": 220382,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Peter's, on 14 September, the Feast of the Triumph of the Cross, in the year 1998, the twentieth of my Pontificate."
+}

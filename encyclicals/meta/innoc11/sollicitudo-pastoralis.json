@@ -1,0 +1,31 @@
+{
+  "slug": "sollicitudo-pastoralis",
+  "incipit": "Sollicitudo pastoralis",
+  "englishTitle": "Fostering and Preserving the Orders of Men Religious",
+  "pope": {
+    "slug": "innoc11",
+    "name": "Innocent XI",
+    "regnalName": "Innocent",
+    "number": 11,
+    "fullName": "Innocent XI"
+  },
+  "type": null,
+  "year": 1679,
+  "date": "1679",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "ecclesiology",
+    "marian",
+    "moral-theology",
+    "religious-life"
+  ],
+  "wordCount": 1607,
+  "fileSize": 12567,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "superiore-anno",
+  "incipit": "Superiore Anno",
+  "englishTitle": "On the Recitation of the Rosary",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1884,
+  "date": "1884",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "colonialism",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "human-dignity",
+    "marian",
+    "papacy",
+    "prayer",
+    "rosary",
+    "saints"
+  ],
+  "wordCount": 1352,
+  "fileSize": 7682,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, the 30th of August, 1884, in the Seventh Year of Our Pontificate."
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "menti-nostrae",
+  "incipit": "Menti Nostrae",
+  "englishTitle": "Thoughts for the Clergy of the World",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1950,
+  "date": "1950",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 15599,
+  "fileSize": 92253,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, in Saint Peter’s, on the twenty-third day of September in the year of the Great Jubilee, 1950, the twelfth year of Our Pontificate."
+}

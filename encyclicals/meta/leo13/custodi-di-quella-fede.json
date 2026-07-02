@@ -1,0 +1,38 @@
+{
+  "slug": "custodi-di-quella-fede",
+  "incipit": "Custodi Di Quella Fede",
+  "englishTitle": "On Freemasonry",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1892,
+  "date": "1892-12-08",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "family",
+    "freemasonry",
+    "liturgy",
+    "marian",
+    "moral-theology",
+    "persecution",
+    "prayer"
+  ],
+  "wordCount": 3016,
+  "fileSize": 18226,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at Saint Peter’s, the eighth day of December, 1892, in the fifteenth year of Our pontificate."
+}

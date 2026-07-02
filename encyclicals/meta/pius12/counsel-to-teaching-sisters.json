@@ -1,0 +1,38 @@
+{
+  "slug": "counsel-to-teaching-sisters",
+  "incipit": "Counsel To Teaching Sisters",
+  "englishTitle": null,
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1951,
+  "date": "1951",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "family",
+    "missions",
+    "moral-theology",
+    "religious-life",
+    "saints"
+  ],
+  "wordCount": 2483,
+  "fileSize": 14771,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

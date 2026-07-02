@@ -1,0 +1,39 @@
+{
+  "slug": "beneficia-dei",
+  "incipit": "Beneficia Dei",
+  "englishTitle": "On the 25th Anniversary of His Pontificate",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1871,
+  "date": "1871",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "eucharist",
+    "immaculate-conception",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "social-doctrine"
+  ],
+  "wordCount": 1433,
+  "fileSize": 8290,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome in St. Peter’s on the fourth of June, the feast of the Most Holy Trinity, in the year 1871 in the 25th year of Our Pontificate."
+}

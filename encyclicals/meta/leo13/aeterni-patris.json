@@ -1,0 +1,39 @@
+{
+  "slug": "aeterni-patris",
+  "incipit": "Aeterni Patris",
+  "englishTitle": "On the Restoration of Christian Philosophy",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1879,
+  "date": "1879-08-04",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "saints",
+    "science",
+    "social-doctrine"
+  ],
+  "wordCount": 8296,
+  "fileSize": 49115,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, in Rome, the fourth day of August, 1879, the second year of our pontificate."
+}

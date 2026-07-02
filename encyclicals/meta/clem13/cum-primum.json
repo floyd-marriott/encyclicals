@@ -1,0 +1,37 @@
+{
+  "slug": "cum-primum",
+  "incipit": "Cum Primum",
+  "englishTitle": "On Observing Canonical Sanctions",
+  "pope": {
+    "slug": "clem13",
+    "name": "Clement XIII",
+    "regnalName": "Clement",
+    "number": 13,
+    "fullName": "Clement XIII"
+  },
+  "type": null,
+  "year": 1759,
+  "date": "1759-09-17",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brothers, all the Patriarchs, Primates, Archbishops, and Bishops who Enjoy Grace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "holy-spirit",
+    "justice",
+    "liturgy",
+    "moral-theology",
+    "papacy",
+    "saints"
+  ],
+  "wordCount": 3727,
+  "fileSize": 22258,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Mary Major on the 17th day of September, 1759, in the second year of Our pontificate."
+}

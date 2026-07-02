@@ -1,0 +1,35 @@
+{
+  "slug": "breve-in-suprema-universalis",
+  "incipit": "In Suprema Universalis",
+  "englishTitle": null,
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "brief",
+  "year": 1740,
+  "date": "1741-08-22",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, Patriarchs, Primates, Metropolitans, Archbishops, and to all Bishops who are in peace and communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": true,
+  "translationSource": "deepl",
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "moral-theology",
+    "papacy",
+    "peace"
+  ],
+  "wordCount": 805,
+  "fileSize": 5106,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Mary Major, under the Fisherman’s Ring, on August 22, 1741, in the second year of Our Pontificate."
+}

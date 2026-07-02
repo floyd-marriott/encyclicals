@@ -1,0 +1,32 @@
+{
+  "slug": "dives-in-misericordia",
+  "incipit": "Dives in Misericordia",
+  "englishTitle": null,
+  "pope": {
+    "slug": "jp02",
+    "name": "John Paul II",
+    "regnalName": "John Paul",
+    "number": 2,
+    "fullName": "John Paul II"
+  },
+  "type": null,
+  "year": 1980,
+  "date": "1980",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "ecclesiology",
+    "education",
+    "moral-theology",
+    "saints"
+  ],
+  "wordCount": 19016,
+  "fileSize": 112112,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter's, on the thirtieth day of November, the First Sunday of Advent, in the year 1980, the third of the pontificate."
+}

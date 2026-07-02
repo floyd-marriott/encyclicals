@@ -1,0 +1,34 @@
+{
+  "slug": "fulgens-radiatur",
+  "incipit": "Fulgens Radiatur",
+  "englishTitle": "Brilliant Light of St. Benedict",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "encyclical-letter",
+  "year": 1947,
+  "date": "1947",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "papacy",
+    "peace",
+    "saints"
+  ],
+  "wordCount": 6137,
+  "fileSize": 35912,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the feast of St. Benedict, the twenty-first day of March, in the year 1947, the ninth of Our Pontificate."
+}

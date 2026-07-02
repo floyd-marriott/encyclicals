@@ -1,0 +1,35 @@
+{
+  "slug": "pope-st-pius-x",
+  "incipit": "Pope St. Pius X",
+  "englishTitle": null,
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": "apostolic-constitution",
+  "year": 1914,
+  "date": "1914",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "colonialism",
+    "education",
+    "immaculate-conception",
+    "liturgy",
+    "marian",
+    "papacy",
+    "saints"
+  ],
+  "wordCount": 408,
+  "fileSize": 8329,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

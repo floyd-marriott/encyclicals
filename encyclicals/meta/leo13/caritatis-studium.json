@@ -1,0 +1,34 @@
+{
+  "slug": "caritatis-studium",
+  "incipit": "Caritatis Studium",
+  "englishTitle": "On the Church in Scotland",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1898,
+  "date": "1898-07-25",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "moral-theology",
+    "saints"
+  ],
+  "wordCount": 3614,
+  "fileSize": 21045,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, Rome, the 25th day of July, in the year 1898, and the twenty-first of Our Pontificate."
+}

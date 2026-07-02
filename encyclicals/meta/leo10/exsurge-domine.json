@@ -1,0 +1,39 @@
+{
+  "slug": "exsurge-domine",
+  "incipit": "Exsurge Domine",
+  "englishTitle": "Condemning the Errors of Martin Luther",
+  "pope": {
+    "slug": "leo10",
+    "name": "Leo X",
+    "regnalName": "Leo",
+    "number": 10,
+    "fullName": "Leo X"
+  },
+  "type": null,
+  "year": 1520,
+  "date": "1520",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "ecclesiology",
+    "education",
+    "holy-spirit",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "persecution",
+    "prayer",
+    "religious-life",
+    "saints",
+    "scripture"
+  ],
+  "wordCount": 3896,
+  "fileSize": 22624,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

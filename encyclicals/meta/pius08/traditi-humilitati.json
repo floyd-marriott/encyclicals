@@ -1,0 +1,36 @@
+{
+  "slug": "traditi-humilitati",
+  "incipit": "Traditi Humilitati",
+  "englishTitle": "On His Program for His Pontificate",
+  "pope": {
+    "slug": "pius08",
+    "name": "Pius VIII",
+    "regnalName": "Pius",
+    "number": 8,
+    "fullName": "Pius VIII"
+  },
+  "type": null,
+  "year": 1829,
+  "date": "1829-05-24",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brothers, Patriarchs, Primates, Archbishops, and Bishops.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "liturgy",
+    "moral-theology",
+    "prayer",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 2331,
+  "fileSize": 13851,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, May 24, 1829, the first year of Our pontificate."
+}

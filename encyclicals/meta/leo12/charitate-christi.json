@@ -1,0 +1,36 @@
+{
+  "slug": "charitate-christi",
+  "incipit": "Charitate Christi",
+  "englishTitle": "On Extending the Jubilee to the Entire Church",
+  "pope": {
+    "slug": "leo12",
+    "name": "Leo XII",
+    "regnalName": "Leo",
+    "number": 12,
+    "fullName": "Leo XII"
+  },
+  "type": null,
+  "year": 1825,
+  "date": "1825-12-25",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "ecclesiology",
+    "marian",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 4933,
+  "fileSize": 28394,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, December 25, 1825, in the third year of our pontificate."
+}

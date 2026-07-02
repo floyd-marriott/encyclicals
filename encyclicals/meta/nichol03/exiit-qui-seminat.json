@@ -1,0 +1,37 @@
+{
+  "slug": "exiit-qui-seminat",
+  "incipit": "Exiit qui seminat",
+  "englishTitle": "Confirmation of the Rule of the Friars Minor",
+  "pope": {
+    "slug": "nichol03",
+    "name": "Nicholas III",
+    "regnalName": "Nicholas",
+    "number": 3,
+    "fullName": "Nicholas III"
+  },
+  "type": null,
+  "year": 1279,
+  "date": "1279",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "holy-spirit",
+    "marian",
+    "moral-theology",
+    "saints"
+  ],
+  "wordCount": 10463,
+  "fileSize": 61580,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

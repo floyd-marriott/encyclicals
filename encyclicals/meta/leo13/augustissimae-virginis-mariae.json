@@ -1,0 +1,40 @@
+{
+  "slug": "augustissimae-virginis-mariae",
+  "incipit": "Augustissimae Virginis Mariae",
+  "englishTitle": "On the Confraternity of the Holy Rosary",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1897,
+  "date": "1897-09-12",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "marian",
+    "marriage",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "rosary",
+    "saints"
+  ],
+  "wordCount": 2702,
+  "fileSize": 15655,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, in Rome, on the 12th day of September, 1897, in the 20th year of Our Pontificate."
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "optatissima-pax",
+  "incipit": "Optatissima Pax",
+  "englishTitle": "Prescribing Public Prayers for Social and World Peace",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1947,
+  "date": "1947-12-18",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "eucharist",
+    "family",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "social-doctrine"
+  ],
+  "wordCount": 1123,
+  "fileSize": 6622,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, the 18th day of December in the year 1947 and the ninth of Our Pontificate."
+}

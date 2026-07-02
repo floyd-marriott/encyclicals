@@ -1,0 +1,38 @@
+{
+  "slug": "triumphantis-hierusalem",
+  "incipit": "Triumphantis Hierusalem",
+  "englishTitle": "St. Bonaventure, Seraphic Doctor of the Church",
+  "pope": {
+    "slug": "sixtus05",
+    "name": "Sixtus V",
+    "regnalName": "Sixtus",
+    "number": 5,
+    "fullName": "Sixtus V"
+  },
+  "type": null,
+  "year": 1590,
+  "date": null,
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "charity",
+    "christology",
+    "ecclesiology",
+    "family",
+    "justice",
+    "moral-theology",
+    "persecution",
+    "prayer",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 5081,
+  "fileSize": 30143,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome in the Basilica of the Twelve Holy Apostles, in the year of the Incarnation of the Lord, one thousand five hundred and eighty-eighth, one the day before the Ides of March, in the third year of Our Pontificate."
+}

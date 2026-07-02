@@ -1,0 +1,38 @@
+{
+  "slug": "singulari-quadam",
+  "incipit": "Singulari Quadam",
+  "englishTitle": "On Labor Organizations",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": "encyclical-letter",
+  "year": 1912,
+  "date": "1912",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "persecution",
+    "religious-life",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 1929,
+  "fileSize": 12162,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

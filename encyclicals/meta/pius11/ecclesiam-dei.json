@@ -1,0 +1,40 @@
+{
+  "slug": "ecclesiam-dei",
+  "incipit": "Ecclesiam Dei",
+  "englishTitle": "On St. Jehosophat",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1923,
+  "date": "1923-11-12",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints",
+    "usury"
+  ],
+  "wordCount": 4190,
+  "fileSize": 23908,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, the twelfth day of November, in the year 1923, the second of Our Pontificate."
+}

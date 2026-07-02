@@ -1,0 +1,36 @@
+{
+  "slug": "enciclica-ubi-primum",
+  "incipit": "Ubi primum",
+  "englishTitle": null,
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "encyclical-letter",
+  "year": 1740,
+  "date": "1740-12-03",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, Patriarchs, Primates, Archbishops, and Bishops.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": true,
+  "translationSource": "deepl",
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "liturgy",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 2667,
+  "fileSize": 15821,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Mary Major, on December 3, 1740, the first year of Our Pontificate."
+}

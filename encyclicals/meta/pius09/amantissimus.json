@@ -1,0 +1,36 @@
+{
+  "slug": "amantissimus",
+  "incipit": "Amantissimus",
+  "englishTitle": "On the Care of the Churches",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1862,
+  "date": "1862",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "education",
+    "eucharist",
+    "marian",
+    "moral-theology",
+    "papacy"
+  ],
+  "wordCount": 3223,
+  "fileSize": 19395,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, 8 April, 1862. In the sixteenth year of our Pontificate."
+}

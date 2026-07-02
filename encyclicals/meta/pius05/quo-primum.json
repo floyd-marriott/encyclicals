@@ -1,0 +1,36 @@
+{
+  "slug": "quo-primum",
+  "incipit": "Quo Primum",
+  "englishTitle": "Promulgating the Tridentine Liturgy",
+  "pope": {
+    "slug": "pius05",
+    "name": "Pius V",
+    "regnalName": "Pius",
+    "number": 5,
+    "fullName": "Pius V"
+  },
+  "type": null,
+  "year": 1570,
+  "date": "1570",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "liturgy",
+    "prayer",
+    "secularism",
+    "social-doctrine"
+  ],
+  "wordCount": 1391,
+  "fileSize": 8338,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s in the year of the Lord’s Incarnation, 1570, on the 14th of July of the Fifth year of Our Pontificate."
+}

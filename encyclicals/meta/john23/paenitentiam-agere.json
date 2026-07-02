@@ -1,0 +1,39 @@
+{
+  "slug": "paenitentiam-agere",
+  "incipit": "Paenitentiam Agere",
+  "englishTitle": "Penance for One's Sins",
+  "pope": {
+    "slug": "john23",
+    "name": "John XXIII",
+    "regnalName": "John",
+    "number": 23,
+    "fullName": "John XXIII"
+  },
+  "type": "apostolic-constitution",
+  "year": 1962,
+  "date": "1962",
+  "dateApproximate": false,
+  "addressee": "To His Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries who are at Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "education",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "usury"
+  ],
+  "wordCount": 3999,
+  "fileSize": 23309,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the 1st day of July, the Feast of the Most Precious Blood of Our Lord Jesus Christ, in the year 1962, the fourth of Our Pontificate."
+}

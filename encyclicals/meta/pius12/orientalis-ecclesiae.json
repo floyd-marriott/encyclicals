@@ -1,0 +1,40 @@
+{
+  "slug": "orientalis-ecclesiae",
+  "incipit": "Orientalis Ecclesiae",
+  "englishTitle": "On St. Cyril, Patriarch of Alexandria",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1944,
+  "date": "1944",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops and other Ordinaries at Peace and in Communion with the Apostolic See",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "education",
+    "eucharist",
+    "family",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "saints"
+  ],
+  "wordCount": 5410,
+  "fileSize": 31422,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, Rome, on the 9th day of April, Easter Sunday, in the year 1944, the sixth of Our Pontificate. <hr< <p=””>REFERENCES:"
+}

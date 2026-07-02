@@ -1,0 +1,34 @@
+{
+  "slug": "in-amplissimo",
+  "incipit": "In Amplissimo",
+  "englishTitle": "On the Church in the United States",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1902,
+  "date": "1902-04-15",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "justice",
+    "papacy",
+    "usury"
+  ],
+  "wordCount": 1010,
+  "fileSize": 5819,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, the fifteenth day of April, 1902, in the twenty-fifth year of Our Pontificate."
+}

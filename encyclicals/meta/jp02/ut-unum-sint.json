@@ -1,0 +1,34 @@
+{
+  "slug": "ut-unum-sint",
+  "incipit": "Ut Unum Sint",
+  "englishTitle": null,
+  "pope": {
+    "slug": "jp02",
+    "name": "John Paul II",
+    "regnalName": "John Paul",
+    "number": 2,
+    "fullName": "John Paul II"
+  },
+  "type": "encyclical-letter",
+  "year": 1995,
+  "date": "1995",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "ecclesiology",
+    "ecumenism",
+    "eucharist",
+    "moral-theology",
+    "persecution",
+    "saints"
+  ],
+  "wordCount": 27328,
+  "fileSize": 169787,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Peter's, on 25 May, the Solemnity of the Ascension of the Lord, in the year 1995, the seventeenth of my Pontificate."
+}

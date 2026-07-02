@@ -1,0 +1,35 @@
+{
+  "slug": "levate",
+  "incipit": "Levate",
+  "englishTitle": "On the Affiliations of Church",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1867,
+  "date": "1867",
+  "dateApproximate": true,
+  "addressee": "To the Venerable Brothers Patriarchs, Primates, Archbishops and Bishops of the Entire Catholic Community in Favor and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "prayer"
+  ],
+  "wordCount": 1767,
+  "fileSize": 10454,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

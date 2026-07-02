@@ -1,0 +1,38 @@
+{
+  "slug": "nullis-certe-verbis",
+  "incipit": "Nullis Certe Verbis",
+  "englishTitle": "On the Need for Civil Sovereignty",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": "encyclical-letter",
+  "year": 1860,
+  "date": "1860",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, the Patriarchs, Primates, Archbishops, Bishops and other Ordinaries Keeping Favor and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints",
+    "science"
+  ],
+  "wordCount": 1608,
+  "fileSize": 9478,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, 19 January 1860, in the 14th year of Our pontificate."
+}

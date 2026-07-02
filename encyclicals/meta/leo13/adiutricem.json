@@ -1,0 +1,39 @@
+{
+  "slug": "adiutricem",
+  "incipit": "Adiutricem",
+  "englishTitle": "On the Rosary",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1895,
+  "date": null,
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "colonialism",
+    "ecclesiology",
+    "eucharist",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "rosary",
+    "saints"
+  ],
+  "wordCount": 4070,
+  "fileSize": 23758,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, the fifth day of September, in the eighteenth year of Our Pontificate."
+}

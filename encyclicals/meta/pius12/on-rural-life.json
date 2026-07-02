@@ -1,0 +1,33 @@
+{
+  "slug": "on-rural-life",
+  "incipit": "On Rural Life",
+  "englishTitle": null,
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1946,
+  "date": "1946",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "ecclesiology",
+    "family",
+    "moral-theology",
+    "religious-life",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 3872,
+  "fileSize": 24058,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

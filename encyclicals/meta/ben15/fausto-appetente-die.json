@@ -1,0 +1,40 @@
+{
+  "slug": "fausto-appetente-die",
+  "incipit": "Fausto Appetente Die",
+  "englishTitle": "On St. Dominic",
+  "pope": {
+    "slug": "ben15",
+    "name": "Benedict XV",
+    "regnalName": "Benedict",
+    "number": 15,
+    "fullName": "Benedict XV"
+  },
+  "type": null,
+  "year": 1921,
+  "date": "1921",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints",
+    "scripture",
+    "usury"
+  ],
+  "wordCount": 2102,
+  "fileSize": 12283,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, June 29, Feast of the Prince of the Apostles, 1921, the seventh year of Our Pontificate."
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "miranda-prorsus",
+  "incipit": "Miranda Prorsus",
+  "englishTitle": "On the Communication Fields: Movies, Television, and Radio",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1957,
+  "date": "1957",
+  "dateApproximate": true,
+  "addressee": "To the Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "justice",
+    "marian",
+    "missions",
+    "papacy",
+    "peace",
+    "saints",
+    "science"
+  ],
+  "wordCount": 12409,
+  "fileSize": 74923,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

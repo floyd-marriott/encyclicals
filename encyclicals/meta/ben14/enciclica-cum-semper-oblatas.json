@@ -1,0 +1,34 @@
+{
+  "slug": "enciclica-cum-semper-oblatas",
+  "incipit": "Cum Semper Oblatas",
+  "englishTitle": null,
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "encyclical-letter",
+  "year": 1740,
+  "date": "1744-08-19",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, Patriarchs, Archbishops, and all the Ordinaries of the various regions of Italy.",
+  "addresseeScope": "italy",
+  "language": "en",
+  "translated": true,
+  "translationSource": "deepl",
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "liturgy",
+    "moral-theology",
+    "papacy"
+  ],
+  "wordCount": 4572,
+  "fileSize": 27954,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Mary Major, on August 19, 1744, the fifth year of Our Pontificate."
+}

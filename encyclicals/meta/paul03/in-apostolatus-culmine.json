@@ -1,0 +1,31 @@
+{
+  "slug": "in-apostolatus-culmine",
+  "incipit": "In apostolatus culmine",
+  "englishTitle": "\\[Latin\\]",
+  "pope": {
+    "slug": "paul03",
+    "name": "Paul III",
+    "regnalName": "Paul",
+    "number": 3,
+    "fullName": "Paul III"
+  },
+  "type": null,
+  "year": 1538,
+  "date": "1538",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "moral-theology",
+    "religious-life",
+    "social-doctrine"
+  ],
+  "wordCount": 1386,
+  "fileSize": 10776,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

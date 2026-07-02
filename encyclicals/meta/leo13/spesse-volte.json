@@ -1,0 +1,40 @@
+{
+  "slug": "spesse-volte",
+  "incipit": "Spesse Volte",
+  "englishTitle": "On the Suppression of Catholic Institutions",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1898,
+  "date": "1898-08-05",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "family",
+    "freemasonry",
+    "human-dignity",
+    "justice",
+    "marian",
+    "moral-theology",
+    "peace",
+    "secularism",
+    "social-doctrine",
+    "usury"
+  ],
+  "wordCount": 3443,
+  "fileSize": 20623,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, Rome, the 5th day of August, in the year 1898, and the twenty-first of Our pontificate."
+}

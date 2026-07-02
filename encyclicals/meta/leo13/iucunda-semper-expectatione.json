@@ -1,0 +1,40 @@
+{
+  "slug": "iucunda-semper-expectatione",
+  "incipit": "Iucunda Semper Expectatione",
+  "englishTitle": "On the Rosary",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1894,
+  "date": "1894-09-08",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "religious-life",
+    "rosary",
+    "saints"
+  ],
+  "wordCount": 3379,
+  "fileSize": 19042,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, on September 8, 1894, in the seventeenth year of our Pontificate."
+}

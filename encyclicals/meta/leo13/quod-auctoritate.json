@@ -1,0 +1,34 @@
+{
+  "slug": "quod-auctoritate",
+  "incipit": "Quod Auctoritate",
+  "englishTitle": "Proclaiming a Jubilee",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1885,
+  "date": "1885",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries, in the Grace and Communion of the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "education",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy"
+  ],
+  "wordCount": 2639,
+  "fileSize": 15028,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, on the twenty-second day of December, in the year 1885, the eighth of Our Pontificate."
+}

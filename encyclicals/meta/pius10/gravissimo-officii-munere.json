@@ -1,0 +1,36 @@
+{
+  "slug": "gravissimo-officii-munere",
+  "incipit": "Gravissimo Officii Munere",
+  "englishTitle": "On French Associations of Worship",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": null,
+  "year": 1906,
+  "date": "1906",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Archbishops, and Bishops, of France.",
+  "addresseeScope": "france",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "liturgy",
+    "papacy",
+    "prayer",
+    "religious-life",
+    "usury"
+  ],
+  "wordCount": 1568,
+  "fileSize": 9046,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on August 10, the Feast of St. Lawrence, the Martyr, in the year 1906, and the fourth of Our Pontificate."
+}

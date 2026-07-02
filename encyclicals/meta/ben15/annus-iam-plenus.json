@@ -1,0 +1,37 @@
+{
+  "slug": "annus-iam-plenus",
+  "incipit": "Annus Iam Plenus",
+  "englishTitle": "On Children in Central Europe",
+  "pope": {
+    "slug": "ben15",
+    "name": "Benedict XV",
+    "regnalName": "Benedict",
+    "number": 15,
+    "fullName": "Benedict XV"
+  },
+  "type": "encyclical-letter",
+  "year": 1920,
+  "date": null,
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "eucharist",
+    "family",
+    "justice",
+    "liberalism",
+    "moral-theology",
+    "papacy",
+    "peace"
+  ],
+  "wordCount": 1604,
+  "fileSize": 9195,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s on the first day of the month of December in the year nineteen hundred and twenty, the seventh of Our Pontificate."
+}

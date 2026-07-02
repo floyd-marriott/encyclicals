@@ -1,0 +1,37 @@
+{
+  "slug": "for-the-fiftieth-anniversary-of-the-proclamation-of-the-dogma-of-the-immaculate-conception",
+  "incipit": "FOR THE FIFTIETH ANNIVERSARY OF THE PROCLAMATION OF THE DOGMA OF THE IMMACULATE CONCEPTION",
+  "englishTitle": null,
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": null,
+  "year": 1904,
+  "date": "1904",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "immaculate-conception",
+    "marian",
+    "moral-theology",
+    "peace",
+    "prayer"
+  ],
+  "wordCount": 609,
+  "fileSize": 3569,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

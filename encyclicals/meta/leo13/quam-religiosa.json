@@ -1,0 +1,39 @@
+{
+  "slug": "quam-religiosa",
+  "incipit": "Quam Religiosa",
+  "englishTitle": "On Civil Marriage Law",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1898,
+  "date": "1898",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "family",
+    "marriage",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "social-doctrine"
+  ],
+  "wordCount": 1020,
+  "fileSize": 6207,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

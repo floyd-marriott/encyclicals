@@ -1,0 +1,42 @@
+{
+  "slug": "bolla-benedictus-deus",
+  "incipit": "Benedictus Deus",
+  "englishTitle": null,
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "bull",
+  "year": 1740,
+  "date": "1750",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": true,
+  "translationSource": "deepl",
+  "tags": [
+    "angels",
+    "christology",
+    "clergy",
+    "colonialism",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "persecution",
+    "prayer",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 3164,
+  "fileSize": 19803,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at Santa Maria Maggiore, on December 25, in the year 1750 of the Incarnation, the eleventh year of Our Pontificate."
+}

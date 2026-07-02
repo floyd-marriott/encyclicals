@@ -1,0 +1,37 @@
+{
+  "slug": "cum-summi",
+  "incipit": "Cum Summi",
+  "englishTitle": "Proclaiming a Universal Jubilee",
+  "pope": {
+    "slug": "clem14",
+    "name": "Clement XIV",
+    "regnalName": "Clement",
+    "number": 14,
+    "fullName": "Clement XIV"
+  },
+  "type": null,
+  "year": 1769,
+  "date": "1769",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 2053,
+  "fileSize": 11694,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Mary Major, 12 December 1769, in the 1st year of Our pontificate."
+}

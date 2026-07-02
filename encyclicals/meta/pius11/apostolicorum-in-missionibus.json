@@ -1,0 +1,30 @@
+{
+  "slug": "apostolicorum-in-missionibus",
+  "incipit": "Apostolicorum in Missionibus",
+  "englishTitle": "Decree naming St. Therese co-patron along with St. Francis Xavier of all foreign missions",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1927,
+  "date": "1927",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "missions",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 183,
+  "fileSize": 1553,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

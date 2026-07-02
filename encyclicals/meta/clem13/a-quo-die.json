@@ -1,0 +1,35 @@
+{
+  "slug": "a-quo-die",
+  "incipit": "A Quo Die",
+  "englishTitle": "On Union Among Christians",
+  "pope": {
+    "slug": "clem13",
+    "name": "Clement XIII",
+    "regnalName": "Clement",
+    "number": 13,
+    "fullName": "Clement XIII"
+  },
+  "type": null,
+  "year": 1758,
+  "date": "1758",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "ecclesiology",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 5224,
+  "fileSize": 28913,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Mary Major on September 14, in the year 1758 in the first year of Our pontificate."
+}

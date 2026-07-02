@@ -1,0 +1,36 @@
+{
+  "slug": "quam-aerumnosa",
+  "incipit": "Quam Aerumnosa",
+  "englishTitle": "On Italian Immigrants",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1888,
+  "date": "1888-12-10",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brothers the Archbishops and Bishops of America.",
+  "addresseeScope": "america",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "marriage",
+    "moral-theology",
+    "saints",
+    "slavery",
+    "social-doctrine"
+  ],
+  "wordCount": 1383,
+  "fileSize": 7772,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peters, December 10th, 1888. The 11th year of Our Pontificate."
+}

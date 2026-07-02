@@ -1,0 +1,39 @@
+{
+  "slug": "in-praeclara-summorum",
+  "incipit": "In Praeclara Summorum",
+  "englishTitle": "On Dante",
+  "pope": {
+    "slug": "ben15",
+    "name": "Benedict XV",
+    "regnalName": "Benedict",
+    "number": 15,
+    "fullName": "Benedict XV"
+  },
+  "type": null,
+  "year": 1921,
+  "date": "1921-04-30",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "clergy",
+    "dante",
+    "ecclesiology",
+    "education",
+    "family",
+    "justice",
+    "marian",
+    "papacy",
+    "saints",
+    "scripture"
+  ],
+  "wordCount": 2741,
+  "fileSize": 15587,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, April 30, 1921, the seventh year of Our Pontificate."
+}

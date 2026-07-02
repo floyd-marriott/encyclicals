@@ -1,0 +1,41 @@
+{
+  "slug": "dilectissima-nobis",
+  "incipit": "Dilectissima Nobis",
+  "englishTitle": "On the Persecution of the Church in Spain",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1933,
+  "date": "1933-06-03",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "colonialism",
+    "democracy",
+    "ecclesiology",
+    "family",
+    "justice",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "persecution",
+    "prayer",
+    "saints",
+    "science"
+  ],
+  "wordCount": 3789,
+  "fileSize": 23321,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the third day of June, 1933, in the twelfth year of Our Pontificate."
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "slavorum-apostoli",
+  "incipit": "Slavorum Apostoli",
+  "englishTitle": null,
+  "pope": {
+    "slug": "jp02",
+    "name": "John Paul II",
+    "regnalName": "John Paul",
+    "number": 2,
+    "fullName": "John Paul II"
+  },
+  "type": "apostolic-letter",
+  "year": 1985,
+  "date": "1985",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "ecclesiology",
+    "liturgy",
+    "missions",
+    "moral-theology",
+    "peace",
+    "prayer",
+    "religious-life",
+    "saints"
+  ],
+  "wordCount": 11007,
+  "fileSize": 66769,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Peter's, on 2 June, the Solemnity of the Most Holy Trinity, in the year 1985, the seventh of my Pontificate."
+}

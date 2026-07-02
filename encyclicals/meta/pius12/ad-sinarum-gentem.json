@@ -1,0 +1,38 @@
+{
+  "slug": "ad-sinarum-gentem",
+  "incipit": "Ad Sinarum Gentem",
+  "englishTitle": "On the Supranationality of the Church",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "encyclical-letter",
+  "year": 1954,
+  "date": "1954",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren and Beloved Sons, the Archbishops, Bishops and other local Ordinaries and other members of the Clergy and People of China in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "human-dignity",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "religious-life",
+    "saints"
+  ],
+  "wordCount": 3000,
+  "fileSize": 17246,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, October 7, Feast of the Most Holy Rosary of the Blessed Virgin Mary, 1954, in the sixteenth year of Our Pontificate."
+}

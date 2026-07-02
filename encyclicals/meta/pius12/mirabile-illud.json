@@ -1,0 +1,37 @@
+{
+  "slug": "mirabile-illud",
+  "incipit": "Mirabile Illud",
+  "englishTitle": "Crusade for Prayers for Peace",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1950,
+  "date": "1950-12-06",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops and other local Ordinaries having Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "eucharist",
+    "family",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "social-doctrine"
+  ],
+  "wordCount": 1218,
+  "fileSize": 7342,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome from St. Peter’s on the sixth day of December, the year 1950, the twelfth of Our Pontificate."
+}

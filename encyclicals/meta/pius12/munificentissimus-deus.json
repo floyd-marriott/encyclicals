@@ -1,0 +1,35 @@
+{
+  "slug": "munificentissimus-deus",
+  "incipit": "Munificentissimus Deus",
+  "englishTitle": "Defining the Dogma of the Assumption",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1950,
+  "date": "1950",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "assumption",
+    "christology",
+    "ecclesiology",
+    "family",
+    "immaculate-conception",
+    "marian",
+    "moral-theology",
+    "saints"
+  ],
+  "wordCount": 6840,
+  "fileSize": 40428,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, in the year of the great Jubilee, 1950, on the first day of the month of November, on the Feast of All Saints, in the twelfth year of our pontificate."
+}

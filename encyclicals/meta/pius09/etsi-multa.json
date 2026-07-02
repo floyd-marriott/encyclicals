@@ -1,0 +1,40 @@
+{
+  "slug": "etsi-multa",
+  "incipit": "Etsi Multa",
+  "englishTitle": "On the Church in Italy, Germany and Switzerland",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": "encyclical-letter",
+  "year": 1873,
+  "date": "1873",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "human-dignity",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 5577,
+  "fileSize": 32978,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, 21 November 1873, in the 28th year of Our Pontificate."
+}

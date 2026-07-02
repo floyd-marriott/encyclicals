@@ -1,0 +1,37 @@
+{
+  "slug": "quemadmodum",
+  "incipit": "Quemadmodum",
+  "englishTitle": "Pleading for Care for the World's Destitute Children",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1946,
+  "date": "1946",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren: The Patriarchs, Archbishops, Bishops and other Ordinaries Having Peace and Communion With the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "eucharist",
+    "family",
+    "justice",
+    "liberalism",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer"
+  ],
+  "wordCount": 1852,
+  "fileSize": 10740,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, Rome, on the 6th day of January, Feast of the Epiphany of Our Lord Jesus Christ, in the year 1946, the seventh of Our Pontificate."
+}

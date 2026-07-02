@@ -1,0 +1,36 @@
+{
+  "slug": "enciclica-cum-illud-semper",
+  "incipit": "Cum Illud Semper",
+  "englishTitle": null,
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "encyclical-letter",
+  "year": 1740,
+  "date": "1742-12-14",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, Patriarchs, Primates, Archbishops, and Bishops.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": true,
+  "translationSource": "deepl",
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "family",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "saints",
+    "usury"
+  ],
+  "wordCount": 5831,
+  "fileSize": 36351,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Mary Major, on December 14, 1742, the third year of Our Pontificate."
+}

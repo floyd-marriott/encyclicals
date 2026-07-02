@@ -1,0 +1,33 @@
+{
+  "slug": "magni-nobis",
+  "incipit": "Magni Nobis",
+  "englishTitle": null,
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1889,
+  "date": "1889",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "education",
+    "justice",
+    "moral-theology",
+    "science"
+  ],
+  "wordCount": 828,
+  "fileSize": 5104,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, 7 March, 1889, on the feast of Thomas Aquinas in the twelfth year of Our Pontificate."
+}

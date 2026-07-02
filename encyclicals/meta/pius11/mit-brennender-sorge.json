@@ -1,0 +1,41 @@
+{
+  "slug": "mit-brennender-sorge",
+  "incipit": "Mit Brennender Sorge",
+  "englishTitle": "On the Church and the German Reich",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1937,
+  "date": "1937-03-14",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren the Archbishops and Bishops of Germany and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "germany",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "human-dignity",
+    "justice",
+    "marian",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "saints",
+    "usury"
+  ],
+  "wordCount": 8009,
+  "fileSize": 46618,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at the Vatican on Passion Sunday, March 14, 1937."
+}

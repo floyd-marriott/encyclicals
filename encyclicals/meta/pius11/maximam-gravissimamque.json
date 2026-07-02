@@ -1,0 +1,34 @@
+{
+  "slug": "maximam-gravissimamque",
+  "incipit": "Maximam Gravissimamque",
+  "englishTitle": "On French Diocesan Association",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1924,
+  "date": "1924-01-18",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "liturgy",
+    "moral-theology",
+    "saints",
+    "usury"
+  ],
+  "wordCount": 3251,
+  "fileSize": 18616,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the feast of the Chair of St. Peter in Rome, the eighteenth day of January, in the year 1924, the second of Our Pontificate."
+}

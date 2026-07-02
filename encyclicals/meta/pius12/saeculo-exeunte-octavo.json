@@ -1,0 +1,39 @@
+{
+  "slug": "saeculo-exeunte-octavo",
+  "incipit": "Saeculo Exeunte Octavo",
+  "englishTitle": "On the Eighth Centenary of the Independence of Portugal",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1940,
+  "date": "1940",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brother, the Patriarch of Lisbon, the Archbishops, Bishops and other Ordinanes of Portugal and its overseas possessions, in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "portugal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "colonialism",
+    "ecclesiology",
+    "eucharist",
+    "human-dignity",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "persecution",
+    "saints"
+  ],
+  "wordCount": 4068,
+  "fileSize": 24010,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, June 13, the feast of St. Anthony, 1940, in the second year of Our Pontificate."
+}

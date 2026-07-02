@@ -1,0 +1,36 @@
+{
+  "slug": "paternae",
+  "incipit": "Paternae",
+  "englishTitle": "On the Education of the Clergy",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1899,
+  "date": "1899-09-18",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "justice",
+    "missions",
+    "prayer",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 1622,
+  "fileSize": 9625,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s on the eighteenth day of September in the year 1899, the twenty-second year of Our pontificate."
+}

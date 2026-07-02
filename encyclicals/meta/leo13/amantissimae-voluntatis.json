@@ -1,0 +1,38 @@
+{
+  "slug": "amantissimae-voluntatis",
+  "incipit": "Amantissimae Voluntatis",
+  "englishTitle": "To the English People",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": "apostolic-letter",
+  "year": 1895,
+  "date": "1895",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "ecclesiology",
+    "family",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "religious-life",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 4830,
+  "fileSize": 27178,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

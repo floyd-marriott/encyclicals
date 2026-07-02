@@ -1,0 +1,40 @@
+{
+  "slug": "ubi-arcano-dei-consilio",
+  "incipit": "Ubi Arcano Dei Consilio",
+  "englishTitle": "On the Peace of Christ in HIs Kingdom",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1922,
+  "date": "1922",
+  "dateApproximate": false,
+  "addressee": "To our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints",
+    "usury"
+  ],
+  "wordCount": 11460,
+  "fileSize": 65871,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the twenty-third day of December, in the year 1922, the first of Our Pontificate."
+}

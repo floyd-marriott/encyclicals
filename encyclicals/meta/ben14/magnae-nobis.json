@@ -1,0 +1,34 @@
+{
+  "slug": "magnae-nobis",
+  "incipit": "Magnae Nobis",
+  "englishTitle": "On Marriage Impediments and Dispensations",
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "apostolic-letter",
+  "year": 1748,
+  "date": "1748-06-29",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "marriage",
+    "moral-theology",
+    "papacy"
+  ],
+  "wordCount": 2583,
+  "fileSize": 15305,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, June 29, 1748, in the eighth year of Our Pontificate."
+}

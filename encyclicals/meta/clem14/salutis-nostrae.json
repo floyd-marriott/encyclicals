@@ -1,0 +1,41 @@
+{
+  "slug": "salutis-nostrae",
+  "incipit": "Salutis Nostrae",
+  "englishTitle": "Proclaiming a Universal Jubilee",
+  "pope": {
+    "slug": "clem14",
+    "name": "Clement XIV",
+    "regnalName": "Clement",
+    "number": 14,
+    "fullName": "Clement XIV"
+  },
+  "type": null,
+  "year": 1774,
+  "date": "1744-04-30",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "human-dignity",
+    "justice",
+    "marian",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "persecution",
+    "saints",
+    "slavery"
+  ],
+  "wordCount": 1778,
+  "fileSize": 10188,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome in St. Mary Major’s, April 30th, 1744 in the fifth year of Our pontificate."
+}

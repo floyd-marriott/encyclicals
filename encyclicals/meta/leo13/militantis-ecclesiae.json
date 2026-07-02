@@ -1,0 +1,38 @@
+{
+  "slug": "militantis-ecclesiae",
+  "incipit": "Militantis Ecclesiae",
+  "englishTitle": "On St. Peter Canisius",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1897,
+  "date": "1897-08-01",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "justice",
+    "liberalism",
+    "moral-theology",
+    "papacy",
+    "saints",
+    "science",
+    "usury"
+  ],
+  "wordCount": 3018,
+  "fileSize": 17617,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s the first day of August, 1897, the twentieth year of Our Pontificate."
+}

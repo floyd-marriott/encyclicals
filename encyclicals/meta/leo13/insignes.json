@@ -1,0 +1,33 @@
+{
+  "slug": "insignes",
+  "incipit": "Insignes",
+  "englishTitle": "On the Hungarian Millenium",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1896,
+  "date": "1896",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "secularism"
+  ],
+  "wordCount": 3175,
+  "fileSize": 18978,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "misericors-dei-filius",
+  "incipit": "Misericors Dei Filius",
+  "englishTitle": "Constitution On the Law of the Franciscan third Order secular",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1883,
+  "date": null,
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "marian",
+    "moral-theology",
+    "secularism",
+    "usury"
+  ],
+  "wordCount": 3743,
+  "fileSize": 22651,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, in the one thousand eighteen-hundred and third year of the Incarnation of the Lord, on the third day before the Calends of June, in the Sixth Year of Our Pontificate."
+}

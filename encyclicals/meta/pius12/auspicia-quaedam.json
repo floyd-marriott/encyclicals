@@ -1,0 +1,36 @@
+{
+  "slug": "auspicia-quaedam",
+  "incipit": "Auspicia Quaedam",
+  "englishTitle": "Prayers for World Peace and the Solution of the Problems in Palestine",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "encyclical-letter",
+  "year": 1948,
+  "date": "1948",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "eucharist",
+    "family",
+    "marian",
+    "moral-theology",
+    "peace",
+    "prayer",
+    "social-doctrine"
+  ],
+  "wordCount": 1270,
+  "fileSize": 7428,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, the first day of May of the year 1948, the tenth of our Pontificate."
+}

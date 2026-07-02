@@ -1,0 +1,36 @@
+{
+  "slug": "inscrutabili-dei-consilio",
+  "incipit": "Inscrutabili Dei Consilio",
+  "englishTitle": "On the Evils of Society",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1878,
+  "date": "1878",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "human-dignity",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "social-doctrine"
+  ],
+  "wordCount": 4447,
+  "fileSize": 26168,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, in Rome, on the solemnity of Easter, the twenty-first day of April, 1878, in the first year of our pontificate."
+}

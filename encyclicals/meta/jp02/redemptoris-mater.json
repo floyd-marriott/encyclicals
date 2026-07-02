@@ -1,0 +1,37 @@
+{
+  "slug": "redemptoris-mater",
+  "incipit": "Redemptoris Mater",
+  "englishTitle": null,
+  "pope": {
+    "slug": "jp02",
+    "name": "John Paul II",
+    "regnalName": "John Paul",
+    "number": 2,
+    "fullName": "John Paul II"
+  },
+  "type": null,
+  "year": 1987,
+  "date": "1987",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "ecclesiology",
+    "holy-spirit",
+    "immaculate-conception",
+    "liturgy",
+    "marian",
+    "missions",
+    "moral-theology",
+    "saints"
+  ],
+  "wordCount": 27031,
+  "fileSize": 156022,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Peter's, on March 25, the Solemnity of the Annunciation of the Lord, in the year 1987, the ninth of my Pontificate."
+}

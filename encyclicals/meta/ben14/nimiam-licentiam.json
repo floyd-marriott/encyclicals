@@ -1,0 +1,34 @@
+{
+  "slug": "nimiam-licentiam",
+  "incipit": "Nimiam Licentiam",
+  "englishTitle": "On the Validity of Marriages",
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "encyclical-letter",
+  "year": 1743,
+  "date": "1743-05-18",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, Archbishops and Bishops of the Kingdom of Poland.",
+  "addresseeScope": "poland",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "marriage",
+    "moral-theology",
+    "papacy"
+  ],
+  "wordCount": 2297,
+  "fileSize": 13958,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Mary Major, under the Ring of the Fisherman, on May 18, 1743, in the third year of our Pontificate."
+}

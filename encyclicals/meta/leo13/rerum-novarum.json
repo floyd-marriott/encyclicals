@@ -1,0 +1,40 @@
+{
+  "slug": "rerum-novarum",
+  "incipit": "Rerum Novarum",
+  "englishTitle": "On Capital and Labor",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1891,
+  "date": "1891-05-15",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries of Places having Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "human-dignity",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "science",
+    "social-doctrine",
+    "usury"
+  ],
+  "wordCount": 14486,
+  "fileSize": 82863,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s in Rome, the fifteenth day of May, 1891, the fourteenth year of Our pontificate ."
+}

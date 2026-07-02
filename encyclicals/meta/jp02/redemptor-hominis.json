@@ -1,0 +1,37 @@
+{
+  "slug": "redemptor-hominis",
+  "incipit": "Redemptor Hominis",
+  "englishTitle": null,
+  "pope": {
+    "slug": "jp02",
+    "name": "John Paul II",
+    "regnalName": "John Paul",
+    "number": 2,
+    "fullName": "John Paul II"
+  },
+  "type": "encyclical-letter",
+  "year": 1979,
+  "date": "1979",
+  "dateApproximate": false,
+  "addressee": "TO HIS VENERABLE BROTHERS IN THE EPISCOPATE THE PRIESTS THE RELIGIOUS FAMILIES THE SONS AND DAUGHTERS OF THE CHURCH",
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "family",
+    "human-dignity",
+    "liturgy",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "saints"
+  ],
+  "wordCount": 23319,
+  "fileSize": 141859,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at Saint Peter's, on the fourth of March, the First Sunday of Lent, in the year 1979, the first year of my Pontificate."
+}

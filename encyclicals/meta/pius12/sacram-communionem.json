@@ -1,0 +1,37 @@
+{
+  "slug": "sacram-communionem",
+  "incipit": "Sacram Communionem",
+  "englishTitle": "On Laws of Fasting and the Evening Mass",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "apostolic-constitution",
+  "year": 1957,
+  "date": "1957",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "eucharist",
+    "marian",
+    "missions",
+    "prayer",
+    "religious-life",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 1437,
+  "fileSize": 8641,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, March 19, the Feast of St. Joseph, Patron of the Universal Church, 1957, the 19th year of Our pontificate."
+}

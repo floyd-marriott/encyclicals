@@ -1,0 +1,34 @@
+{
+  "slug": "humani-generis-redemptionem",
+  "incipit": "Humani Generis Redemptionem",
+  "englishTitle": "On Preaching the Word of God",
+  "pope": {
+    "slug": "ben15",
+    "name": "Benedict XV",
+    "regnalName": "Benedict",
+    "number": 15,
+    "fullName": "Benedict XV"
+  },
+  "type": null,
+  "year": 1917,
+  "date": null,
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "eucharist",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "saints"
+  ],
+  "wordCount": 4776,
+  "fileSize": 27240,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, Rome, on the fifteenth day of June, on the Feast of the Sacred Heart of Jesus in the year nineteen hundred and seventeen, in the third of Our Pontificate."
+}

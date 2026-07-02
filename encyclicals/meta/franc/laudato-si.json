@@ -1,0 +1,31 @@
+{
+  "slug": "laudato-si",
+  "incipit": "Laudato si'",
+  "englishTitle": "CARE FOR OUR COMMON HOME",
+  "pope": {
+    "slug": "franc",
+    "name": "Francis",
+    "regnalName": "Francis",
+    "number": 1,
+    "fullName": "Francis"
+  },
+  "type": "encyclical-letter",
+  "year": 2015,
+  "date": "2015",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "moral-theology",
+    "saints",
+    "st-francis"
+  ],
+  "wordCount": 39846,
+  "fileSize": 269715,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at Saint Peter’s on 24 May, the Solemnity of Pentecost, in the year 2015, the third of my Pontificate."
+}

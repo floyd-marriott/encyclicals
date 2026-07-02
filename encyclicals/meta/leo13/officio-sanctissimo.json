@@ -1,0 +1,36 @@
+{
+  "slug": "officio-sanctissimo",
+  "incipit": "Officio Sanctissimo",
+  "englishTitle": "On the Church in Bavaria",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1887,
+  "date": null,
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Archbishops and Bishops of Bavaria.",
+  "addresseeScope": "bavaria",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "family",
+    "missions",
+    "peace",
+    "persecution",
+    "science",
+    "social-doctrine"
+  ],
+  "wordCount": 7048,
+  "fileSize": 40537,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, the 22nd day of December, in the year MDCCCLXXXVII., the tenth of Our Pontificate."
+}

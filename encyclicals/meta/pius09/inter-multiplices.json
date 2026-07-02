@@ -1,0 +1,34 @@
+{
+  "slug": "inter-multiplices",
+  "incipit": "Inter Multiplices",
+  "englishTitle": "Pleading for Unity of Spirit",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": "apostolic-letter",
+  "year": 1853,
+  "date": "1853-03-21",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "liturgy",
+    "moral-theology",
+    "papacy",
+    "social-doctrine"
+  ],
+  "wordCount": 2295,
+  "fileSize": 13448,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, March 21, 1853, in the seventh year of Our Pontificate."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "summi-pontificatus",
+  "incipit": "Summi Pontificatus",
+  "englishTitle": "On the Unity of Human Society",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1939,
+  "date": "1939",
+  "dateApproximate": true,
+  "addressee": "To Our Venerable Brethren: The Patriarchs, Primates, Archbishops, Bishops, and Other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christ-the-king",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "liturgy",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "religious-life",
+    "sacred-heart",
+    "saints"
+  ],
+  "wordCount": 12523,
+  "fileSize": 72673,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

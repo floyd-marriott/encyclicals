@@ -1,0 +1,32 @@
+{
+  "slug": "dall-alto-dell-apostolico-seggio",
+  "incipit": "Dall’alto Dell’apostolico Seggio",
+  "englishTitle": "On Freemasonry in Italy",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1890,
+  "date": "1890",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "family",
+    "freemasonry",
+    "moral-theology"
+  ],
+  "wordCount": 5868,
+  "fileSize": 33987,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, on the 15th of October, 1890, the thirteenth year of Our Pontificate."
+}

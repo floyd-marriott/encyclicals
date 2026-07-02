@@ -1,0 +1,32 @@
+{
+  "slug": "vix-pervenit",
+  "incipit": "Vix Pervenit",
+  "englishTitle": "On Usury and Other Dishonest Profits",
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "encyclical-letter",
+  "year": 1745,
+  "date": "1745-11-01",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, Patriarchs, Archbishops, Bishops and Ordinary Clergy of Italy.",
+  "addresseeScope": "italy",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "education",
+    "moral-theology",
+    "usury"
+  ],
+  "wordCount": 1948,
+  "fileSize": 11544,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Mary Major, November 1, 1745, the sixth year of Our Pontificate."
+}

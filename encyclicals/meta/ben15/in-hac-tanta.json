@@ -1,0 +1,38 @@
+{
+  "slug": "in-hac-tanta",
+  "incipit": "In Hac Tanta",
+  "englishTitle": "On St. Boniface",
+  "pope": {
+    "slug": "ben15",
+    "name": "Benedict XV",
+    "regnalName": "Benedict",
+    "number": 15,
+    "fullName": "Benedict XV"
+  },
+  "type": null,
+  "year": 1919,
+  "date": "1919",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "persecution",
+    "religious-life",
+    "saints"
+  ],
+  "wordCount": 3461,
+  "fileSize": 20288,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at Saint Peter’s the 14th day of the month of May in the year 1919, the fifth year of our Pontificate."
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "inimica-vis",
+  "incipit": "Inimica Vis",
+  "englishTitle": "On Freemasonry",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1892,
+  "date": "1892",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "freemasonry",
+    "justice",
+    "moral-theology",
+    "prayer",
+    "social-doctrine"
+  ],
+  "wordCount": 1431,
+  "fileSize": 8519,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, 8 December 1892, in the 15th year of Our Pontificate."
+}

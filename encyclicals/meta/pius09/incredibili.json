@@ -1,0 +1,36 @@
+{
+  "slug": "incredibili",
+  "incipit": "Incredibili",
+  "englishTitle": "On the Persecution in New Granada",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": "apostolic-constitution",
+  "year": 1863,
+  "date": "1863-09-17",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers Anthony, Archbishop of Santa Fe de Bogota, and his Suffragan Bishops in the Republic of New Granada",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "colonialism",
+    "ecclesiology",
+    "justice",
+    "liturgy",
+    "moral-theology",
+    "papacy",
+    "persecution",
+    "prayer"
+  ],
+  "wordCount": 1670,
+  "fileSize": 10159,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, on September 17, 1863, the 18th year of Our Pontificate."
+}

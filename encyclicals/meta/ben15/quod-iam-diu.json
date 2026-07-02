@@ -1,0 +1,35 @@
+{
+  "slug": "quod-iam-diu",
+  "incipit": "Quod Iam Diu",
+  "englishTitle": "On the Future Peace Conference",
+  "pope": {
+    "slug": "ben15",
+    "name": "Benedict XVI",
+    "regnalName": "Benedict",
+    "number": 15,
+    "fullName": "Benedict XV"
+  },
+  "type": null,
+  "year": 1918,
+  "date": "1918",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "justice",
+    "moral-theology",
+    "peace",
+    "prayer",
+    "science",
+    "usury"
+  ],
+  "wordCount": 495,
+  "fileSize": 2898,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

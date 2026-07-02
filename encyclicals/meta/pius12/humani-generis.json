@@ -1,0 +1,37 @@
+{
+  "slug": "humani-generis",
+  "incipit": "Humani Generis",
+  "englishTitle": "On Human Origin",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1950,
+  "date": "1950-08-12",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, Patriarchs, Primates, Archbishops, Bishops and other local Ordinaries Enjoying Peace and Communion with the Holy See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "communism",
+    "ecclesiology",
+    "eucharist",
+    "human-dignity",
+    "moral-theology",
+    "peace",
+    "saints",
+    "science"
+  ],
+  "wordCount": 6235,
+  "fileSize": 37654,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, August 12, 1950, the twelfth year of Our Pontificate."
+}

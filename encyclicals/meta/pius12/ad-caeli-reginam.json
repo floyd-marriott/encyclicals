@@ -1,0 +1,40 @@
+{
+  "slug": "ad-caeli-reginam",
+  "incipit": "Ad Caeli Reginam",
+  "englishTitle": "Proclaiming the Queenship of Mary",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "encyclical-letter",
+  "year": 1954,
+  "date": "1954-10-11",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops and other Local Ordinaries in Peace and Communion with the Holy See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "assumption",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "justice",
+    "marian",
+    "moral-theology",
+    "peace",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 5490,
+  "fileSize": 32298,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, from St. Peter’s, on the feast of the Maternity of the Blessed Virgin Mary, the eleventh day of October, 1954, in the sixteenth year of our Pontificate."
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "enciclica-elapso-proxime-anno",
+  "incipit": "Elapso Proxime Anno",
+  "englishTitle": null,
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "encyclical-letter",
+  "year": 1740,
+  "date": "1751-02-20",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": true,
+  "translationSource": "deepl",
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "secularism",
+    "social-doctrine"
+  ],
+  "wordCount": 1206,
+  "fileSize": 7426,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Santa Maria Maggiore, on February 20, 1751, the eleventh year of Our Pontificate."
+}

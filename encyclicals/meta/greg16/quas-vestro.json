@@ -1,0 +1,33 @@
+{
+  "slug": "quas-vestro",
+  "incipit": "Quas Vestro",
+  "englishTitle": "On Mixed Marriages",
+  "pope": {
+    "slug": "greg16",
+    "name": "Gregory XVI",
+    "regnalName": "Gregory",
+    "number": 16,
+    "fullName": "Gregory XVI"
+  },
+  "type": null,
+  "year": 1841,
+  "date": "1841",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "marriage",
+    "moral-theology",
+    "papacy"
+  ],
+  "wordCount": 1626,
+  "fileSize": 9796,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s under the fisherman’s ring on 30 April 1841, in the eleventh year of Our Pontificate."
+}

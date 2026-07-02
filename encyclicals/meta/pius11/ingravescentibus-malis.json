@@ -1,0 +1,40 @@
+{
+  "slug": "ingravescentibus-malis",
+  "incipit": "Ingravescentibus Malis",
+  "englishTitle": "On the Rosary",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": "encyclical-letter",
+  "year": 1937,
+  "date": "1937",
+  "dateApproximate": true,
+  "addressee": "To the Venerable Brethren, Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Holy See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "colonialism",
+    "communism",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "marian",
+    "papacy",
+    "peace",
+    "prayer",
+    "rosary",
+    "slavery"
+  ],
+  "wordCount": 2717,
+  "fileSize": 15629,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

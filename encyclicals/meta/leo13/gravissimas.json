@@ -1,0 +1,35 @@
+{
+  "slug": "gravissimas",
+  "incipit": "Gravissimas",
+  "englishTitle": "On Religious Orders in Portugal",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1901,
+  "date": "1901",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "colonialism",
+    "ecclesiology",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "religious-life",
+    "saints"
+  ],
+  "wordCount": 564,
+  "fileSize": 3377,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, 16 May 1901, in the 24th year of Our Pontificate."
+}

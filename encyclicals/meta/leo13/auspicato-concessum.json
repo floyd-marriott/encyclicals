@@ -1,0 +1,38 @@
+{
+  "slug": "auspicato-concessum",
+  "incipit": "Auspicato Concessum",
+  "englishTitle": "On St. Francis of Assisi",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1882,
+  "date": "1882-09-17",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "eucharist",
+    "family",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints",
+    "social-doctrine",
+    "st-francis"
+  ],
+  "wordCount": 4084,
+  "fileSize": 23612,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s the 17th day of September, 1882, and in the fifth year of Our Pontificate."
+}

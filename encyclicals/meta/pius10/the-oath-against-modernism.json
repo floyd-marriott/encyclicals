@@ -1,0 +1,35 @@
+{
+  "slug": "the-oath-against-modernism",
+  "incipit": "The Oath Against Modernism",
+  "englishTitle": null,
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": null,
+  "year": 1910,
+  "date": "1910",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "modernism",
+    "moral-theology",
+    "papacy",
+    "science"
+  ],
+  "wordCount": 960,
+  "fileSize": 5687,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

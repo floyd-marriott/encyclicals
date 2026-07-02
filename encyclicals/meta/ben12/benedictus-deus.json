@@ -1,0 +1,34 @@
+{
+  "slug": "benedictus-deus",
+  "incipit": "Benedictus Deus",
+  "englishTitle": "On the Beatific Vision of God",
+  "pope": {
+    "slug": "ben12",
+    "name": "Benedict XII",
+    "regnalName": "Benedict",
+    "number": 12,
+    "fullName": "Benedict XII"
+  },
+  "type": null,
+  "year": 1334,
+  "date": "1334",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "family",
+    "marian",
+    "moral-theology",
+    "persecution",
+    "saints"
+  ],
+  "wordCount": 502,
+  "fileSize": 2918,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

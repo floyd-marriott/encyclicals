@@ -1,0 +1,34 @@
+{
+  "slug": "singulari-nos",
+  "incipit": "Singulari Nos",
+  "englishTitle": "On the Errors of Lammenais",
+  "pope": {
+    "slug": "greg16",
+    "name": "Gregory XVI",
+    "regnalName": "Gregory",
+    "number": 16,
+    "fullName": "Gregory XVI"
+  },
+  "type": "encyclical-letter",
+  "year": 1834,
+  "date": "1834-06-25",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "education",
+    "human-dignity",
+    "missions",
+    "moral-theology",
+    "prayer",
+    "science"
+  ],
+  "wordCount": 1668,
+  "fileSize": 9756,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, on June 25, 1834, in the fourth year of Our pontificate."
+}

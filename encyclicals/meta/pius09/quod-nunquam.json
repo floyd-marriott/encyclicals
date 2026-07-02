@@ -1,0 +1,36 @@
+{
+  "slug": "quod-nunquam",
+  "incipit": "Quod Nunquam",
+  "englishTitle": "On the Church in Prussia",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1875,
+  "date": "1875-02-05",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brothers, the Archbishops and Bishops of Prussia.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "persecution",
+    "religious-life"
+  ],
+  "wordCount": 1548,
+  "fileSize": 9141,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, on the fifth day of February in the year 1875, the twenty-ninth year of Our Pontificate."
+}

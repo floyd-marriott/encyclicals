@@ -1,0 +1,37 @@
+{
+  "slug": "au-milieu-des-sollicitudes",
+  "incipit": "Au Milieu Des Sollicitudes",
+  "englishTitle": "On the Church and State in France",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1892,
+  "date": "1892-02-16",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brothers the Archbishops, Bishops, Clergy and Faithful of France.",
+  "addresseeScope": "france",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "justice",
+    "moral-theology",
+    "peace",
+    "saints",
+    "social-doctrine",
+    "usury"
+  ],
+  "wordCount": 5156,
+  "fileSize": 30779,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, the 16th day of February, 1892, in the fourteenth year of Our Pontificate."
+}

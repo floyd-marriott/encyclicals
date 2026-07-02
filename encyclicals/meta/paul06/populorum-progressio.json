@@ -1,0 +1,39 @@
+{
+  "slug": "populorum-progressio",
+  "incipit": "Populorum Progressio",
+  "englishTitle": "On the Development of Peoples",
+  "pope": {
+    "slug": "paul06",
+    "name": "Paul VI",
+    "regnalName": "Paul",
+    "number": 6,
+    "fullName": "Paul VI"
+  },
+  "type": null,
+  "year": 1967,
+  "date": "1967",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "education",
+    "justice",
+    "marian",
+    "missions",
+    "moral-theology",
+    "peace",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 12226,
+  "fileSize": 73758,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

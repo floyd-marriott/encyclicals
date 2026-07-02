@@ -1,0 +1,31 @@
+{
+  "slug": "quod-votis",
+  "incipit": "Quod Votis",
+  "englishTitle": "On the Proposed Catholic University",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1902,
+  "date": "1902",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "moral-theology",
+    "papacy",
+    "saints"
+  ],
+  "wordCount": 342,
+  "fileSize": 2070,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, 30 April 1902, in the 25th year of Our Pontificate."
+}

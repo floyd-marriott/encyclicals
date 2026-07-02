@@ -1,0 +1,41 @@
+{
+  "slug": "annum-sacrum",
+  "incipit": "Annum Sacrum",
+  "englishTitle": "Consecration to the Sacred Heart",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1899,
+  "date": "1899-05-25",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "justice",
+    "liturgy",
+    "marian",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "sacred-heart",
+    "saints"
+  ],
+  "wordCount": 2575,
+  "fileSize": 14236,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s on the 25th day of May, 1899, the twenty-second year of Our Pontificate."
+}

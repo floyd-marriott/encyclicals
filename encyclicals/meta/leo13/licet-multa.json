@@ -1,0 +1,37 @@
+{
+  "slug": "licet-multa",
+  "incipit": "Licet Multa",
+  "englishTitle": "On Catholics in Belgium",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1881,
+  "date": "1881",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "family",
+    "marian",
+    "moral-theology",
+    "peace",
+    "social-doctrine",
+    "socialism"
+  ],
+  "wordCount": 1347,
+  "fileSize": 8026,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, the 3rd of August, 1881, the fourth year of Our Pontificate."
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "supremi-apostolatus-officio",
+  "incipit": "Supremi Apostolatus Officio",
+  "englishTitle": "On Devotion to the Rosary",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1883,
+  "date": "1883",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "clergy",
+    "colonialism",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "rosary",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 2573,
+  "fileSize": 14905,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, the 1st of September, 1883, in the sixth year of Our Pontificate."
+}

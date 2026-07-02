@@ -1,0 +1,38 @@
+{
+  "slug": "omnibus-compertum",
+  "incipit": "Omnibus Compertum",
+  "englishTitle": "On Unity Among the Greek",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1900,
+  "date": "1900",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "education",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "saints"
+  ],
+  "wordCount": 1079,
+  "fileSize": 6341,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s on the 21st of July 1900, the twenty-third year of Our Pontificate."
+}

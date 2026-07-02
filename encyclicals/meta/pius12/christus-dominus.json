@@ -1,0 +1,35 @@
+{
+  "slug": "christus-dominus",
+  "incipit": "Christus Dominus",
+  "englishTitle": "Concerning the Discipline to be Observed with Respect to the Eucharistic Fast",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "apostolic-letter",
+  "year": 1953,
+  "date": "1953-01-06",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "marian",
+    "moral-theology",
+    "saints",
+    "scripture"
+  ],
+  "wordCount": 5255,
+  "fileSize": 30773,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s in Rome, January 6, 1953, the Feast of the Epiphany, in the fourteenth year of our Pontificate."
+}

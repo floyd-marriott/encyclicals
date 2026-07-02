@@ -1,0 +1,33 @@
+{
+  "slug": "papal-protection-of-the-jews",
+  "incipit": "Papal Protection of the Jews",
+  "englishTitle": null,
+  "pope": {
+    "slug": "greg10",
+    "name": "Gregory X",
+    "regnalName": "Gregory",
+    "number": 10,
+    "fullName": "Gregory X"
+  },
+  "type": null,
+  "year": 1271,
+  "date": "1271",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "papacy",
+    "saints",
+    "scripture"
+  ],
+  "wordCount": 1058,
+  "fileSize": 6177,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

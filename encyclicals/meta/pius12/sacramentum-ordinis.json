@@ -1,0 +1,33 @@
+{
+  "slug": "sacramentum-ordinis",
+  "incipit": "Sacramentum Ordinis",
+  "englishTitle": "On the Sacrament of Order",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "apostolic-constitution",
+  "year": 1947,
+  "date": null,
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "moral-theology",
+    "prayer"
+  ],
+  "wordCount": 1348,
+  "fileSize": 8140,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome from Saint Peter’s, on the thirtieth of November, Feast of Saint Andrew the Apostle, in the year nineteen hundred and forty-seven, the ninth of Our Pontificate."
+}

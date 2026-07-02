@@ -1,0 +1,36 @@
+{
+  "slug": "nobilissima-gallorum-gens",
+  "incipit": "Nobilissima Gallorum Gens",
+  "englishTitle": "On the Religious Question in France",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1884,
+  "date": "1884-02-08",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Archbishops and Bishops in France.",
+  "addresseeScope": "france",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 3447,
+  "fileSize": 20101,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s the 8th day of February, 1884, in the sixth year of Our Pontificate."
+}

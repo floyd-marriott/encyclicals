@@ -1,0 +1,40 @@
+{
+  "slug": "caritate-christi-compulsi",
+  "incipit": "Caritate Christi Compulsi",
+  "englishTitle": "On the Sacred Heart",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": "encyclical-letter",
+  "year": 1932,
+  "date": "1932-05-03",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries of Localities having Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "liberalism",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "sacred-heart",
+    "social-doctrine"
+  ],
+  "wordCount": 6566,
+  "fileSize": 37528,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the feast of the Invention of the Holy Cross, the third day of May in the year 1932, the eleventh of Our Pontificate."
+}

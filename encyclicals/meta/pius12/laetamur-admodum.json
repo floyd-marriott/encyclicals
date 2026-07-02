@@ -1,0 +1,38 @@
+{
+  "slug": "laetamur-admodum",
+  "incipit": "Laetamur Admodum",
+  "englishTitle": null,
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "encyclical-letter",
+  "year": 1956,
+  "date": "1956",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "religious-life",
+    "usury"
+  ],
+  "wordCount": 835,
+  "fileSize": 4936,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, from St. Peter’s on the first day of November, the Feast of All Saints, in the year 1956, the eighteenth of Our Pontificate."
+}

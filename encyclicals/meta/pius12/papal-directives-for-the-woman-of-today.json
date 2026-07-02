@@ -1,0 +1,38 @@
+{
+  "slug": "papal-directives-for-the-woman-of-today",
+  "incipit": "Papal Directives For The Woman Of Today",
+  "englishTitle": null,
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1947,
+  "date": "1947",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "family",
+    "justice",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "religious-life",
+    "science",
+    "secularism",
+    "slavery",
+    "social-doctrine"
+  ],
+  "wordCount": 3346,
+  "fileSize": 19806,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

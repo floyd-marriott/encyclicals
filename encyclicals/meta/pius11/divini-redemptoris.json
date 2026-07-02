@@ -1,0 +1,41 @@
+{
+  "slug": "divini-redemptoris",
+  "incipit": "Divini Redemptoris",
+  "englishTitle": "On Atheistic Communism",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1937,
+  "date": "1937",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "communism",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "persecution",
+    "saints",
+    "science",
+    "social-doctrine"
+  ],
+  "wordCount": 12729,
+  "fileSize": 76062,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the feast of St. Joseph, patron of the universal Church, on the 19th of March, 1937, the 16th year of our Pontificate."
+}

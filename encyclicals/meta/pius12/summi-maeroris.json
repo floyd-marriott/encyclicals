@@ -1,0 +1,40 @@
+{
+  "slug": "summi-maeroris",
+  "incipit": "Summi Maeroris",
+  "englishTitle": "A Call For Public Prayers for Peace",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1950,
+  "date": "1950-07-19",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "eucharist",
+    "family",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints",
+    "science",
+    "social-doctrine"
+  ],
+  "wordCount": 1252,
+  "fileSize": 7402,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s July 19, 1950, the twelfth of our Pontificate."
+}

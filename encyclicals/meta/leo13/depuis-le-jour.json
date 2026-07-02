@@ -1,0 +1,39 @@
+{
+  "slug": "depuis-le-jour",
+  "incipit": "Depuis Le Jour",
+  "englishTitle": "On the Education of the Clergy",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1899,
+  "date": "1899",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "missions",
+    "moral-theology",
+    "prayer",
+    "saints",
+    "social-doctrine",
+    "usury"
+  ],
+  "wordCount": 7413,
+  "fileSize": 44184,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the 8th of September, in the year 1899, the twenty-second of our Pontificate."
+}

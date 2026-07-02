@@ -1,0 +1,36 @@
+{
+  "slug": "lacrimabili-statu",
+  "incipit": "Lacrimabili Statu",
+  "englishTitle": "On the Indians of South America",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": null,
+  "year": 1912,
+  "date": "1912",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "slavery"
+  ],
+  "wordCount": 1730,
+  "fileSize": 9856,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the 7th of June, 1912, in the ninth year of our Pontificate."
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "pastoralis-officii",
+  "incipit": "Pastoralis Officii",
+  "englishTitle": "On the Morality of Dueling",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1891,
+  "date": "1891-09-12",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "moral-theology",
+    "peace",
+    "scripture"
+  ],
+  "wordCount": 1548,
+  "fileSize": 9194,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at the See of St. Peter, September 12, 1891, in the fourteenth year of Our Pontificate."
+}

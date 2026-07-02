@@ -1,0 +1,40 @@
+{
+  "slug": "octobri-mense",
+  "incipit": "Octobri Mense",
+  "englishTitle": "On the Rosary",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1891,
+  "date": "1891-09-22",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries having Grace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "liturgy",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "persecution",
+    "religious-life",
+    "rosary",
+    "saints"
+  ],
+  "wordCount": 4517,
+  "fileSize": 26100,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, St. Peter’s, the 22nd day of September, 1891, in the fourteenth year of Our Pontificate."
+}

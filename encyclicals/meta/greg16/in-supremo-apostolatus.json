@@ -1,0 +1,33 @@
+{
+  "slug": "in-supremo-apostolatus",
+  "incipit": "In Supremo Apostolatus",
+  "englishTitle": "Condemning the Slave Trade",
+  "pope": {
+    "slug": "greg16",
+    "name": "Gregory XVI",
+    "regnalName": "Gregory",
+    "number": 16,
+    "fullName": "Gregory XVI"
+  },
+  "type": "apostolic-letter",
+  "year": 1839,
+  "date": "1839",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "slavery"
+  ],
+  "wordCount": 1185,
+  "fileSize": 7082,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

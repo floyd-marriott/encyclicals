@@ -1,0 +1,32 @@
+{
+  "slug": "decet-romanum-pontificem",
+  "incipit": "Decet Romanum Pontificem",
+  "englishTitle": "Papal Bull of Excommunication of Martin Luther and his followers",
+  "pope": {
+    "slug": "leo10",
+    "name": "Leo X",
+    "regnalName": "Leo",
+    "number": 10,
+    "fullName": "Leo X"
+  },
+  "type": null,
+  "year": 1521,
+  "date": "1521",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "ecclesiology",
+    "moral-theology",
+    "papacy",
+    "prayer"
+  ],
+  "wordCount": 1918,
+  "fileSize": 11773,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

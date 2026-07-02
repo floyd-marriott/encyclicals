@@ -1,0 +1,34 @@
+{
+  "slug": "quarto-abeunte-saeculo",
+  "incipit": "Quarto Abeunte Saeculo",
+  "englishTitle": "On Christopher Columbus",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1892,
+  "date": "1892-07-16",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Archbishops and Bishops of Spain, Italy, and the two Americas.",
+  "addresseeScope": "italy",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "colonialism",
+    "ecclesiology",
+    "family",
+    "moral-theology",
+    "saints"
+  ],
+  "wordCount": 2239,
+  "fileSize": 13150,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, from St. Peter’s, on the 16th day of July, 1892, in the fifteenth year of Our Pontificate."
+}

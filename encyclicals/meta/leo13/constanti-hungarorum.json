@@ -1,0 +1,36 @@
+{
+  "slug": "constanti-hungarorum",
+  "incipit": "Constanti Hungarorum",
+  "englishTitle": "On the Church in Hungary",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1893,
+  "date": "1893",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brothers, the Primate, the Archbishops, Bishops and other Ordinaries, in Peace and Communion with the Holy See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "usury"
+  ],
+  "wordCount": 2601,
+  "fileSize": 15791,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, 2 September 1893, the sixteenth year of Our Pontificate."
+}

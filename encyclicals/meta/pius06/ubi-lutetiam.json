@@ -1,0 +1,33 @@
+{
+  "slug": "ubi-lutetiam",
+  "incipit": "Ubi lutetiam",
+  "englishTitle": null,
+  "pope": {
+    "slug": "pius06",
+    "name": "Pius VI",
+    "regnalName": "Pius",
+    "number": 6,
+    "fullName": "Pius VI"
+  },
+  "type": "apostolic-letter",
+  "year": 1792,
+  "date": "1792-06-13",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": true,
+  "translationSource": "deepl",
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "missions",
+    "moral-theology",
+    "secularism"
+  ],
+  "wordCount": 2837,
+  "fileSize": 17196,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, on June 13, 1792, the eighteenth year of Our Pontificate."
+}

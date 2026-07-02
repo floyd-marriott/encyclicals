@@ -1,0 +1,36 @@
+{
+  "slug": "quo-graviora",
+  "incipit": "Quo Graviora",
+  "englishTitle": "On the Pragmatic Constitution",
+  "pope": {
+    "slug": "greg16",
+    "name": "Gregory XVI",
+    "regnalName": "Gregory",
+    "number": 16,
+    "fullName": "Gregory XVI"
+  },
+  "type": null,
+  "year": 1833,
+  "date": "1833-10-04",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "saints",
+    "slavery"
+  ],
+  "wordCount": 3297,
+  "fileSize": 19203,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Mary Major, under the ring of the fisherman, October 4, 1833, in the third year of Our Pontificate."
+}

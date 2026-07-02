@@ -1,0 +1,34 @@
+{
+  "slug": "neminem-vestrum",
+  "incipit": "Neminem Vestrum",
+  "englishTitle": "On the Persecution of Armenians",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1854,
+  "date": "1854-02-02",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers the Archbishop Primate and the Bishops and to the Beloved Sons, Priests and Religious, and to all the Faithful of the Catholic Nation of Armenia in the Province of Constantinople.",
+  "addresseeScope": "armenia",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "education",
+    "human-dignity",
+    "moral-theology",
+    "papacy",
+    "persecution",
+    "prayer"
+  ],
+  "wordCount": 4580,
+  "fileSize": 27422,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, on February 2, 1854, in the eighth year of Our Pontificate."
+}

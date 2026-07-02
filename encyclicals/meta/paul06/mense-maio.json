@@ -1,0 +1,36 @@
+{
+  "slug": "mense-maio",
+  "incipit": "Mense Maio",
+  "englishTitle": "In the Month of May",
+  "pope": {
+    "slug": "paul06",
+    "name": "Paul VI",
+    "regnalName": "Paul",
+    "number": 6,
+    "fullName": "Paul VI"
+  },
+  "type": null,
+  "year": 1965,
+  "date": "1965",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "marian",
+    "moral-theology",
+    "peace",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 1703,
+  "fileSize": 9814,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

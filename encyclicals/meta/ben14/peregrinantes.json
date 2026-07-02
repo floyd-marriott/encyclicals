@@ -1,0 +1,33 @@
+{
+  "slug": "peregrinantes",
+  "incipit": "Peregrinantes",
+  "englishTitle": "Proclaiming a Holy Year",
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": null,
+  "year": 1749,
+  "date": "1149",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "ecclesiology",
+    "family",
+    "moral-theology",
+    "peace",
+    "science"
+  ],
+  "wordCount": 2665,
+  "fileSize": 15394,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Mary Major, in the year of the Incarnation of our Lord 1149, May 5, the ninth year of our Pontificate."
+}

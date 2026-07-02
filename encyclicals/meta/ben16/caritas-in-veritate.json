@@ -1,0 +1,39 @@
+{
+  "slug": "caritas-in-veritate",
+  "incipit": "Caritas in veritate",
+  "englishTitle": "INTEGRAL HUMAN DEVELOPMENT IN CHARITY AND TRUTH",
+  "pope": {
+    "slug": "ben16",
+    "name": "Benedict XVI",
+    "regnalName": "Benedict",
+    "number": 16,
+    "fullName": "Benedict XVI"
+  },
+  "type": "encyclical-letter",
+  "year": 2009,
+  "date": "2009",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "family",
+    "human-dignity",
+    "justice",
+    "papacy",
+    "peace",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 29006,
+  "fileSize": 214464,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Peter's, on 29 June, the Solemnity of the Holy Apostles Peter and Paul, in the year 2009, the fifth of my Pontificate."
+}

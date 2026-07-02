@@ -1,0 +1,37 @@
+{
+  "slug": "haurietis-aquas",
+  "incipit": "Haurietis Aquas",
+  "englishTitle": "Draw Refreshing Water From the Sacred Heart",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1956,
+  "date": "1956",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "charity",
+    "christology",
+    "ecclesiology",
+    "holy-spirit",
+    "moral-theology",
+    "prayer",
+    "sacred-heart",
+    "saints",
+    "scripture"
+  ],
+  "wordCount": 16679,
+  "fileSize": 95287,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, the 15th of May, 1956, the eighteenth year of Our Pontificate."
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "cum-religiosi",
+  "incipit": "Cum Religiosi",
+  "englishTitle": "On Catechesis",
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "encyclical-letter",
+  "year": 1754,
+  "date": "1754",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "liturgy",
+    "marian",
+    "marriage",
+    "moral-theology",
+    "papacy",
+    "saints"
+  ],
+  "wordCount": 1511,
+  "fileSize": 8911,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

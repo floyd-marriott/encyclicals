@@ -1,0 +1,41 @@
+{
+  "slug": "miserentissimus-redemptor",
+  "incipit": "Miserentissimus Redemptor",
+  "englishTitle": "Reparation to the Sacred Heart",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": "encyclical-letter",
+  "year": 1928,
+  "date": "1928-05-08",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, and other Local Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "liturgy",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "sacred-heart",
+    "social-doctrine"
+  ],
+  "wordCount": 5973,
+  "fileSize": 34353,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the eighth day of May, 1928, in the seventh year of Our Pontificate."
+}

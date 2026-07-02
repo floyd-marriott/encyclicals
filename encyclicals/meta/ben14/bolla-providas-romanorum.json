@@ -1,0 +1,33 @@
+{
+  "slug": "bolla-providas-romanorum",
+  "incipit": "Providas Romanorum",
+  "englishTitle": null,
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "bull",
+  "year": 1740,
+  "date": "1751",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": true,
+  "translationSource": "deepl",
+  "tags": [
+    "christology",
+    "clergy",
+    "moral-theology",
+    "papacy",
+    "saints",
+    "scripture"
+  ],
+  "wordCount": 2562,
+  "fileSize": 15976,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Santa Maria Maggiore, on March 18 in the year of the Incarnation of the Lord 1751, the eleventh year of Our Pontificate."
+}

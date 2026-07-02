@@ -1,0 +1,37 @@
+{
+  "slug": "consueverunt-romani",
+  "incipit": "Consueverunt Romani",
+  "englishTitle": "Call to Prayer",
+  "pope": {
+    "slug": "pius05",
+    "name": "Pius V",
+    "regnalName": "Pius",
+    "number": 5,
+    "fullName": "Pius V"
+  },
+  "type": null,
+  "year": 1569,
+  "date": "1569",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "family",
+    "marian",
+    "papacy",
+    "prayer",
+    "rosary",
+    "saints"
+  ],
+  "wordCount": 595,
+  "fileSize": 3512,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, under the Fisherman’s ring, 17 September 1569, in the fourth year of our Pontificate."
+}

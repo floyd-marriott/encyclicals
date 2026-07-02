@@ -1,0 +1,34 @@
+{
+  "slug": "pieni-l-animo",
+  "incipit": "Pieni L’animo",
+  "englishTitle": "On the Clergy in Italy",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": "apostolic-letter",
+  "year": 1906,
+  "date": "1906",
+  "dateApproximate": true,
+  "addressee": "To the Venerable Brethren, the Archbishops, and Bishops of Italy.",
+  "addresseeScope": "italy",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "holy-spirit",
+    "moral-theology",
+    "saints",
+    "science"
+  ],
+  "wordCount": 2680,
+  "fileSize": 16533,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

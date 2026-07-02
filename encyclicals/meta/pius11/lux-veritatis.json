@@ -1,0 +1,38 @@
+{
+  "slug": "lux-veritatis",
+  "incipit": "Lux Veritatis",
+  "englishTitle": "On the Council of Ephesus",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": "encyclical-letter",
+  "year": 1931,
+  "date": "1931",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries enjoying Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "eucharist",
+    "family",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "social-doctrine"
+  ],
+  "wordCount": 9351,
+  "fileSize": 53517,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, December 25, the Feast of the Nativity of Our Lord Jesus Christ, in the year 1931, the tenth of Our Pontificate."
+}

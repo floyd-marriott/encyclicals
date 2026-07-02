@@ -1,0 +1,37 @@
+{
+  "slug": "anni-sacri",
+  "incipit": "Anni Sacri",
+  "englishTitle": "Combating Atheist",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1950,
+  "date": "1950-03-12",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "family",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "social-doctrine"
+  ],
+  "wordCount": 1491,
+  "fileSize": 8674,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, March 12th, 1950, the twelfth year of Our Pontificate."
+}

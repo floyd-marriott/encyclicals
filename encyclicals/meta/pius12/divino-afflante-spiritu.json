@@ -1,0 +1,39 @@
+{
+  "slug": "divino-afflante-spiritu",
+  "incipit": "Divino Afflante Spiritu",
+  "englishTitle": "(On Sacred Scripture)",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "encyclical-letter",
+  "year": 1943,
+  "date": "1943",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, Patriarchs, Archbishops and other Local Ordinaries enjoying Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "holy-spirit",
+    "human-dignity",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "science",
+    "scripture"
+  ],
+  "wordCount": 10588,
+  "fileSize": 63073,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the 30th of September, the feast of St. Jerome, the greatest Doctor in the exposition of the Sacred Scriptures, in the year 1943, the fifth of Our Pontificate."
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "pacem-dei-munus-pulcherrimum",
+  "incipit": "Pacem, Dei Munus Pulcherrimum",
+  "englishTitle": "On Peace and Christian Reconciliation",
+  "pope": {
+    "slug": "ben15",
+    "name": "Benedict XV",
+    "regnalName": "Benedict",
+    "number": 15,
+    "fullName": "Benedict XV"
+  },
+  "type": null,
+  "year": 1920,
+  "date": "1920",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "moral-theology",
+    "peace",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 3321,
+  "fileSize": 19222,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, Rome, on May 23, the Feast of Pentecost, 1920, and in the sixth year of Our Pontificate."
+}

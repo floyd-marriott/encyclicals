@@ -1,0 +1,36 @@
+{
+  "slug": "acerbo-nimis",
+  "incipit": "Acerbo Nimis",
+  "englishTitle": "On Teaching Christian Doctrine",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": "encyclical-letter",
+  "year": 1905,
+  "date": "1905-04-15",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "saints"
+  ],
+  "wordCount": 4607,
+  "fileSize": 26239,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at Saint Peter’s, on the fifteenth day of April, 1905, in the second year of Our Pontificate."
+}

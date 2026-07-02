@@ -1,0 +1,40 @@
+{
+  "slug": "musicae-sacrae",
+  "incipit": "Musicae Sacrae",
+  "englishTitle": "Sacred Music",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "encyclical-letter",
+  "year": 1955,
+  "date": "1955",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops and other Local Ordinaries in Peace and Communion with the Apostolic See: Health and Apostolic Benediction.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "education",
+    "eucharist",
+    "justice",
+    "liberalism",
+    "liturgy",
+    "missions",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints",
+    "science"
+  ],
+  "wordCount": 7319,
+  "fileSize": 43381,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s in Rome, December 25, on the feast of the Nativity of Our Lord Jesus Christ, in the year 1955, the 17th of Our Pontificate."
+}

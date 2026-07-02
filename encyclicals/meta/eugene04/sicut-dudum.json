@@ -1,0 +1,34 @@
+{
+  "slug": "sicut-dudum",
+  "incipit": "Sicut Dudum",
+  "englishTitle": null,
+  "pope": {
+    "slug": "eugene04",
+    "name": "Eugene IV",
+    "regnalName": "Eugene",
+    "number": 4,
+    "fullName": "Eugene IV"
+  },
+  "type": null,
+  "year": 1435,
+  "date": "1435",
+  "dateApproximate": true,
+  "addressee": "To our venerable brothers, peace and apostolic benediction, etcetera.",
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "slavery"
+  ],
+  "wordCount": 785,
+  "fileSize": 4774,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

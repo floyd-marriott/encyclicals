@@ -1,0 +1,41 @@
+{
+  "slug": "gravibus-ecclesiae",
+  "incipit": "Gravibus Ecclesiae",
+  "englishTitle": "Proclaiming A Jubilee",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1874,
+  "date": "1874",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "eucharist",
+    "human-dignity",
+    "justice",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "religious-life",
+    "saints"
+  ],
+  "wordCount": 2633,
+  "fileSize": 16063,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, 24 December 1874."
+}

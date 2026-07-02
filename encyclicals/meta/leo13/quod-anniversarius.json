@@ -1,0 +1,39 @@
+{
+  "slug": "quod-anniversarius",
+  "incipit": "Quod Anniversarius",
+  "englishTitle": "On His Sacerdotal Jubilee",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1888,
+  "date": "1888",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, and Bishops of the Whole World in Favor and Communion with the Apostolic See",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "justice",
+    "liberalism",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 969,
+  "fileSize": 5593,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, at Rome, at the solemnity of Easter, in the year 1888, the eleventh of our Pontificate."
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "quae-honorem-conditoris-omnium",
+  "incipit": "Quae Honorem Conditoris Omnium",
+  "englishTitle": "Whatever Is for the Honor of the Creator of All",
+  "pope": {
+    "slug": "innoc04",
+    "name": "Innocent IV",
+    "regnalName": "Innocent",
+    "number": 4,
+    "fullName": "Innocent IV"
+  },
+  "type": null,
+  "year": 1243,
+  "date": "1243",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "holy-spirit",
+    "moral-theology",
+    "papacy",
+    "saints",
+    "science",
+    "usury"
+  ],
+  "wordCount": 1952,
+  "fileSize": 11075,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

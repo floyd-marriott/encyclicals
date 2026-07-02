@@ -1,0 +1,37 @@
+{
+  "slug": "mortalium-animos",
+  "incipit": "Mortalium Animos",
+  "englishTitle": "On Religious Unity",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1928,
+  "date": "1928",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "eucharist",
+    "justice",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "usury"
+  ],
+  "wordCount": 4632,
+  "fileSize": 26528,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at Saint Peter’s, on the 6th day of January, on the Feast of the Epiphany of Jesus Christ, our Lord, in the year 1928, and the sixth year of Our Pontificate."
+}

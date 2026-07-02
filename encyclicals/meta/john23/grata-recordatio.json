@@ -1,0 +1,38 @@
+{
+  "slug": "grata-recordatio",
+  "incipit": "Grata Recordatio",
+  "englishTitle": "Miscellaneous Thoughts",
+  "pope": {
+    "slug": "john23",
+    "name": "John XXIII",
+    "regnalName": "John",
+    "number": 23,
+    "fullName": "John XXIII"
+  },
+  "type": null,
+  "year": 1959,
+  "date": "1959-09-26",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "rosary",
+    "saints"
+  ],
+  "wordCount": 1846,
+  "fileSize": 10915,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, in St. Peter’s, on the 26th day of September, in the year 1959, the first of Our Pontificate."
+}

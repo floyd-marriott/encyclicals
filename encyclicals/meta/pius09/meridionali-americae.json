@@ -1,0 +1,35 @@
+{
+  "slug": "meridionali-americae",
+  "incipit": "Meridionali Americae",
+  "englishTitle": "On the Seminary for the Native Clergy",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1865,
+  "date": "1865-09-30",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, Archbishops and Bishops of South America.",
+  "addresseeScope": "america",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "saints"
+  ],
+  "wordCount": 319,
+  "fileSize": 1945,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, September 30, 1865, in the twentieth year of Our Pontificate."
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "quod-hoc-ineunte",
+  "incipit": "Quod Hoc Ineunte",
+  "englishTitle": "Proclaiming a Universal Jubilee",
+  "pope": {
+    "slug": "leo12",
+    "name": "Leo XII",
+    "regnalName": "Leo",
+    "number": 12,
+    "fullName": "Leo XII"
+  },
+  "type": null,
+  "year": 1824,
+  "date": "1824",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "human-dignity",
+    "interfaith",
+    "liberalism",
+    "marian",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 2599,
+  "fileSize": 14938,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, in the year of the Incarnation 1824, on May 24th, in the first year of Our Pontificate."
+}

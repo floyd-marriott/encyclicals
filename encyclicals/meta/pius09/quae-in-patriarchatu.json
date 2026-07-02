@@ -1,0 +1,35 @@
+{
+  "slug": "quae-in-patriarchatu",
+  "incipit": "Quae In Patriarchatu",
+  "englishTitle": "On the Church in Chaldea",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1872,
+  "date": "1872",
+  "dateApproximate": true,
+  "addressee": "To Venerable Brothers, the Archbishops, Bishops, and Beloved Sons, the Monks, and all the Faithful of the Patriarchate of Babylonia of the Chaldeans who have Grace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "missions",
+    "papacy",
+    "social-doctrine"
+  ],
+  "wordCount": 2463,
+  "fileSize": 14655,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

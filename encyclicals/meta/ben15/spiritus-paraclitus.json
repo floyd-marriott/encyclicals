@@ -1,0 +1,37 @@
+{
+  "slug": "spiritus-paraclitus",
+  "incipit": "Spiritus Paraclitus",
+  "englishTitle": "On St. Jerome",
+  "pope": {
+    "slug": "ben15",
+    "name": "Benedict XV",
+    "regnalName": "Benedict",
+    "number": 15,
+    "fullName": "Benedict XV"
+  },
+  "type": null,
+  "year": 1920,
+  "date": "1920-09-15",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "family",
+    "holy-spirit",
+    "moral-theology",
+    "papacy",
+    "saints",
+    "scripture"
+  ],
+  "wordCount": 14043,
+  "fileSize": 81062,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, Rome, September 15, 1920, the seventh year of our Pontificate."
+}

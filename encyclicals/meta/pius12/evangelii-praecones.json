@@ -1,0 +1,41 @@
+{
+  "slug": "evangelii-praecones",
+  "incipit": "Evangelii Praecones",
+  "englishTitle": "Promotion of Catholic Missions",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "encyclical-letter",
+  "year": 1951,
+  "date": "1951",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, Patriarchs, Primates, Archbishops, Bishops and other local Ordinaries enjoying Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "marian",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "social-doctrine",
+    "usury"
+  ],
+  "wordCount": 9540,
+  "fileSize": 56778,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, St. Peter’s, 2nd day of June, the Feast of St. Eugene I, in the year 1951, the 13th of Our Pontificate."
+}

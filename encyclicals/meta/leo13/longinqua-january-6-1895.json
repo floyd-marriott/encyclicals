@@ -1,0 +1,35 @@
+{
+  "slug": "longinqua-january-6-1895",
+  "incipit": "Longinqua (January 6, 1895)",
+  "englishTitle": null,
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": "encyclical-letter",
+  "year": 1895,
+  "date": "1895-01-06",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "family",
+    "marian",
+    "moral-theology",
+    "prayer",
+    "social-doctrine"
+  ],
+  "wordCount": 5395,
+  "fileSize": 32215,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter's, on the feast of the Epiphany, the sixth day of January, 1895, in the seventeenth year of Our Pontificate."
+}

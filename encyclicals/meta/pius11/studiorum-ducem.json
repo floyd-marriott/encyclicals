@@ -1,0 +1,40 @@
+{
+  "slug": "studiorum-ducem",
+  "incipit": "Studiorum Ducem",
+  "englishTitle": "On St. Thomas Aquinas",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1923,
+  "date": "1923",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops and other Ordinaries in Grace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "charity",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "family",
+    "justice",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "saints",
+    "science"
+  ],
+  "wordCount": 6766,
+  "fileSize": 39499,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s on the 29th day of June, the feast of the Princes of the Apostles, in the year 1923, the second year of Our Pontificate."
+}

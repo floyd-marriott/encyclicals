@@ -1,0 +1,41 @@
+{
+  "slug": "ad-apostolorum-principis",
+  "incipit": "Ad Apostolorum Principis",
+  "englishTitle": "Communism and the Church in China",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "encyclical-letter",
+  "year": 1958,
+  "date": "1958",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren and Beloved Children, the Archbishops, Bishops, other Local Ordinaries, and Clergy and People of China in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "communism",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "religious-life",
+    "saints",
+    "usury"
+  ],
+  "wordCount": 4629,
+  "fileSize": 27641,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, in Rome, June 29th, the feast of the Holy Apostles Peter and Paul, in the year 1958, the 20th of Our Pontificate."
+}

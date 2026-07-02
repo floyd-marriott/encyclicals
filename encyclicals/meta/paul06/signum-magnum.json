@@ -1,0 +1,39 @@
+{
+  "slug": "signum-magnum",
+  "incipit": "Signum Magnum",
+  "englishTitle": "The Great Sign - On Devotion to the Most Blessed Mary",
+  "pope": {
+    "slug": "paul06",
+    "name": "Paul VI",
+    "regnalName": "Paul",
+    "number": 6,
+    "fullName": "Paul VI"
+  },
+  "type": null,
+  "year": 1967,
+  "date": "1967",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "colonialism",
+    "ecclesiology",
+    "ecumenism",
+    "holy-spirit",
+    "liturgy",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 4554,
+  "fileSize": 26440,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter, on the 13th day of the month of May in the year 1967, the fourth of our pontificate."
+}

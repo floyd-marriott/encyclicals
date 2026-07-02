@@ -1,0 +1,35 @@
+{
+  "slug": "inscrutabile",
+  "incipit": "Inscrutabile",
+  "englishTitle": "On the Problems of the Pontificate",
+  "pope": {
+    "slug": "pius06",
+    "name": "Pius VI",
+    "regnalName": "Pius",
+    "number": 6,
+    "fullName": "Pius VI"
+  },
+  "type": null,
+  "year": 1775,
+  "date": "1775",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "religious-life",
+    "slavery"
+  ],
+  "wordCount": 3361,
+  "fileSize": 19191,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome in St. Peter’s, 25 December 1775 in the first year of Our Pontificate."
+}

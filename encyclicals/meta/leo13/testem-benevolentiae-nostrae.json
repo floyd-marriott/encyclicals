@@ -1,0 +1,35 @@
+{
+  "slug": "testem-benevolentiae-nostrae",
+  "incipit": "Testem Benevolentiae Nostrae",
+  "englishTitle": "Concerning New Opinions, Virtue, Nature and Grace, With Regard to Americanism",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1899,
+  "date": "1899-01-22",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "moral-theology",
+    "peace",
+    "usury"
+  ],
+  "wordCount": 4302,
+  "fileSize": 24649,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, from St. Peter’s, the 22nd day of January, 1899, and the twenty-first of our pontificate."
+}

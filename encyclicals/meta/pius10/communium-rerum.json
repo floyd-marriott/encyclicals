@@ -1,0 +1,39 @@
+{
+  "slug": "communium-rerum",
+  "incipit": "Communium Rerum",
+  "englishTitle": "On St. Anselm of Aosta",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": "encyclical-letter",
+  "year": 1909,
+  "date": "1909-04-21",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 11533,
+  "fileSize": 65682,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s on the Feast of St. Anselm, April 21, 1909, in the eighth year of Our Pontificate."
+}

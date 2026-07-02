@@ -1,0 +1,42 @@
+{
+  "slug": "rite-expiatis",
+  "incipit": "Rite Expiatis",
+  "englishTitle": "On St. Francis of Assisi",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1926,
+  "date": "1926-04-30",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "catholic-action",
+    "christology",
+    "clergy",
+    "eucharist",
+    "family",
+    "justice",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints",
+    "social-doctrine",
+    "st-francis"
+  ],
+  "wordCount": 9694,
+  "fileSize": 55187,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the thirtieth day of April, in the year 1926, the fifth of Our Pontificate."
+}

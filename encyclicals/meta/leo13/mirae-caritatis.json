@@ -1,0 +1,39 @@
+{
+  "slug": "mirae-caritatis",
+  "incipit": "Mirae Caritatis",
+  "englishTitle": "On the Holy Eucharist",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1902,
+  "date": "1902",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "peace",
+    "prayer",
+    "religious-life",
+    "sacred-heart",
+    "saints"
+  ],
+  "wordCount": 6957,
+  "fileSize": 39412,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s on the 28th day of May, being the Vigil of the Solemnity of Corpus Christi, in the year 1902, of Our Pontificate the five and twentieth."
+}

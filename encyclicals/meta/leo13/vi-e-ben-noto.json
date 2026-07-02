@@ -1,0 +1,38 @@
+{
+  "slug": "vi-e-ben-noto",
+  "incipit": "Vi E Ben Noto",
+  "englishTitle": "On the Rosary and Public Life",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1887,
+  "date": "1887",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "family",
+    "marian",
+    "moral-theology",
+    "peace",
+    "prayer",
+    "rosary",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 1248,
+  "fileSize": 7040,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at the Vatican this 20th day of September 1887."
+}

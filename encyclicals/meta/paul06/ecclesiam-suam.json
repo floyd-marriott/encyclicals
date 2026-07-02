@@ -1,0 +1,43 @@
+{
+  "slug": "ecclesiam-suam",
+  "incipit": "Ecclesiam Suam",
+  "englishTitle": "Paths of the Church",
+  "pope": {
+    "slug": "paul06",
+    "name": "Paul VI",
+    "regnalName": "Paul",
+    "number": 6,
+    "fullName": "Paul VI"
+  },
+  "type": null,
+  "year": 1964,
+  "date": "1964",
+  "dateApproximate": true,
+  "addressee": "TO OUR VENERABLE BROTHERS",
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "education",
+    "eucharist",
+    "family",
+    "marian",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 18057,
+  "fileSize": 104730,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

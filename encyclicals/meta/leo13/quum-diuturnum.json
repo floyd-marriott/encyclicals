@@ -1,0 +1,35 @@
+{
+  "slug": "quum-diuturnum",
+  "incipit": "Quum Diuturnum",
+  "englishTitle": "On the Latin American Bishops' Plenary Council",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1898,
+  "date": "1898",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "liberalism",
+    "moral-theology",
+    "papacy",
+    "saints",
+    "usury"
+  ],
+  "wordCount": 497,
+  "fileSize": 2867,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s on the very day of the birth of Our Lord Jesus Christ, 1898, in the twenty-first year of Our Pontificate."
+}

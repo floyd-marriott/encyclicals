@@ -1,0 +1,34 @@
+{
+  "slug": "charitas",
+  "incipit": "Charitas",
+  "englishTitle": "In the Civil Oath in France",
+  "pope": {
+    "slug": "pius06",
+    "name": "Pius VI",
+    "regnalName": "Pius",
+    "number": 6,
+    "fullName": "Pius VI"
+  },
+  "type": null,
+  "year": 1791,
+  "date": "1791-04-13",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "family",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "science"
+  ],
+  "wordCount": 5628,
+  "fileSize": 33303,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome in St. Peter’s under the Ring of the Fisherman on April 13, 1791, in the 17th year of Our pontificate."
+}

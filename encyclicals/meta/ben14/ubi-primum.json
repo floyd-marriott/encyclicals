@@ -1,0 +1,38 @@
+{
+  "slug": "ubi-primum",
+  "incipit": "Ubi Primum",
+  "englishTitle": "On the Duties of Bishops",
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": null,
+  "year": 1740,
+  "date": "1740-12-03",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brothers, the Patriarchs, the Primates, the Archbishops, and the Bishops.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "family",
+    "justice",
+    "liturgy",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 2326,
+  "fileSize": 13318,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Mary Major, on the third day of December, 1740, the first year of Our pontificate."
+}

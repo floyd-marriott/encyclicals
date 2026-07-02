@@ -1,0 +1,35 @@
+{
+  "slug": "allatae-sunt",
+  "incipit": "Allatae Sunt",
+  "englishTitle": "On the Observance of Oriental Rites",
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "encyclical-letter",
+  "year": 1755,
+  "date": "1755",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "eucharist",
+    "liturgy",
+    "marian",
+    "missions",
+    "moral-theology"
+  ],
+  "wordCount": 17271,
+  "fileSize": 102489,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

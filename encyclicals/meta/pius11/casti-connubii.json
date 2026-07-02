@@ -1,0 +1,37 @@
+{
+  "slug": "casti-connubii",
+  "incipit": "Casti Connubii",
+  "englishTitle": "On Christian Marriage",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1930,
+  "date": "1930",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren, Patriarchs, Primates, Archbishops, Bishops and other Local Ordinaries enjoying Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "family",
+    "marriage",
+    "moral-theology",
+    "papacy",
+    "peace"
+  ],
+  "wordCount": 19230,
+  "fileSize": 111492,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, in Saint Peter’s, this 31st day of December, of the year 1930, the ninth of Our Pontificate."
+}

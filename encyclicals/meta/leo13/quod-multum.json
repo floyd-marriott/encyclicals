@@ -1,0 +1,35 @@
+{
+  "slug": "quod-multum",
+  "incipit": "Quod Multum",
+  "englishTitle": "On the Liberty of the Church",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1886,
+  "date": "1886-08-22",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 3890,
+  "fileSize": 22899,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, August 22, 1886, in the ninth year of Our pontificate."
+}

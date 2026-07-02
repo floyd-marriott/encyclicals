@@ -1,0 +1,35 @@
+{
+  "slug": "haerent-animo",
+  "incipit": "Haerent Animo",
+  "englishTitle": null,
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": null,
+  "year": 1908,
+  "date": "1908",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "modernism",
+    "moral-theology",
+    "papacy",
+    "religious-life",
+    "saints"
+  ],
+  "wordCount": 9969,
+  "fileSize": 57670,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, 4 August 1908, at the beginning of the sixth year of our pontificate."
+}

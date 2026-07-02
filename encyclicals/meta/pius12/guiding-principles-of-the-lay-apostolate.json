@@ -1,0 +1,35 @@
+{
+  "slug": "guiding-principles-of-the-lay-apostolate",
+  "incipit": "Guiding Principles Of The Lay Apostolate",
+  "englishTitle": null,
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1957,
+  "date": "1957",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "catholic-action",
+    "clergy",
+    "colonialism",
+    "ecclesiology",
+    "moral-theology",
+    "peace",
+    "persecution",
+    "social-doctrine"
+  ],
+  "wordCount": 8584,
+  "fileSize": 52040,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

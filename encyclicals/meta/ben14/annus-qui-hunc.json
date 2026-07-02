@@ -1,0 +1,34 @@
+{
+  "slug": "annus-qui-hunc",
+  "incipit": "Annus Qui Hunc",
+  "englishTitle": "On the upkeep and cleanliness of Churches",
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": null,
+  "year": 1749,
+  "date": "1749-02-19",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "moral-theology",
+    "peace",
+    "prayer"
+  ],
+  "wordCount": 11226,
+  "fileSize": 65314,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at Saint Mary Major on the 19th day of February 1749, the ninth year of Our Pontificate."
+}

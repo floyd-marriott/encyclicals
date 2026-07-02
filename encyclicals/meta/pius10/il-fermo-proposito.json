@@ -1,0 +1,36 @@
+{
+  "slug": "il-fermo-proposito",
+  "incipit": "Il Fermo Proposito",
+  "englishTitle": "On Catholic Action in Italy",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": "encyclical-letter",
+  "year": 1905,
+  "date": "1905",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "catholic-action",
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "family",
+    "marian",
+    "moral-theology",
+    "prayer"
+  ],
+  "wordCount": 5407,
+  "fileSize": 32191,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

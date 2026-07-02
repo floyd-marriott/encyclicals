@@ -1,0 +1,36 @@
+{
+  "slug": "etsi-cunctas",
+  "incipit": "Etsi Cunctas",
+  "englishTitle": "On the Church in Ireland",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1888,
+  "date": "1888",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "family",
+    "justice",
+    "liturgy",
+    "moral-theology",
+    "papacy",
+    "saints"
+  ],
+  "wordCount": 409,
+  "fileSize": 2459,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, 21 December, 1888, in the eleventh year of Our pontificate."
+}

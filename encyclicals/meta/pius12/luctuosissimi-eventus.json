@@ -1,0 +1,40 @@
+{
+  "slug": "luctuosissimi-eventus",
+  "incipit": "Luctuosissimi Eventus",
+  "englishTitle": "Prayers for Peace and Freedom of Hungary",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1956,
+  "date": "1956",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "communism",
+    "ecclesiology",
+    "eucharist",
+    "human-dignity",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "science"
+  ],
+  "wordCount": 881,
+  "fileSize": 5146,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome from St. Peter’s on the 28th day of October, the Feast of our Lord Jesus Christ the King, in the year 1956, the 18th of Our Pontificate."
+}

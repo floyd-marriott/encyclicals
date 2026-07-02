@@ -1,0 +1,35 @@
+{
+  "slug": "breve-in-suprema-catholicae",
+  "incipit": "In Suprema Catholicae",
+  "englishTitle": null,
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "brief",
+  "year": 1740,
+  "date": "1744-11-20",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": true,
+  "translationSource": "deepl",
+  "tags": [
+    "christology",
+    "ecclesiology",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 1851,
+  "fileSize": 11413,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Santa Maria Maggiore, under the Fisherman’s Ring, on November 20, 1744, the fifth year of Our Pontificate."
+}

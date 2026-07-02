@@ -1,0 +1,41 @@
+{
+  "slug": "ecclesiae-fastos",
+  "incipit": "Ecclesiae Fastos",
+  "englishTitle": "St. Boniface",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1954,
+  "date": "1954",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brothers the Archbishops, Bishops, and other Local Ordinaries of Great Britain, Germany, Austria, France, Belgium and Holland at Peace and in Communion with the Apostolic See.",
+  "addresseeScope": "france",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "liberalism",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "persecution",
+    "prayer",
+    "saints",
+    "science"
+  ],
+  "wordCount": 6591,
+  "fileSize": 38860,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s the fifth day of June, on the Feast of St. Boniface, Bishop and Martyr, in the year 1954, the sixteenth of Our Pontificate."
+}

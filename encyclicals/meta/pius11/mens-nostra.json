@@ -1,0 +1,37 @@
+{
+  "slug": "mens-nostra",
+  "incipit": "Mens Nostra",
+  "englishTitle": "Promotion of the Spiritual Exercises",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": "apostolic-constitution",
+  "year": 1929,
+  "date": "1929-12-20",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "eucharist",
+    "family",
+    "justice",
+    "liberalism",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer"
+  ],
+  "wordCount": 6389,
+  "fileSize": 38174,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s Rome, on the twentieth day of December, 1929, the eighth year of Our Pontificate ."
+}

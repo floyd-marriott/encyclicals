@@ -1,0 +1,38 @@
+{
+  "slug": "invicti-athletae",
+  "incipit": "Invicti Athletae",
+  "englishTitle": "St. Andrew Bobola",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1957,
+  "date": "1957",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "family",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "persecution",
+    "saints"
+  ],
+  "wordCount": 3403,
+  "fileSize": 20017,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, in St. Peter’s, the 16th day of May — anniversary of the day when three hundred years ago St. Andrew Bobola won the Martyr’s palm — 1957, the 19th of Our Pontificate."
+}

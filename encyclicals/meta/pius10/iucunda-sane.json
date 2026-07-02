@@ -1,0 +1,33 @@
+{
+  "slug": "iucunda-sane",
+  "incipit": "Iucunda Sane",
+  "englishTitle": "On Pope Gregory the Great",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": "encyclical-letter",
+  "year": 1904,
+  "date": "1904",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "moral-theology",
+    "papacy",
+    "peace"
+  ],
+  "wordCount": 7392,
+  "fileSize": 42308,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s on March 12, of the year 1904, on the feast of St. Gregory I. Pope and Doctor of the Church, in the first year of Our Pontificate."
+}

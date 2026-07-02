@@ -1,0 +1,30 @@
+{
+  "slug": "fratelli-tutti",
+  "incipit": "Fratelli tutti",
+  "englishTitle": "FRATERNITY AND SOCIAL FRIENDSHIP",
+  "pope": {
+    "slug": "franc",
+    "name": "Francis",
+    "regnalName": "Francis",
+    "number": 1,
+    "fullName": "Francis"
+  },
+  "type": "encyclical-letter",
+  "year": 2020,
+  "date": "2020-10-03",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "saints",
+    "social-doctrine",
+    "st-francis"
+  ],
+  "wordCount": 41574,
+  "fileSize": 306045,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

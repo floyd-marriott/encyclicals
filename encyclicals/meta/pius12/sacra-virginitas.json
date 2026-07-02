@@ -1,0 +1,40 @@
+{
+  "slug": "sacra-virginitas",
+  "incipit": "Sacra Virginitas",
+  "englishTitle": "On Holy Virginity",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": null,
+  "year": 1954,
+  "date": "1954",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brothers, the Patriarchs, Primates, Archbishops, Bishops, and other Local Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "justice",
+    "marian",
+    "marriage",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "religious-life",
+    "saints"
+  ],
+  "wordCount": 11100,
+  "fileSize": 64815,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, March 25th, Feast of the Annunciation of the Blessed Virgin Mary, 1954, in the sixteenth year of Our Pontificate."
+}

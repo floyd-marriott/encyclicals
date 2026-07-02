@@ -1,0 +1,41 @@
+{
+  "slug": "cum-sancta-mater-ecclesia",
+  "incipit": "Cum Sancta Mater Ecclesia",
+  "englishTitle": "Pleading for Public Prayer",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": null,
+  "year": 1858,
+  "date": "1859",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brothers, the Patriarchs, Primates, Archbishops, Bishops and other Ordinaries in Friendship and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "angels",
+    "charity",
+    "christology",
+    "clergy",
+    "colonialism",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "liturgy",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer"
+  ],
+  "wordCount": 635,
+  "fileSize": 3755,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, 27 April, 1859, in the 13th year of Our Pontificate."
+}

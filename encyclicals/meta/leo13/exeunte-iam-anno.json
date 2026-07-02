@@ -1,0 +1,36 @@
+{
+  "slug": "exeunte-iam-anno",
+  "incipit": "Exeunte Iam Anno",
+  "englishTitle": "On Right Ordering of Christian Life",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1888,
+  "date": "1888",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "social-doctrine"
+  ],
+  "wordCount": 5176,
+  "fileSize": 28901,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome at St. Peter’s, on the birthday of Our Lord Jesus Christ; in the year 1888; the eleventh of Our Pontificate. <hr< <p=””>ENDNOTES:"
+}

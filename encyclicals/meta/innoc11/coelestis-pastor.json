@@ -1,0 +1,37 @@
+{
+  "slug": "coelestis-pastor",
+  "incipit": "Coelestis Pastor",
+  "englishTitle": "Condemning the Errors of Miguel de Molinos",
+  "pope": {
+    "slug": "innoc11",
+    "name": "Innocent XI",
+    "regnalName": "Innocent",
+    "number": 11,
+    "fullName": "Innocent XI"
+  },
+  "type": null,
+  "year": 1687,
+  "date": "1687",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "ecclesiology",
+    "education",
+    "family",
+    "holy-spirit",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints",
+    "scripture"
+  ],
+  "wordCount": 4367,
+  "fileSize": 25289,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

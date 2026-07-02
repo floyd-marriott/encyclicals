@@ -1,0 +1,40 @@
+{
+  "slug": "grande-munus",
+  "incipit": "Grande Munus",
+  "englishTitle": "On Saints Cyril and Methodius",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1880,
+  "date": "1880-09-30",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "liturgy",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "religious-life",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 3094,
+  "fileSize": 18189,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter’s, on September 30, 1880, in the third year of Our Pontificate."
+}

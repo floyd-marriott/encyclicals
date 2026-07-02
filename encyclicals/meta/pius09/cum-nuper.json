@@ -1,0 +1,37 @@
+{
+  "slug": "cum-nuper",
+  "incipit": "Cum Nuper",
+  "englishTitle": "On Care for Clerics",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": "encyclical-letter",
+  "year": 1858,
+  "date": "1858",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brothers, the Archbishops, Bishops and other Ordinaries of the Kingdom of the Two Sicilies.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "liberalism",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "scripture",
+    "social-doctrine"
+  ],
+  "wordCount": 1751,
+  "fileSize": 10682,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, 20 January 1858, in the 12th year of Our Pontificate."
+}

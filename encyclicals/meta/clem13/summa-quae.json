@@ -1,0 +1,34 @@
+{
+  "slug": "summa-quae",
+  "incipit": "Summa Quae",
+  "englishTitle": "On the Church in Poland",
+  "pope": {
+    "slug": "clem13",
+    "name": "Clement XIII",
+    "regnalName": "Clement",
+    "number": 13,
+    "fullName": "Clement XIII"
+  },
+  "type": null,
+  "year": 1768,
+  "date": "1768",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brothers, the Archbishops, and Bishops of the Kingdom of Poland.",
+  "addresseeScope": "poland",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "missions",
+    "moral-theology",
+    "prayer",
+    "religious-life"
+  ],
+  "wordCount": 1021,
+  "fileSize": 5951,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Mary Major under the Fisherman’s ring, 6 January 1768, in the 10th year of Our pontificate."
+}

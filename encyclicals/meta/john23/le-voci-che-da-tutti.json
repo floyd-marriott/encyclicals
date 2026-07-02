@@ -1,0 +1,38 @@
+{
+  "slug": "le-voci-che-da-tutti",
+  "incipit": "Le voci che da tutti",
+  "englishTitle": "For the protection of St Joseph on the Second Vatican Council",
+  "pope": {
+    "slug": "john23",
+    "name": "John XXIII",
+    "regnalName": "John",
+    "number": 23,
+    "fullName": "John XXIII"
+  },
+  "type": null,
+  "year": 1961,
+  "date": null,
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "liturgy",
+    "marian",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints",
+    "social-doctrine"
+  ],
+  "wordCount": 2667,
+  "fileSize": 19661,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at the Basilica of St. Peter in the Vatican, March 19, in the third year of our pontificate. Pope John XXIII."
+}

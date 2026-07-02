@@ -1,0 +1,33 @@
+{
+  "slug": "enciclica-gravissimum-supremi",
+  "incipit": "Gravissimum Supremi",
+  "englishTitle": null,
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "encyclical-letter",
+  "year": 1740,
+  "date": "1745-09-08",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, Archbishops, Bishops, and Ordinaries of the Kingdom of Naples.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": true,
+  "translationSource": "deepl",
+  "tags": [
+    "christology",
+    "clergy",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "saints"
+  ],
+  "wordCount": 3002,
+  "fileSize": 17841,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Santa Maria Maggiore, on September 8, 1745, the sixth year of Our Pontificate."
+}

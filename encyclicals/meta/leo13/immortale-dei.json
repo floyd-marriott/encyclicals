@@ -1,0 +1,37 @@
+{
+  "slug": "immortale-dei",
+  "incipit": "Immortale Dei",
+  "englishTitle": "On the Christian Constitution of States",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1885,
+  "date": "1885-11-01",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "saints"
+  ],
+  "wordCount": 9714,
+  "fileSize": 56034,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s in Rome, the first day of November, 1885, the seventh year of Our pontificate."
+}

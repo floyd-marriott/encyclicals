@@ -1,0 +1,33 @@
+{
+  "slug": "bolla-officii-nostri",
+  "incipit": "Officii Nostri",
+  "englishTitle": null,
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "bull",
+  "year": 1740,
+  "date": "1749",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": true,
+  "translationSource": "deepl",
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "justice",
+    "papacy",
+    "saints"
+  ],
+  "wordCount": 4874,
+  "fileSize": 30294,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at Saint Mary Major, on March 15, in the year 1749 of the Incarnation of the Lord, the tenth year of Our Pontificate."
+}

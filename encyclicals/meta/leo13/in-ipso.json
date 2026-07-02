@@ -1,0 +1,37 @@
+{
+  "slug": "in-ipso",
+  "incipit": "In Ipso",
+  "englishTitle": "On Episcopal Reunions in Austria",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1891,
+  "date": "1891",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "clergy",
+    "ecclesiology",
+    "education",
+    "holy-spirit",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "secularism",
+    "usury"
+  ],
+  "wordCount": 1651,
+  "fileSize": 10006,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, 3 March 1891, in the 14th year of Our Pontificate."
+}

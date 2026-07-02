@@ -1,0 +1,38 @@
+{
+  "slug": "a-quo-primum",
+  "incipit": "A Quo Primum",
+  "englishTitle": "On Jews and Christians Living in the Same Place",
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": null,
+  "year": 1751,
+  "date": "1751",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "human-dignity",
+    "interfaith",
+    "marian",
+    "moral-theology",
+    "persecution",
+    "prayer",
+    "religious-life",
+    "science"
+  ],
+  "wordCount": 2211,
+  "fileSize": 13067,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

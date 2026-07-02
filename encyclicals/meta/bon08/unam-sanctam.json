@@ -1,0 +1,38 @@
+{
+  "slug": "unam-sanctam",
+  "incipit": "Unam Sanctam",
+  "englishTitle": "One God, One Faith, One Spiritual Authority",
+  "pope": {
+    "slug": "bon08",
+    "name": "Boniface VIII",
+    "regnalName": "Boniface",
+    "number": 8,
+    "fullName": "Boniface VIII"
+  },
+  "type": null,
+  "year": 1302,
+  "date": "1302",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "marian",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 997,
+  "fileSize": 5641,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

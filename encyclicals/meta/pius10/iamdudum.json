@@ -1,0 +1,39 @@
+{
+  "slug": "iamdudum",
+  "incipit": "Iamdudum",
+  "englishTitle": "On the Law of Separation in Portugal",
+  "pope": {
+    "slug": "pius10",
+    "name": "Pius X",
+    "regnalName": "Pius",
+    "number": 10,
+    "fullName": "Pius X"
+  },
+  "type": null,
+  "year": 1911,
+  "date": "1911",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and the Ordinaries of other places in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "colonialism",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "secularism",
+    "slavery"
+  ],
+  "wordCount": 2676,
+  "fileSize": 15489,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at St. Peter’s, Rome, on the 24th day of May, on the feast of Our Lady Mary, the Help of Christians, in the year 1911, and the eighth of Our Pontificate."
+}

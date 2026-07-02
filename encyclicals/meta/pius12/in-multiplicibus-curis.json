@@ -1,0 +1,35 @@
+{
+  "slug": "in-multiplicibus-curis",
+  "incipit": "In Multiplicibus Curis",
+  "englishTitle": "Prayers for Peace in Palestine",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "encyclical-letter",
+  "year": 1948,
+  "date": "1948",
+  "dateApproximate": true,
+  "addressee": "To the Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "eucharist",
+    "family",
+    "justice",
+    "papacy",
+    "peace",
+    "prayer"
+  ],
+  "wordCount": 1049,
+  "fileSize": 6222,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

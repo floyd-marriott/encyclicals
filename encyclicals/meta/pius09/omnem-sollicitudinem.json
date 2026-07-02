@@ -1,0 +1,38 @@
+{
+  "slug": "omnem-sollicitudinem",
+  "incipit": "Omnem Sollicitudinem",
+  "englishTitle": "On the Greek-Ruthenian Rite",
+  "pope": {
+    "slug": "pius09",
+    "name": "Pius IX",
+    "regnalName": "Pius",
+    "number": 9,
+    "fullName": "Pius IX"
+  },
+  "type": "encyclical-letter",
+  "year": 1874,
+  "date": "1874",
+  "dateApproximate": true,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "eucharist",
+    "liturgy",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "saints"
+  ],
+  "wordCount": 1564,
+  "fileSize": 9865,
+  "hasClosingDate": false,
+  "rawClosingDate": null
+}

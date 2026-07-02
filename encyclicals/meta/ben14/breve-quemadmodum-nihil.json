@@ -1,0 +1,38 @@
+{
+  "slug": "breve-quemadmodum-nihil",
+  "incipit": "Quemadmodum Nihil",
+  "englishTitle": null,
+  "pope": {
+    "slug": "ben14",
+    "name": "Benedict XIV",
+    "regnalName": "Benedict",
+    "number": 14,
+    "fullName": "Benedict XIV"
+  },
+  "type": "brief",
+  "year": 1740,
+  "date": "1746-12-16",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brothers, Patriarchs, Primates, Metropolitans, Archbishops, Bishops, and all Ordinary Prelates of those places that are at peace and in communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": true,
+  "translationSource": "deepl",
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "eucharist",
+    "family",
+    "holy-spirit",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer"
+  ],
+  "wordCount": 1150,
+  "fileSize": 7176,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at Saint Mary Major, under the Fisherman’s Ring, on December 16, 1746, the sixth year of Our Pontificate."
+}

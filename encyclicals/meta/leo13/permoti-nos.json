@@ -1,0 +1,32 @@
+{
+  "slug": "permoti-nos",
+  "incipit": "Permoti Nos",
+  "englishTitle": "On Social Conditions in Belgium",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1895,
+  "date": "1895",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "education",
+    "moral-theology",
+    "social-doctrine"
+  ],
+  "wordCount": 1550,
+  "fileSize": 9263,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome at St. Peter’s, 10 July 1895, in the eighteenth year of Our pontificate."
+}

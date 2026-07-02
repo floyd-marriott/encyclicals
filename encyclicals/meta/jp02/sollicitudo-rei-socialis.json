@@ -1,0 +1,39 @@
+{
+  "slug": "sollicitudo-rei-socialis",
+  "incipit": "Sollicitudo Rei Socialis",
+  "englishTitle": null,
+  "pope": {
+    "slug": "jp02",
+    "name": "John Paul II",
+    "regnalName": "John Paul",
+    "number": 2,
+    "fullName": "John Paul II"
+  },
+  "type": "encyclical-letter",
+  "year": 1987,
+  "date": "1987",
+  "dateApproximate": false,
+  "addressee": null,
+  "addresseeScope": null,
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "ecumenism",
+    "education",
+    "holy-spirit",
+    "human-dignity",
+    "missions",
+    "moral-theology",
+    "papacy",
+    "science",
+    "social-doctrine"
+  ],
+  "wordCount": 22964,
+  "fileSize": 141362,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Rome, at St. Peter's, on December 30 of the year 1987, the tenth of my Pontificate."
+}

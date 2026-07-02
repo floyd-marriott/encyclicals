@@ -1,0 +1,41 @@
+{
+  "slug": "quadragesimo-anno",
+  "incipit": "Quadragesimo Anno",
+  "englishTitle": "Reconstruction of the Social Order",
+  "pope": {
+    "slug": "pius11",
+    "name": "Pius XI",
+    "regnalName": "Pius",
+    "number": 11,
+    "fullName": "Pius XI"
+  },
+  "type": null,
+  "year": 1931,
+  "date": "1931-05-15",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops and other Ordinaries in Peace and Communion with the Holy See, and Likewise to All the Faithful of the Catholic World.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "eucharist",
+    "family",
+    "human-dignity",
+    "justice",
+    "marriage",
+    "moral-theology",
+    "peace",
+    "social-doctrine",
+    "socialism"
+  ],
+  "wordCount": 20087,
+  "fileSize": 120803,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at Saint Peter’s, the fifteenth day of May, in the year 1931, the tenth year of Our Pontificate."
+}
