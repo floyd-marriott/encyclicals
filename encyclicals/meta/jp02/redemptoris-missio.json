@@ -1,7 +1,7 @@
 {
   "slug": "redemptoris-missio",
   "incipit": "Redemptoris Missio",
-  "englishTitle": null,
+  "englishTitle": "the permanent validity of the Church's missionary mandate",
   "pope": {
     "slug": "jp02",
     "name": "John Paul II",
@@ -9,7 +9,7 @@
     "number": 2,
     "fullName": "John Paul II"
   },
-  "type": null,
+  "type": "encyclical-letter",
   "year": 1990,
   "date": "1990",
   "dateApproximate": false,

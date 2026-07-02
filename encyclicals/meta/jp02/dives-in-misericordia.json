@@ -9,7 +9,7 @@
     "number": 2,
     "fullName": "John Paul II"
   },
-  "type": null,
+  "type": "encyclical-letter",
   "year": 1980,
   "date": "1980",
   "dateApproximate": false,

@@ -11,10 +11,10 @@
   },
   "type": "encyclical-letter",
   "year": 1910,
-  "date": "1910",
-  "dateApproximate": true,
-  "addressee": null,
-  "addresseeScope": null,
+  "date": "1910-05-26",
+  "dateApproximate": false,
+  "addressee": "To the Patriarchs, Primates, Archbishops, Bishops and other Ordinaries in Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
   "language": "en",
   "translated": false,
   "translationSource": null,
@@ -35,6 +35,6 @@
   ],
   "wordCount": 8319,
   "fileSize": 49859,
-  "hasClosingDate": false,
-  "rawClosingDate": null
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Saint Peter’s, Rome, on May 26, 1910, in the seventh year of Our Pontificate."
 }

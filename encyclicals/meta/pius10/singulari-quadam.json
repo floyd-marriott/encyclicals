@@ -11,8 +11,8 @@
   },
   "type": "encyclical-letter",
   "year": 1912,
-  "date": "1912",
-  "dateApproximate": true,
+  "date": "1912-09-24",
+  "dateApproximate": false,
   "addressee": null,
   "addresseeScope": null,
   "language": "en",
@@ -33,6 +33,6 @@
   ],
   "wordCount": 1929,
   "fileSize": 12162,
-  "hasClosingDate": false,
-  "rawClosingDate": null
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Saint Peter’s, Rome, on September 24, 1912, the tenth year of Our Pontificate."
 }

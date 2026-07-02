@@ -1,7 +1,7 @@
 {
   "slug": "evangelium-vitae",
   "incipit": "Evangelium Vitae",
-  "englishTitle": null,
+  "englishTitle": "On the Value and Inviolability",
   "pope": {
     "slug": "jp02",
     "name": "John Paul II",
@@ -9,11 +9,11 @@
     "number": 2,
     "fullName": "John Paul II"
   },
-  "type": null,
+  "type": "encyclical-letter",
   "year": 1995,
   "date": "1995",
   "dateApproximate": false,
-  "addressee": null,
+  "addressee": "d to our brothers and sisters.",
   "addresseeScope": null,
   "language": "en",
   "translated": false,

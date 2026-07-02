@@ -11,9 +11,9 @@
   },
   "type": null,
   "year": 1226,
-  "date": "1226",
-  "dateApproximate": true,
-  "addressee": null,
+  "date": null,
+  "dateApproximate": false,
+  "addressee": "to our brothers, let them send them to their ministers provincial to whom alone, and not to others, is the permission to receive friars conceded.",
   "addresseeScope": null,
   "language": "en",
   "translated": false,
@@ -33,6 +33,6 @@
   ],
   "wordCount": 2334,
   "fileSize": 13643,
-  "hasClosingDate": false,
-  "rawClosingDate": null
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at the Lateran, on the third day of the Kalens of December, in the eight year of Our Pontificate."
 }

@@ -56,6 +56,114 @@ const POPE_INFO = {
   sixtus05:  { regnalName: 'Sixtus',     number: 5,  fullName: 'Sixtus V',      pontificateStart: 1585, pontificateEnd: 1590 },
 };
 
+function romanToArabic(roman) {
+  const map = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
+  const s = roman.toUpperCase();
+  let total = 0;
+  for (let i = 0; i < s.length; i++) {
+    const cur = map[s[i]];
+    const next = map[s[i + 1]];
+    if (next && cur < next) total -= cur;
+    else total += cur;
+  }
+  return total || null;
+}
+
+function parseRegnalNumber(token) {
+  if (!token) return null;
+  if (/^\d+$/.test(token)) return parseInt(token, 10);
+  const roman = romanToArabic(token);
+  return roman || null;
+}
+
+function numbersMatch(extracted, expected) {
+  const a = parseRegnalNumber(extracted);
+  const b = typeof expected === 'number' ? expected : parseRegnalNumber(expected);
+  if (a == null || b == null) return true;
+  return a === b;
+}
+
+function isYearInPontificate(year, popeSlug) {
+  const info = POPE_INFO[popeSlug];
+  if (!info || !year) return true;
+  const end = info.pontificateEnd ?? new Date().getFullYear();
+  return year >= info.pontificateStart && year <= end;
+}
+
+function reconcilePopeName(extractedName, popeSlug) {
+  const info = POPE_INFO[popeSlug];
+  if (!info) return extractedName;
+  if (!extractedName) return info.fullName;
+
+  const numMatch = extractedName.match(/(?:^|\s)([IVXLCDM]+|\d+)\s*$/);
+  if (numMatch && info.number && !numbersMatch(numMatch[1], info.number)) {
+    return info.fullName;
+  }
+
+  const regnalMatch = extractedName.match(/^([A-Za-z]+(?:\s+[A-Za-z]+)?)/);
+  if (regnalMatch && info.regnalName &&
+      regnalMatch[1].toLowerCase() !== info.regnalName.toLowerCase() &&
+      !extractedName.toLowerCase().includes(info.regnalName.toLowerCase())) {
+    return info.fullName;
+  }
+
+  return extractedName;
+}
+
+const PERIOD_ABBREVS = /\b(?:St|Sts|Ste|Smt|No|Msgr|Mr|Mrs|Dr|Prof|Rev|Fr|Sr|Jr|vs|etc|Vol|Ch|Gen|Col|Lt)\./gi;
+
+function isAbbrevPeriod(text, periodIndex) {
+  const before = text.slice(Math.max(0, periodIndex - 12), periodIndex + 1);
+  PERIOD_ABBREVS.lastIndex = 0;
+  return PERIOD_ABBREVS.test(before);
+}
+
+function findSentenceEnd(text, fromIndex = 0) {
+  for (let i = fromIndex; i < text.length; i++) {
+    if (text[i] !== '.') continue;
+    if (isAbbrevPeriod(text, i)) continue;
+
+    const after = text.slice(i + 1, i + 4);
+    if (/^\s+[A-Z]/.test(after) || /^\s*$/.test(after)) {
+      return i + 1;
+    }
+    if (/Pontificate\.?$/i.test(text.slice(Math.max(0, i - 20), i + 1))) {
+      return i + 1;
+    }
+  }
+  return text.length;
+}
+
+function extractUntilSentenceEnd(text, startPattern) {
+  const match = text.match(startPattern);
+  if (!match) return null;
+  const startIdx = match.index;
+  const endIdx = findSentenceEnd(text, startIdx + match[0].length);
+  return text.slice(startIdx, endIdx).trim();
+}
+
+function stripMarkdownInline(s) {
+  return s.replace(/[*_\[\]]/g, '').trim();
+}
+
+function getBodyStart(content) {
+  const parts = content.split(/^---$/m);
+  const body = parts.length > 1 ? parts.slice(1).join('---') : content;
+  return body.replace(/^#+ .+$/gm, '').replace(/^\[.*?\]\(.*?\)$/gm, '').trim();
+}
+
+function extractYearFromContent(content, popeSlug) {
+  const info = POPE_INFO[popeSlug];
+  if (!info) return null;
+  const end = info.pontificateEnd ?? new Date().getFullYear();
+  const scan = content.slice(0, 3000);
+  const years = [...scan.matchAll(/(?<![0-9])(1[0-9]{3}|20[0-9]{2})(?![0-9])/g)].map(m => parseInt(m[1]));
+  for (const y of years) {
+    if (y >= info.pontificateStart && y <= end) return y;
+  }
+  return null;
+}
+
 // ─── Tag Rules ───────────────────────────────────────────────────────────────
 
 const TAG_RULES = [
@@ -176,6 +284,15 @@ function extractIncipit(content, slug) {
   return incipit;
 }
 
+function isJp2Header(lines) {
+  const header = lines.slice(0, 20).map(l => stripMarkdownInline(l)).join('\n');
+  return /(?:JOHN\s+PAUL\s+II|IOANNES\s+PAULUS\s+PP\.?\s*II)/i.test(header);
+}
+
+function isTitleStopLine(cleanLine) {
+  return /^(?:Blessing|Venerable|Beloved|Health|Greetings|INTRODUCTION|CHAPTER|1\.|1\s|\[|_Blessing)/i.test(cleanLine);
+}
+
 function extractEnglishTitle(content) {
   const lines = content.split('\n');
   // Only scan the first half of the file for title info
@@ -209,7 +326,7 @@ function extractEnglishTitle(content) {
         const sj = lines[j].trim();
         const cleanSj = sj.replace(/[*_]/g, '').trim();
         if (cleanSj.startsWith('ON ') || cleanSj.startsWith('ON_')) {
-          subjectLines.push(cleanSj.replace(/^ON[_ ]+/, '').trim());
+          subjectLines.push(cleanSj.replace(/^ON[_ ]+/i, '').trim());
         } else if (sj.length === 0 && subjectLines.length > 0) {
           break;
         } else if (subjectLines.length > 0) {
@@ -222,11 +339,73 @@ function extractEnglishTitle(content) {
     }
   }
 
+  // JP2-specific pass: ON/at subject lines after header block
+  if (isJp2Header(lines)) {
+    let inAddresseeBlock = false;
+    const subjectParts = [];
+
+    for (let i = 0; i < Math.min(40, lines.length); i++) {
+      const raw = lines[i].trim();
+      const clean = stripMarkdownInline(raw);
+
+      if (/^TO\s+(?:HIS|OUR|THE)\s+VENERABLE/i.test(clean) ||
+          /^TO\s+THE\s+BISHOPS?/i.test(clean)) {
+        inAddresseeBlock = true;
+        continue;
+      }
+
+      if (inAddresseeBlock) {
+        if (clean.length === 0) continue;
+        if (isTitleStopLine(clean)) break;
+        if (/^on\s+/i.test(clean) || /^at\s+the\s+beginning\s+of/i.test(clean)) {
+          subjectParts.push(clean.replace(/^on\s+/i, 'On ').replace(/^at\s+/i, 'At ').trim());
+          continue;
+        }
+        if (/^(?:IN\s+THE\s+EPISCOPATE|PRIESTS?|DEACONS?|MEN\s+AND\s+WOMEN|LAY\s+FAITHFUL|ALL\s+THE|AND\s+TO\s+ALL|FAMILIES\s+OF|RELIGIOUS)/i.test(clean)) {
+          continue;
+        }
+        if (subjectParts.length > 0) break;
+        continue;
+      }
+
+      if (/^on\s+/i.test(clean) && clean.length > 5) {
+        subjectParts.push(clean.replace(/^on\s+/i, '').trim());
+        for (let j = i + 1; j < Math.min(i + 4, lines.length); j++) {
+          const next = stripMarkdownInline(lines[j].trim());
+          if (next.length === 0) break;
+          if (isTitleStopLine(next)) break;
+          if (/^to\s+/i.test(next)) break;
+          subjectParts.push(next);
+        }
+        break;
+      }
+
+      if (/^\*\*On\s+/i.test(raw) || /^On\s+the\s+/i.test(clean)) {
+        subjectParts.push(clean.replace(/^\*\*?/,'').replace(/\*\*$/,'').trim());
+        for (let j = i + 1; j < Math.min(i + 3, lines.length); j++) {
+          const next = stripMarkdownInline(lines[j].trim());
+          if (next.length === 0 || isTitleStopLine(next)) break;
+          subjectParts.push(next);
+        }
+        break;
+      }
+
+      if (/^AT\s+THE\s+BEGINNING\s+OF/i.test(clean)) {
+        subjectParts.push(clean);
+        break;
+      }
+    }
+
+    if (subjectParts.length > 0) {
+      return subjectParts.join(' ').replace(/\s+/g, ' ').trim();
+    }
+  }
+
   // Third pass: look for "ON [SUBJECT]" lines within first 50 lines (multi-line support)
   for (let i = 0; i < Math.min(50, lines.length); i++) {
     const t = lines[i].trim().replace(/[*_\[\]]/g, '').trim();
-    if (t.startsWith('ON ') && t.length > 5) {
-      const subjectParts = [t.replace(/^ON\s+/, '').trim()];
+    if (/^on\s+/i.test(t) && t.length > 5) {
+      const subjectParts = [t.replace(/^on\s+/i, '').trim()];
       // Collect continuation lines (they should be short title fragments)
       for (let j = i + 1; j < Math.min(i + 4, lines.length); j++) {
         const next = lines[j].trim().replace(/[*_\[\]]/g, '').trim();
@@ -252,18 +431,34 @@ function extractPopeAndYear(content, popeSlug) {
   for (let i = 0; i < scanLimit; i++) {
     const line = lines[i];
     const t = stripItalic(line).replace(/\s+/g, ' ').trim();
+    const clean = stripMarkdownInline(t);
 
-    if (t === 'POPE FRANCIS') {
+    if (clean === 'POPE FRANCIS' || clean === 'FRANCIS') {
       bestMatch = { popeName: 'Francis', year: null, yearApproximate: false };
       continue;
     }
 
+    if (/^JOHN\s+PAUL\s+II$/i.test(clean) || /^IOANNES\s+PAULUS\s+PP\.?\s*II$/i.test(clean)) {
+      bestMatch = { popeName: 'John Paul II', year: null, yearApproximate: false };
+      continue;
+    }
+
+    if (/^BENEDICTUS\s+PP\.?\s*XVI$/i.test(clean) || /^BENEDICT\s+XVI$/i.test(clean)) {
+      bestMatch = { popeName: 'Benedict XVI', year: null, yearApproximate: false };
+      continue;
+    }
+
+    if (/^BENEDICTUS\s+PP\.?\s*XV$/i.test(clean) || /^BENEDICT\s+XV$/i.test(clean)) {
+      bestMatch = { popeName: 'Benedict XV', year: null, yearApproximate: false };
+      continue;
+    }
+
     // Match "Pope NAME NUMBER [— YEAR]"
-    const m = t.match(/^Pope\s+(?:(BI|St)\.\s+)?([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\s*([IVXL]+)?\s*(?:[—–-]\s*(\d{4}))?/);
+    const m = t.match(/^Pope\s+(?:(?:BI|St)\.\s+)?([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\s*([IVXL]+|\d+)?\s*(?:[—–-]\s*(\d{4}))?/);
     if (m) {
-      const regnalName = m[2];
-      const number = m[3] || '';
-      const yearStr = m[4];
+      const regnalName = m[1];
+      const number = m[2] || '';
+      const yearStr = m[3];
       const fullName = regnalName + (number ? ' ' + number : '');
       const year = yearStr ? parseInt(yearStr) : null;
 
@@ -282,7 +477,7 @@ function extractPopeAndYear(content, popeSlug) {
   return { popeName: info ? info.fullName : slugToTitle(popeSlug), year: null, yearApproximate: true };
 }
 
-function extractDocumentType(content, slug) {
+function extractDocumentType(content, slug, popeSlug) {
   const firstPart = content.slice(0, 8000);
 
   // Check file prefixes (used in ben14 translated files)
@@ -291,6 +486,20 @@ function extractDocumentType(content, slug) {
   if (slugLower.startsWith('bolla-')) return 'bull';
   if (slugLower.startsWith('breve-')) return 'brief';
   if (slugLower.startsWith('apostolica-constitutio')) return 'apostolic-constitution';
+  if (slugLower.startsWith('lettera-')) return 'apostolic-letter';
+  if (slugLower.startsWith('costituzione-') || slugLower.startsWith('constitution-')) {
+    return 'apostolic-constitution';
+  }
+
+  // First 200 chars of body text (after frontmatter/headers)
+  const bodyStart = getBodyStart(content).slice(0, 200);
+  if (/\bBULL\s+OF\b/i.test(bodyStart)) return 'bull';
+  if (/\bBRIEF\s+OF\b/i.test(bodyStart)) return 'brief';
+  if (/\bENCYCLICAL\b/i.test(bodyStart)) return 'encyclical-letter';
+  if (/Apostolic\s+Constitution/i.test(bodyStart)) return 'apostolic-constitution';
+  if (/Apostolic\s+Letter/i.test(bodyStart)) return 'apostolic-letter';
+  if (/Motu\s+Proprio/i.test(bodyStart)) return 'motu-proprio';
+  if (/Bull\s+of\s+Pope/i.test(bodyStart)) return 'bull';
 
   // Explicit type markers in content
   if (firstPart.includes('ENCYCLICAL LETTER') || firstPart.includes('ENCYCLICAL OF POPE') || firstPart.includes('ENCYCLICAL  OF  THE  SUPREME  PONTIFF')) {
@@ -328,6 +537,20 @@ function extractDocumentType(content, slug) {
   // Check for "[Christmas Message]" pattern (Pius XII)
   if (firstPart.includes('[Christmas Message]')) return 'christmas-message';
 
+  // Modern structured heuristic (ben15-style): ## On ... + Pope NAME — YEAR
+  const popeInfo = POPE_INFO[popeSlug];
+  if (popeInfo && popeInfo.pontificateStart >= 1900) {
+    const header = content.split('\n').slice(0, 30).join('\n');
+    if (/##\s+On\s+/i.test(header) && /Pope\s+\w+.*[—–-]\s*\d{4}/.test(header)) {
+      return 'encyclical-letter';
+    }
+    // JP2 encyclicals with IOANNES PAULUS / JOHN PAUL II header
+    if ((popeSlug === 'jp02' || popeSlug === 'ben16' || popeSlug === 'franc') &&
+        /(?:IOANNES\s+PAULUS|JOHN\s+PAUL\s+II|BENEDICTUS\s+PP|BENEDICT\s+XVI|FRANCIS|ENCYCLICAL\s+LETTER)/i.test(header)) {
+      return 'encyclical-letter';
+    }
+  }
+
   return null;
 }
 
@@ -353,37 +576,62 @@ function classifyAddresseeScope(addressee) {
   return null;
 }
 
+const ADDRESSEE_START = /To\s+(?:(?:His|Our|the)\s+)?(?:Venerable\s+)?(?:Brothers?|Brethren)|To\s+the\s+(?:Primate|Patriarchs)|To\s+all\s+Christians|To\s+(?:Our\s+)?Venerable\s+Brethren/i;
+
+function extractAddresseeFromText(text) {
+  const scan = text.slice(0, 4000);
+  const startMatch = scan.match(/(?:^|[^a-zA-Z])To\s+(?:(?:His|Our|the)\s+)?(?:Venerable\s+)?(?:Brothers?|Brethren)|(?:^|[^a-zA-Z])To\s+the\s+(?:Primate|Patriarchs)|(?:^|[^a-zA-Z])To\s+all\s+Christians|(?:^|[^a-zA-Z])To\s+(?:Our\s+)?Venerable\s+Brethren/i);
+  if (!startMatch) return null;
+
+  const startIdx = startMatch.index + startMatch[0].indexOf('To');
+  const endIdx = findSentenceEnd(scan, startIdx);
+  let result = scan.slice(startIdx, endIdx).trim();
+  result = result.replace(/^[_*]+|[_*]+$/g, '').replace(/\s+/g, ' ').trim();
+  if (result.length < 10) return null;
+  return result;
+}
+
 function extractAddressee(content) {
   const lines = content.split('\n');
 
-  // Line-based extraction (works for most files)
+  // Line-based extraction (works for most files, especially JP2 multi-line)
   let inAddressee = false;
   let addresseeLines = [];
   let addresseeStarted = false;
 
   for (const line of lines) {
     const t = line.trim();
+    const tClean = t.replace(/^[_*]+/, '').trim();
 
     if (!inAddressee) {
-      if (/^To\s+(?:\w+\s+)?(?:Venerable\s+)?(?:Brethren|Brothers)/i.test(t)) {
+      if (/^To\s+(?:the\s+)?(?:Primate|Patriarchs)/i.test(tClean)) {
         inAddressee = true;
-        addresseeLines.push(t);
+        addresseeLines.push(tClean);
         continue;
       }
-      // Also match start of addressee in body (ben14 translated files with single-line body)
-      if (/^To\s+(?:\w+\s+)?(?:Venerable\s+)?(?:Brethren|Brothers)/i.test(t.slice(0, 60))) {
-        const startIdx = t.search(/To\s+(?:\w+\s+)?(?:Venerable\s+)?(?:Brethren|Brothers)/i);
+      if (/^To\s+all\s+Christians/i.test(tClean)) {
+        inAddressee = true;
+        addresseeLines.push(tClean);
+        continue;
+      }
+      if (/^To\s+(?:\w+\s+)?(?:Venerable\s+)?(?:Brethren|Brothers)/i.test(tClean)) {
+        inAddressee = true;
+        addresseeLines.push(tClean);
+        continue;
+      }
+      if (/^To\s+(?:His|Our|the)\s+Venerable\s+(?:Brethren|Brothers)/i.test(tClean)) {
+        inAddressee = true;
+        addresseeLines.push(tClean);
+        continue;
+      }
+      // Embedded at start of long line
+      if (ADDRESSEE_START.test(tClean.slice(0, 200))) {
+        const startIdx = tClean.search(ADDRESSEE_START);
         if (startIdx >= 0 && startIdx < 200) {
-          inAddressee = true;
-          addresseeLines.push(t.slice(startIdx));
-          break;
+          const fragment = tClean.slice(startIdx);
+          const endIdx = findSentenceEnd(fragment, 0);
+          return fragment.slice(0, endIdx).replace(/^[_*]+|[_*]+$/g, '').replace(/\s+/g, ' ').trim();
         }
-      }
-      // Also match lines like "To His Venerable Brothers" (JP2 format with line breaks)
-      if (/^To\s+(?:His|Our|the)\s+Venerable\s+(?:Brethren|Brothers)/i.test(t)) {
-        inAddressee = true;
-        addresseeLines.push(t);
-        continue;
       }
     } else {
       if (t.length === 0) {
@@ -391,6 +639,9 @@ function extractAddressee(content) {
         if (addresseeStarted) break;
         continue;
       }
+      const clean = stripMarkdownInline(t);
+      if (/^on\s+/i.test(clean)) break;
+      if (/^(?:INTRODUCTION|Blessing|_Blessing)/i.test(clean)) break;
       if (/^(?:Venerable\s+)?(?:Brethren|Brothers)[,:]\s*(?:Health|Greetings|We\s+Give|and\s+Apostolic)/i.test(t)) break;
       if (/^We\s+(?:are|give|have|beseech|pray|impart|grant|send|address|greet|desire)/i.test(t)) break;
       if (/^It\s+(?:is|was|has)/i.test(t)) break;
@@ -398,7 +649,6 @@ function extractAddressee(content) {
       if (/^The\s+(?:spirit|condition|great|most)/i.test(t) && t.length < 100) break;
       if (/^1\.|^\d+\./.test(t)) break;
       if (t.startsWith('#')) break;
-      // If we see what looks like the document's first paragraph, stop
       if (/^[A-Z][A-Z\s]{20,}/.test(t) && t.length > 30 && addresseeLines.length > 3) break;
       addresseeLines.push(t);
       addresseeStarted = true;
@@ -409,28 +659,54 @@ function extractAddressee(content) {
     return addresseeLines.join(' ').replace(/\s+/g, ' ').trim();
   }
 
-  // Full-text regex fallback for ben14 translated files (addressee embedded in body)
-  const bodyAddressee = content.match(/To\s+(?:the\s+)?(?:Venerable\s+)?(?:Brothers?|Brethren)[^.]*?(?:Bishops?|Ordinaries|Clergy)[^.]*?\./i);
-  if (bodyAddressee) return bodyAddressee[0].trim();
-
-  return null;
+  return extractAddresseeFromText(content);
 }
 
 function extractRawClosingDate(content) {
-  // Find "Given at/in..." — search the full content (closing can be far from EOF due to footnotes)
-  const givenIdx = content.search(/Given\s+(?:at|in)\s+(?:Rome|St\.\s*Peter|Saint\s+Mary|the\s+Vatican)/i);
-  if (givenIdx === -1) return null;
+  const locationPattern = /(?:Rome|the\s+Vatican|Castel\s+Gandolfo|St\.|Saint|Santa\s+Maria|the\s+Lateran|the\s+Apostolic\s+Palace|our\s+(?:Roman\s+)?Palace)/i;
+  const monthPattern = /January|February|March|April|May|June|July|August|September|October|November|December/i;
 
-  const fromGiven = content.slice(givenIdx);
+  const candidates = [];
+  const givenRe = /(?:^|[^a-zA-Z])Given\s+(?:at|in)\s+/g;
+  let m;
+  while ((m = givenRe.exec(content)) !== null) {
+    const startIdx = m.index + m[0].indexOf('Given');
+    const fromGiven = content.slice(startIdx);
+    const locCheck = fromGiven.slice(0, 120).match(locationPattern);
+    if (!locCheck) continue;
 
-  // Capture up to: double newline, footnote marker [n], end of string, or ---/***
-  const endMatch = fromGiven.match(/^(.+?)(?:\n\s*\n|\n\s*\[|\n\s*\*{3,}|\n\s*\-{3,}|\n\s*\*{1,2}\s+\d|$)/s);
-  if (endMatch) {
-    let closing = endMatch[1].trim();
-    // Remove trailing italic markers
-    closing = closing.replace(/[_*]+$/, '').trim();
-    return closing;
+    const lineStart = fromGiven.indexOf('\n');
+    const firstLine = lineStart === -1 ? fromGiven : fromGiven.slice(0, lineStart);
+    const isEmbedded = startIdx > 0 && content[startIdx - 1] !== '\n' &&
+      !content.slice(Math.max(0, startIdx - 2), startIdx).match(/\n\n/);
+
+    let closing;
+    if (isEmbedded || firstLine.length > 200) {
+      const endIdx = findSentenceEnd(fromGiven, 0);
+      closing = fromGiven.slice(0, endIdx).trim();
+    } else {
+      const endMatch = fromGiven.match(/^(.+?)(?:\n\s*\n|\n\s*\[|\n\s*\*{3,}|\n\s*\-{3,}|\n\s*\*{1,2}\s+\d|$)/s);
+      closing = endMatch ? endMatch[1].trim() : null;
+    }
+
+    if (closing) {
+      closing = closing.replace(/^[_*]+|[_*]+$/g, '').trim();
+      const looksValid = closing.length > 30 &&
+        (/Pontificate|pontificate|\d{4}/.test(closing) || monthPattern.test(closing));
+      if (looksValid) candidates.push(closing);
+    }
   }
+
+  if (candidates.length > 0) {
+    return candidates[candidates.length - 1];
+  }
+
+  // Secondary: promulgated date in body (medieval bulls)
+  const promulgated = extractUntilSentenceEnd(
+    content,
+    /(?:Bull\s+of\s+Pope\s+\w+[^.]*?)?promulgated\s+[A-Z][a-z]+\s+\d{1,2},?\s+\d{4}/i,
+  );
+  if (promulgated) return promulgated;
 
   return null;
 }
@@ -447,10 +723,7 @@ function parseYearFromClosing(closing) {
   if (m) return parseInt(m[1]);
 
   // Word-form year: "one thousand nine hundred and fourteen"
-  const wordYearMap = {
-    'one thousand': 1000, 'two thousand': 2000, 'three thousand': 3000,
-  };
-  const wordMatch = closing.match(/(one|two|three)\s+thousand\s+(nine|eight|seven|six|five|four|three|two|one)\s+hundred\s+(and\s+)?(\w+)?/i);
+  const wordMatch = closing.match(/(one|two|three)\s+thousand\s+(nine|eight|seven|six|five|four|three|two|one)\s+hundred\s+(?:and\s+)?(\w+(?:-\w+)?)?/i);
   if (wordMatch) {
     const thousands = { one: 1, two: 2, three: 3 }[wordMatch[1].toLowerCase()] * 1000;
     const hundreds = { nine: 9, eight: 8, seven: 7, six: 6, five: 5, four: 4, three: 3, two: 2, one: 1 }[wordMatch[2].toLowerCase()] * 100;
@@ -458,16 +731,33 @@ function parseYearFromClosing(closing) {
       ten: 10, eleven: 11, twelve: 12, thirteen: 13, fourteen: 14, fifteen: 15,
       sixteen: 16, seventeen: 17, eighteen: 18, nineteen: 19,
       twenty: 20, thirty: 30, forty: 40, fifty: 50, sixty: 60, seventy: 70, eighty: 80, ninety: 90,
+      'eight-two': 82, 'five-five': 55, 'six-one': 61,
     };
     const onesMap = { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9 };
 
     let tens = 0;
-    if (wordMatch[4]) {
-      const w = wordMatch[4].toLowerCase().replace(/^and\s+/, '');
+    if (wordMatch[3]) {
+      const w = wordMatch[3].toLowerCase().replace(/^and\s+/, '');
       if (tensMap[w]) tens = tensMap[w];
       else if (onesMap[w]) tens = onesMap[w];
+      else {
+        const hyphenParts = w.split('-');
+        if (hyphenParts.length === 2) {
+          const decade = tensMap[hyphenParts[0]] || onesMap[hyphenParts[0]] || 0;
+          const unit = onesMap[hyphenParts[1]] || 0;
+          if (decade >= 10) tens = decade + unit;
+        }
+      }
     }
     return thousands + hundreds + tens;
+  }
+
+  // "one thousand four hundred and eight-two" (medieval style)
+  const medievalYear = closing.match(/one\s+thousand\s+four\s+hundred\s+and\s+(\w+)-(\w+)/i);
+  if (medievalYear) {
+    const decade = { eight: 80, nine: 90, seven: 70, six: 60, five: 50, four: 40, three: 30, two: 20, one: 10 }[medievalYear[1].toLowerCase()] || 0;
+    const unit = { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9 }[medievalYear[2].toLowerCase()] || 0;
+    if (decade) return 1400 + decade + unit;
   }
 
   const romanMatch = closing.match(/\b(M{0,4}(?:CM|CD|D?C{0,3})(?:XC|XL|L?X{0,3})(?:IX|IV|V?I{0,3}))\b/);
@@ -683,9 +973,10 @@ async function main() {
       const fileSize = fs.statSync(filePath).size;
 
       const incipit = extractIncipit(content, docSlug);
-      const englishTitle = extractEnglishTitle(content);
-      const { popeName, year: yearFromAuthor, yearApproximate: yearApprox } = extractPopeAndYear(content, popeSlug);
-      const type = extractDocumentType(content, docSlug);
+      let englishTitle = extractEnglishTitle(content);
+      const { popeName: rawPopeName, year: yearFromAuthor, yearApproximate: yearApprox } = extractPopeAndYear(content, popeSlug);
+      let popeName = reconcilePopeName(rawPopeName, popeSlug);
+      const type = extractDocumentType(content, docSlug, popeSlug);
       const addressee = extractAddressee(content);
       const addresseeScope = classifyAddresseeScope(addressee);
       const rawClosingDate = extractRawClosingDate(content);
@@ -693,12 +984,22 @@ async function main() {
       const translated = checkTranslated(content);
       const language = extractLanguage(content, translated);
       const wordCount = extractWordCount(content);
+
+      if (!englishTitle && translated.translated) {
+        englishTitle = incipit;
+      }
+
       const tags = extractTags(content, englishTitle, incipit);
 
       // Extract year from closing if not in author line
       let year = yearFromAuthor;
       let date = null;
       let dateApproximate = yearApprox || false;
+
+      if (year && !isYearInPontificate(year, popeSlug)) {
+        issues.yearMismatch.push(`${popeSlug}/${docSlug} (author year ${year})`);
+        year = null;
+      }
 
       if (!year && rawClosingDate) {
         year = parseYearFromClosing(rawClosingDate);
@@ -733,6 +1034,15 @@ async function main() {
         const yearInName = docSlug.match(/(\d{4})/);
         if (yearInName) {
           year = parseInt(yearInName[1]);
+          dateApproximate = true;
+        }
+      }
+
+      // Fallback: year embedded in body text within pontificate range
+      if (!year) {
+        const bodyYear = extractYearFromContent(content, popeSlug);
+        if (bodyYear) {
+          year = bodyYear;
           dateApproximate = true;
         }
       }

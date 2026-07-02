@@ -11,8 +11,8 @@
   },
   "type": "encyclical-letter",
   "year": 2020,
-  "date": "2020-10-03",
-  "dateApproximate": true,
+  "date": "2020",
+  "dateApproximate": false,
   "addressee": null,
   "addresseeScope": null,
   "language": "en",
@@ -25,6 +25,6 @@
   ],
   "wordCount": 41574,
   "fileSize": 306045,
-  "hasClosingDate": false,
-  "rawClosingDate": null
+  "hasClosingDate": true,
+  "rawClosingDate": "Given in Assisi, at the tomb of Saint Francis, on 3 October, Vigil of the Feast of the Saint, in the year 2020, the eighth of my Pontificate."
 }

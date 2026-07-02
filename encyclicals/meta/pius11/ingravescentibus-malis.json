@@ -12,7 +12,7 @@
   "type": "encyclical-letter",
   "year": 1937,
   "date": "1937",
-  "dateApproximate": true,
+  "dateApproximate": false,
   "addressee": "To the Venerable Brethren, Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Holy See.",
   "addresseeScope": "universal",
   "language": "en",
@@ -35,6 +35,6 @@
   ],
   "wordCount": 2717,
   "fileSize": 15629,
-  "hasClosingDate": false,
-  "rawClosingDate": null
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Castel Gandolfo, near Rome, on the 29th day of the month of September, on the Feast of the Dedication of St. Michael the Archangel, in the year 1937, the sixteenth of Our Pontificate."
 }

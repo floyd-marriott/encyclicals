@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T17:19:09.939Z",
+  "generatedAt": "2026-07-02T17:52:13.085Z",
   "totalDocuments": 401,
   "totalPopes": 43,
   "documents": [
@@ -10,8 +10,8 @@
       "popeSlug": "alex04",
       "popeName": "Alexander IV",
       "type": null,
-      "year": 1955,
-      "date": "1955",
+      "year": 1255,
+      "date": "1255",
       "tags": [
         "christology",
         "moral-theology"
@@ -141,7 +141,7 @@
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
       "year": 1755,
-      "date": "1755",
+      "date": "1755-07-26",
       "tags": [
         "clergy",
         "ecclesiology",
@@ -198,7 +198,7 @@
     {
       "slug": "bolla-benedictus-deus",
       "incipit": "Benedictus Deus",
-      "englishTitle": null,
+      "englishTitle": "Benedictus Deus",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "bull",
@@ -226,7 +226,7 @@
     {
       "slug": "bolla-officii-nostri",
       "incipit": "Officii Nostri",
-      "englishTitle": null,
+      "englishTitle": "Officii Nostri",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "bull",
@@ -245,7 +245,7 @@
     {
       "slug": "bolla-providas-romanorum",
       "incipit": "Providas Romanorum",
-      "englishTitle": null,
+      "englishTitle": "Providas Romanorum",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "bull",
@@ -264,7 +264,7 @@
     {
       "slug": "breve-cum-multorum-charitate",
       "incipit": "Cum Multorum Charitate",
-      "englishTitle": null,
+      "englishTitle": "Cum Multorum Charitate",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "brief",
@@ -284,7 +284,7 @@
     {
       "slug": "breve-enciclica-pro-eximia-tua",
       "incipit": "Enciclica Pro Eximia Tua",
-      "englishTitle": null,
+      "englishTitle": "Enciclica Pro Eximia Tua",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "brief",
@@ -307,7 +307,7 @@
     {
       "slug": "breve-in-suprema-catholicae",
       "incipit": "In Suprema Catholicae",
-      "englishTitle": null,
+      "englishTitle": "In Suprema Catholicae",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "brief",
@@ -328,7 +328,7 @@
     {
       "slug": "breve-in-suprema-universalis",
       "incipit": "In Suprema Universalis",
-      "englishTitle": null,
+      "englishTitle": "In Suprema Universalis",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "brief",
@@ -349,7 +349,7 @@
     {
       "slug": "breve-non-ambigimus",
       "incipit": "Non Ambigimus",
-      "englishTitle": null,
+      "englishTitle": "Non Ambigimus",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "brief",
@@ -370,7 +370,7 @@
     {
       "slug": "breve-quam-ex-sublimi",
       "incipit": "Quam Ex Sublimi",
-      "englishTitle": null,
+      "englishTitle": "Quam Ex Sublimi",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "brief",
@@ -392,7 +392,7 @@
     {
       "slug": "breve-quemadmodum-nihil",
       "incipit": "Quemadmodum Nihil",
-      "englishTitle": null,
+      "englishTitle": "Quemadmodum Nihil",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "brief",
@@ -439,7 +439,7 @@
     {
       "slug": "enciclica-accepimus-praestantium",
       "incipit": "Accepimus Praestantium",
-      "englishTitle": null,
+      "englishTitle": "Accepimus Praestantium",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -461,7 +461,7 @@
     {
       "slug": "enciclica-celebrationem-magni",
       "incipit": "Celebrationem Magni",
-      "englishTitle": null,
+      "englishTitle": "Celebrationem Magni",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -484,7 +484,7 @@
     {
       "slug": "enciclica-certiores-effecti",
       "incipit": "Certiores Effecti",
-      "englishTitle": null,
+      "englishTitle": "Certiores Effecti",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -506,7 +506,7 @@
     {
       "slug": "enciclica-cum-illud-semper",
       "incipit": "Cum Illud Semper",
-      "englishTitle": null,
+      "englishTitle": "Cum Illud Semper",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -528,7 +528,7 @@
     {
       "slug": "enciclica-cum-semper-oblatas",
       "incipit": "Cum Semper Oblatas",
-      "englishTitle": null,
+      "englishTitle": "Cum Semper Oblatas",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -548,7 +548,7 @@
     {
       "slug": "enciclica-elapso-proxime-anno",
       "incipit": "Elapso Proxime Anno",
-      "englishTitle": null,
+      "englishTitle": "Elapso Proxime Anno",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -569,7 +569,7 @@
     {
       "slug": "enciclica-etsi-minime",
       "incipit": "Etsi Minime",
-      "englishTitle": null,
+      "englishTitle": "Etsi Minime",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -592,7 +592,7 @@
     {
       "slug": "enciclica-gravissimo-animi",
       "incipit": "Gravissimo Animi",
-      "englishTitle": null,
+      "englishTitle": "Gravissimo Animi",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -611,7 +611,7 @@
     {
       "slug": "enciclica-gravissimum-supremi",
       "incipit": "Gravissimum Supremi",
-      "englishTitle": null,
+      "englishTitle": "Gravissimum Supremi",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -630,7 +630,7 @@
     {
       "slug": "enciclica-inter-caetera",
       "incipit": "Inter Caetera",
-      "englishTitle": null,
+      "englishTitle": "Inter Caetera",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -649,7 +649,7 @@
     {
       "slug": "enciclica-inter-omnigenas",
       "incipit": "Inter Omnigenas",
-      "englishTitle": null,
+      "englishTitle": "Inter Omnigenas",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -672,7 +672,7 @@
     {
       "slug": "enciclica-inter-praeteritos",
       "incipit": "Inter praeteritos",
-      "englishTitle": null,
+      "englishTitle": "Inter praeteritos",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -688,12 +688,12 @@
     {
       "slug": "enciclica-libentissime-quidem",
       "incipit": "Libentissime Quidem",
-      "englishTitle": null,
+      "englishTitle": "Libentissime Quidem",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
       "year": 1740,
-      "date": "1740",
+      "date": "1745-06-10",
       "tags": [
         "clergy",
         "ecclesiology",
@@ -709,12 +709,12 @@
     {
       "slug": "enciclica-magno-cum-animi",
       "incipit": "Magno Cum Animi",
-      "englishTitle": null,
+      "englishTitle": "Magno Cum Animi",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
       "year": 1740,
-      "date": "1740",
+      "date": "1751-06-02",
       "tags": [
         "clergy",
         "eucharist",
@@ -726,7 +726,7 @@
     {
       "slug": "enciclica-prodiit-jamdudum",
       "incipit": "Prodiit Jamdudum",
-      "englishTitle": null,
+      "englishTitle": "Prodiit Jamdudum",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -746,7 +746,7 @@
     {
       "slug": "enciclica-quam-grave",
       "incipit": "Quam Grave",
-      "englishTitle": null,
+      "englishTitle": "Quam Grave",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -768,7 +768,7 @@
     {
       "slug": "enciclica-quamvis-paternae",
       "incipit": "Quamvis Paternae",
-      "englishTitle": null,
+      "englishTitle": "Quamvis Paternae",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -789,7 +789,7 @@
     {
       "slug": "enciclica-quemadmodum-preces",
       "incipit": "Quemadmodum Preces",
-      "englishTitle": null,
+      "englishTitle": "Quemadmodum Preces",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -812,7 +812,7 @@
     {
       "slug": "enciclica-quod-provinciale",
       "incipit": "Quod Provinciale",
-      "englishTitle": null,
+      "englishTitle": "Quod Provinciale",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -832,7 +832,7 @@
     {
       "slug": "enciclica-satis-vobis-compertum",
       "incipit": "Satis Vobis Compertum",
-      "englishTitle": null,
+      "englishTitle": "Satis Vobis Compertum",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -853,7 +853,7 @@
     {
       "slug": "enciclica-ubi-primum",
       "incipit": "Ubi primum",
-      "englishTitle": null,
+      "englishTitle": "Ubi primum",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
       "type": "encyclical-letter",
@@ -1086,7 +1086,7 @@
       "englishTitle": "On St. Dominic",
       "popeSlug": "ben15",
       "popeName": "Benedict XV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1921,
       "date": "1921",
       "tags": [
@@ -1112,7 +1112,7 @@
       "englishTitle": "On Preaching the Word of God",
       "popeSlug": "ben15",
       "popeName": "Benedict XV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1917,
       "date": null,
       "tags": [
@@ -1132,7 +1132,7 @@
       "englishTitle": "On St. Boniface",
       "popeSlug": "ben15",
       "popeName": "Benedict XV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1919,
       "date": "1919",
       "tags": [
@@ -1156,7 +1156,7 @@
       "englishTitle": "On Dante",
       "popeSlug": "ben15",
       "popeName": "Benedict XV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1921,
       "date": "1921-04-30",
       "tags": [
@@ -1181,7 +1181,7 @@
       "englishTitle": "On Peace and Christian Reconciliation",
       "popeSlug": "ben15",
       "popeName": "Benedict XV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1920,
       "date": "1920",
       "tags": [
@@ -1204,7 +1204,7 @@
       "englishTitle": "On the Children of Central Europe",
       "popeSlug": "ben15",
       "popeName": "Benedict XV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1919,
       "date": "1919",
       "tags": [
@@ -1224,7 +1224,7 @@
       "englishTitle": "On St. Ephram the Syrian",
       "popeSlug": "ben15",
       "popeName": "Benedict XV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1920,
       "date": "1920",
       "tags": [
@@ -1247,8 +1247,8 @@
       "incipit": "Quod Iam Diu",
       "englishTitle": "On the Future Peace Conference",
       "popeSlug": "ben15",
-      "popeName": "Benedict XVI",
-      "type": null,
+      "popeName": "Benedict XV",
+      "type": "encyclical-letter",
       "year": 1918,
       "date": "1918",
       "tags": [
@@ -1269,7 +1269,7 @@
       "englishTitle": "On the Third Order of St. Francis",
       "popeSlug": "ben15",
       "popeName": "Benedict XV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1921,
       "date": "1921",
       "tags": [
@@ -1296,7 +1296,7 @@
       "englishTitle": "On St. Jerome",
       "popeSlug": "ben15",
       "popeName": "Benedict XV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1920,
       "date": "1920-09-15",
       "tags": [
@@ -1385,9 +1385,9 @@
       "englishTitle": "One God, One Faith, One Spiritual Authority",
       "popeSlug": "bon08",
       "popeName": "Boniface VIII",
-      "type": null,
+      "type": "bull",
       "year": 1302,
-      "date": "1302",
+      "date": "1302-11-18",
       "tags": [
         "charity",
         "christology",
@@ -1583,7 +1583,7 @@
       "popeName": "Clement XIII",
       "type": null,
       "year": 1761,
-      "date": "1761",
+      "date": "1761-06-14",
       "tags": [
         "angels",
         "christology",
@@ -1753,7 +1753,7 @@
       "popeName": "Francis",
       "type": "encyclical-letter",
       "year": 2020,
-      "date": "2020-10-03",
+      "date": "2020",
       "tags": [
         "saints",
         "social-doctrine",
@@ -1804,7 +1804,7 @@
       "englishTitle": "Canonizing St. Francis of Assisi",
       "popeSlug": "greg09",
       "popeName": "Gregory IX",
-      "type": null,
+      "type": "bull",
       "year": 1228,
       "date": "1228",
       "tags": [
@@ -2054,7 +2054,7 @@
       "popeName": "Honorius III",
       "type": null,
       "year": 1226,
-      "date": "1226",
+      "date": null,
       "tags": [
         "christology",
         "clergy",
@@ -2295,7 +2295,7 @@
     {
       "slug": "on-promoting-devotion-to-the-most-precious-blood",
       "incipit": "On Promoting Devotion to the Most Precious Blood",
-      "englishTitle": "PROMOTING DEVOTION TO THE MOST PRECIOUS BLOOD OF OUR LORD JESUS CHRIST",
+      "englishTitle": "Promoting Devotion to the Most Precious Blood",
       "popeSlug": "john23",
       "popeName": "John XXIII",
       "type": null,
@@ -2454,7 +2454,7 @@
     {
       "slug": "centesimus-annus",
       "incipit": "Centesimus Annus",
-      "englishTitle": "THE HUNDRETH ANNIVERSARY OF RERUM NOVARUM",
+      "englishTitle": "On THE HUNDRETH ANNIVERSARY OF",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
       "type": "encyclical-letter",
@@ -2477,7 +2477,7 @@
       "englishTitle": null,
       "popeSlug": "jp02",
       "popeName": "John Paul II",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1980,
       "date": "1980",
       "tags": [
@@ -2492,7 +2492,7 @@
     {
       "slug": "dominum-et-vivificantem",
       "incipit": "Dominum et vivificantem",
-      "englishTitle": null,
+      "englishTitle": "the Holy Spirit in the Life of the Church and the World",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
       "type": "encyclical-letter",
@@ -2515,7 +2515,7 @@
     {
       "slug": "ecclesia-de-eucharistia",
       "incipit": "Ecclesia de Eucharistia",
-      "englishTitle": "THE EUCHARIST IN ITS RELATIONSHIP TO THE CHURCH",
+      "englishTitle": "On THE EUCHARIST",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
       "type": "encyclical-letter",
@@ -2538,10 +2538,10 @@
     {
       "slug": "evangelium-vitae",
       "incipit": "Evangelium Vitae",
-      "englishTitle": null,
+      "englishTitle": "On the Value and Inviolability",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1995,
       "date": "1995",
       "tags": [
@@ -2560,7 +2560,7 @@
     {
       "slug": "fides-et-ratio",
       "incipit": "Fides et Ratio",
-      "englishTitle": "THE RELATIONSHIP BETWEEN FAITH AND REASON",
+      "englishTitle": "On THE RELATIONSHIP",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
       "type": "encyclical-letter",
@@ -2579,12 +2579,12 @@
     {
       "slug": "laborem-exercens",
       "incipit": "Laborem Exercens",
-      "englishTitle": null,
+      "englishTitle": "On Human Work On the ninetieth anniversary of Rerum Novarum",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1981,
-      "date": "1981-09-14",
+      "date": "1981",
       "tags": [
         "christology",
         "clergy",
@@ -2602,7 +2602,7 @@
     {
       "slug": "redemptor-hominis",
       "incipit": "Redemptor Hominis",
-      "englishTitle": null,
+      "englishTitle": "At THE BEGINNING OF HIS PAPAL MINISTRY",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
       "type": "encyclical-letter",
@@ -2648,10 +2648,10 @@
     {
       "slug": "redemptoris-missio",
       "incipit": "Redemptoris Missio",
-      "englishTitle": null,
+      "englishTitle": "the permanent validity of the Church's missionary mandate",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1990,
       "date": "1990",
       "tags": [
@@ -2720,7 +2720,7 @@
     {
       "slug": "ut-unum-sint",
       "incipit": "Ut Unum Sint",
-      "englishTitle": null,
+      "englishTitle": "commitment to Ecumenism",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
       "type": "encyclical-letter",
@@ -2743,7 +2743,7 @@
       "englishTitle": null,
       "popeSlug": "jp02",
       "popeName": "John Paul II",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1993,
       "date": "1993",
       "tags": [
@@ -2828,7 +2828,7 @@
       "popeName": "Leo XII",
       "type": null,
       "year": 1826,
-      "date": "1738",
+      "date": "1826",
       "tags": [
         "christology",
         "clergy",
@@ -3966,7 +3966,7 @@
     {
       "slug": "magni-nobis",
       "incipit": "Magni Nobis",
-      "englishTitle": null,
+      "englishTitle": "the Catholic University of America",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
       "type": null,
@@ -4931,7 +4931,7 @@
       "popeSlug": "nichol05",
       "popeName": "Nicholas V",
       "type": null,
-      "year": 2017,
+      "year": 1454,
       "date": null,
       "tags": [
         "christology",
@@ -5044,7 +5044,7 @@
       "englishTitle": "On the Regulation of Human Births",
       "popeSlug": "paul06",
       "popeName": "Paul VI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1968,
       "date": "1968",
       "tags": [
@@ -5116,7 +5116,7 @@
       "englishTitle": "On the Development of Peoples",
       "popeSlug": "paul06",
       "popeName": "Paul VI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1967,
       "date": "1967",
       "tags": [
@@ -5141,7 +5141,7 @@
       "englishTitle": "On Priestly Celibacy",
       "popeSlug": "paul06",
       "popeName": "Paul VI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1967,
       "date": "1967-06-24",
       "tags": [
@@ -5312,7 +5312,7 @@
     {
       "slug": "ubi-lutetiam",
       "incipit": "Ubi lutetiam",
-      "englishTitle": null,
+      "englishTitle": "Ubi lutetiam",
       "popeSlug": "pius06",
       "popeName": "Pius VI",
       "type": "apostolic-letter",
@@ -5708,7 +5708,7 @@
       "popeName": "Pius IX",
       "type": null,
       "year": 1864,
-      "date": "1864",
+      "date": "1864-08-18",
       "tags": [
         "christology",
         "clergy",
@@ -6340,7 +6340,7 @@
       "popeName": "Pius X",
       "type": "encyclical-letter",
       "year": 1910,
-      "date": "1910",
+      "date": "1910-05-26",
       "tags": [
         "christology",
         "clergy",
@@ -6361,7 +6361,7 @@
     {
       "slug": "for-the-fiftieth-anniversary-of-the-proclamation-of-the-dogma-of-the-immaculate-conception",
       "incipit": "FOR THE FIFTIETH ANNIVERSARY OF THE PROCLAMATION OF THE DOGMA OF THE IMMACULATE CONCEPTION",
-      "englishTitle": null,
+      "englishTitle": "the other hand, when we measure our own meager strength against the difficulty of the task, we will always be brought to the realization that we are but worthless instruments in the hands of the Lord, and we will have recourse to him in our trying needs. He will hear our prayer and enable us to say: I can do all things in him who strengthens me.\\6\\",
       "popeSlug": "pius10",
       "popeName": "Pius X",
       "type": null,
@@ -6387,7 +6387,7 @@
       "englishTitle": "On French Associations of Worship",
       "popeSlug": "pius10",
       "popeName": "Pius X",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1906,
       "date": "1906",
       "tags": [
@@ -6430,7 +6430,7 @@
       "englishTitle": "On the Law of Separation in Portugal",
       "popeSlug": "pius10",
       "popeName": "Pius X",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1911,
       "date": "1911",
       "tags": [
@@ -6457,7 +6457,7 @@
       "popeName": "Pius X",
       "type": "encyclical-letter",
       "year": 1905,
-      "date": "1905",
+      "date": "1905-06-11",
       "tags": [
         "catholic-action",
         "charity",
@@ -6496,7 +6496,7 @@
       "englishTitle": "On the Indians of South America",
       "popeSlug": "pius10",
       "popeName": "Pius X",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1912,
       "date": "1912",
       "tags": [
@@ -6562,7 +6562,7 @@
       "englishTitle": "On the Doctrine of the Modernists",
       "popeSlug": "pius10",
       "popeName": "Pius X",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1907,
       "date": "1907-09-08",
       "tags": [
@@ -6584,7 +6584,7 @@
       "popeName": "Pius X",
       "type": "apostolic-letter",
       "year": 1906,
-      "date": "1906",
+      "date": "1906-07-28",
       "tags": [
         "christology",
         "clergy",
@@ -6623,7 +6623,7 @@
       "englishTitle": "On the Bible Against the Modernists",
       "popeSlug": "pius10",
       "popeName": "Pius X",
-      "type": "encyclical-letter",
+      "type": "motu-proprio",
       "year": 1907,
       "date": "1907-11-18",
       "tags": [
@@ -6669,7 +6669,7 @@
       "popeName": "Pius X",
       "type": "encyclical-letter",
       "year": 1912,
-      "date": "1912",
+      "date": "1912-09-24",
       "tags": [
         "christology",
         "clergy",
@@ -6712,7 +6712,7 @@
       "englishTitle": "On the Miravites: Mystic Priests of Poland",
       "popeSlug": "pius10",
       "popeName": "Pius X",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1906,
       "date": null,
       "tags": [
@@ -6734,7 +6734,7 @@
       "englishTitle": "On the Separation of Church and State",
       "popeSlug": "pius10",
       "popeName": "Pius X",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1907,
       "date": "1907-01-06",
       "tags": [
@@ -6754,7 +6754,7 @@
       "englishTitle": "On the French Law of Separation",
       "popeSlug": "pius10",
       "popeName": "Pius X",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1906,
       "date": "1906",
       "tags": [
@@ -6776,7 +6776,7 @@
       "englishTitle": "On the Persecution of the Church in Mexico",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1932,
       "date": "1932",
       "tags": [
@@ -6888,7 +6888,7 @@
       "englishTitle": "On Christian Marriage",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1930,
       "date": "1930",
       "tags": [
@@ -6911,7 +6911,7 @@
       "englishTitle": "On the Persecution of the Church in Spain",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1933,
       "date": "1933-06-03",
       "tags": [
@@ -6938,7 +6938,7 @@
       "englishTitle": "On Christian Education",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1929,
       "date": "1929",
       "tags": [
@@ -6961,7 +6961,7 @@
       "englishTitle": "On Atheistic Communism",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1937,
       "date": "1937",
       "tags": [
@@ -6988,7 +6988,7 @@
       "englishTitle": "On St. Jehosophat",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1923,
       "date": "1923-11-12",
       "tags": [
@@ -7040,7 +7040,7 @@
       "englishTitle": "On the Persecution of the Church in Mexico",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1926,
       "date": "1926-11-18",
       "tags": [
@@ -7087,7 +7087,7 @@
       "englishTitle": "On French Diocesan Association",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1924,
       "date": "1924-01-18",
       "tags": [
@@ -7157,7 +7157,7 @@
       "englishTitle": "On the Church and the German Reich",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1937,
       "date": "1937-03-14",
       "tags": [
@@ -7184,7 +7184,7 @@
       "englishTitle": "On Religious Unity",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1928,
       "date": "1928",
       "tags": [
@@ -7256,7 +7256,7 @@
       "englishTitle": "On the Economic Crisis",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1931,
       "date": null,
       "tags": [
@@ -7333,7 +7333,7 @@
       "englishTitle": "On his Sacred Jubilee",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1929,
       "date": "1929",
       "tags": [
@@ -7407,7 +7407,7 @@
       "englishTitle": "On the Promotion of Oriental Studies",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1928,
       "date": "1928-09-08",
       "tags": [
@@ -7434,7 +7434,7 @@
       "englishTitle": "On St. Francis of Assisi",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1926,
       "date": "1926-04-30",
       "tags": [
@@ -7462,7 +7462,7 @@
       "englishTitle": "On St. Thomas Aquinas",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1923,
       "date": "1923",
       "tags": [
@@ -7488,7 +7488,7 @@
       "englishTitle": "On the Peace of Christ in HIs Kingdom",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1922,
       "date": "1922",
       "tags": [
@@ -7514,7 +7514,7 @@
       "englishTitle": "On Motion Pictures",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1936,
       "date": "1936",
       "tags": [
@@ -7607,7 +7607,7 @@
     {
       "slug": "address-to-midwives-on-the-nature-of-their-profession",
       "incipit": "Address to Midwives on the Nature of Their Profession",
-      "englishTitle": null,
+      "englishTitle": "the other hand, it is not necessary for Us to show you who are well experienced, how much this apostolate of respect and love for the new life is necessary today. Unfortunately, cases are not rare in which it is sufficient only to hint at the fact that children are a ‘blessing” to provoke contradiction and even derision More often in word and thought the idea of the great “burden” of children is predominant. Inasmuch as this mentality is opposed to God’s plan and to Scripture, so is it also contrary to sane reason and the sentiments of nature! If there are conditions and circumstances in which parents without violating God’s law can avoid the “blessing” of children, nevertheless these unavoidable and exceptional cases do not authorize anyone to pervert ideas, to despise values and to treat with contempt the mother who had the courage and honor to give life.",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": null,
@@ -7620,6 +7620,7 @@
         "missions",
         "moral-theology",
         "science",
+        "scripture",
         "social-doctrine"
       ],
       "translated": false
@@ -7860,7 +7861,7 @@
       "englishTitle": "On St. Bernard of Clairvaux, Last of the Fathers",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1953,
       "date": "1953",
       "tags": [
@@ -8073,7 +8074,7 @@
       "englishTitle": "On Human Origin",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1950,
       "date": "1950-08-12",
       "tags": [
@@ -8098,7 +8099,7 @@
       "popeName": "Pius XII",
       "type": "encyclical-letter",
       "year": 1948,
-      "date": "1948",
+      "date": "1948-10-24",
       "tags": [
         "christology",
         "clergy",
@@ -8117,7 +8118,7 @@
       "englishTitle": "On Reciting the Rosary",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1951,
       "date": "1951",
       "tags": [
@@ -8245,7 +8246,7 @@
       "popeName": "Pius XII",
       "type": "encyclical-letter",
       "year": 1947,
-      "date": "1947",
+      "date": "1947-11-20",
       "tags": [
         "christology",
         "clergy",
@@ -8341,7 +8342,7 @@
       "englishTitle": "On the Communication Fields: Movies, Television, and Radio",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1957,
       "date": "1957",
       "tags": [
@@ -8433,7 +8434,7 @@
     {
       "slug": "on-psychotherapy-and-religion",
       "incipit": "On Psychotherapy And Religion",
-      "englishTitle": null,
+      "englishTitle": "Psychotherapy And Religion",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": null,
@@ -8452,7 +8453,7 @@
     {
       "slug": "on-rural-life",
       "incipit": "On Rural Life",
-      "englishTitle": null,
+      "englishTitle": "Rural Life",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": null,
@@ -8523,7 +8524,7 @@
       "englishTitle": "On St. Cyril, Patriarch of Alexandria",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1944,
       "date": "1944",
       "tags": [
@@ -8620,7 +8621,7 @@
       "englishTitle": "On Holy Virginity",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1954,
       "date": "1954",
       "tags": [
@@ -8688,7 +8689,7 @@
       "englishTitle": "On the Eighth Centenary of the Independence of Portugal",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1940,
       "date": "1940",
       "tags": [
@@ -8739,7 +8740,7 @@
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": null,
-      "year": 1931,
+      "year": 1939,
       "date": "1939",
       "tags": [
         "christology",
@@ -8808,7 +8809,7 @@
       "englishTitle": "On the Unity of Human Society",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1939,
       "date": "1939",
       "tags": [
@@ -8934,7 +8935,7 @@
       "popeSlug": "sixtus04",
       "popeName": "Sixtus IV",
       "type": null,
-      "year": 2017,
+      "year": 1482,
       "date": null,
       "tags": [
         "angels",

@@ -1,7 +1,7 @@
 {
   "slug": "on-promoting-devotion-to-the-most-precious-blood",
   "incipit": "On Promoting Devotion to the Most Precious Blood",
-  "englishTitle": "PROMOTING DEVOTION TO THE MOST PRECIOUS BLOOD OF OUR LORD JESUS CHRIST",
+  "englishTitle": "Promoting Devotion to the Most Precious Blood",
   "pope": {
     "slug": "john23",
     "name": "John XXIII",
@@ -13,8 +13,8 @@
   "year": 1960,
   "date": "1960-06-30",
   "dateApproximate": false,
-  "addressee": null,
-  "addresseeScope": null,
+  "addressee": "To his Venerable Brother Patriarchs, Primates, Archbishops, Bishops and other Local Ordinaries in Peace and Communion with the Apostolic See",
+  "addresseeScope": "universal",
   "language": "en",
   "translated": false,
   "translationSource": null,

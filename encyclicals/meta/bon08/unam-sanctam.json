@@ -9,10 +9,10 @@
     "number": 8,
     "fullName": "Boniface VIII"
   },
-  "type": null,
+  "type": "bull",
   "year": 1302,
-  "date": "1302",
-  "dateApproximate": true,
+  "date": "1302-11-18",
+  "dateApproximate": false,
   "addressee": null,
   "addresseeScope": null,
   "language": "en",
@@ -33,6 +33,6 @@
   ],
   "wordCount": 997,
   "fileSize": 5641,
-  "hasClosingDate": false,
-  "rawClosingDate": null
+  "hasClosingDate": true,
+  "rawClosingDate": "Bull of Pope Boniface VIII promulgated November 18, 1302\n\nUrged by faith, we are obliged to believe and to maintain that the Church is one, holy, catholic, and also apostolic."
 }

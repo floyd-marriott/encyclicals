@@ -2,143 +2,97 @@
 
 *Vitia* (Latin, pl. of *vitium* — faults, defects, errors). A register of anomalies, errors, and quirks in the encyclicals corpus. These are known issues in the source data, the extraction process, or the documents themselves that require human judgment to resolve.
 
+## Extraction Summary (post-cleanup)
+
+| Field | Count | Notes |
+|-------|-------|-------|
+| Year | 401/401 | All documents have a year |
+| Type | 191/401 | 210 without detectable type |
+| English title | 375/401 | 26 without title |
+| Addressee | 218/401 | 183 without addressee |
+| Closing date | 333/401 | 68 without formal closing |
+
+*Regenerate with `node extract-metadata.mjs`; see `encyclicals/meta/extraction-summary.json`.*
+
 ## A. Source Data Errors (papalencyclicals.net / vatican.va)
 
-### A1. Wrong years in author lines
+**Status: mitigated in extraction.** The script discards author-line years outside the pope's pontificate and reconciles pope names against `POPE_INFO`. Corrected values come from closing dates, body text, or filename fallbacks.
 
-These documents have an incorrect year in their "Pope NAME — YEAR" header line. The year is historically impossible given the pope's pontificate.
+### A1. Wrong years in author lines (source still wrong; metadata corrected)
 
-| File | Author line | Actual year |
-|------|------------|-------------|
-| `alex04/dignum-arbitramur-et-congruum` | Pope Alexander IV — 1955 | c. 1255–1261 |
-| `sixtus04/superna-caelestis` | Pope Sixtus IV — 2017 | 1482 (canonization of St. Bonaventure) |
+| File | Author line | Corrected metadata year |
+|------|------------|------------------------|
+| `alex04/dignum-arbitramur-et-congruum` | Pope Alexander IV — 1955 | 1255 (from body text) |
+| `sixtus04/superna-caelestis` | Pope Sixtus IV — 2017 | 1482 (from closing date) |
 
 Likely cause: HTML parsing error on the source site pulled the wrong date from the page.
 
-### A2. Wrong pope in author line
+**Also detected:** `nichol05/romanus-pontifex` (author year 2017) and `pius12/sertum-laetitiae` (author year 1931) have impossible author-line years; metadata uses fallback sources.
 
-| File | Author line | Correct pope | Correct year |
-|------|------------|-------------|-------------|
-| `ben15/quod-iam-diu` | Pope Benedict XVI — 1918 | Benedict XV | 1918 |
+### A2. Wrong pope in author line (source still wrong; metadata corrected)
+
+| File | Author line | Corrected `pope.name` |
+|------|------------|------------------------|
+| `ben15/quod-iam-diu` | Pope Benedict XVI — 1918 | Benedict XV |
 
 Benedict XVI was not pope until 2005. The source erroneously wrote "XVI" instead of "XV".
 
 ## B. Metadata Extraction Gaps
 
-### B1. Documents without a detectable type (262 files)
+### B1. Documents without a detectable type (210 files)
 
-Most medieval and many pre-20th-century documents do not self-identify their type (encyclical, bull, brief, constitution) in machine-detectable text. The filename prefix convention varies:
+Down from 262. Improvements: filename prefixes (`lettera-`, `costituzione-`), first-200-char body scan (`BULL OF`, `BRIEF OF`, `ENCYCLICAL`, etc.), modern structured heuristic (ben15 `## On …` + pope year line), JP2/Benedict XVI/Francis header detection.
+
+Most remaining gaps are medieval and pre-20th-century documents that do not self-identify their type. The filename prefix convention on papalencyclicals.net helps where present:
 
 - `enciclica-*` → encyclical (detected)
 - `bolla-*` → bull (detected)
 - `breve-*` → brief (detected)
-- No prefix → one of the above, but no way to infer automatically
+- No prefix → often undetectable; left as `null`
 
-**Notable**: Documents with "ENCYCLICAL LETTER" in the body are detected. Documents lacking this phrase are not.
+**Resolved examples:** `bon08/unam-sanctam` (bull via "Bull of Pope" in body), ben15 encyclicals (structured header heuristic), JP2 encyclicals (IOANNES PAULUS header).
 
-### B2. Documents without an English title (69 files)
+### B2. Documents without an English title (26 files)
 
-Mostly Benedict XIV Italian-translated files (32) and various medieval documents. These genuinely have no English subject heading — just the Latin incipit.
+Down from 69.
 
-#### All 32 ben14 translated files (no English subject line)
-- `ben14/bolla-benedictus-deus`
-- `ben14/bolla-officii-nostri`
-- `ben14/bolla-providas-romanorum`
-- `ben14/breve-cum-multorum-charitate`
-- `ben14/breve-enciclica-pro-eximia-tua`
-- `ben14/breve-in-suprema-catholicae`
-- `ben14/breve-in-suprema-universalis`
-- `ben14/breve-non-ambigimus`
-- `ben14/breve-quam-ex-sublimi`
-- `ben14/breve-quemadmodum-nihil`
-- `ben14/enciclica-accepimus-praestantium`
-- `ben14/enciclica-celebrationem-magni`
-- `ben14/enciclica-certiores-effecti`
-- `ben14/enciclica-cum-illud-semper`
-- `ben14/enciclica-cum-semper-oblatas`
-- `ben14/enciclica-elapso-proxime-anno`
-- `ben14/enciclica-etsi-minime`
-- `ben14/enciclica-gravissimo-animi`
-- `ben14/enciclica-gravissimum-supremi`
-- `ben14/enciclica-inter-caetera`
-- `ben14/enciclica-inter-omnigenas`
-- `ben14/enciclica-inter-praeteritos`
-- `ben14/enciclica-libentissime-quidem`
-- `ben14/enciclica-magno-cum-animi`
-- `ben14/enciclica-prodiit-jamdudum`
-- `ben14/enciclica-quam-grave`
-- `ben14/enciclica-quamvis-paternae`
-- `ben14/enciclica-quemadmodum-preces`
-- `ben14/enciclica-quod-provinciale`
-- `ben14/enciclica-satis-vobis-compertum`
-- `ben14/breve-enciclica-pro-eximia-tua`
-- `pius06/ubi-lutetiam`
+**Resolved:** All 32 ben14/pius06 DeepL translated files now use the Latin incipit as `englishTitle` when no English subject line exists. JP2 encyclicals with multi-line `ON …` / `on …` header blocks are now extracted (e.g. `jp02/laborem-exercens`, `jp02/dominum-et-vivificantem`, `jp02/centesimus-annus`).
 
-#### JP2 encyclicals without H2 subject lines (title null)
-- `jp02/redemptor-hominis`
-- `jp02/dives-in-misericordia`
-- `jp02/dominum-et-vivificantem`
-- `jp02/redemptoris-mater`
-- `jp02/slavorum-apostoli`
+#### Remaining null-title files (26)
 
-These use a multi-line "ON ..." header block, not an H2. The "ON ..." extraction works for some (centesimus-annus, redemptoris-missio, etc.) but fails when the subject text is formatted as inline body text rather than a discrete header line.
+Medieval documents and special formats with no English subject heading:
 
-#### Medieval docs with no subject heading
-- `alex04/dignum-arbitramur-et-congruum`
-- `alex04/inter-ea-quae-placita`
-- `alex04/petitionibus-vestris-benignum-impertientes`
-- `alex06/inter-caetera`
-- `alex07/super-cathedram-principis-apostolorum`
-- `ben12/benedictus-deus`
-- `ben14/a-quo-primum`
-- `ben14/allatae-sunt`
-- `ben14/annus-qui-hunc`
-- `ben14/apostolica-constitutio`
-- `ben14/cum-religiosi`
-- `ben14/ex-quo`
-- `ben14/magnae-nobis`
-- `ben14/nimiam-licentiam`
-- `ben14/peregrinantes`
-- `ben14/quanta-cura`
-- `ben14/ubi-primum`
-- `hon03/solet-annuere`
-- `innoc04/quae-honorem-conditoris-omnium`
-- `pius10/notre-charge-apostolique`
-- `pius10/une-fois-encore`
-- `pius10/pope-st-pius-x`
+- `alex04/*` (3 files) — Latin-only medieval decrees
+- `eugene04/sicut-dudum`, `greg10/papal-protection-of-the-jews`
+- `jp02/dives-in-misericordia`, `jp02/redemptoris-mater`, `jp02/slavorum-apostoli`, `jp02/sollicitudo-rei-socialis`, `jp02/veritatis-splendor` — no discrete subject line in source
+- `leo13/longinqua-january-6-1895` — date embedded in filename only
+- `pius09/the-syllabus-of-errors`, `pius10/haerent-animo`, `pius10/lamentabili-sane`, `pius10/pope-st-pius-x`, `pius10/the-oath-against-modernism`
+- `pius12/applied-psychology`, `pius12/counsel-to-teaching-sisters`, `pius12/guiding-principles-of-the-lay-apostolate`, `pius12/laetamur-admodum`, `pius12/papal-directives-for-the-woman-of-today`, `pius12/si-diligis-canonisation-of-st-pius-x`, `pius12/the-function-of-art`, `pius12/the-moral-limits-of-medical-research-and-treatment`, `pius12/the-proofs-for-the-existence-of-god-in-the-light-of-modern-natural-science`, `pius12/the-states-of-perfection`
 
-### B3. Documents without an addressee (253 files)
+Non-translated ben14 files with H2 English titles (`ben14/a-quo-primum`, etc.) retain their extracted titles.
 
-The line-based addressee detection requires "To Our/Venerable Brethren/Brothers" at the start of a line. It fails when:
+### B3. Documents without an addressee (183 files)
 
-1. **Addressee is embedded mid-sentence** (most ben14 translated files) — the body is a single long line with the addressee in the middle.
-2. **Addressee uses the genitive "of" or other introductory phrasing** (medieval docs) — e.g., "Honorius Bishop..." instead of "To...".
-3. **Document has no formal addressee** (short decrees, allocutions, papal biographies like `pope-st-pius-x`).
+Down from 253. Improvements: full-text regex with smart sentence boundaries (skipping `St.`, `Msgr.`, etc.), embedded mid-line addressees in ben14 single-line bodies, JP2 multi-line `To His Venerable Brothers` format, `To the Primate` / `To the Patriarchs` variants, italic-prefixed `_To the …` lines.
 
-#### Example: ben14 translated files
-The addressee is present in the body text (e.g., "To the Venerable Brothers, Patriarchs, Primates...") but it appears mid-line, not at line start. A full-text regex catches some of these but not all.
+Remaining failures:
 
-#### Example: medieval documents
-`bon08/unam-sanctam` — opens with "Urged by faith, we are obliged..." and never uses the "To Our Venerable Brethren" formula. The addressee is implied.
+1. **Bulls/briefs without "To …" formula** — e.g. ben14 `bolla-*` files opening with "Bishop Benedict, Servant of the Servants of God."
+2. **Medieval documents** using non-standard address — e.g. `bon08/unam-sanctam` opens with "Urged by faith…" (addressee implied, not stated).
+3. **Documents with no formal addressee** — short decrees, allocutions, papal biographies (`pius10/pope-st-pius-x`).
 
-### B4. Documents without a closing date (86 files)
+### B4. Documents without a closing date (68 files)
 
-These documents lack a "Given at Rome/St. Peter's..." closing formula:
+Down from 86. Improvements: `Castel Gandolfo` and other locations, embedded single-line closings in ben14 bodies, italic-wrapped `_Given in Rome…_` closings, `promulgated [month] [day], [year]` pattern for medieval bulls.
 
-#### Modern (no formal Vatican closing)
-- `franc/fratelli-tutti` — ends with a Vatican copyright footer, no "Given at..."
-- `jp02/laborem-exercens` — ends with blessing, no closing formula
+**Resolved:** `pius11/ingravescentibus-malis` (Castel Gandolfo), `ben14/enciclica-magno-cum-animi`, `jp02/laborem-exercens`, `bon08/unam-sanctam` (promulgated date).
 
-#### Medieval (all from bon08 and earlier)
-- `bon08/unam-sanctam` — date in body ("promulgated November 18, 1302") but no closing formula
-- `innoc04/quae-honorem-conditoris-omnium`
-- `hon03/solet-annuere`
-- `greg09/mira-circa-nos`
+#### Still without closing date
 
-#### Various (short documents, biographies)
-- `pius10/pope-st-pius-x` — a biography of the pope, not a document
-- `alex04/*` — all three Alexander IV docs lack closing dates
-- Various short bulls and briefs throughout the corpus
+- `franc/fratelli-tutti` — Vatican copyright footer, no "Given at…"
+- Medieval: `alex04/*`, `innoc04/quae-honorem-conditoris-omnium`, `hon03/solet-annuere`, `greg09/mira-circa-nos`
+- Addresses/speeches: various `pius12/address-*` and Christmas radio messages
+- `pius10/pope-st-pius-x` — biographical entry
 
 ## C. Language Ambiguities
 
@@ -164,7 +118,7 @@ The `language` field is correctly set to `"en"` for all of these since the body 
 
 ### C2. Translated files
 
-32 files from Benedict XIV (31) and Pius VI (1) were originally in Italian and translated via DeepL. These are flagged with `translated: true` and `translationSource: "deepl"`.
+32 files from Benedict XIV (31) and Pius VI (1) were originally in Italian and translated via DeepL. These are flagged with `translated: true` and `translationSource: "deepl"`. Their `englishTitle` falls back to the incipit when no English subject line exists.
 
 ## D. Tag Extraction Limitations
 

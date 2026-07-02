@@ -9,10 +9,10 @@
     "number": 12,
     "fullName": "Pius XII"
   },
-  "type": null,
+  "type": "encyclical-letter",
   "year": 1939,
   "date": "1939",
-  "dateApproximate": true,
+  "dateApproximate": false,
   "addressee": "To Our Venerable Brethren: The Patriarchs, Primates, Archbishops, Bishops, and Other Ordinaries in Peace and Communion with the Apostolic See.",
   "addresseeScope": "universal",
   "language": "en",
@@ -36,6 +36,6 @@
   ],
   "wordCount": 12523,
   "fileSize": 72673,
-  "hasClosingDate": false,
-  "rawClosingDate": null
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Castel Gandolfo, near Rome, on the twentieth day of October, in the year of Our Lord, 1939, the first of Our Pontificate."
 }

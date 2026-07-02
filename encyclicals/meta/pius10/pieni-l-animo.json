@@ -11,8 +11,8 @@
   },
   "type": "apostolic-letter",
   "year": 1906,
-  "date": "1906",
-  "dateApproximate": true,
+  "date": "1906-07-28",
+  "dateApproximate": false,
   "addressee": "To the Venerable Brethren, the Archbishops, and Bishops of Italy.",
   "addresseeScope": "italy",
   "language": "en",
@@ -29,6 +29,6 @@
   ],
   "wordCount": 2680,
   "fileSize": 16533,
-  "hasClosingDate": false,
-  "rawClosingDate": null
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Saint Peter’s, Rome, on July 28, 1906, the third year of Our Pontificate."
 }

@@ -11,8 +11,8 @@
   },
   "type": null,
   "year": 1864,
-  "date": "1864",
-  "dateApproximate": true,
+  "date": "1864-08-18",
+  "dateApproximate": false,
   "addressee": "To the Venerable Brothers Gregory Archbishop of Munich and Freising and Michael Archbishop of Bamberg and their Suffragan Bishops in Bavaria.",
   "addresseeScope": "bavaria",
   "language": "en",
@@ -29,6 +29,6 @@
   ],
   "wordCount": 1171,
   "fileSize": 6999,
-  "hasClosingDate": false,
-  "rawClosingDate": null
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at the Castel Gandolfo, August 18, 1864, the nineteenth year of Our Pontificate."
 }

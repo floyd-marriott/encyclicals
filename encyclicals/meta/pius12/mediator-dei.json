@@ -11,8 +11,8 @@
   },
   "type": "encyclical-letter",
   "year": 1947,
-  "date": "1947",
-  "dateApproximate": true,
+  "date": "1947-11-20",
+  "dateApproximate": false,
   "addressee": "To the Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops and other Ordinaries in Peace and Communion with the Apostolic See.",
   "addresseeScope": "universal",
   "language": "en",
@@ -36,6 +36,6 @@
   ],
   "wordCount": 26659,
   "fileSize": 156881,
-  "hasClosingDate": false,
-  "rawClosingDate": null
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Castel Gandolfo, near Rome, on the 20th day of November in the year 1947, the 9th of Our Pontificate."
 }

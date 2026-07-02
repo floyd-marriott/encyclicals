@@ -12,9 +12,9 @@
   "type": "apostolic-constitution",
   "year": 1952,
   "date": "1952",
-  "dateApproximate": true,
-  "addressee": null,
-  "addresseeScope": null,
+  "dateApproximate": false,
+  "addressee": "to our Venerable Brothers, Archbishops, Bishops and Ordinaries of places in Germany:",
+  "addresseeScope": "germany",
   "language": "en",
   "translated": false,
   "translationSource": null,
@@ -32,6 +32,6 @@
   ],
   "wordCount": 15236,
   "fileSize": 93371,
-  "hasClosingDate": false,
-  "rawClosingDate": null
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Castel Gandolfo, near Rome, on August 1, the feast of St. Peter in Chains, in 1952, the 14th year of our Pontificate."
 }

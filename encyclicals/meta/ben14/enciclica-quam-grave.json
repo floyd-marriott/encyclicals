@@ -1,7 +1,7 @@
 {
   "slug": "enciclica-quam-grave",
   "incipit": "Quam Grave",
-  "englishTitle": null,
+  "englishTitle": "Quam Grave",
   "pope": {
     "slug": "ben14",
     "name": "Benedict XIV",
@@ -13,8 +13,8 @@
   "year": 1740,
   "date": "1757-08-02",
   "dateApproximate": false,
-  "addressee": null,
-  "addresseeScope": null,
+  "addressee": "To the Patriarchs, Archbishops, and Ordinary Bishops of the various localities.",
+  "addresseeScope": "universal",
   "language": "en",
   "translated": true,
   "translationSource": "deepl",

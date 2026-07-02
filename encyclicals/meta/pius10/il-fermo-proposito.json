@@ -11,8 +11,8 @@
   },
   "type": "encyclical-letter",
   "year": 1905,
-  "date": "1905",
-  "dateApproximate": true,
+  "date": "1905-06-11",
+  "dateApproximate": false,
   "addressee": null,
   "addresseeScope": null,
   "language": "en",
@@ -31,6 +31,6 @@
   ],
   "wordCount": 5407,
   "fileSize": 32191,
-  "hasClosingDate": false,
-  "rawClosingDate": null
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Saint Peter’s, Rome, on the Feast of Pentecost, June 11, 1905, the second year of Our Pontificate."
 }

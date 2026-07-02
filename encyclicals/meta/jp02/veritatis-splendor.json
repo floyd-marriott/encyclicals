@@ -9,11 +9,11 @@
     "number": 2,
     "fullName": "John Paul II"
   },
-  "type": null,
+  "type": "encyclical-letter",
   "year": 1993,
   "date": "1993",
   "dateApproximate": false,
-  "addressee": null,
+  "addressee": "to the brethren out of love for God:_ \"This is my commandment, that you love one another as I have loved you\" (_Jn_ 15:12).",
   "addresseeScope": null,
   "language": "en",
   "translated": false,

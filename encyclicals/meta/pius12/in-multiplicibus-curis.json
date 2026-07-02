@@ -11,8 +11,8 @@
   },
   "type": "encyclical-letter",
   "year": 1948,
-  "date": "1948",
-  "dateApproximate": true,
+  "date": "1948-10-24",
+  "dateApproximate": false,
   "addressee": "To the Venerable Brethren, the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries in Peace and Communion with the Apostolic See.",
   "addresseeScope": "universal",
   "language": "en",
@@ -30,6 +30,6 @@
   ],
   "wordCount": 1049,
   "fileSize": 6222,
-  "hasClosingDate": false,
-  "rawClosingDate": null
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Castel Gandolfo, near Rome, on the 24th day of October, in the year 1948, the tenth of Our Pontificate."
 }

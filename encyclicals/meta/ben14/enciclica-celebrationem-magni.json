@@ -1,7 +1,7 @@
 {
   "slug": "enciclica-celebrationem-magni",
   "incipit": "Celebrationem Magni",
-  "englishTitle": null,
+  "englishTitle": "Celebrationem Magni",
   "pope": {
     "slug": "ben14",
     "name": "Benedict XIV",
@@ -33,5 +33,5 @@
   "wordCount": 6139,
   "fileSize": 37661,
   "hasClosingDate": true,
-  "rawClosingDate": "Given in Rome, at Saint Mary Major, on January 1, 1751, the eleventh year of Our Pontificate. BENEDICT XIV"
+  "rawClosingDate": "Given in Rome, at Saint Mary Major, on January 1, 1751, the eleventh year of Our Pontificate."
 }

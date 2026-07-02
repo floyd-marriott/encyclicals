@@ -9,7 +9,7 @@
     "number": 10,
     "fullName": "Pius X"
   },
-  "type": null,
+  "type": "encyclical-letter",
   "year": 1907,
   "date": "1907-09-08",
   "dateApproximate": false,
@@ -30,5 +30,5 @@
   "wordCount": 22496,
   "fileSize": 131397,
   "hasClosingDate": true,
-  "rawClosingDate": "Given at St. Peter’s, Rome, September 8, 1907, in the fifth year of Our Pontificate. PIUS X, POPE"
+  "rawClosingDate": "Given at St. Peter’s, Rome, September 8, 1907, in the fifth year of Our Pontificate."
 }

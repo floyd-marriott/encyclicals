@@ -1,7 +1,7 @@
 {
   "slug": "breve-cum-multorum-charitate",
   "incipit": "Cum Multorum Charitate",
-  "englishTitle": null,
+  "englishTitle": "Cum Multorum Charitate",
   "pope": {
     "slug": "ben14",
     "name": "Benedict XIV",
@@ -13,7 +13,7 @@
   "year": 1740,
   "date": "1745-02-18",
   "dateApproximate": false,
-  "addressee": null,
+  "addressee": "To all Christians who will read this Letter, greetings and Apostolic Blessings.",
   "addresseeScope": null,
   "language": "en",
   "translated": true,

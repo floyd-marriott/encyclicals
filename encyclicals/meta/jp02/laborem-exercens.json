@@ -1,7 +1,7 @@
 {
   "slug": "laborem-exercens",
   "incipit": "Laborem Exercens",
-  "englishTitle": null,
+  "englishTitle": "On Human Work On the ninetieth anniversary of Rerum Novarum",
   "pope": {
     "slug": "jp02",
     "name": "John Paul II",
@@ -9,11 +9,11 @@
     "number": 2,
     "fullName": "John Paul II"
   },
-  "type": null,
+  "type": "encyclical-letter",
   "year": 1981,
-  "date": "1981-09-14",
+  "date": "1981",
   "dateApproximate": false,
-  "addressee": "To His Venerable Brothers in the Episcopate to the Priests to the Religious Families to the sons and daughters of the Church and to all Men and Women of good will on Human Work on the ninetieth anniversary of Rerum Novarum",
+  "addressee": "To His Venerable Brothers in the Episcopate to the Priests to the Religious Families to the sons and daughters of the Church and to all Men and Women of good will",
   "addresseeScope": null,
   "language": "en",
   "translated": false,
@@ -32,6 +32,6 @@
   ],
   "wordCount": 22352,
   "fileSize": 135565,
-  "hasClosingDate": false,
-  "rawClosingDate": null
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Castel Gandolfo, on the fourteenth day of September, the Feast of the Triumph of the Cross, in the year 1981, the third of the Pontificate."
 }

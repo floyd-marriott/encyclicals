@@ -1,7 +1,7 @@
 {
   "slug": "centesimus-annus",
   "incipit": "Centesimus Annus",
-  "englishTitle": "THE HUNDRETH ANNIVERSARY OF RERUM NOVARUM",
+  "englishTitle": "On THE HUNDRETH ANNIVERSARY OF",
   "pope": {
     "slug": "jp02",
     "name": "John Paul II",
@@ -13,8 +13,8 @@
   "year": 1991,
   "date": "1991",
   "dateApproximate": false,
-  "addressee": null,
-  "addresseeScope": null,
+  "addressee": "TO HIS VENERABLE BROTHER BISHOPS",
+  "addresseeScope": "universal",
   "language": "en",
   "translated": false,
   "translationSource": null,

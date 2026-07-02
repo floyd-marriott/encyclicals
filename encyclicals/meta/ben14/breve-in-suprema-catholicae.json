@@ -1,7 +1,7 @@
 {
   "slug": "breve-in-suprema-catholicae",
   "incipit": "In Suprema Catholicae",
-  "englishTitle": null,
+  "englishTitle": "In Suprema Catholicae",
   "pope": {
     "slug": "ben14",
     "name": "Benedict XIV",
@@ -13,7 +13,7 @@
   "year": 1740,
   "date": "1744-11-20",
   "dateApproximate": false,
-  "addressee": null,
+  "addressee": "To all Christians who will read this Letter, greetings and Apostolic Blessings.",
   "addresseeScope": null,
   "language": "en",
   "translated": true,
