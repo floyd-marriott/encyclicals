@@ -1,24 +1,12 @@
-  Breve Cum Multorum Charitate
-
 # Breve Cum Multorum Charitate
 
-## La Santa Sede
+**La Santa Sede**
 
-BREVE  
-DEL SOMMO PONTEFICE  
-BENEDETTO XIV
+*Pope Benedict XIV — 1740-1758*
 
-**_CUM MULTORUM CHARITATE_**
+---
 
-_Il Papa Benedetto XIV.  
-A tutti i Cristiani che leggeranno la presente Lettera, salute e Apostolica Benedizione._
+> *Note: This document was translated from the original Italian into English. Translation provided by DeepL (July 2026).*
 
-Mentre langue la carità di molti, abbonda talmente spesso la malizia degli uomini che Noi, cui è toccato vivere in tempi assai difficili, siamo minacciati dai più gravi pericoli; tutti i principi dell’una e dell’altra legge, confermati dagli insegnamenti dei Profeti e degli Apostoli, a dovizia dimostrano che a Noi fu offerto un solo e sicuro rifugio nelle preghiere e nei digiuni, coi quali ci proponiamo di implorare e di flettere la misericordia di Dio. Di conseguenza, abbiamo indetto il presente Giubileo a favore dei popoli d’Italia e delle isole adiacenti, afflitti da tante calamità, e abbiamo rafforzato in tutti la grande speranza dell’aiuto divino.
 
-1\. \[Il documento rinvia al _Breve_ di Benedetto XIV, **In Suprema Catholicae Ecclesiae administratione** del 20 novembre 1744\].
-
-2\. È Nostro impegno far affluire le copiose sorgenti della Divina misericordia anche nel Regno di Francia e nelle sue Province, principalmente allo scopo che colà siano rese fervide grazie a Dio onnipotente da parte di tutti coloro che vogliono essere partecipi di questi doni celesti, oltre che dei doveri da Noi prescritti: a Dio, poiché per Sua intercessione il figlio Nostro carissimo in Cristo, il Cristianissimo Re Lodovico, di recente guarì da malattia assai grave e deplorata. Pertanto tutte le genti di Francia, nel pronunciare solenni voti per la salute del Principe e per la duratura stabilità del Regno, si effondano in preci affinché Colui che è il solo Signore dei regnanti accumuli sul Re giorni su giorni e, tenendo in mano il suo cuore, faccia in modo ch’egli proceda secondo i Suoi comandamenti, speri sempre nel Signore e riposi nella misericordia dell’Altissimo.
-
-3\. Affinché poi la Nostra presente Lettera (che non può essere recapitata in ogni singolo luogo) più facilmente pervenga a conoscenza di tutti, vogliamo che, ricevuta la stessa, oppure una copia di essa, anche stampata, sottoscritta di pugno da un pubblico notaio e munita del sigillo di persona investita di dignità Ecclesiastica, sia considerata del tutto degna di fede, come se fosse mostrata e presentata la presente.
-
-_Dato in Roma, presso Santa Maria Maggiore, sotto l’anello del Pescatore, il 18 febbraio 1745, anno quinto del Nostro Pontificato._
+BRIEF OF THE SUPREME PONTIFF BENEDICT XIV CUM MULTORUM CHARITATE Pope Benedict XIV. To all Christians who will read this Letter, greetings and Apostolic Blessings. While the charity of many is waning, the malice of men so often abounds that We, who have been called to live in very difficult times, are threatened by the gravest dangers; all the principles of both the divine and human laws, confirmed by the teachings of the Prophets and the Apostles, amply demonstrate that a single and sure refuge has been offered to us in prayer and fasting, through which we intend to implore and move God’s mercy. Consequently, We have proclaimed this Jubilee for the benefit of the peoples of Italy and the adjacent islands, afflicted by so many calamities, and We have strengthened in all the great hope of divine assistance. 1. \[The document refers to the Brief of Benedict XIV, \*In Suprema Catholicae Ecclesiae administratione\*, dated November 20, 1744\]. 2. It is Our commitment to direct the abundant springs of Divine mercy also toward the Kingdom of France and its provinces, primarily so that fervent thanks may be offered there to Almighty God by all those who wish to share in these heavenly gifts, as well as to fulfill the duties We have prescribed: to God, since through His intercession Our most beloved son in Christ, the Most Christian King Louis, was recently healed of a very serious and grievous illness. Therefore, all the people of France, while offering solemn prayers for the Prince’s health and for the enduring stability of the Kingdom, pour out their supplications that He who is the sole Lord of rulers may bestow upon the King day after day and, holding his heart in His hand, may ensure that he acts in accordance with His commandments, always hopes in the Lord, and finds rest in the mercy of the Most High. 3. So that this present Letter of Ours (which cannot be delivered to every single place) may more easily come to the knowledge of all, we decree that, upon receipt of this Letter or a copy thereof—even if printed—signed in person by a public notary and bearing the seal of a person holding ecclesiastical office, it shall be considered entirely trustworthy, as if the present document were shown and presented. Given in Rome, at Santa Maria Maggiore, under the Fisherman’s Ring, on February 18, 1745, the fifth year of Our Pontificate.
