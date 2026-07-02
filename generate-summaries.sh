@@ -3,7 +3,7 @@ set -euo pipefail
 
 MD_DIR="encyclicals/markdown"
 
-find "$MD_DIR" -name '*.md' ! -name '*-summary.md' -print0 | while IFS= read -r -d '' file; do
+while IFS= read -r -d '' file; do
   dir="$(dirname "$file")"
   base="$(basename "$file" .md)"
   out="$dir/$base-summary.md"
@@ -13,9 +13,7 @@ find "$MD_DIR" -name '*.md' ! -name '*-summary.md' -print0 | while IFS= read -r 
   echo "=== $base ==="
 
   opencode run \
-    --file "$file" \
-    --auto \
-    "You are a church historian summarising a papal document. Write a summary in markdown with these four sections:
+    "Summarise this papal document in markdown with four sections:
 
 ## Summary
 (One paragraph — what is this document about?)
@@ -29,10 +27,13 @@ find "$MD_DIR" -name '*.md' ! -name '*-summary.md' -print0 | while IFS= read -r 
 ## Significance
 (Why it matters — its impact, legacy, or place in Catholic teaching.)
 
-Write in clear, accessible English prose. Do not use asterisks or special formatting in headings." \
+Write in clear, accessible English prose." \
+    --file "$file" \
+    --dangerously-skip-permissions \
+    < /dev/null \
     > "$out"
 
   sleep 3
-done
+done < <(find "$MD_DIR" -name '*.md' ! -name '*-summary.md' -print0)
 
 echo "All done."
