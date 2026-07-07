@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const MARKDOWN_DIR = path.join(__dirname, 'encyclicals', 'markdown');
-const META_DIR = path.join(__dirname, 'encyclicals', 'meta');
+const META_DIR = path.join(__dirname, 'encyclicals', 'markdown');
 const HTML_DIR = path.join(__dirname, 'encyclicals', 'html');
 
 // ─── Pope Metadata ───────────────────────────────────────────────────────────
@@ -960,7 +960,7 @@ async function main() {
     }
 
     const files = fs.readdirSync(popeDocDir)
-      .filter(f => f.endsWith('.md'))
+      .filter(f => f.endsWith('.md') && !f.endsWith('-summary.md'))
       .sort();
 
     popeDocCounts[popeSlug] = files.length;
@@ -1220,7 +1220,7 @@ async function main() {
     console.log(`  ${key}: ${val}/${allDocs.length}`);
   }
 
-  console.log('\nDone. Metadata written to encyclicals/meta/');
+  console.log('\nDone. Metadata written to encyclicals/markdown/');
 }
 
 main().catch(err => {

@@ -1,0 +1,888 @@
+{
+  "popes": [
+    {
+      "slug": "alex04",
+      "regnalName": "Alexander",
+      "number": 4,
+      "fullName": "Alexander IV",
+      "pontificateStart": 1254,
+      "pontificateEnd": 1261,
+      "documentCount": 3,
+      "documents": [
+        "dignum-arbitramur-et-congruum",
+        "inter-ea-quae-placita",
+        "petitionibus-vestris-benignum-impertientes"
+      ]
+    },
+    {
+      "slug": "alex06",
+      "regnalName": "Alexander",
+      "number": 6,
+      "fullName": "Alexander VI",
+      "pontificateStart": 1492,
+      "pontificateEnd": 1503,
+      "documentCount": 1,
+      "documents": [
+        "inter-caetera"
+      ]
+    },
+    {
+      "slug": "alex07",
+      "regnalName": "Alexander",
+      "number": 7,
+      "fullName": "Alexander VII",
+      "pontificateStart": 1655,
+      "pontificateEnd": 1667,
+      "documentCount": 1,
+      "documents": [
+        "super-cathedram-principis-apostolorum"
+      ]
+    },
+    {
+      "slug": "ben12",
+      "regnalName": "Benedict",
+      "number": 12,
+      "fullName": "Benedict XII",
+      "pontificateStart": 1334,
+      "pontificateEnd": 1342,
+      "documentCount": 1,
+      "documents": [
+        "benedictus-deus"
+      ]
+    },
+    {
+      "slug": "ben14",
+      "regnalName": "Benedict",
+      "number": 14,
+      "fullName": "Benedict XIV",
+      "pontificateStart": 1740,
+      "pontificateEnd": 1758,
+      "documentCount": 44,
+      "documents": [
+        "a-quo-primum",
+        "allatae-sunt",
+        "annus-qui-hunc",
+        "apostolica-constitutio",
+        "bolla-benedictus-deus",
+        "bolla-officii-nostri",
+        "bolla-providas-romanorum",
+        "breve-cum-multorum-charitate",
+        "breve-enciclica-pro-eximia-tua",
+        "breve-in-suprema-catholicae",
+        "breve-in-suprema-universalis",
+        "breve-non-ambigimus",
+        "breve-quam-ex-sublimi",
+        "breve-quemadmodum-nihil",
+        "cum-religiosi",
+        "enciclica-accepimus-praestantium",
+        "enciclica-celebrationem-magni",
+        "enciclica-certiores-effecti",
+        "enciclica-cum-illud-semper",
+        "enciclica-cum-semper-oblatas",
+        "enciclica-elapso-proxime-anno",
+        "enciclica-etsi-minime",
+        "enciclica-gravissimo-animi",
+        "enciclica-gravissimum-supremi",
+        "enciclica-inter-caetera",
+        "enciclica-inter-omnigenas",
+        "enciclica-inter-praeteritos",
+        "enciclica-libentissime-quidem",
+        "enciclica-magno-cum-animi",
+        "enciclica-prodiit-jamdudum",
+        "enciclica-quam-grave",
+        "enciclica-quamvis-paternae",
+        "enciclica-quemadmodum-preces",
+        "enciclica-quod-provinciale",
+        "enciclica-satis-vobis-compertum",
+        "enciclica-ubi-primum",
+        "ex-omnibus",
+        "ex-quo",
+        "magnae-nobis",
+        "nimiam-licentiam",
+        "peregrinantes",
+        "quanta-cura",
+        "ubi-primum",
+        "vix-pervenit"
+      ]
+    },
+    {
+      "slug": "ben15",
+      "regnalName": "Benedict",
+      "number": 15,
+      "fullName": "Benedict XV",
+      "pontificateStart": 1914,
+      "pontificateEnd": 1922,
+      "documentCount": 12,
+      "documents": [
+        "ad-beatissimi-apostolorum",
+        "annus-iam-plenus",
+        "fausto-appetente-die",
+        "humani-generis-redemptionem",
+        "in-hac-tanta",
+        "in-praeclara-summorum",
+        "pacem-dei-munus-pulcherrimum",
+        "paterno-iam-diu",
+        "principi-apostolorum-petro",
+        "quod-iam-diu",
+        "sacra-propediem",
+        "spiritus-paraclitus"
+      ]
+    },
+    {
+      "slug": "ben16",
+      "regnalName": "Benedict",
+      "number": 16,
+      "fullName": "Benedict XVI",
+      "pontificateStart": 2005,
+      "pontificateEnd": 2013,
+      "documentCount": 3,
+      "documents": [
+        "caritas-in-veritate",
+        "deus-caritas-est",
+        "spe-salvi"
+      ]
+    },
+    {
+      "slug": "bon08",
+      "regnalName": "Boniface",
+      "number": 8,
+      "fullName": "Boniface VIII",
+      "pontificateStart": 1294,
+      "pontificateEnd": 1303,
+      "documentCount": 1,
+      "documents": [
+        "unam-sanctam"
+      ]
+    },
+    {
+      "slug": "clem05",
+      "regnalName": "Clement",
+      "number": 5,
+      "fullName": "Clement V",
+      "pontificateStart": 1305,
+      "pontificateEnd": 1314,
+      "documentCount": 1,
+      "documents": [
+        "exivi-de-paradiso"
+      ]
+    },
+    {
+      "slug": "clem08",
+      "regnalName": "Clement",
+      "number": 8,
+      "fullName": "Clement VIII",
+      "pontificateStart": 1592,
+      "pontificateEnd": 1605,
+      "documentCount": 1,
+      "documents": [
+        "ex-supernae-dispositionis-arbitrio"
+      ]
+    },
+    {
+      "slug": "clem11",
+      "regnalName": "Clement",
+      "number": 11,
+      "fullName": "Clement XI",
+      "pontificateStart": 1700,
+      "pontificateEnd": 1721,
+      "documentCount": 1,
+      "documents": [
+        "unigenitus"
+      ]
+    },
+    {
+      "slug": "clem12",
+      "regnalName": "Clement",
+      "number": 12,
+      "fullName": "Clement XII",
+      "pontificateStart": 1730,
+      "pontificateEnd": 1740,
+      "documentCount": 1,
+      "documents": [
+        "in-eminenti"
+      ]
+    },
+    {
+      "slug": "clem13",
+      "regnalName": "Clement",
+      "number": 13,
+      "fullName": "Clement XIII",
+      "pontificateStart": 1758,
+      "pontificateEnd": 1769,
+      "documentCount": 6,
+      "documents": [
+        "a-quo-die",
+        "appetente-sacro",
+        "christianae-reipublicae",
+        "cum-primum",
+        "in-dominico-agro",
+        "summa-quae"
+      ]
+    },
+    {
+      "slug": "clem14",
+      "regnalName": "Clement",
+      "number": 14,
+      "fullName": "Clement XIV",
+      "pontificateStart": 1769,
+      "pontificateEnd": 1774,
+      "documentCount": 4,
+      "documents": [
+        "cum-summi",
+        "decet-quam-maxime",
+        "inscrutabili-divinae-sapientiae",
+        "salutis-nostrae"
+      ]
+    },
+    {
+      "slug": "encyclicals\\",
+      "regnalName": null,
+      "number": null,
+      "fullName": "Encyclicals\\",
+      "pontificateStart": null,
+      "pontificateEnd": null,
+      "documentCount": 0,
+      "documents": []
+    },
+    {
+      "slug": "eugene04",
+      "regnalName": "Eugene",
+      "number": 4,
+      "fullName": "Eugene IV",
+      "pontificateStart": 1431,
+      "pontificateEnd": 1447,
+      "documentCount": 1,
+      "documents": [
+        "sicut-dudum"
+      ]
+    },
+    {
+      "slug": "franc",
+      "regnalName": "Francis",
+      "number": 1,
+      "fullName": "Francis",
+      "pontificateStart": 2013,
+      "pontificateEnd": null,
+      "documentCount": 4,
+      "documents": [
+        "dilexit-nos",
+        "fratelli-tutti",
+        "laudato-si",
+        "lumen-fidei"
+      ]
+    },
+    {
+      "slug": "greg09",
+      "regnalName": "Gregory",
+      "number": 9,
+      "fullName": "Gregory IX",
+      "pontificateStart": 1227,
+      "pontificateEnd": 1241,
+      "documentCount": 1,
+      "documents": [
+        "mira-circa-nos"
+      ]
+    },
+    {
+      "slug": "greg10",
+      "regnalName": "Gregory",
+      "number": 10,
+      "fullName": "Gregory X",
+      "pontificateStart": 1271,
+      "pontificateEnd": 1276,
+      "documentCount": 1,
+      "documents": [
+        "papal-protection-of-the-jews"
+      ]
+    },
+    {
+      "slug": "greg16",
+      "regnalName": "Gregory",
+      "number": 16,
+      "fullName": "Gregory XVI",
+      "pontificateStart": 1831,
+      "pontificateEnd": 1846,
+      "documentCount": 10,
+      "documents": [
+        "commissum-divinitus",
+        "cum-primum",
+        "in-supremo-apostolatus",
+        "inter-praecipuas",
+        "mirari-vos",
+        "probe-nostis",
+        "quas-vestro",
+        "quo-graviora",
+        "singulari-nos",
+        "summo-iugiter-studio"
+      ]
+    },
+    {
+      "slug": "hon03",
+      "regnalName": "Honorius",
+      "number": 3,
+      "fullName": "Honorius III",
+      "pontificateStart": 1216,
+      "pontificateEnd": 1227,
+      "documentCount": 1,
+      "documents": [
+        "solet-annuere"
+      ]
+    },
+    {
+      "slug": "innoc04",
+      "regnalName": "Innocent",
+      "number": 4,
+      "fullName": "Innocent IV",
+      "pontificateStart": 1243,
+      "pontificateEnd": 1254,
+      "documentCount": 1,
+      "documents": [
+        "quae-honorem-conditoris-omnium"
+      ]
+    },
+    {
+      "slug": "innoc11",
+      "regnalName": "Innocent",
+      "number": 11,
+      "fullName": "Innocent XI",
+      "pontificateStart": 1676,
+      "pontificateEnd": 1689,
+      "documentCount": 2,
+      "documents": [
+        "coelestis-pastor",
+        "sollicitudo-pastoralis"
+      ]
+    },
+    {
+      "slug": "john22",
+      "regnalName": "John",
+      "number": 22,
+      "fullName": "John XXII",
+      "pontificateStart": 1316,
+      "pontificateEnd": 1334,
+      "documentCount": 2,
+      "documents": [
+        "quia-quorundam",
+        "summa-providit-altitudo-consilii"
+      ]
+    },
+    {
+      "slug": "john23",
+      "regnalName": "John",
+      "number": 23,
+      "fullName": "John XXIII",
+      "pontificateStart": 1958,
+      "pontificateEnd": 1963,
+      "documentCount": 12,
+      "documents": [
+        "ad-petri-cathedram",
+        "aeterna-dei-sapientia",
+        "grata-recordatio",
+        "le-voci-che-da-tutti",
+        "mater-et-magistra",
+        "on-promoting-devotion-to-the-most-precious-blood",
+        "pacem-in-terris",
+        "paenitentiam-agere",
+        "princeps-pastorum",
+        "religiosorum-institutio",
+        "sacerdotii-nostri-primordia",
+        "veterum-sapientia"
+      ]
+    },
+    {
+      "slug": "jp02",
+      "regnalName": "John Paul",
+      "number": 2,
+      "fullName": "John Paul II",
+      "pontificateStart": 1978,
+      "pontificateEnd": 2005,
+      "documentCount": 14,
+      "documents": [
+        "centesimus-annus",
+        "dives-in-misericordia",
+        "dominum-et-vivificantem",
+        "ecclesia-de-eucharistia",
+        "evangelium-vitae",
+        "fides-et-ratio",
+        "laborem-exercens",
+        "redemptor-hominis",
+        "redemptoris-mater",
+        "redemptoris-missio",
+        "slavorum-apostoli",
+        "sollicitudo-rei-socialis",
+        "ut-unum-sint",
+        "veritatis-splendor"
+      ]
+    },
+    {
+      "slug": "leo10",
+      "regnalName": "Leo",
+      "number": 10,
+      "fullName": "Leo X",
+      "pontificateStart": 1513,
+      "pontificateEnd": 1521,
+      "documentCount": 2,
+      "documents": [
+        "decet-romanum-pontificem",
+        "exsurge-domine"
+      ]
+    },
+    {
+      "slug": "leo12",
+      "regnalName": "Leo",
+      "number": 12,
+      "fullName": "Leo XII",
+      "pontificateStart": 1823,
+      "pontificateEnd": 1829,
+      "documentCount": 4,
+      "documents": [
+        "charitate-christi",
+        "quo-graviora",
+        "quod-hoc-ineunte",
+        "ubi-primum"
+      ]
+    },
+    {
+      "slug": "leo13",
+      "regnalName": "Leo",
+      "number": 13,
+      "fullName": "Leo XIII",
+      "pontificateStart": 1878,
+      "pontificateEnd": 1903,
+      "documentCount": 88,
+      "documents": [
+        "ad-extremas",
+        "adiutricem",
+        "aeterni-patris",
+        "affari-vos",
+        "amantissimae-voluntatis",
+        "annum-sacrum",
+        "apostolicae-curae",
+        "arcanum",
+        "au-milieu-des-sollicitudes",
+        "augustissimae-virginis-mariae",
+        "auspicato-concessum",
+        "caritatis-studium",
+        "catholicae-ecclesiae",
+        "christi-nomen",
+        "constanti-hungarorum",
+        "cum-multa",
+        "custodi-di-quella-fede",
+        "dall-alto-dell-apostolico-seggio",
+        "depuis-le-jour",
+        "diuturni-temporis",
+        "diuturnum",
+        "divinum-illud-munus",
+        "dum-multa",
+        "etsi-cunctas",
+        "etsi-nos",
+        "exeunte-iam-anno",
+        "fidentem-piumque-animum",
+        "fin-dal-principio",
+        "grande-munus",
+        "graves-de-communi-re",
+        "gravissimas",
+        "humanum-genus",
+        "iampridem",
+        "immortale-dei",
+        "in-amplissimo",
+        "in-ipso",
+        "in-plurimis",
+        "inimica-vis",
+        "inscrutabili-dei-consilio",
+        "insignes",
+        "iucunda-semper-expectatione",
+        "laetitiae-sanctae",
+        "libertas-praestantissimum",
+        "licet-multa",
+        "litteras-a-vobis",
+        "longinqua-january-6-1895",
+        "magnae-dei-matris",
+        "magni-nobis",
+        "militantis-ecclesiae",
+        "mirae-caritatis",
+        "misericors-dei-filius",
+        "nobilissima-gallorum-gens",
+        "octobri-mense",
+        "officio-sanctissimo",
+        "omnibus-compertum",
+        "orientalium-dignitas",
+        "pastoralis-officii",
+        "pastoralis",
+        "paternae",
+        "pergrata",
+        "permoti-nos",
+        "praeclara-gratulationis-publicae",
+        "providentissimus-deus",
+        "quae-ad-nos",
+        "quam-aerumnosa",
+        "quam-religiosa",
+        "quamquam-pluries",
+        "quarto-abeunte-saeculo",
+        "quod-anniversarius",
+        "quod-apostolici-muneris",
+        "quod-auctoritate",
+        "quod-multum",
+        "quod-votis",
+        "quum-diuturnum",
+        "reputantiubus",
+        "rerum-novarum",
+        "saepe-nos",
+        "sancta-dei-civitas",
+        "sapientiae-christianae",
+        "satis-cognitum",
+        "spectata-fides",
+        "spesse-volte",
+        "superiore-anno",
+        "supremi-apostolatus-officio",
+        "tametsi-futura-prospicientibus",
+        "testem-benevolentiae-nostrae",
+        "urbanitatis-veteris",
+        "vi-e-ben-noto"
+      ]
+    },
+    {
+      "slug": "leo14",
+      "regnalName": "Leo",
+      "number": 14,
+      "fullName": "Leo XIV",
+      "pontificateStart": 2025,
+      "pontificateEnd": null,
+      "documentCount": 1,
+      "documents": [
+        "encyclical-letter-of-his-holiness-leo-xiv-magnifica-humanitas"
+      ]
+    },
+    {
+      "slug": "nichol03",
+      "regnalName": "Nicholas",
+      "number": 3,
+      "fullName": "Nicholas III",
+      "pontificateStart": 1277,
+      "pontificateEnd": 1280,
+      "documentCount": 1,
+      "documents": [
+        "exiit-qui-seminat"
+      ]
+    },
+    {
+      "slug": "nichol05",
+      "regnalName": "Nicholas",
+      "number": 5,
+      "fullName": "Nicholas V",
+      "pontificateStart": 1447,
+      "pontificateEnd": 1455,
+      "documentCount": 1,
+      "documents": [
+        "romanus-pontifex"
+      ]
+    },
+    {
+      "slug": "paul03",
+      "regnalName": "Paul",
+      "number": 3,
+      "fullName": "Paul III",
+      "pontificateStart": 1534,
+      "pontificateEnd": 1549,
+      "documentCount": 2,
+      "documents": [
+        "in-apostolatus-culmine",
+        "sublimis-deus"
+      ]
+    },
+    {
+      "slug": "paul06",
+      "regnalName": "Paul",
+      "number": 6,
+      "fullName": "Paul VI",
+      "pontificateStart": 1963,
+      "pontificateEnd": 1978,
+      "documentCount": 8,
+      "documents": [
+        "christi-matri",
+        "ecclesiam-suam",
+        "humanae-vitae",
+        "mense-maio",
+        "mysterium-fidei",
+        "populorum-progressio",
+        "sacerdotalis-caelibatus",
+        "signum-magnum"
+      ]
+    },
+    {
+      "slug": "pius05",
+      "regnalName": "Pius",
+      "number": 5,
+      "fullName": "Pius V",
+      "pontificateStart": 1566,
+      "pontificateEnd": 1572,
+      "documentCount": 4,
+      "documents": [
+        "consueverunt-romani",
+        "exponi-nobis-nuper",
+        "quo-primum",
+        "regnans-in-excelsis"
+      ]
+    },
+    {
+      "slug": "pius06",
+      "regnalName": "Pius",
+      "number": 6,
+      "fullName": "Pius VI",
+      "pontificateStart": 1775,
+      "pontificateEnd": 1799,
+      "documentCount": 3,
+      "documents": [
+        "charitas",
+        "inscrutabile",
+        "ubi-lutetiam"
+      ]
+    },
+    {
+      "slug": "pius07",
+      "regnalName": "Pius",
+      "number": 7,
+      "fullName": "Pius VII",
+      "pontificateStart": 1800,
+      "pontificateEnd": 1823,
+      "documentCount": 1,
+      "documents": [
+        "diu-satis"
+      ]
+    },
+    {
+      "slug": "pius08",
+      "regnalName": "Pius",
+      "number": 8,
+      "fullName": "Pius VIII",
+      "pontificateStart": 1829,
+      "pontificateEnd": 1830,
+      "documentCount": 1,
+      "documents": [
+        "traditi-humilitati"
+      ]
+    },
+    {
+      "slug": "pius09",
+      "regnalName": "Pius",
+      "number": 9,
+      "fullName": "Pius IX",
+      "pontificateStart": 1846,
+      "pontificateEnd": 1878,
+      "documentCount": 38,
+      "documents": [
+        "amantissimi-redemptoris",
+        "amantissimus",
+        "apostolicae-nostrae-caritatis",
+        "beneficia-dei",
+        "cum-nuper",
+        "cum-sancta-mater-ecclesia",
+        "etsi-multa",
+        "exultavit-cor-nostrum",
+        "graves-ac-diuturnae",
+        "gravibus-ecclesiae",
+        "incredibili",
+        "ineffabilis-deus",
+        "inter-multiplices",
+        "levate",
+        "maximae-quidem",
+        "meridionali-americae",
+        "neminem-vestrum",
+        "nemo-certe-ignorat",
+        "nostis-et-nobiscum",
+        "nullis-certe-verbis",
+        "omnem-sollicitudinem",
+        "optime-noscitis",
+        "praedecessores-nostros",
+        "probe-noscitis-venerabiles",
+        "quae-in-patriarchatu",
+        "quanta-cura",
+        "quanto-conficiamur-moerore",
+        "quartus-supra",
+        "qui-nuper",
+        "qui-pluribus",
+        "quod-nunquam",
+        "respicientes",
+        "saepe-venerabiles-fratres",
+        "singulari-quidem",
+        "the-syllabus-of-errors",
+        "ubi-nos",
+        "ubi-primum",
+        "vix-dum-a-nobis"
+      ]
+    },
+    {
+      "slug": "pius10",
+      "regnalName": "Pius",
+      "number": 10,
+      "fullName": "Pius X",
+      "pontificateStart": 1903,
+      "pontificateEnd": 1914,
+      "documentCount": 25,
+      "documents": [
+        "acerbo-nimis",
+        "ad-diem-illum-laetissimum",
+        "communium-rerum",
+        "divino-afflatu",
+        "e-supremi",
+        "editae-saepe",
+        "for-the-fiftieth-anniversary-of-the-proclamation-of-the-dogma-of-the-immaculate-conception",
+        "gravissimo-officii-munere",
+        "haerent-animo",
+        "iamdudum",
+        "il-fermo-proposito",
+        "iucunda-sane",
+        "lacrimabili-statu",
+        "lamentabili-sane",
+        "notre-charge-apostolique",
+        "pascendi-dominici-gregis",
+        "pieni-l-animo",
+        "pope-st-pius-x",
+        "praestantia-scripturae",
+        "quam-singulari",
+        "singulari-quadam",
+        "the-oath-against-modernism",
+        "tribus-circiter",
+        "une-fois-encore",
+        "vehementer-nos"
+      ]
+    },
+    {
+      "slug": "pius11",
+      "regnalName": "Pius",
+      "number": 11,
+      "fullName": "Pius XI",
+      "pontificateStart": 1922,
+      "pontificateEnd": 1939,
+      "documentCount": 31,
+      "documents": [
+        "acerba-animi",
+        "ad-catholici-sacerdotii",
+        "ad-salutem",
+        "apostolicorum-in-missionibus",
+        "caritate-christi-compulsi",
+        "casti-connubii",
+        "dilectissima-nobis",
+        "divini-illius-magistri",
+        "divini-redemptoris",
+        "ecclesiam-dei",
+        "ingravescentibus-malis",
+        "iniquis-afflictisque",
+        "lux-veritatis",
+        "maximam-gravissimamque",
+        "mens-nostra",
+        "miserentissimus-redemptor",
+        "mit-brennender-sorge",
+        "mortalium-animos",
+        "non-abbiamo-bisogno",
+        "nos-es-muy-conocida",
+        "nova-impendet",
+        "quadragesimo-anno",
+        "quas-primas",
+        "quinquagesimo-ante",
+        "rerum-ecclesiae",
+        "rerum-omnium-perturbationem",
+        "rerum-orientalium",
+        "rite-expiatis",
+        "studiorum-ducem",
+        "ubi-arcano-dei-consilio",
+        "vigilanti-cura"
+      ]
+    },
+    {
+      "slug": "pius12",
+      "regnalName": "Pius",
+      "number": 12,
+      "fullName": "Pius XII",
+      "pontificateStart": 1939,
+      "pontificateEnd": 1958,
+      "documentCount": 60,
+      "documents": [
+        "ad-apostolorum-principis",
+        "ad-caeli-reginam",
+        "ad-sinarum-gentem",
+        "address-to-midwives-on-the-nature-of-their-profession",
+        "anni-sacri",
+        "applied-psychology",
+        "auspicia-quaedam",
+        "christus-dominus",
+        "communium-interpretes-doloraum",
+        "counsel-to-teaching-sisters",
+        "datis-nuperrime",
+        "deiparae-virginis-mariae",
+        "democracy-and-a-lasting-peace",
+        "divino-afflante-spiritu",
+        "doctor-mellifluus",
+        "ecclesiae-fastos",
+        "evangelii-praecones",
+        "exsul-familia-nazarethana",
+        "fidei-donum",
+        "fulgens-corona",
+        "fulgens-radiatur",
+        "guiding-principles-of-the-lay-apostolate",
+        "haurietis-aquas",
+        "humani-generis",
+        "in-multiplicibus-curis",
+        "ingruentium-malorum",
+        "invicti-athletae",
+        "laetamur-admodum",
+        "le-pelerinage-de-lourdes",
+        "luctuosissimi-eventus",
+        "mediator-dei",
+        "meminisse-iuvat",
+        "menti-nostrae",
+        "mirabile-illud",
+        "miranda-prorsus",
+        "munificentissimus-deus",
+        "musicae-sacrae",
+        "mystici-corporis",
+        "on-psychotherapy-and-religion",
+        "on-rural-life",
+        "optatissima-pax",
+        "orientales-omnes-ecclesias",
+        "orientalis-ecclesiae",
+        "papal-directives-for-the-woman-of-today",
+        "quemadmodum",
+        "redemptoris-nostri-cruciatus",
+        "sacra-virginitas",
+        "sacram-communionem",
+        "sacramentum-ordinis",
+        "saeculo-exeunte-octavo",
+        "sempiternus-rex-christus",
+        "sertum-laetitiae",
+        "si-diligis-canonisation-of-st-pius-x",
+        "summi-maeroris",
+        "summi-pontificatus",
+        "the-function-of-art",
+        "the-internal-order-of-states-and-people",
+        "the-moral-limits-of-medical-research-and-treatment",
+        "the-proofs-for-the-existence-of-god-in-the-light-of-modern-natural-science",
+        "the-states-of-perfection"
+      ]
+    },
+    {
+      "slug": "sixtus04",
+      "regnalName": "Sixtus",
+      "number": 4,
+      "fullName": "Sixtus IV",
+      "pontificateStart": 1471,
+      "pontificateEnd": 1484,
+      "documentCount": 1,
+      "documents": [
+        "superna-caelestis"
+      ]
+    },
+    {
+      "slug": "sixtus05",
+      "regnalName": "Sixtus",
+      "number": 5,
+      "fullName": "Sixtus V",
+      "pontificateStart": 1585,
+      "pontificateEnd": 1590,
+      "documentCount": 1,
+      "documents": [
+        "triumphantis-hierusalem"
+      ]
+    }
+  ]
+}

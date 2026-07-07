@@ -1,0 +1,38 @@
+{
+  "slug": "redemptoris-nostri-cruciatus",
+  "incipit": "Redemptoris Nostri Cruciatus",
+  "englishTitle": "On Holy Places in Palestine",
+  "pope": {
+    "slug": "pius12",
+    "name": "Pius XII",
+    "regnalName": "Pius",
+    "number": 12,
+    "fullName": "Pius XII"
+  },
+  "type": "encyclical-letter",
+  "year": 1949,
+  "date": "1949",
+  "dateApproximate": false,
+  "addressee": "To the Venerable Brethren the Patriarchs, Primates, Archbishops, Bishops, and other Ordinaries m Peace and Communion with the Apostolic See.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "eucharist",
+    "human-dignity",
+    "justice",
+    "moral-theology",
+    "papacy",
+    "peace",
+    "prayer",
+    "social-doctrine"
+  ],
+  "wordCount": 1237,
+  "fileSize": 7452,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, St. Peter's the fifteenth day of the month of April, Good Friday, in the year 1949, the eleventh of Our Pontificate."
+}

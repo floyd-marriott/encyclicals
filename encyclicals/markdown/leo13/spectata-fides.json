@@ -1,0 +1,38 @@
+{
+  "slug": "spectata-fides",
+  "incipit": "Spectata Fides",
+  "englishTitle": "On Christian Education",
+  "pope": {
+    "slug": "leo13",
+    "name": "Leo XIII",
+    "regnalName": "Leo",
+    "number": 13,
+    "fullName": "Leo XIII"
+  },
+  "type": null,
+  "year": 1885,
+  "date": "1885-11-27",
+  "dateApproximate": false,
+  "addressee": "To Our Venerable Brethren, Henry Edward, Cardinal Priest of the Holy Roman Church, of the Title of SS. Andrew and Gregory on the Coelian Hill, Archbishop of Westminster, and the other Bishops of England.",
+  "addresseeScope": "universal",
+  "language": "en",
+  "translated": false,
+  "translationSource": null,
+  "tags": [
+    "charity",
+    "christology",
+    "clergy",
+    "ecclesiology",
+    "education",
+    "family",
+    "liberalism",
+    "moral-theology",
+    "papacy",
+    "prayer",
+    "social-doctrine"
+  ],
+  "wordCount": 929,
+  "fileSize": 5404,
+  "hasClosingDate": true,
+  "rawClosingDate": "Given at Rome, at St. Peter’s, on the 27th day of November, in the year 1885, the eighth year of Our Pontificate."
+}
