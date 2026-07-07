@@ -1,4 +1,4 @@
-  Praeclara Gratulationis Publicae
+   Praeclara Gratulationis Publicae
 
 # Praeclara Gratulationis Publicae
 
@@ -97,3 +97,4 @@ The last years of the past century left Europe worn out with disasters and panic
 May God, Who is rich in Mercy, and in Whose Power are the times and moments, grant Our wishes and desires, and in His great Goodness, hasten the fulfillment of that Divine Promise of Jesus Christ: There will be One Fold and One Shepherd.
 
 As a pledge of these Heavenly Gifts, and in witness of Our good will to you, Venerable Brothers, and to the Clergy and people committed to each of you, We most lovingly grant in the Lord the Apostolic Benediction.
+

@@ -25,3 +25,4 @@ Your proved fidelity and singular devotion to this Apostolic See are admirably s
 7\. As a pledge of gifts from above, and in witness of Our good will, We lovingly grant in the Lord to you, and to the clergy and people committed to each one of you, the Apostolic Benediction.
 
 Given at Rome, at St. Peter’s, on the 27th day of November, in the year 1885, the eighth year of Our Pontificate.
+

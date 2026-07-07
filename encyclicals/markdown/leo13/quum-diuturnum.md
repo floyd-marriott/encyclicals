@@ -19,3 +19,4 @@ _To the Bishops of Latin America._
 5\. In the meantime, venerable brothers, We give you very affectionately Our apostolic blessing as a pledge of heavenly favors and as a witness of Our good will to you, to the clergy, and to the people entrusted to your care.
 
 Given at Rome, at St. Peter’s on the very day of the birth of Our Lord Jesus Christ, 1898, in the twenty-first year of Our Pontificate.
+

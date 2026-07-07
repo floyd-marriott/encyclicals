@@ -1,5 +1,3 @@
-  Ex Omnibus
-
 # Ex Omnibus
 
 ## On the Apostolic Constitution Unigenitus

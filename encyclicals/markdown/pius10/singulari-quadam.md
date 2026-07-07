@@ -47,3 +47,4 @@ There is one more point to consider, and it was already implied in what has been
 ENDNOTES
 
 *   1\. Encyclical letter of Leo XIII, “Graves de communi,” January 18, 1901.
+
