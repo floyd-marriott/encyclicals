@@ -97,7 +97,7 @@ async function main() {
 
     const doc = {
       _type: 'document',
-      _id: `doc-${slug}`,
+      _id: `doc-${popeSlug}-${slug}`,
       slug,
       incipit: meta.incipit,
       englishTitle: meta.englishTitle || undefined,
