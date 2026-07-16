@@ -96,7 +96,7 @@ async function main() {
     }
 
     const doc = {
-      _type: 'document',
+      _type: 'encyclical',
       _id: `doc-${popeSlug}-${slug}`,
       slug,
       incipit: meta.incipit,

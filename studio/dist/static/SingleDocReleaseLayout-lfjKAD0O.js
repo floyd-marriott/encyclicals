@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-DiK4U9sA.js";import{t}from"./compiler-runtime-Bc4rjXEQ.js";import{rn as n,tn as r}from"./index2-CEIiH_5G.js";var i=e(),a=t();function o(e){let t=(0,a.c)(4),o;t[0]===e?o=t[1]:(o=e.renderDefault(e),t[0]=e,t[1]=o);let s;return t[2]===o?s=t[3]:(s=(0,i.jsx)(r,{children:(0,i.jsx)(n,{children:o})}),t[2]=o,t[3]=s),s}export{o as SingleDocReleaseLayout};

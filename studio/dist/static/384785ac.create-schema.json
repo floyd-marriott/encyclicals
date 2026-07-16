@@ -1,0 +1,293 @@
+[
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "description": "Short identifier (e.g. leo13, pius11)",
+        "name": "slug",
+        "type": "string"
+      },
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "description": "Pope's regnal name (e.g. Leo, Pius)",
+        "name": "regnalName",
+        "type": "string"
+      },
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "description": "Regnal number (e.g. 13 for Leo XIII)",
+        "name": "number",
+        "type": "number"
+      },
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "description": "Complete title (e.g. Leo XIII)",
+        "name": "fullName",
+        "type": "string"
+      },
+      {
+        "name": "pontificateStart",
+        "type": "number",
+        "title": "Pontificate Start Year"
+      },
+      {
+        "name": "pontificateEnd",
+        "type": "number",
+        "title": "Pontificate End Year"
+      },
+      {
+        "description": "Number of documents in this corpus",
+        "name": "documentCount",
+        "type": "number"
+      }
+    ],
+    "name": "pope",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "description": "URL-friendly identifier (e.g. rerum-novarum)",
+        "name": "slug",
+        "type": "string"
+      },
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "description": "Latin opening words of the document",
+        "name": "incipit",
+        "type": "string"
+      },
+      {
+        "description": "Common English title, if one exists",
+        "name": "englishTitle",
+        "type": "string"
+      },
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "to": [
+          {
+            "type": "pope"
+          }
+        ],
+        "name": "pope",
+        "type": "reference"
+      },
+      {
+        "description": "Canonical classification (encyclical, bull, brief, etc.)",
+        "name": "type",
+        "type": "string",
+        "title": "Document Type"
+      },
+      {
+        "description": "Publication year",
+        "name": "year",
+        "type": "number"
+      },
+      {
+        "description": "ISO date string (YYYY-MM-DD or YYYY)",
+        "name": "date",
+        "type": "string"
+      },
+      {
+        "description": "True if the date is uncertain",
+        "name": "dateApproximate",
+        "type": "boolean"
+      },
+      {
+        "rows": 3,
+        "description": "Original addressee line from the document",
+        "name": "addressee",
+        "type": "text"
+      },
+      {
+        "description": "Scope of the intended audience",
+        "name": "addresseeScope",
+        "type": "string"
+      },
+      {
+        "description": "ISO code of the document text (en, la, it, fr, de, es)",
+        "name": "language",
+        "type": "string"
+      },
+      {
+        "description": "True if the text is a translation from the original",
+        "name": "translated",
+        "type": "boolean"
+      },
+      {
+        "description": "Source of the translation (e.g. vatican.va, DeepL)",
+        "name": "translationSource",
+        "type": "string"
+      },
+      {
+        "options": {
+          "layout": "tags"
+        },
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "tags",
+        "type": "array"
+      },
+      {
+        "name": "wordCount",
+        "type": "number"
+      },
+      {
+        "name": "fileSize",
+        "type": "number",
+        "title": "File Size (bytes)"
+      },
+      {
+        "description": "Full document text as Portable Text",
+        "of": [
+          {
+            "lists": [
+              {
+                "value": "bullet",
+                "title": "Bulleted list"
+              },
+              {
+                "value": "number",
+                "title": "Numbered list"
+              }
+            ],
+            "marks": {
+              "annotations": []
+            },
+            "of": [],
+            "styles": [
+              {
+                "value": "normal",
+                "title": "Normal"
+              },
+              {
+                "value": "h2",
+                "title": "Heading 2"
+              }
+            ],
+            "type": "block"
+          }
+        ],
+        "name": "body",
+        "type": "array"
+      },
+      {
+        "description": "AI-generated summary",
+        "of": [
+          {
+            "lists": [
+              {
+                "value": "bullet",
+                "title": "Bulleted list"
+              },
+              {
+                "value": "number",
+                "title": "Numbered list"
+              }
+            ],
+            "marks": {
+              "annotations": []
+            },
+            "of": [],
+            "styles": [
+              {
+                "value": "normal",
+                "title": "Normal"
+              },
+              {
+                "value": "h2",
+                "title": "Heading 2"
+              }
+            ],
+            "type": "block"
+          }
+        ],
+        "name": "summary",
+        "type": "array"
+      },
+      {
+        "rows": 3,
+        "description": "Original closing formula verbatim",
+        "name": "rawClosingDate",
+        "type": "text"
+      }
+    ],
+    "name": "encyclical",
+    "type": "document",
+    "title": "Document"
+  }
+]

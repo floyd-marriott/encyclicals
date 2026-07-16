@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'Encyclicals',
 
-  projectId: 'PROJECT_ID',
+  projectId: '7snvai95',
   dataset: 'production',
 
   plugins: [structureTool(), visionTool()],

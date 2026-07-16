@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-DiK4U9sA.js";var t=e();function n(e){return(0,t.jsx)(`svg`,{"data-sanity-icon":`filter`,width:`1em`,height:`1em`,viewBox:`0 0 25 25`,fill:`none`,xmlns:`http://www.w3.org/2000/svg`,...e,children:(0,t.jsx)(`path`,{d:`M6 7.5H19M8 12.5H17M10 17.5H15`,stroke:`currentColor`,strokeWidth:1.2,strokeLinejoin:`round`})})}export{n as FilterIcon,n as default};

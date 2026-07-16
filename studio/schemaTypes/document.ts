@@ -1,7 +1,7 @@
 import {defineType, defineField} from 'sanity'
 
 export const documentType = defineType({
-  name: 'document',
+  name: 'encyclical',
   title: 'Document',
   type: 'document',
   fields: [

@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-DiK4U9sA.js";var t=e();function n(e){return(0,t.jsx)(`svg`,{"data-sanity-icon":`square`,width:`1em`,height:`1em`,viewBox:`0 0 25 25`,fill:`none`,xmlns:`http://www.w3.org/2000/svg`,...e,children:(0,t.jsx)(`rect`,{x:5.5,y:5.5,width:14,height:14,stroke:`currentColor`,strokeWidth:1.2,strokeLinejoin:`round`})})}export{n as SquareIcon,n as default};
