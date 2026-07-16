@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 
 const {slug, pope: popeSlug} = Astro.params
 const doc: any = await client.fetch(
-  '*[_type == "encyclical" && slug == $slug && pope->slug == $pope][0]',
+  '*[_type == "encyclical" && slug == $slug && pope->slug == $pope][0] {..., "pope": pope->{slug, fullName}}',
   {slug, pope: popeSlug},
 )
 ---

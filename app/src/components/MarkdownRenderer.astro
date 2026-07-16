@@ -5,7 +5,42 @@ export interface Props {
   content: string
 }
 const {content} = Astro.props
-const html = content ? await marked(content) : ''
+
+function cleanMarkdown(md: string): string {
+  if (!md) return ''
+
+  let text = md
+    .replace(/^\[(?:AR|DE|EN|ES|FR|IT|PL|PT|RU)\]\(.*?\).*$/gm, '')
+    .replace(/^.*Multimedia.*vatican\.va.*$/gm, '')
+    .replace(/^_{3,}$/gm, '')
+    .replace(/^!?\[.*?\]\(.*?\)$/gm, '')
+
+  text = text
+    .replace(/\\\[/g, '\x00')
+    .replace(/\\\]/g, '\x01')
+
+  text = text.replace(/\[([^\]]*)\]\(#[^)]*\)/g, '$1')
+
+  text = text
+    .replace(/\x00/g, '[')
+    .replace(/\x01/g, ']')
+
+  text = text
+    .replace(/^[ \t]*_[ \t]+/gm, '')
+    .replace(/^ENCYCLICAL LETTER_[ \t]*$/gm, '')
+    .replace(/^_OF (?:THE|HIS|OUR).*$/gm, '')
+    .replace(/^[ \t]+$/gm, '')
+    .replace(/\n{3,}/g, '\n\n')
+
+  const idx = text.search(/^(?:\d+(?:\\\.|\.)\s|##\s)/m)
+  if (idx !== -1) {
+    text = text.slice(idx)
+  }
+
+  return text.trim()
+}
+
+const html = content ? await marked(cleanMarkdown(content)) : ''
 ---
 
 <article class="prose prose-stone max-w-none prose-headings:font-semibold prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline">
