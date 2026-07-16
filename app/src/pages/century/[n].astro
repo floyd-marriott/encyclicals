@@ -1,0 +1,59 @@
+---
+export const prerender = true
+
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import CenturyStrip from '../../components/CenturyStrip.astro'
+import {client} from '../../lib/sanity'
+
+export async function getStaticPaths() {
+  const centuries = [13, 14, 15, 16, 17, 18, 19, 20, 21]
+  return centuries.map(n => ({params: {n: String(n)}}))
+}
+
+const {n} = Astro.params
+const century = parseInt(n!, 10)
+const start = century * 100
+const end = century * 100 + 99
+const docs: any[] = await client.fetch(
+  '*[_type == "encyclical" && year >= $start && year <= $end] | order(year asc) {incipit, slug, year, "pope": pope->{fullName, slug}}',
+  {start, end},
+)
+
+const byYear: Record<number, any[]> = {}
+for (const d of docs) {
+  const y = d.year || 0
+  if (!byYear[y]) byYear[y] = []
+  byYear[y].push(d)
+}
+const years = Object.keys(byYear).map(Number).sort((a, b) => a - b)
+---
+
+<BaseLayout title={`${century}th Century`}>
+  <div class="space-y-6">
+    <div>
+      <h1 class="text-2xl font-bold text-stone-900">{century}th Century</h1>
+      <p class="text-sm text-stone-500">{docs.length} documents</p>
+    </div>
+    <CenturyStrip current={century} />
+    <div class="space-y-8">
+      {years.map(y => (
+        <div>
+          <h2 class="mb-3 text-lg font-semibold text-stone-700">{y}</h2>
+          <div class="space-y-2">
+            {byYear[y].map(d => (
+              <div class="text-sm">
+                <a
+                  href={`/documents/${d.pope.slug}/${d.slug}`}
+                  class="font-medium text-blue-600 hover:underline"
+                >
+                  {d.incipit}
+                </a>
+                <span class="ml-2 text-stone-400">{d.pope.fullName}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

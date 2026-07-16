@@ -1,0 +1,58 @@
+---
+export const prerender = true
+
+import BaseLayout from '../../../layouts/BaseLayout.astro'
+import MarkdownRenderer from '../../../components/MarkdownRenderer.astro'
+import MetadataSidebar from '../../../components/MetadataSidebar.astro'
+import {client} from '../../../lib/sanity'
+
+export async function getStaticPaths() {
+  const docs: {slug: string; popeSlug: string}[] = await client.fetch(
+    '*[_type == "encyclical"] {"popeSlug": pope->slug, slug}',
+  )
+  return docs.map(({slug, popeSlug}) => ({params: {slug, pope: popeSlug}}))
+}
+
+const {slug, pope: popeSlug} = Astro.params
+const doc: any = await client.fetch(
+  '*[_type == "encyclical" && slug == $slug && pope->slug == $pope][0]',
+  {slug, pope: popeSlug},
+)
+---
+
+<BaseLayout title={doc?.incipit}>
+  {doc ? (
+    <div class="grid gap-8 lg:grid-cols-[1fr_240px]">
+      <div>
+        <h1 class="text-2xl font-bold text-stone-900">{doc.incipit}</h1>
+        {doc.englishTitle && doc.englishTitle !== doc.incipit && (
+          <p class="mt-1 text-lg text-stone-500">{doc.englishTitle}</p>
+        )}
+        <div class="mt-8">
+          <MarkdownRenderer content={doc.body} />
+        </div>
+        {doc.summary && (
+          <div class="mt-12 border-t border-stone-200 pt-8">
+            <h2 class="mb-4 text-lg font-semibold text-stone-900">Summary</h2>
+            <MarkdownRenderer content={doc.summary} />
+          </div>
+        )}
+      </div>
+      <aside class="lg:border-l lg:border-stone-200 lg:pl-6">
+        <MetadataSidebar
+          pope={doc.pope}
+          year={doc.year}
+          date={doc.date}
+          type={doc.type}
+          language={doc.language}
+          addressee={doc.addressee}
+          tags={doc.tags}
+          wordCount={doc.wordCount}
+          fileSize={doc.fileSize}
+        />
+      </aside>
+    </div>
+  ) : (
+    <p class="text-stone-500">Document not found.</p>
+  )}
+</BaseLayout>

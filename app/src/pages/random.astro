@@ -1,0 +1,15 @@
+---
+import {client} from '../lib/sanity'
+
+export const prerender = false
+
+const doc: {slug: string; pope: {slug: string}} | null = await client.fetch(
+  '*[_type == "encyclical"][floor(random() * count(*[_type == "encyclical"]))] {slug, "pope": pope->slug}',
+)
+
+if (doc) {
+  return Astro.redirect(`/documents/${doc.pope.slug}/${doc.slug}`, 302)
+}
+---
+
+<p class="text-stone-500">No documents found.</p>

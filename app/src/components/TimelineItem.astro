@@ -1,0 +1,21 @@
+---
+export interface Props {
+  incipit: string
+  slug: string
+  pope: {fullName: string; slug: string}
+  year?: number | null
+  isFirstInYear: boolean
+}
+const {incipit, slug, pope, year, isFirstInYear} = Astro.props
+---
+
+<div class="relative pl-8 pb-6">
+  {isFirstInYear && (
+    <div class="absolute -left-3 top-0 text-sm font-bold text-stone-400">{year}</div>
+  )}
+  <div class="absolute left-0 top-2 h-3 w-3 rounded-full border-2 border-stone-300 bg-white" />
+  <a href={`/documents/${pope.slug}/${slug}`} class="group block">
+    <div class="font-medium text-stone-900 group-hover:text-blue-600">{incipit}</div>
+    <div class="text-xs text-stone-500">{pope.fullName}</div>
+  </a>
+</div>

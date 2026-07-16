@@ -1,0 +1,16 @@
+---
+export interface Props {
+  slug: string
+  fullName: string
+  documentCount: number
+}
+const {slug, fullName, documentCount} = Astro.props
+---
+
+<a
+  href={`/popes/${slug}`}
+  class="block rounded-lg border border-stone-200 bg-white p-4 transition hover:border-stone-400 hover:shadow-sm"
+>
+  <div class="text-sm font-medium text-stone-900">{fullName}</div>
+  <div class="mt-1 text-xs text-stone-500">{documentCount} documents</div>
+</a>

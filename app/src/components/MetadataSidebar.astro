@@ -1,0 +1,79 @@
+---
+export interface Props {
+  pope: {fullName: string; slug: string}
+  year?: number | null
+  date?: string | null
+  type?: string | null
+  language?: string | null
+  addressee?: string | null
+  tags?: string[] | null
+  wordCount?: number | null
+  fileSize?: number | null
+}
+const {pope, year, date, type, language, addressee, tags, wordCount, fileSize} = Astro.props
+---
+
+<div class="space-y-4 text-sm">
+  <div>
+    <div class="text-xs font-medium uppercase tracking-wide text-stone-400">Pope</div>
+    <a href={`/popes/${pope.slug}`} class="text-blue-600 hover:underline">{pope.fullName}</a>
+  </div>
+
+  {year && (
+    <div>
+      <div class="text-xs font-medium uppercase tracking-wide text-stone-400">Year</div>
+      <div>{year}</div>
+    </div>
+  )}
+
+  {date && (
+    <div>
+      <div class="text-xs font-medium uppercase tracking-wide text-stone-400">Date</div>
+      <div>{date}</div>
+    </div>
+  )}
+
+  {type && (
+    <div>
+      <div class="text-xs font-medium uppercase tracking-wide text-stone-400">Type</div>
+      <div>{type}</div>
+    </div>
+  )}
+
+  {language && (
+    <div>
+      <div class="text-xs font-medium uppercase tracking-wide text-stone-400">Language</div>
+      <div>{language}</div>
+    </div>
+  )}
+
+  {wordCount && (
+    <div>
+      <div class="text-xs font-medium uppercase tracking-wide text-stone-400">Word Count</div>
+      <div>{wordCount.toLocaleString()}</div>
+    </div>
+  )}
+
+  {addressee && (
+    <div>
+      <div class="text-xs font-medium uppercase tracking-wide text-stone-400">Addressee</div>
+      <div class="text-stone-600">{addressee}</div>
+    </div>
+  )}
+
+  {tags && tags.length > 0 && (
+    <div>
+      <div class="text-xs font-medium uppercase tracking-wide text-stone-400">Tags</div>
+      <div class="mt-1 flex flex-wrap gap-1">
+        {tags.map(t => (
+          <a
+            href={`/tags/${t}`}
+            class="rounded bg-blue-50 px-1.5 py-0.5 text-xs text-blue-600 hover:bg-blue-100"
+          >
+            {t}
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
+</div>

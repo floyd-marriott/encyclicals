@@ -108,21 +108,15 @@ export const documentType = defineType({
     }),
     defineField({
       name: 'body',
-      type: 'array',
+      type: 'text',
       title: 'Body',
-      of: [
-        {type: 'block', styles: [{title: 'Normal', value: 'normal'}, {title: 'Heading 2', value: 'h2'}], marks: {annotations: [], decorators: []}},
-      ],
-      description: 'Full document text as Portable Text',
+      description: 'Full document text as markdown',
     }),
     defineField({
       name: 'summary',
-      type: 'array',
+      type: 'text',
       title: 'Summary',
-      of: [
-        {type: 'block', styles: [{title: 'Normal', value: 'normal'}, {title: 'Heading 2', value: 'h2'}], marks: {annotations: [], decorators: []}},
-      ],
-      description: 'AI-generated summary',
+      description: 'AI-generated summary as markdown',
     }),
     defineField({
       name: 'rawClosingDate',

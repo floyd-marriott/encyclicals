@@ -1,0 +1,30 @@
+---
+import '../styles/global.css'
+const {title} = Astro.props
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title ? `${title} — Encyclicals` : 'Encyclicals'}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class="min-h-screen bg-stone-50 text-stone-900 antialiased">
+    <nav class="border-b border-stone-200 bg-white">
+      <div class="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
+        <a href="/" class="text-lg font-bold tracking-tight">Encyclicals</a>
+        <div class="flex gap-4 text-sm text-stone-500">
+          <a href="/popes" class="hover:text-stone-900">Popes</a>
+          <a href="/tags" class="hover:text-stone-900">Tags</a>
+          <a href="/timeline" class="hover:text-stone-900">Timeline</a>
+          <a href="/search" class="hover:text-stone-900">Search</a>
+        </div>
+      </div>
+    </nav>
+    <main class="mx-auto max-w-6xl px-4 py-8">
+      <slot />
+    </main>
+  </body>
+</html>

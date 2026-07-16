@@ -1,0 +1,20 @@
+---
+const centuries = [13, 14, 15, 16, 17, 18, 19, 20, 21]
+const current = Astro.props.current as number | undefined
+---
+
+<div class="flex flex-wrap gap-2">
+  {centuries.map(c => (
+    <a
+      href={`/century/${c}`}
+      class="rounded px-3 py-1.5 text-sm transition"
+      set:class={
+        c === current
+          ? 'bg-stone-900 text-white'
+          : 'bg-stone-100 text-stone-600 hover:bg-stone-200'
+      }
+    >
+      {c}th
+    </a>
+  ))}
+</div>

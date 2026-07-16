@@ -24,33 +24,6 @@ const client = createClient({
   apiVersion: '2024-01-01',
 })
 
-function mdToBlocks(md) {
-  const blocks = []
-  const parts = md.trim().split(/\n\n+/)
-  for (const p of parts) {
-    const t = p.trim()
-    if (!t) continue
-    if (t.startsWith('## ')) {
-      blocks.push({
-        _type: 'block',
-        style: 'h2',
-        children: [{_type: 'span', text: t.slice(3).trim(), marks: []}],
-        markDefs: [],
-      })
-    } else if (t.startsWith('# ')) {
-      continue
-    } else {
-      blocks.push({
-        _type: 'block',
-        style: 'normal',
-        children: [{_type: 'span', text: t, marks: []}],
-        markDefs: [],
-      })
-    }
-  }
-  return blocks
-}
-
 async function main() {
   const popesData = JSON.parse(readFileSync(path.join(DATA_DIR, 'popes.json'), 'utf-8'))
   const indexData = JSON.parse(readFileSync(path.join(DATA_DIR, 'index.json'), 'utf-8'))
@@ -90,9 +63,9 @@ async function main() {
     const meta = JSON.parse(readFileSync(sidecarPath, 'utf-8'))
     const mdContent = readFileSync(mdPath, 'utf-8')
 
-    let summaryBlocks = []
+    let summaryContent = ''
     if (existsSync(summaryPath)) {
-      summaryBlocks = mdToBlocks(readFileSync(summaryPath, 'utf-8'))
+      summaryContent = readFileSync(summaryPath, 'utf-8')
     }
 
     const doc = {
@@ -114,8 +87,8 @@ async function main() {
       tags: meta.tags || [],
       wordCount: meta.wordCount,
       fileSize: meta.fileSize,
-      body: mdToBlocks(mdContent),
-      summary: summaryBlocks,
+      body: mdContent,
+      summary: summaryContent,
       rawClosingDate: meta.rawClosingDate || undefined,
     }
 

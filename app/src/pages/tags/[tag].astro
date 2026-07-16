@@ -1,0 +1,40 @@
+---
+export const prerender = true
+
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import DocCard from '../../components/DocCard.astro'
+import {client} from '../../lib/sanity'
+
+export async function getStaticPaths() {
+  const tagData: {tags: string[]}[] = await client.fetch('*[_type == "encyclical"] {tags}')
+  const seen = new Set<string>()
+  const paths: {params: {tag: string}}[] = []
+  for (const {tags} of tagData) {
+    for (const t of tags || []) {
+      if (!seen.has(t)) {
+        seen.add(t)
+        paths.push({params: {tag: t}})
+      }
+    }
+  }
+  return paths
+}
+
+const {tag} = Astro.params
+const docs: any[] = await client.fetch(
+  '*[_type == "encyclical" && $tag in tags] | order(year asc) {incipit, slug, year, type, tags, englishTitle, "popeSlug": pope->slug, "pope": pope->{fullName, slug}}',
+  {tag},
+)
+---
+
+<BaseLayout title={tag}>
+  <div class="space-y-6">
+    <div>
+      <h1 class="text-2xl font-bold text-stone-900">Tag: {tag}</h1>
+      <p class="text-sm text-stone-500">{docs.length} documents</p>
+    </div>
+    <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {docs.map(d => <DocCard {...d} />)}
+    </div>
+  </div>
+</BaseLayout>

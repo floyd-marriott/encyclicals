@@ -1,0 +1,19 @@
+---
+const q = Astro.props.q as string | undefined
+---
+
+<form action="/search" method="get" class="flex gap-2">
+  <input
+    type="text"
+    name="q"
+    value={q || ''}
+    placeholder="Search documents…"
+    class="flex-1 rounded-lg border border-stone-300 px-4 py-2 text-sm focus:border-blue-500 focus:outline-none"
+  />
+  <button
+    type="submit"
+    class="rounded-lg bg-stone-900 px-4 py-2 text-sm text-white transition hover:bg-stone-700"
+  >
+    Search
+  </button>
+</form>

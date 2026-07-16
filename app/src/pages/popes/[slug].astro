@@ -1,0 +1,38 @@
+---
+export const prerender = true
+
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import DocCard from '../../components/DocCard.astro'
+import {client} from '../../lib/sanity'
+
+export async function getStaticPaths() {
+  const slugs: {slug: string}[] = await client.fetch('*[_type == "pope"] {slug}')
+  return slugs.map(({slug}) => ({params: {slug}}))
+}
+
+const {slug} = Astro.params
+const pope: any = await client.fetch('*[_type == "pope" && slug == $slug][0]', {slug})
+const docs: any[] = await client.fetch(
+  '*[_type == "encyclical" && pope->slug == $slug] | order(year asc) {incipit, slug, year, type, tags, englishTitle, "popeSlug": pope->slug}',
+  {slug},
+)
+---
+
+<BaseLayout title={pope?.fullName}>
+  {pope ? (
+    <div class="space-y-6">
+      <div>
+        <h1 class="text-2xl font-bold text-stone-900">{pope.fullName}</h1>
+        <p class="text-sm text-stone-500">
+          Pontificate: {pope.pontificateStart}–{pope.pontificateEnd || 'Present'}
+          &nbsp;·&nbsp;{docs.length} documents
+        </p>
+      </div>
+      <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {docs.map(d => <DocCard {...d} />)}
+      </div>
+    </div>
+  ) : (
+    <p class="text-stone-500">Pope not found.</p>
+  )}
+</BaseLayout>

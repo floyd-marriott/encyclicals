@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import SearchInput from '../components/SearchInput.astro'
+import {client} from '../lib/sanity'
+
+const q = Astro.url.searchParams.get('q') || ''
+let results: any[] = []
+if (q) {
+  results = await client.fetch(
+    '*[_type == "encyclical" && (incipit match $q || englishTitle match $q)] | order(year asc) {incipit, slug, year, englishTitle, "pope": pope->{fullName, slug}}',
+    {q: `*${q}*`},
+  )
+}
+---
+
+<BaseLayout title={q ? `Search: ${q}` : 'Search'}>
+  <div class="space-y-6">
+    <h1 class="text-2xl font-bold text-stone-900">Search</h1>
+    <div class="max-w-md">
+      <SearchInput q={q} />
+    </div>
+    {q && (
+      <div>
+        <p class="mb-4 text-sm text-stone-500">
+          {results.length} result{results.length !== 1 ? 's' : ''} for "{q}"
+        </p>
+        {results.length > 0 ? (
+          <div class="space-y-3">
+            {results.map(d => (
+              <div class="rounded-lg border border-stone-200 bg-white p-4">
+                <a
+                  href={`/documents/${d.pope.slug}/${d.slug}`}
+                  class="font-medium text-blue-600 hover:underline"
+                >
+                  {d.incipit}
+                </a>
+                {d.englishTitle && d.englishTitle !== d.incipit && (
+                  <div class="text-sm text-stone-500">{d.englishTitle}</div>
+                )}
+                <div class="mt-1 text-xs text-stone-400">
+                  {d.year} — {d.pope.fullName}
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p class="text-stone-500">No documents match your search.</p>
+        )}
+      </div>
+    )}
+  </div>
+</BaseLayout>
