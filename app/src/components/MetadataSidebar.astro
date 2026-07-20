@@ -6,11 +6,10 @@ export interface Props {
   documentKind?: string | null
   language?: string | null
   addressee?: string | null
-  tags?: string[] | null
+  tags?: {slug: string; label: string}[] | null
   wordCount?: number | null
-  fileSize?: number | null
 }
-const {pope, year, date, documentKind, language, addressee, tags, wordCount, fileSize} =
+const {pope, year, date, documentKind, language, addressee, tags, wordCount} =
   Astro.props
 ---
 
@@ -66,12 +65,12 @@ const {pope, year, date, documentKind, language, addressee, tags, wordCount, fil
     <div>
       <div class="text-xs font-medium uppercase tracking-wide text-stone-400">Tags</div>
       <div class="mt-1 flex flex-wrap gap-1">
-        {tags.map(t => (
+        {tags.map((t) => (
           <a
-            href={`/tags/${t}`}
+            href={`/tags/${t.slug}`}
             class="rounded bg-blue-50 px-1.5 py-0.5 text-xs text-blue-600 hover:bg-blue-100"
           >
-            {t}
+            {t.label}
           </a>
         ))}
       </div>

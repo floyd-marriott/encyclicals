@@ -1,12 +1,17 @@
 export interface Pope {
-  _id: string
+  _id?: string
   slug: string
-  regnalName: string
-  number: number
+  regnalName?: string
+  number?: number
   fullName: string
-  pontificateStart: number | null
-  pontificateEnd: number | null
-  documentCount: number
+  pontificateStart?: number | null
+  pontificateEnd?: number | null
+  documentCount?: number
+}
+
+export interface TagRef {
+  slug: string
+  label: string
 }
 
 export interface DocEntry {
@@ -14,13 +19,14 @@ export interface DocEntry {
   slug: string
   documentKind?: string | null
   year?: number | null
-  tags?: string[] | null
+  tags?: TagRef[] | null
   englishTitle?: string | null
   summaryExcerpt?: string | null
-  pope: {
+  pope?: {
     fullName: string
     slug: string
   }
+  popeSlug?: string
 }
 
 export interface DocDetail extends DocEntry {
@@ -33,7 +39,6 @@ export interface DocDetail extends DocEntry {
   translated?: boolean
   translationSource?: string | null
   wordCount?: number | null
-  fileSize?: number | null
   rawClosingDate?: string | null
   summary?: {
     body: string

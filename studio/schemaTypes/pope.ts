@@ -43,12 +43,6 @@ export const pope = defineType({
       type: 'number',
       title: 'Pontificate End Year',
     }),
-    defineField({
-      name: 'documentCount',
-      type: 'number',
-      title: 'Document Count',
-      description: 'Number of documents in this corpus',
-    }),
   ],
   preview: {
     select: {

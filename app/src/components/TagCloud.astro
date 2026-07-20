@@ -1,25 +1,23 @@
 ---
-import type {PageProps} from '../lib/types'
-
 export interface Props {
-  tags: Record<string, number>
+  tags: {slug: string; label: string; count: number}[]
   linkPrefix?: string
 }
 const {tags, linkPrefix = '/tags'} = Astro.props
-const sorted = Object.entries(tags).sort((a, b) => b[1] - a[1])
-const maxCount = sorted.length > 0 ? sorted[0][1] : 1
+const sorted = [...tags].sort((a, b) => b.count - a.count)
+const maxCount = sorted.length > 0 ? sorted[0].count : 1
 ---
 
 <div class="flex flex-wrap gap-2">
-  {sorted.map(([tag, count]) => {
+  {sorted.map(({slug, label, count}) => {
     const size = 0.75 + (count / maxCount) * 0.5
     return (
       <a
-        href={`${linkPrefix}/${tag}`}
+        href={`${linkPrefix}/${slug}`}
         class="rounded bg-stone-100 px-2 py-1 text-stone-600 transition hover:bg-blue-100 hover:text-blue-700"
         style={`font-size: ${size}rem`}
       >
-        {tag}
+        {label}
         <span class="ml-1 text-stone-400">({count})</span>
       </a>
     )

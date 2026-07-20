@@ -3,7 +3,7 @@ export const prerender = true
 
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import DocCard from '../../components/DocCard.astro'
-import {client} from '../../lib/sanity'
+import {client, getDocsByPope, getPope} from '../../lib/sanity'
 
 export async function getStaticPaths() {
   const slugs: {slug: string}[] = await client.fetch('*[_type == "pope"] {slug}')
@@ -11,14 +11,8 @@ export async function getStaticPaths() {
 }
 
 const {slug} = Astro.params
-const pope: any = await client.fetch('*[_type == "pope" && slug == $slug][0]', {slug})
-const docs: any[] = await client.fetch(
-  `*[_type == "encyclical" && pope->slug == $slug] | order(year asc) {
-    incipit, slug, year, "documentKind": coalesce(documentKind, type), tags, englishTitle, "popeSlug": pope->slug,
-    "summaryExcerpt": *[_type == "documentSummary" && references(^._id)][0].excerpt
-  }`,
-  {slug},
-)
+const pope = await getPope(slug!)
+const docs = await getDocsByPope(slug!)
 ---
 
 <BaseLayout title={pope?.fullName}>
@@ -32,7 +26,7 @@ const docs: any[] = await client.fetch(
         </p>
       </div>
       <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {docs.map(d => <DocCard {...d} />)}
+        {docs.map((d) => <DocCard {...d} popeSlug={slug} />)}
       </div>
     </div>
   ) : (

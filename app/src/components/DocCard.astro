@@ -5,7 +5,7 @@ export interface Props {
   popeSlug: string
   year?: number | null
   documentKind?: string | null
-  tags?: string[] | null
+  tags?: {slug: string; label: string}[] | null
   englishTitle?: string | null
   summaryExcerpt?: string | null
 }
@@ -29,8 +29,8 @@ const {incipit, slug, popeSlug, year, documentKind, tags, englishTitle, summaryE
     {documentKind && (
       <span class="rounded bg-stone-100 px-1.5 py-0.5 text-stone-500">{documentKind.replace(/-/g, ' ')}</span>
     )}
-    {tags?.slice(0, 3).map(t => (
-      <span class="rounded bg-blue-50 px-1.5 py-0.5 text-blue-600">{t}</span>
+    {tags?.slice(0, 3).map((t) => (
+      <span class="rounded bg-blue-50 px-1.5 py-0.5 text-blue-600">{t.label}</span>
     ))}
   </div>
 </a>

@@ -7,20 +7,35 @@ export const client = createClient({
   useCdn: true,
 })
 
+const docListFields = `
+  incipit, slug, "documentKind": coalesce(documentKind, type), year, englishTitle,
+  "popeSlug": pope->slug,
+  "tags": tags[]->{slug, label},
+  "summaryExcerpt": *[_type == "documentSummary" && references(^._id)][0].excerpt
+`
+
 export async function getPopes() {
-  return client.fetch('*[_type == "pope"] | order(fullName asc)')
+  return client.fetch(
+    `*[_type == "pope"] | order(fullName asc) {
+      slug, fullName, regnalName, number, pontificateStart, pontificateEnd,
+      "documentCount": count(*[_type == "encyclical" && references(^._id)])
+    }`,
+  )
 }
 
 export async function getPope(slug: string) {
-  return client.fetch('*[_type == "pope" && slug == $slug][0]', {slug})
+  return client.fetch(
+    `*[_type == "pope" && slug == $slug][0] {
+      ...,
+      "documentCount": count(*[_type == "encyclical" && references(^._id)])
+    }`,
+    {slug},
+  )
 }
 
 export async function getDocsByPope(slug: string) {
   return client.fetch(
-    `*[_type == "encyclical" && pope->slug == $slug] | order(year asc) {
-      incipit, slug, "documentKind": coalesce(documentKind, type), year, tags, englishTitle,
-      "summaryExcerpt": *[_type == "documentSummary" && references(^._id)][0].excerpt
-    }`,
+    `*[_type == "encyclical" && pope->slug == $slug] | order(year asc) {${docListFields}}`,
     {slug},
   )
 }
@@ -31,6 +46,7 @@ export async function getDoc(pope: string, slug: string) {
       ...,
       "documentKind": coalesce(documentKind, type),
       body,
+      "tags": tags[]->{slug, label},
       "pope": pope->{fullName, slug},
       "summary": *[_type == "documentSummary" && references(^._id)][0]{body, excerpt}
     }`,
@@ -39,34 +55,52 @@ export async function getDoc(pope: string, slug: string) {
 }
 
 export async function getTags() {
-  return client.fetch(`
-    *[_type == "encyclical"] {tags}
-  `)
+  return client.fetch(
+    `*[_type == "tag"] | order(label asc) {
+      slug, label,
+      "count": count(*[_type == "encyclical" && references(^._id)])
+    }`,
+  )
 }
 
 export async function getDocsByTag(tag: string) {
   return client.fetch(
-    '*[_type == "encyclical" && $tag in tags] | order(year asc) {incipit, slug, year, englishTitle, "pope": pope->{fullName, slug}}',
+    `*[_type == "encyclical" && $tag in tags[]->slug] | order(year asc) {
+      ${docListFields},
+      "popeSlug": pope->slug,
+      "pope": pope->{fullName, slug}
+    }`,
     {tag},
   )
 }
 
 export async function getDocsByCentury(start: number, end: number) {
   return client.fetch(
-    '*[_type == "encyclical" && year >= $start && year <= $end] | order(year asc) {incipit, slug, year, "pope": pope->{fullName, slug}}',
+    `*[_type == "encyclical" && year >= $start && year <= $end] | order(year asc) {
+      incipit, slug, year, "pope": pope->{fullName, slug}
+    }`,
     {start, end},
   )
 }
 
 export async function getAllDocs() {
   return client.fetch(
-    '*[_type == "encyclical"] | order(year asc) {incipit, slug, year, "pope": pope->{fullName, slug}}',
+    `*[_type == "encyclical"] | order(year asc) {
+      incipit, slug, year, "pope": pope->{fullName, slug}
+    }`,
   )
 }
 
 export async function searchDocs(q: string) {
   return client.fetch(
-    '*[_type == "encyclical" && (incipit match $q || englishTitle match $q || $q in tags)] | order(year asc) {incipit, slug, year, englishTitle, "pope": pope->{fullName, slug}}',
+    `*[_type == "encyclical" && (
+      incipit match $q ||
+      englishTitle match $q ||
+      $q in tags[]->slug ||
+      $q in tags[]->label
+    )] | order(year asc) {
+      incipit, slug, year, englishTitle, "pope": pope->{fullName, slug}
+    }`,
     {q: `*${q}*`},
   )
 }

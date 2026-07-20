@@ -4,18 +4,13 @@ import PopeCard from '../components/PopeCard.astro'
 import CenturyStrip from '../components/CenturyStrip.astro'
 import TagCloud from '../components/TagCloud.astro'
 import SearchInput from '../components/SearchInput.astro'
-import {client} from '../lib/sanity'
+import {client, getPopes, getTags} from '../lib/sanity'
 
-const popes: any[] = await client.fetch('*[_type == "pope"] | order(fullName asc) {slug, fullName, documentCount}')
-const recent: any[] = await client.fetch('*[_type == "encyclical"] | order(year desc)[0..4] {incipit, slug, year, "pope": pope->{fullName, slug}}')
-const tagData: {tags: string[]}[] = await client.fetch('*[_type == "encyclical"] {tags}')
-
-const tagCounts: Record<string, number> = {}
-for (const {tags} of tagData) {
-  for (const t of tags || []) {
-    tagCounts[t] = (tagCounts[t] || 0) + 1
-  }
-}
+const popes = await getPopes()
+const recent: any[] = await client.fetch(
+  '*[_type == "encyclical"] | order(year desc)[0..4] {incipit, slug, year, "pope": pope->{fullName, slug}}',
+)
+const tags = await getTags()
 ---
 
 <BaseLayout title="Encyclicals">
@@ -45,7 +40,13 @@ for (const {tags} of tagData) {
         <a href="/popes" class="text-sm text-blue-600 hover:underline">View all</a>
       </div>
       <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-        {popes.map(p => <PopeCard slug={p.slug} fullName={p.fullName} documentCount={p.documentCount} />)}
+        {popes.map((p) => (
+          <PopeCard
+            slug={p.slug}
+            fullName={p.fullName}
+            documentCount={p.documentCount ?? 0}
+          />
+        ))}
       </div>
     </section>
 
@@ -54,13 +55,13 @@ for (const {tags} of tagData) {
         <h2 class="text-lg font-semibold text-stone-900">Tags</h2>
         <a href="/tags" class="text-sm text-blue-600 hover:underline">View all</a>
       </div>
-      <TagCloud tags={tagCounts} />
+      <TagCloud tags={tags} />
     </section>
 
     <section>
       <h2 class="mb-4 text-lg font-semibold text-stone-900">Recent Documents</h2>
       <div class="space-y-2">
-        {recent.map(d => (
+        {recent.map((d) => (
           <a
             href={`/documents/${d.pope.slug}/${d.slug}`}
             class="block rounded-lg border border-stone-200 bg-white p-3 text-sm transition hover:border-stone-400 hover:shadow-sm"

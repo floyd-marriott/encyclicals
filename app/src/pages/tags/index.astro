@@ -1,18 +1,14 @@
 ---
+export const prerender = true
+
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import TagCloud from '../../components/TagCloud.astro'
-import {client} from '../../lib/sanity'
+import {getTags} from '../../lib/sanity'
 
-const tagData: {tags: string[]}[] = await client.fetch('*[_type == "encyclical"] {tags}')
-const tagCounts: Record<string, number> = {}
-for (const {tags} of tagData) {
-  for (const t of tags || []) {
-    tagCounts[t] = (tagCounts[t] || 0) + 1
-  }
-}
+const tags = await getTags()
 ---
 
 <BaseLayout title="Tags">
   <h1 class="mb-6 text-2xl font-bold text-stone-900">All Tags</h1>
-  <TagCloud tags={tagCounts} />
+  <TagCloud tags={tags} />
 </BaseLayout>

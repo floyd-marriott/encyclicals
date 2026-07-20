@@ -8,6 +8,7 @@ import {
   normalizeSummaryMarkdown,
   summaryDocumentId,
 } from './lib/summary.mjs'
+import {inferDocumentKind, tagDocumentId, tagLabelFromSlug} from './lib/tags.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = path.join(__dirname, 'encyclicals/markdown')
@@ -36,6 +37,28 @@ async function main() {
 
   const popeIdMap = {}
 
+  const allTagSlugs = new Set()
+  for (const entry of indexData.documents) {
+    const meta = JSON.parse(
+      readFileSync(path.join(DATA_DIR, entry.popeSlug, `${entry.slug}.json`), 'utf-8'),
+    )
+    for (const t of meta.tags || []) allTagSlugs.add(t)
+  }
+
+  for (const tagSlug of allTagSlugs) {
+    const tagDoc = {
+      _type: 'tag',
+      _id: tagDocumentId(tagSlug),
+      slug: tagSlug,
+      label: tagLabelFromSlug(tagSlug),
+    }
+    if (DRY_RUN) {
+      console.log(`[DRY] tag: ${tagSlug}`)
+    } else {
+      await client.createOrReplace(tagDoc)
+    }
+  }
+
   for (const pope of popesData.popes) {
     const doc = {
       _type: 'pope',
@@ -46,7 +69,6 @@ async function main() {
       fullName: pope.fullName,
       pontificateStart: pope.pontificateStart,
       pontificateEnd: pope.pontificateEnd,
-      documentCount: pope.documentCount,
     }
     if (DRY_RUN) {
       console.log(`[DRY] pope: ${pope.fullName}`)
@@ -79,9 +101,9 @@ async function main() {
       _id: `doc-${popeSlug}-${slug}`,
       slug,
       incipit: meta.incipit,
-      englishTitle: meta.englishTitle || undefined,
+      englishTitle: meta.englishTitle || meta.incipit,
       pope: {_ref: `pope-${popeSlug}`, _type: 'reference'},
-      documentKind: meta.type || undefined,
+      documentKind: inferDocumentKind(popeSlug, slug, meta.type),
       year: meta.year,
       date: meta.date || undefined,
       dateApproximate: meta.dateApproximate ?? false,
@@ -90,9 +112,12 @@ async function main() {
       language: meta.language || undefined,
       translated: meta.translated ?? false,
       translationSource: meta.translationSource || undefined,
-      tags: meta.tags || [],
+      tags: (meta.tags || []).map((t) => ({
+        _type: 'reference',
+        _ref: tagDocumentId(t),
+        _key: t,
+      })),
       wordCount: meta.wordCount,
-      fileSize: meta.fileSize,
       body: mdContent,
       rawClosingDate: meta.rawClosingDate || undefined,
     }

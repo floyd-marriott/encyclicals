@@ -1,14 +1,16 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import PopeCard from '../../components/PopeCard.astro'
-import {client} from '../../lib/sanity'
+import {getPopes} from '../../lib/sanity'
 
-const popes: any[] = await client.fetch('*[_type == "pope"] | order(fullName asc) {slug, fullName, documentCount}')
+const popes = await getPopes()
 ---
 
 <BaseLayout title="Popes">
   <h1 class="mb-6 text-2xl font-bold text-stone-900">All Popes</h1>
   <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-    {popes.map(p => <PopeCard slug={p.slug} fullName={p.fullName} documentCount={p.documentCount} />)}
+    {popes.map((p) => (
+      <PopeCard slug={p.slug} fullName={p.fullName} documentCount={p.documentCount ?? 0} />
+    ))}
   </div>
 </BaseLayout>

@@ -45,6 +45,8 @@ export const documentType = defineType({
           {title: 'Brief', value: 'brief'},
           {title: 'Bull', value: 'bull'},
           {title: 'Motu proprio', value: 'motu-proprio'},
+          {title: 'Address', value: 'address'},
+          {title: 'Biographical note', value: 'biographical-note'},
         ],
       },
     }),
@@ -101,20 +103,12 @@ export const documentType = defineType({
       name: 'tags',
       type: 'array',
       title: 'Tags',
-      of: [{type: 'string'}],
-      options: {
-        layout: 'tags',
-      },
+      of: [{type: 'reference', to: [{type: 'tag'}]}],
     }),
     defineField({
       name: 'wordCount',
       type: 'number',
       title: 'Word Count',
-    }),
-    defineField({
-      name: 'fileSize',
-      type: 'number',
-      title: 'File Size (bytes)',
     }),
     defineField({
       name: 'body',
