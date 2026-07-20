@@ -479,6 +479,7 @@ function extractPopeAndYear(content, popeSlug) {
 
 function extractDocumentType(content, slug, popeSlug) {
   const firstPart = content.slice(0, 8000);
+  const header = content.split('\n').slice(0, 40).join('\n');
 
   // Check file prefixes (used in ben14 translated files)
   const slugLower = slug.toLowerCase();
@@ -490,6 +491,7 @@ function extractDocumentType(content, slug, popeSlug) {
   if (slugLower.startsWith('costituzione-') || slugLower.startsWith('constitution-')) {
     return 'apostolic-constitution';
   }
+  if (slugLower.startsWith('address-to-')) return 'address';
 
   // First 200 chars of body text (after frontmatter/headers)
   const bodyStart = getBodyStart(content).slice(0, 200);
@@ -523,7 +525,8 @@ function extractDocumentType(content, slug, popeSlug) {
   if (firstPart.match(/\.\s*Brief\s+of\s+our/i)) return 'brief';
   if (firstPart.match(/Brief of Pope/i)) return 'brief';
 
-  // H2-based detection
+  // H1/H2 title-based detection
+  if (/^#\s+Address to\b/im.test(header)) return 'address';
   const h2Match = firstPart.match(/##\s+(.+?)(?:\n|$)/);
   if (h2Match) {
     const h2 = h2Match[1];
@@ -532,21 +535,34 @@ function extractDocumentType(content, slug, popeSlug) {
     if (/^Allocution\b/i.test(h2)) return 'allocution';
     if (/^Constitution\b/i.test(h2)) return 'constitution';
     if (/^Motu Proprio/i.test(h2)) return 'motu-proprio';
+    if (/\[Bull\]|Papal Bull/i.test(h2)) return 'bull';
   }
+
+  // Spanish/Portuguese and medieval bull markers
+  if (/\bBula de\b/i.test(firstPart.slice(0, 800))) return 'bull';
+  if (/Constitution issued by Pope|Declaration of the supreme Pontiff/i.test(firstPart)) {
+    return 'apostolic-constitution';
+  }
+  if (/\[Bull\]|Papal Bull|\bBULL OF\b/i.test(firstPart.slice(0, 1500))) return 'bull';
+  if (/bishop,\s*servant of the servants of God/i.test(firstPart.slice(0, 800))) return 'bull';
+  if (/CLEMENT,\s*BISHOP,\s*Servant/i.test(firstPart)) return 'bull';
 
   // Check for "[Christmas Message]" pattern (Pius XII)
   if (firstPart.includes('[Christmas Message]')) return 'christmas-message';
 
-  // Modern structured heuristic (ben15-style): ## On ... + Pope NAME — YEAR
-  const popeInfo = POPE_INFO[popeSlug];
-  if (popeInfo && popeInfo.pontificateStart >= 1900) {
-    const header = content.split('\n').slice(0, 30).join('\n');
-    if (/##\s+On\s+/i.test(header) && /Pope\s+\w+.*[—–-]\s*\d{4}/.test(header)) {
+  // Structured header: Pope NAME — YEAR + English subject line → encyclical
+  const hasPopeLine = /Pope\s+[A-Z][^\n—–-]*[—–-]\s*\d{4}/.test(header);
+  const hasSubjectH2 = /^##\s+(?!Summary)/m.test(header);
+  const hasEpiscopalAddressee = /\bTo (?:Our |the |all )?(?:Venerable )?(?:Brethren|Patriarchs|Bishops|Archbishops|faithful)/i.test(header);
+  if (hasPopeLine && hasSubjectH2) return 'encyclical-letter';
+  if (hasPopeLine && hasEpiscopalAddressee) return 'encyclical-letter';
+
+  // JP2/Benedict/Francis encyclicals without standard headers
+  if (['jp02', 'ben16', 'franc', 'john23', 'paul06'].includes(popeSlug)) {
+    if (/IOANNES\s+PAULUS|BENEDICTUS\s+PP|FRANCiscus/i.test(firstPart.slice(0, 800))) {
       return 'encyclical-letter';
     }
-    // JP2 encyclicals with IOANNES PAULUS / JOHN PAUL II header
-    if ((popeSlug === 'jp02' || popeSlug === 'ben16' || popeSlug === 'franc') &&
-        /(?:IOANNES\s+PAULUS|JOHN\s+PAUL\s+II|BENEDICTUS\s+PP|BENEDICT\s+XVI|FRANCIS|ENCYCLICAL\s+LETTER)/i.test(header)) {
+    if (/Venerable Brethren|ENCYCLICAL|Apostolic Blessing/i.test(firstPart.slice(0, 2000))) {
       return 'encyclical-letter';
     }
   }

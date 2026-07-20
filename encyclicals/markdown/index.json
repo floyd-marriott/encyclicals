@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-07T18:06:49.263Z",
+  "generatedAt": "2026-07-20T19:35:12.810Z",
   "totalDocuments": 401,
-  "totalPopes": 44,
+  "totalPopes": 43,
   "documents": [
     {
       "slug": "dignum-arbitramur-et-congruum",
@@ -9,7 +9,7 @@
       "englishTitle": null,
       "popeSlug": "alex04",
       "popeName": "Alexander IV",
-      "type": null,
+      "type": "bull",
       "year": 1255,
       "date": "1255",
       "tags": [
@@ -24,7 +24,7 @@
       "englishTitle": null,
       "popeSlug": "alex04",
       "popeName": "Alexander IV",
-      "type": null,
+      "type": "bull",
       "year": 1255,
       "date": "1255",
       "tags": [
@@ -40,7 +40,7 @@
       "englishTitle": null,
       "popeSlug": "alex04",
       "popeName": "Alexander IV",
-      "type": null,
+      "type": "bull",
       "year": 1255,
       "date": "1255",
       "tags": [
@@ -54,7 +54,7 @@
       "englishTitle": "Division of the undiscovered world between Spain and Portugal",
       "popeSlug": "alex06",
       "popeName": "Alexander VI",
-      "type": null,
+      "type": "bull",
       "year": 1493,
       "date": null,
       "tags": [
@@ -75,7 +75,7 @@
       "englishTitle": "Establishing the Catholic Mission in Vietnam September 8, 1659 \\[Bull\\]",
       "popeSlug": "alex07",
       "popeName": "Alexander VII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1659,
       "date": "1659",
       "tags": [
@@ -95,7 +95,7 @@
       "englishTitle": "On the Beatific Vision of God",
       "popeSlug": "ben12",
       "popeName": "Benedict XII",
-      "type": null,
+      "type": "apostolic-constitution",
       "year": 1334,
       "date": "1334",
       "tags": [
@@ -115,7 +115,7 @@
       "englishTitle": "On Jews and Christians Living in the Same Place",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1751,
       "date": "1751",
       "tags": [
@@ -160,7 +160,7 @@
       "englishTitle": "On the upkeep and cleanliness of Churches",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1749,
       "date": "1749-02-19",
       "tags": [
@@ -899,7 +899,7 @@
       "englishTitle": "On the Euchologion",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1756,
       "date": "1756",
       "tags": [
@@ -962,7 +962,7 @@
       "englishTitle": "Proclaiming a Holy Year",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1749,
       "date": "1149",
       "tags": [
@@ -981,7 +981,7 @@
       "englishTitle": "Forbidding Traffic in Alms",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1741,
       "date": "1741-06-30",
       "tags": [
@@ -1000,7 +1000,7 @@
       "englishTitle": "On the Duties of Bishops",
       "popeSlug": "ben14",
       "popeName": "Benedict XIV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1740,
       "date": "1740-12-03",
       "tags": [
@@ -1042,7 +1042,7 @@
       "englishTitle": "Appealing For Peace",
       "popeSlug": "ben15",
       "popeName": "Benedict XV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1914,
       "date": "1914-11-01",
       "tags": [
@@ -1409,7 +1409,7 @@
       "englishTitle": "On the Rules of the Friar Minor",
       "popeSlug": "clem05",
       "popeName": "Clement V",
-      "type": null,
+      "type": "apostolic-constitution",
       "year": 1305,
       "date": "1305",
       "tags": [
@@ -1433,7 +1433,7 @@
       "englishTitle": "Latin",
       "popeSlug": "clem08",
       "popeName": "Clement VIII",
-      "type": null,
+      "type": "bull",
       "year": 1595,
       "date": "1595",
       "tags": [
@@ -1449,7 +1449,7 @@
       "englishTitle": "Condemnation of the Errors of Paschasius",
       "popeSlug": "clem11",
       "popeName": "Clement XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1713,
       "date": "1713",
       "tags": [
@@ -1466,7 +1466,7 @@
       "englishTitle": "Papal Bull dealing with the condemnation of Freemasonry",
       "popeSlug": "clem12",
       "popeName": "Clement XII",
-      "type": null,
+      "type": "bull",
       "year": 1738,
       "date": "1738",
       "tags": [
@@ -1491,7 +1491,7 @@
       "englishTitle": "On Union Among Christians",
       "popeSlug": "clem13",
       "popeName": "Clement XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1758,
       "date": "1758",
       "tags": [
@@ -1512,7 +1512,7 @@
       "englishTitle": "On the Spiritual Advantages in Fasting",
       "popeSlug": "clem13",
       "popeName": "Clement XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1759,
       "date": "1759-12-20",
       "tags": [
@@ -1534,7 +1534,7 @@
       "englishTitle": "On the Dangers of Anti-Christian Writings",
       "popeSlug": "clem13",
       "popeName": "Clement XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1766,
       "date": "1766-11-25",
       "tags": [
@@ -1558,7 +1558,7 @@
       "englishTitle": "On Observing Canonical Sanctions",
       "popeSlug": "clem13",
       "popeName": "Clement XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1759,
       "date": "1759-09-17",
       "tags": [
@@ -1581,7 +1581,7 @@
       "englishTitle": "On Instruction in the Faith",
       "popeSlug": "clem13",
       "popeName": "Clement XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1761,
       "date": "1761-06-14",
       "tags": [
@@ -1602,7 +1602,7 @@
       "englishTitle": "On the Church in Poland",
       "popeSlug": "clem13",
       "popeName": "Clement XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1768,
       "date": "1768",
       "tags": [
@@ -1622,7 +1622,7 @@
       "englishTitle": "Proclaiming a Universal Jubilee",
       "popeSlug": "clem14",
       "popeName": "Clement XIV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1769,
       "date": "1769",
       "tags": [
@@ -1645,7 +1645,7 @@
       "englishTitle": "On Abuses in Taxes and Benefices",
       "popeSlug": "clem14",
       "popeName": "Clement XIV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1769,
       "date": "1769",
       "tags": [
@@ -1686,7 +1686,7 @@
       "englishTitle": "Proclaiming a Universal Jubilee",
       "popeSlug": "clem14",
       "popeName": "Clement XIV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1774,
       "date": "1744-04-30",
       "tags": [
@@ -1713,7 +1713,7 @@
       "englishTitle": null,
       "popeSlug": "eugene04",
       "popeName": "Eugene IV",
-      "type": null,
+      "type": "bull",
       "year": 1435,
       "date": "1435",
       "tags": [
@@ -1825,7 +1825,7 @@
       "englishTitle": null,
       "popeSlug": "greg10",
       "popeName": "Gregory X",
-      "type": null,
+      "type": "bull",
       "year": 1271,
       "date": "1271",
       "tags": [
@@ -1844,7 +1844,7 @@
       "englishTitle": "On Church and State",
       "popeSlug": "greg16",
       "popeName": "Gregory XVI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1835,
       "date": "1835-05-17",
       "tags": [
@@ -1923,7 +1923,7 @@
       "englishTitle": "On Liberalism and Religious Indifferentism",
       "popeSlug": "greg16",
       "popeName": "Gregory XVI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1832,
       "date": "1832",
       "tags": [
@@ -1948,7 +1948,7 @@
       "englishTitle": "On the Propogation of the Faith",
       "popeSlug": "greg16",
       "popeName": "Gregory XVI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1840,
       "date": "1840-09-18",
       "tags": [
@@ -1972,7 +1972,7 @@
       "englishTitle": "On Mixed Marriages",
       "popeSlug": "greg16",
       "popeName": "Gregory XVI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1841,
       "date": "1841",
       "tags": [
@@ -1991,7 +1991,7 @@
       "englishTitle": "On the Pragmatic Constitution",
       "popeSlug": "greg16",
       "popeName": "Gregory XVI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1833,
       "date": "1833-10-04",
       "tags": [
@@ -2033,7 +2033,7 @@
       "englishTitle": "On Mixed Marriages",
       "popeSlug": "greg16",
       "popeName": "Gregory XVI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1832,
       "date": "1832-05-27",
       "tags": [
@@ -2052,7 +2052,7 @@
       "englishTitle": "On the Rules of the Friars Minor",
       "popeSlug": "hon03",
       "popeName": "Honorius III",
-      "type": null,
+      "type": "bull",
       "year": 1226,
       "date": null,
       "tags": [
@@ -2076,7 +2076,7 @@
       "englishTitle": "Whatever Is for the Honor of the Creator of All",
       "popeSlug": "innoc04",
       "popeName": "Innocent IV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1243,
       "date": "1243",
       "tags": [
@@ -2098,7 +2098,7 @@
       "englishTitle": "Condemning the Errors of Miguel de Molinos",
       "popeSlug": "innoc11",
       "popeName": "Innocent XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1687,
       "date": "1687",
       "tags": [
@@ -2121,7 +2121,7 @@
       "englishTitle": "Fostering and Preserving the Orders of Men Religious",
       "popeSlug": "innoc11",
       "popeName": "Innocent XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1679,
       "date": "1679",
       "tags": [
@@ -2138,7 +2138,7 @@
       "englishTitle": "Explaining earlier papal statements in regards to the Rule of Friar Minors",
       "popeSlug": "john22",
       "popeName": "John XXII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1316,
       "date": "1316",
       "tags": [
@@ -2157,7 +2157,7 @@
       "englishTitle": "\\[Bull\\] Latin",
       "popeSlug": "john22",
       "popeName": "John XXII",
-      "type": null,
+      "type": "bull",
       "year": 1333,
       "date": "1333",
       "tags": [
@@ -2198,7 +2198,7 @@
       "englishTitle": "The Eternal Wisdom of God and Pope Leo I",
       "popeSlug": "john23",
       "popeName": "John XXIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1961,
       "date": "1961-11-11",
       "tags": [
@@ -2226,7 +2226,7 @@
       "englishTitle": "Miscellaneous Thoughts",
       "popeSlug": "john23",
       "popeName": "John XXIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1959,
       "date": "1959-09-26",
       "tags": [
@@ -2250,7 +2250,7 @@
       "englishTitle": "For the protection of St Joseph on the Second Vatican Council",
       "popeSlug": "john23",
       "popeName": "John XXIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1961,
       "date": null,
       "tags": [
@@ -2298,7 +2298,7 @@
       "englishTitle": "Promoting Devotion to the Most Precious Blood",
       "popeSlug": "john23",
       "popeName": "John XXIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1960,
       "date": "1960-06-30",
       "tags": [
@@ -2324,7 +2324,7 @@
       "englishTitle": "Peace on Earth",
       "popeSlug": "john23",
       "popeName": "John XXIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1963,
       "date": "1963-04-11",
       "tags": [
@@ -2628,7 +2628,7 @@
       "englishTitle": null,
       "popeSlug": "jp02",
       "popeName": "John Paul II",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1987,
       "date": "1987",
       "tags": [
@@ -2761,7 +2761,7 @@
       "englishTitle": "Papal Bull of Excommunication of Martin Luther and his followers",
       "popeSlug": "leo10",
       "popeName": "Leo X",
-      "type": null,
+      "type": "bull",
       "year": 1521,
       "date": "1521",
       "tags": [
@@ -2779,7 +2779,7 @@
       "englishTitle": "Condemning the Errors of Martin Luther",
       "popeSlug": "leo10",
       "popeName": "Leo X",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1520,
       "date": "1520",
       "tags": [
@@ -2804,7 +2804,7 @@
       "englishTitle": "On Extending the Jubilee to the Entire Church",
       "popeSlug": "leo12",
       "popeName": "Leo XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1825,
       "date": "1825-12-25",
       "tags": [
@@ -2826,7 +2826,7 @@
       "englishTitle": "On Secret Societies",
       "popeSlug": "leo12",
       "popeName": "Leo XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1826,
       "date": "1826",
       "tags": [
@@ -2846,7 +2846,7 @@
       "englishTitle": "Proclaiming a Universal Jubilee",
       "popeSlug": "leo12",
       "popeName": "Leo XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1824,
       "date": "1824",
       "tags": [
@@ -2874,7 +2874,7 @@
       "englishTitle": "On His Assuming the Pontificate",
       "popeSlug": "leo12",
       "popeName": "Leo XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1824,
       "date": "1824-05-05",
       "tags": [
@@ -2895,7 +2895,7 @@
       "englishTitle": "Seminaries for Native Clergy",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1893,
       "date": "1893-06-24",
       "tags": [
@@ -2919,7 +2919,7 @@
       "englishTitle": "On the Rosary",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1895,
       "date": null,
       "tags": [
@@ -2969,7 +2969,7 @@
       "englishTitle": "On the Manitoba School Question",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1897,
       "date": "1897-12-08",
       "tags": [
@@ -3016,7 +3016,7 @@
       "englishTitle": "Consecration to the Sacred Heart",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1899,
       "date": "1899-05-25",
       "tags": [
@@ -3043,7 +3043,7 @@
       "englishTitle": "On the Nullity of Anglican Orders",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1896,
       "date": null,
       "tags": [
@@ -3067,7 +3067,7 @@
       "englishTitle": "On Christian Marriage",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1880,
       "date": "1880-02-10",
       "tags": [
@@ -3091,7 +3091,7 @@
       "englishTitle": "On the Church and State in France",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1892,
       "date": "1892-02-16",
       "tags": [
@@ -3114,7 +3114,7 @@
       "englishTitle": "On the Confraternity of the Holy Rosary",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1897,
       "date": "1897-09-12",
       "tags": [
@@ -3140,7 +3140,7 @@
       "englishTitle": "On St. Francis of Assisi",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1882,
       "date": "1882-09-17",
       "tags": [
@@ -3164,7 +3164,7 @@
       "englishTitle": "On the Church in Scotland",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1898,
       "date": "1898-07-25",
       "tags": [
@@ -3184,7 +3184,7 @@
       "englishTitle": "On Slavery in the Missions",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1890,
       "date": "1890-11-20",
       "tags": [
@@ -3230,7 +3230,7 @@
       "englishTitle": "On the Church in Hungary",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1893,
       "date": "1893",
       "tags": [
@@ -3252,7 +3252,7 @@
       "englishTitle": "On Conditions in Spain",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1882,
       "date": "1882-12-08",
       "tags": [
@@ -3273,7 +3273,7 @@
       "englishTitle": "On Freemasonry",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1892,
       "date": "1892-12-08",
       "tags": [
@@ -3297,7 +3297,7 @@
       "englishTitle": "On Freemasonry in Italy",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1890,
       "date": "1890",
       "tags": [
@@ -3366,7 +3366,7 @@
       "englishTitle": "On the Origin of Civil Power",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1881,
       "date": "1881",
       "tags": [
@@ -3386,7 +3386,7 @@
       "englishTitle": "On the Holy Spirit Divinum",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1897,
       "date": "1897-05-09",
       "tags": [
@@ -3408,7 +3408,7 @@
       "englishTitle": "Marriage Legislation",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1902,
       "date": "1902-12-24",
       "tags": [
@@ -3429,7 +3429,7 @@
       "englishTitle": "On the Church in Ireland",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1888,
       "date": "1888",
       "tags": [
@@ -3451,7 +3451,7 @@
       "englishTitle": "On Conditions in Italy",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1882,
       "date": "1882",
       "tags": [
@@ -3472,7 +3472,7 @@
       "englishTitle": "On Right Ordering of Christian Life",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1888,
       "date": "1888",
       "tags": [
@@ -3519,7 +3519,7 @@
       "englishTitle": "On the Education of the Clergy",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1902,
       "date": "1902-12-08",
       "tags": [
@@ -3540,7 +3540,7 @@
       "englishTitle": "On Saints Cyril and Methodius",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1880,
       "date": "1880-09-30",
       "tags": [
@@ -3591,7 +3591,7 @@
       "englishTitle": "On Religious Orders in Portugal",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1901,
       "date": "1901",
       "tags": [
@@ -3635,7 +3635,7 @@
       "englishTitle": "On Catholicism in Germany",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1886,
       "date": "1886-01-06",
       "tags": [
@@ -3657,7 +3657,7 @@
       "englishTitle": "On the Christian Constitution of States",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1885,
       "date": "1885-11-01",
       "tags": [
@@ -3680,7 +3680,7 @@
       "englishTitle": "On the Church in the United States",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1902,
       "date": "1902-04-15",
       "tags": [
@@ -3700,7 +3700,7 @@
       "englishTitle": "On Episcopal Reunions in Austria",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1891,
       "date": "1891",
       "tags": [
@@ -3723,7 +3723,7 @@
       "englishTitle": "On the Abolition of Slavery",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1888,
       "date": "1888-05-05",
       "tags": [
@@ -3745,7 +3745,7 @@
       "englishTitle": "On Freemasonry",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1892,
       "date": "1892",
       "tags": [
@@ -3766,7 +3766,7 @@
       "englishTitle": "On the Evils of Society",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1878,
       "date": "1878",
       "tags": [
@@ -3788,7 +3788,7 @@
       "englishTitle": "On the Hungarian Millenium",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1896,
       "date": "1896",
       "tags": [
@@ -3807,7 +3807,7 @@
       "englishTitle": "On the Rosary",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1894,
       "date": "1894-09-08",
       "tags": [
@@ -3833,7 +3833,7 @@
       "englishTitle": "Commending Devotion to the Rosary",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1893,
       "date": "1893",
       "tags": [
@@ -3902,7 +3902,7 @@
       "englishTitle": "On the Clergy in Brasil",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1894,
       "date": "1894-07-02",
       "tags": [
@@ -3943,7 +3943,7 @@
       "englishTitle": "On the Rosary",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1892,
       "date": "1892",
       "tags": [
@@ -3969,7 +3969,7 @@
       "englishTitle": "the Catholic University of America",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1889,
       "date": "1889",
       "tags": [
@@ -3988,7 +3988,7 @@
       "englishTitle": "On St. Peter Canisius",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1897,
       "date": "1897-08-01",
       "tags": [
@@ -4012,7 +4012,7 @@
       "englishTitle": "On the Holy Eucharist",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1902,
       "date": "1902",
       "tags": [
@@ -4058,7 +4058,7 @@
       "englishTitle": "On the Religious Question in France",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1884,
       "date": "1884-02-08",
       "tags": [
@@ -4080,7 +4080,7 @@
       "englishTitle": "On the Rosary",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1891,
       "date": "1891-09-22",
       "tags": [
@@ -4106,7 +4106,7 @@
       "englishTitle": "On the Church in Bavaria",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1887,
       "date": null,
       "tags": [
@@ -4128,7 +4128,7 @@
       "englishTitle": "On Unity Among the Greek",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1900,
       "date": "1900",
       "tags": [
@@ -4152,7 +4152,7 @@
       "englishTitle": "On the Churches of the East",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1894,
       "date": null,
       "tags": [
@@ -4177,7 +4177,7 @@
       "englishTitle": "On the Morality of Dueling",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1891,
       "date": "1891-09-12",
       "tags": [
@@ -4198,7 +4198,7 @@
       "englishTitle": "On Religious Union",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1891,
       "date": "1891-06-25",
       "tags": [
@@ -4218,7 +4218,7 @@
       "englishTitle": "On the Education of the Clergy",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1899,
       "date": "1899-09-18",
       "tags": [
@@ -4240,7 +4240,7 @@
       "englishTitle": "On the Church in Portugal",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1886,
       "date": "1886-09-14",
       "tags": [
@@ -4262,7 +4262,7 @@
       "englishTitle": "On Social Conditions in Belgium",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1895,
       "date": "1895",
       "tags": [
@@ -4280,7 +4280,7 @@
       "englishTitle": "The Reunion of Christendom",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1894,
       "date": "1894",
       "tags": [
@@ -4303,7 +4303,7 @@
       "englishTitle": "On the Study of Holy Scripture",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1893,
       "date": "1893-11-18",
       "tags": [
@@ -4322,7 +4322,7 @@
       "englishTitle": "On the Church in Bohemia and Moravia",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1902,
       "date": "1902",
       "tags": [
@@ -4342,7 +4342,7 @@
       "englishTitle": "On Italian Immigrants",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1888,
       "date": "1888-12-10",
       "tags": [
@@ -4364,7 +4364,7 @@
       "englishTitle": "On Civil Marriage Law",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1898,
       "date": "1898",
       "tags": [
@@ -4389,7 +4389,7 @@
       "englishTitle": "On Devotion to St. Joseph",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1889,
       "date": "1889",
       "tags": [
@@ -4417,7 +4417,7 @@
       "englishTitle": "On Christopher Columbus",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1892,
       "date": "1892-07-16",
       "tags": [
@@ -4437,7 +4437,7 @@
       "englishTitle": "On His Sacerdotal Jubilee",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1888,
       "date": "1888",
       "tags": [
@@ -4506,7 +4506,7 @@
       "englishTitle": "On the Liberty of the Church",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1886,
       "date": "1886-08-22",
       "tags": [
@@ -4527,7 +4527,7 @@
       "englishTitle": "On the Proposed Catholic University",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1902,
       "date": "1902",
       "tags": [
@@ -4544,7 +4544,7 @@
       "englishTitle": "On the Latin American Bishops' Plenary Council",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1898,
       "date": "1898",
       "tags": [
@@ -4565,7 +4565,7 @@
       "englishTitle": "On the Language Question in Bohemia",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1901,
       "date": "1901",
       "tags": [
@@ -4583,7 +4583,7 @@
       "englishTitle": "On Capital and Labor",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1891,
       "date": "1891-05-15",
       "tags": [
@@ -4609,7 +4609,7 @@
       "englishTitle": "On Boycotting in Ireland",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1888,
       "date": "1888-06-24",
       "tags": [
@@ -4651,7 +4651,7 @@
       "englishTitle": "On Christians as Citizens",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1890,
       "date": "1890-01-10",
       "tags": [
@@ -4672,7 +4672,7 @@
       "englishTitle": "On the Unity of the Church",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1896,
       "date": "1896-06-29",
       "tags": [
@@ -4692,7 +4692,7 @@
       "englishTitle": "On Christian Education",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1885,
       "date": "1885-11-27",
       "tags": [
@@ -4716,7 +4716,7 @@
       "englishTitle": "On the Suppression of Catholic Institutions",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1898,
       "date": "1898-08-05",
       "tags": [
@@ -4767,7 +4767,7 @@
       "englishTitle": "On Devotion to the Rosary",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1883,
       "date": "1883",
       "tags": [
@@ -4795,7 +4795,7 @@
       "englishTitle": "On Jesus Christ the Redeemer",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1900,
       "date": "1900-11-01",
       "tags": [
@@ -4818,7 +4818,7 @@
       "englishTitle": "Concerning New Opinions, Virtue, Nature and Grace, With Regard to Americanism",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1899,
       "date": "1899-01-22",
       "tags": [
@@ -4839,7 +4839,7 @@
       "englishTitle": "On the Foundation of a Seminary in Athens",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1901,
       "date": "1901",
       "tags": [
@@ -4864,7 +4864,7 @@
       "englishTitle": "On the Rosary and Public Life",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1887,
       "date": "1887",
       "tags": [
@@ -4907,7 +4907,7 @@
       "englishTitle": "Confirmation of the Rule of the Friars Minor",
       "popeSlug": "nichol03",
       "popeName": "Nicholas III",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1279,
       "date": "1279",
       "tags": [
@@ -4930,7 +4930,7 @@
       "englishTitle": "(Granting the Portuguese a perpetual monopoly in trade with Africa) January 8, 1455",
       "popeSlug": "nichol05",
       "popeName": "Nicholas V",
-      "type": null,
+      "type": "bull",
       "year": 1454,
       "date": null,
       "tags": [
@@ -4950,7 +4950,7 @@
       "englishTitle": "\\[Latin\\]",
       "popeSlug": "paul03",
       "popeName": "Paul III",
-      "type": null,
+      "type": "bull",
       "year": 1538,
       "date": "1538",
       "tags": [
@@ -4967,7 +4967,7 @@
       "englishTitle": "On the Enslavement and Evangelization of Indians",
       "popeSlug": "paul03",
       "popeName": "Paul III",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1537,
       "date": "1537",
       "tags": [
@@ -4987,7 +4987,7 @@
       "englishTitle": "Mother of Christ",
       "popeSlug": "paul06",
       "popeName": "Paul VI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1966,
       "date": "1966-09-15",
       "tags": [
@@ -5015,7 +5015,7 @@
       "englishTitle": "Paths of the Church",
       "popeSlug": "paul06",
       "popeName": "Paul VI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1964,
       "date": "1964",
       "tags": [
@@ -5070,7 +5070,7 @@
       "englishTitle": "In the Month of May",
       "popeSlug": "paul06",
       "popeName": "Paul VI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1965,
       "date": "1965",
       "tags": [
@@ -5092,7 +5092,7 @@
       "englishTitle": "Mystery of Faith - On the Doctrine and Worship of the Eucharist",
       "popeSlug": "paul06",
       "popeName": "Paul VI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1965,
       "date": "1965",
       "tags": [
@@ -5163,7 +5163,7 @@
       "englishTitle": "The Great Sign - On Devotion to the Most Blessed Mary",
       "popeSlug": "paul06",
       "popeName": "Paul VI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1967,
       "date": "1967",
       "tags": [
@@ -5188,7 +5188,7 @@
       "englishTitle": "Call to Prayer",
       "popeSlug": "pius05",
       "popeName": "Pius V",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1569,
       "date": "1569",
       "tags": [
@@ -5211,7 +5211,7 @@
       "englishTitle": "\\[Latin\\]",
       "popeSlug": "pius05",
       "popeName": "Pius V",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1571,
       "date": "1571",
       "tags": [
@@ -5231,7 +5231,7 @@
       "englishTitle": "Promulgating the Tridentine Liturgy",
       "popeSlug": "pius05",
       "popeName": "Pius V",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1570,
       "date": "1570",
       "tags": [
@@ -5253,7 +5253,7 @@
       "englishTitle": "Excommunicating Elizabeth I of England",
       "popeSlug": "pius05",
       "popeName": "Pius V",
-      "type": null,
+      "type": "bull",
       "year": 1570,
       "date": "1570",
       "tags": [
@@ -5274,7 +5274,7 @@
       "englishTitle": "In the Civil Oath in France",
       "popeSlug": "pius06",
       "popeName": "Pius VI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1791,
       "date": "1791-04-13",
       "tags": [
@@ -5294,7 +5294,7 @@
       "englishTitle": "On the Problems of the Pontificate",
       "popeSlug": "pius06",
       "popeName": "Pius VI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1775,
       "date": "1775",
       "tags": [
@@ -5334,7 +5334,7 @@
       "englishTitle": "\\[English\\] On a Return to Gospel Principles",
       "popeSlug": "pius07",
       "popeName": "Pius VII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1800,
       "date": "1800",
       "tags": [
@@ -5355,7 +5355,7 @@
       "englishTitle": "On His Program for His Pontificate",
       "popeSlug": "pius08",
       "popeName": "Pius VIII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1829,
       "date": "1829-05-24",
       "tags": [
@@ -5402,7 +5402,7 @@
       "englishTitle": "On the Care of the Churches",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1862,
       "date": "1862",
       "tags": [
@@ -5447,7 +5447,7 @@
       "englishTitle": "On the 25th Anniversary of His Pontificate",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1871,
       "date": "1871",
       "tags": [
@@ -5495,7 +5495,7 @@
       "englishTitle": "Pleading for Public Prayer",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1858,
       "date": "1859",
       "tags": [
@@ -5548,7 +5548,7 @@
       "englishTitle": "On the Effects of the Jubilee",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1851,
       "date": "1851-11-21",
       "tags": [
@@ -5571,7 +5571,7 @@
       "englishTitle": "On the Church in Switzerland",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1875,
       "date": "1875-03-23",
       "tags": [
@@ -5595,7 +5595,7 @@
       "englishTitle": "Proclaiming A Jubilee",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1874,
       "date": "1874",
       "tags": [
@@ -5644,7 +5644,7 @@
       "englishTitle": "The Immaculate Conception",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1854,
       "date": "1854-12-08",
       "tags": [
@@ -5685,7 +5685,7 @@
       "englishTitle": "On the Affiliations of Church",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1867,
       "date": "1867",
       "tags": [
@@ -5706,7 +5706,7 @@
       "englishTitle": "On the Church in Bavaria",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1864,
       "date": "1864-08-18",
       "tags": [
@@ -5726,7 +5726,7 @@
       "englishTitle": "On the Seminary for the Native Clergy",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1865,
       "date": "1865-09-30",
       "tags": [
@@ -5747,7 +5747,7 @@
       "englishTitle": "On the Persecution of Armenians",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1854,
       "date": "1854-02-02",
       "tags": [
@@ -5790,7 +5790,7 @@
       "englishTitle": "On the Church in the Pontifical States",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1849,
       "date": "1849",
       "tags": [
@@ -5858,7 +5858,7 @@
       "englishTitle": "On Episcopal Meetings",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1855,
       "date": "1855-11-05",
       "tags": [
@@ -5880,7 +5880,7 @@
       "englishTitle": "On Aid for Ireland",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1847,
       "date": "1847",
       "tags": [
@@ -5899,7 +5899,7 @@
       "englishTitle": "On the Discipline for Clergy",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1852,
       "date": "1852-05-17",
       "tags": [
@@ -5920,7 +5920,7 @@
       "englishTitle": "On the Church in Chaldea",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1872,
       "date": "1872",
       "tags": [
@@ -5963,7 +5963,7 @@
       "englishTitle": "On Promotion of False Doctrines",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1863,
       "date": "1863",
       "tags": [
@@ -5987,7 +5987,7 @@
       "englishTitle": "On the Church in Armenia",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1873,
       "date": "1873",
       "tags": [
@@ -6012,7 +6012,7 @@
       "englishTitle": "On Pontifical States",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1859,
       "date": "1859",
       "tags": [
@@ -6035,7 +6035,7 @@
       "englishTitle": "On Faith and Religion",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1846,
       "date": "1846",
       "tags": [
@@ -6056,7 +6056,7 @@
       "englishTitle": "On the Church in Prussia",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1875,
       "date": "1875-02-05",
       "tags": [
@@ -6078,7 +6078,7 @@
       "englishTitle": "Protesting the Taking of the Pontifical States",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1870,
       "date": "1870-11-01",
       "tags": [
@@ -6101,7 +6101,7 @@
       "englishTitle": "Thanksgiving for 25 Years of Pontificate",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1871,
       "date": "1871",
       "tags": [
@@ -6125,7 +6125,7 @@
       "englishTitle": "On the Church in Austria",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1856,
       "date": "1856-03-17",
       "tags": [
@@ -6165,7 +6165,7 @@
       "englishTitle": "On Pontifical States",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1871,
       "date": "1871",
       "tags": [
@@ -6189,7 +6189,7 @@
       "englishTitle": "On Discipline for Religious",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1847,
       "date": "1847",
       "tags": [
@@ -6210,7 +6210,7 @@
       "englishTitle": "On the Church in Austria",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1874,
       "date": "1874",
       "tags": [
@@ -6302,7 +6302,7 @@
       "englishTitle": "Reform of the Roman Breviary",
       "popeSlug": "pius10",
       "popeName": "Pius X",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1911,
       "date": "1911",
       "tags": [
@@ -6364,7 +6364,7 @@
       "englishTitle": "the other hand, when we measure our own meager strength against the difficulty of the task, we will always be brought to the realization that we are but worthless instruments in the hands of the Lord, and we will have recourse to him in our trying needs. He will hear our prayer and enable us to say: I can do all things in him who strengthens me.\\6\\",
       "popeSlug": "pius10",
       "popeName": "Pius X",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1904,
       "date": "1904",
       "tags": [
@@ -6409,7 +6409,7 @@
       "englishTitle": null,
       "popeSlug": "pius10",
       "popeName": "Pius X",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1908,
       "date": "1908",
       "tags": [
@@ -6518,7 +6518,7 @@
       "englishTitle": null,
       "popeSlug": "pius10",
       "popeName": "Pius X",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1907,
       "date": "1907",
       "tags": [
@@ -6645,7 +6645,7 @@
       "englishTitle": "Decree of the Sacred Congregation of the Discipline of the Sacraments on First Communion",
       "popeSlug": "pius10",
       "popeName": "Pius X",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1910,
       "date": "1910",
       "tags": [
@@ -6691,7 +6691,7 @@
       "englishTitle": null,
       "popeSlug": "pius10",
       "popeName": "Pius X",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1910,
       "date": "1910",
       "tags": [
@@ -6846,7 +6846,7 @@
       "englishTitle": "Decree naming St. Therese co-patron along with St. Francis Xavier of all foreign missions",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1927,
       "date": "1927",
       "tags": [
@@ -7207,7 +7207,7 @@
       "englishTitle": "Catholic Action in Italy",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1931,
       "date": "1931",
       "tags": [
@@ -7279,7 +7279,7 @@
       "englishTitle": "Reconstruction of the Social Order",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1931,
       "date": "1931-05-15",
       "tags": [
@@ -7381,7 +7381,7 @@
       "englishTitle": "St. Francis De Salles",
       "popeSlug": "pius11",
       "popeName": "Pius XI",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1923,
       "date": "1923",
       "tags": [
@@ -7610,7 +7610,7 @@
       "englishTitle": "the other hand, it is not necessary for Us to show you who are well experienced, how much this apostolate of respect and love for the new life is necessary today. Unfortunately, cases are not rare in which it is sufficient only to hint at the fact that children are a ‘blessing” to provoke contradiction and even derision More often in word and thought the idea of the great “burden” of children is predominant. Inasmuch as this mentality is opposed to God’s plan and to Scripture, so is it also contrary to sane reason and the sentiments of nature! If there are conditions and circumstances in which parents without violating God’s law can avoid the “blessing” of children, nevertheless these unavoidable and exceptional cases do not authorize anyone to pervert ideas, to despise values and to treat with contempt the mother who had the courage and honor to give life.",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "address",
       "year": 1951,
       "date": "1951",
       "tags": [
@@ -7631,7 +7631,7 @@
       "englishTitle": "Combating Atheist",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1950,
       "date": "1950-03-12",
       "tags": [
@@ -7716,7 +7716,7 @@
       "englishTitle": "Ending the 2nd World War",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1945,
       "date": "1945",
       "tags": [
@@ -7789,7 +7789,7 @@
       "englishTitle": "Should We Define the Assumption?",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1946,
       "date": "1946-05-01",
       "tags": [
@@ -7813,7 +7813,7 @@
       "englishTitle": "\\[Christmas Message\\]",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1944,
       "date": "1944",
       "tags": [
@@ -7886,7 +7886,7 @@
       "englishTitle": "St. Boniface",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1954,
       "date": "1954",
       "tags": [
@@ -7963,7 +7963,7 @@
       "englishTitle": "Catholic Missions, especially in Africa",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1957,
       "date": "1957",
       "tags": [
@@ -8047,7 +8047,7 @@
       "englishTitle": "Draw Refreshing Water From the Sacred Heart",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1956,
       "date": "1956",
       "tags": [
@@ -8141,7 +8141,7 @@
       "englishTitle": "St. Andrew Bobola",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1957,
       "date": "1957",
       "tags": [
@@ -8189,7 +8189,7 @@
       "englishTitle": "Against Materialism on the Centenary of the Apparitions at Lourdes",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1957,
       "date": "1957-07-02",
       "tags": [
@@ -8214,7 +8214,7 @@
       "englishTitle": "Prayers for Peace and Freedom of Hungary",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1956,
       "date": "1956",
       "tags": [
@@ -8267,7 +8267,7 @@
       "englishTitle": "Prayers for the Persecuted Church",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1958,
       "date": "1958",
       "tags": [
@@ -8293,7 +8293,7 @@
       "englishTitle": "Thoughts for the Clergy of the World",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1950,
       "date": "1950",
       "tags": [
@@ -8315,7 +8315,7 @@
       "englishTitle": "Crusade for Prayers for Peace",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1950,
       "date": "1950-12-06",
       "tags": [
@@ -8363,7 +8363,7 @@
       "englishTitle": "Defining the Dogma of the Assumption",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1950,
       "date": "1950",
       "tags": [
@@ -8452,7 +8452,7 @@
       "englishTitle": "Rural Life",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1946,
       "date": "1946",
       "tags": [
@@ -8471,7 +8471,7 @@
       "englishTitle": "Prescribing Public Prayers for Social and World Peace",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1947,
       "date": "1947-12-18",
       "tags": [
@@ -8495,7 +8495,7 @@
       "englishTitle": "250th Anniversary of Reunion of the Ruthenian Church with Rome",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1945,
       "date": "1945",
       "tags": [
@@ -8570,7 +8570,7 @@
       "englishTitle": "Pleading for Care for the World's Destitute Children",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1946,
       "date": "1946",
       "tags": [
@@ -8735,7 +8735,7 @@
       "englishTitle": "150th Anniversary of the Establishment of the Hierarchy in the USA",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1939,
       "date": "1939",
       "tags": [
@@ -8779,7 +8779,7 @@
       "englishTitle": "A Call For Public Prayers for Peace",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1950,
       "date": "1950-07-19",
       "tags": [
@@ -8850,7 +8850,7 @@
       "englishTitle": "\\[Christmas Message\\]",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1942,
       "date": "1942",
       "tags": [
@@ -8930,7 +8930,7 @@
       "englishTitle": "Canonizing St. Bonaventure of Bagnoregio \\[Bull\\]April 14, 1482 A.D.",
       "popeSlug": "sixtus04",
       "popeName": "Sixtus IV",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1482,
       "date": null,
       "tags": [
@@ -8950,7 +8950,7 @@
       "englishTitle": "St. Bonaventure, Seraphic Doctor of the Church",
       "popeSlug": "sixtus05",
       "popeName": "Sixtus V",
-      "type": null,
+      "type": "encyclical-letter",
       "year": 1590,
       "date": null,
       "tags": [

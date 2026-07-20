@@ -9,7 +9,7 @@
     "number": 23,
     "fullName": "John XXIII"
   },
-  "type": null,
+  "type": "encyclical-letter",
   "year": 1963,
   "date": "1963-04-11",
   "dateApproximate": false,

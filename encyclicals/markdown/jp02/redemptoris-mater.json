@@ -9,7 +9,7 @@
     "number": 2,
     "fullName": "John Paul II"
   },
-  "type": null,
+  "type": "encyclical-letter",
   "year": 1987,
   "date": "1987",
   "dateApproximate": false,
