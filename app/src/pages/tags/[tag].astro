@@ -22,7 +22,11 @@ export async function getStaticPaths() {
 
 const {tag} = Astro.params
 const docs: any[] = await client.fetch(
-  '*[_type == "encyclical" && $tag in tags] | order(year asc) {incipit, slug, year, type, tags, englishTitle, "popeSlug": pope->slug, "pope": pope->{fullName, slug}}',
+  `*[_type == "encyclical" && $tag in tags] | order(year asc) {
+    incipit, slug, year, "documentKind": coalesce(documentKind, type), tags, englishTitle, "popeSlug": pope->slug,
+    "pope": pope->{fullName, slug},
+    "summaryExcerpt": *[_type == "documentSummary" && references(^._id)][0].excerpt
+  }`,
   {tag},
 )
 ---

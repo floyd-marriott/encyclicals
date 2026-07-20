@@ -33,10 +33,20 @@ export const documentType = defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
-      name: 'type',
+      name: 'documentKind',
       type: 'string',
-      title: 'Document Type',
+      title: 'Document Kind',
       description: 'Canonical classification (encyclical, bull, brief, etc.)',
+      options: {
+        list: [
+          {title: 'Encyclical letter', value: 'encyclical-letter'},
+          {title: 'Apostolic constitution', value: 'apostolic-constitution'},
+          {title: 'Apostolic letter', value: 'apostolic-letter'},
+          {title: 'Brief', value: 'brief'},
+          {title: 'Bull', value: 'bull'},
+          {title: 'Motu proprio', value: 'motu-proprio'},
+        ],
+      },
     }),
     defineField({
       name: 'year',
@@ -111,12 +121,6 @@ export const documentType = defineType({
       type: 'text',
       title: 'Body',
       description: 'Full document text as markdown',
-    }),
-    defineField({
-      name: 'summary',
-      type: 'text',
-      title: 'Summary',
-      description: 'AI-generated summary as markdown',
     }),
     defineField({
       name: 'rawClosingDate',

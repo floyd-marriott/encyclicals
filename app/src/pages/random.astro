@@ -3,12 +3,15 @@ import {client} from '../lib/sanity'
 
 export const prerender = false
 
-const doc: {slug: string; pope: {slug: string}} | null = await client.fetch(
-  '*[_type == "encyclical"][floor(random() * count(*[_type == "encyclical"]))] {slug, "pope": pope->slug}',
+const total: number = await client.fetch('count(*[_type == "encyclical"])')
+const idx = Math.floor(Math.random() * total)
+const doc: {slug: string; pope: string} | null = await client.fetch(
+  '*[_type == "encyclical"][$idx] {slug, "pope": pope->slug}',
+  {idx},
 )
 
 if (doc) {
-  return Astro.redirect(`/documents/${doc.pope.slug}/${doc.slug}`, 302)
+  return Astro.redirect(`/documents/${doc.pope}/${doc.slug}`, 302)
 }
 ---
 

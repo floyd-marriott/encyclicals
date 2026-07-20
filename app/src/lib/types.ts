@@ -12,10 +12,11 @@ export interface Pope {
 export interface DocEntry {
   incipit: string
   slug: string
-  type?: string | null
+  documentKind?: string | null
   year?: number | null
   tags?: string[] | null
   englishTitle?: string | null
+  summaryExcerpt?: string | null
   pope: {
     fullName: string
     slug: string
@@ -23,8 +24,7 @@ export interface DocEntry {
 }
 
 export interface DocDetail extends DocEntry {
-  body: any[]
-  summary: any[]
+  body: string
   date?: string | null
   dateApproximate?: boolean
   addressee?: string | null
@@ -35,6 +35,10 @@ export interface DocDetail extends DocEntry {
   wordCount?: number | null
   fileSize?: number | null
   rawClosingDate?: string | null
+  summary?: {
+    body: string
+    excerpt?: string | null
+  } | null
   pope: {
     fullName: string
     slug: string

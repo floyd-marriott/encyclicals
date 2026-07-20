@@ -17,14 +17,23 @@ export async function getPope(slug: string) {
 
 export async function getDocsByPope(slug: string) {
   return client.fetch(
-    '*[_type == "encyclical" && pope->slug == $slug] | order(year asc) {incipit, slug, type, year, tags, englishTitle}',
+    `*[_type == "encyclical" && pope->slug == $slug] | order(year asc) {
+      incipit, slug, "documentKind": coalesce(documentKind, type), year, tags, englishTitle,
+      "summaryExcerpt": *[_type == "documentSummary" && references(^._id)][0].excerpt
+    }`,
     {slug},
   )
 }
 
 export async function getDoc(pope: string, slug: string) {
   return client.fetch(
-    '*[_type == "encyclical" && slug == $slug && pope->slug == $pope][0] {..., body, summary, "pope": pope->{fullName, slug}}',
+    `*[_type == "encyclical" && slug == $slug && pope->slug == $pope][0] {
+      ...,
+      "documentKind": coalesce(documentKind, type),
+      body,
+      "pope": pope->{fullName, slug},
+      "summary": *[_type == "documentSummary" && references(^._id)][0]{body, excerpt}
+    }`,
     {pope, slug},
   )
 }

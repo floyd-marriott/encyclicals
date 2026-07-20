@@ -1,7 +1,13 @@
+import 'dotenv/config'
 import {createClient} from '@sanity/client'
 import {readFileSync, existsSync} from 'fs'
 import path from 'path'
 import {fileURLToPath} from 'url'
+import {
+  extractExcerpt,
+  normalizeSummaryMarkdown,
+  summaryDocumentId,
+} from './lib/summary.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = path.join(__dirname, 'encyclicals/markdown')
@@ -75,7 +81,7 @@ async function main() {
       incipit: meta.incipit,
       englishTitle: meta.englishTitle || undefined,
       pope: {_ref: `pope-${popeSlug}`, _type: 'reference'},
-      type: meta.type || undefined,
+      documentKind: meta.type || undefined,
       year: meta.year,
       date: meta.date || undefined,
       dateApproximate: meta.dateApproximate ?? false,
@@ -88,7 +94,6 @@ async function main() {
       wordCount: meta.wordCount,
       fileSize: meta.fileSize,
       body: mdContent,
-      summary: summaryContent,
       rawClosingDate: meta.rawClosingDate || undefined,
     }
 
@@ -97,6 +102,22 @@ async function main() {
     } else {
       await client.createOrReplace(doc)
       console.log(`[${i + 1}/${total}] ${meta.incipit}`)
+    }
+
+    if (summaryContent.trim()) {
+      const summaryBody = normalizeSummaryMarkdown(summaryContent)
+      const summaryDoc = {
+        _type: 'documentSummary',
+        _id: summaryDocumentId(popeSlug, slug),
+        document: {_type: 'reference', _ref: doc._id},
+        body: summaryBody,
+        excerpt: extractExcerpt(summaryBody),
+      }
+      if (DRY_RUN) {
+        console.log(`[DRY] summary: ${meta.incipit}`)
+      } else {
+        await client.createOrReplace(summaryDoc)
+      }
     }
   }
 
