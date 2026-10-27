@@ -14,32 +14,11 @@
       "pius12/the-proofs-for-the-existence-of-god-in-the-light-of-modern-natural-science"
     ],
     "noTitle": [
-      "alex04/dignum-arbitramur-et-congruum",
-      "alex04/inter-ea-quae-placita",
-      "alex04/petitionibus-vestris-benignum-impertientes",
-      "eugene04/sicut-dudum",
-      "greg10/papal-protection-of-the-jews",
-      "jp02/dives-in-misericordia",
-      "jp02/redemptoris-mater",
-      "jp02/slavorum-apostoli",
-      "jp02/sollicitudo-rei-socialis",
-      "jp02/veritatis-splendor",
-      "leo13/longinqua-january-6-1895",
-      "pius09/the-syllabus-of-errors",
-      "pius10/haerent-animo",
-      "pius10/lamentabili-sane",
-      "pius10/pope-st-pius-x",
-      "pius10/the-oath-against-modernism",
-      "pius12/applied-psychology",
-      "pius12/counsel-to-teaching-sisters",
-      "pius12/guiding-principles-of-the-lay-apostolate",
-      "pius12/laetamur-admodum",
-      "pius12/papal-directives-for-the-woman-of-today",
-      "pius12/si-diligis-canonisation-of-st-pius-x",
-      "pius12/the-function-of-art",
-      "pius12/the-moral-limits-of-medical-research-and-treatment",
-      "pius12/the-proofs-for-the-existence-of-god-in-the-light-of-modern-natural-science",
-      "pius12/the-states-of-perfection"
+      "clem08/ex-supernae-dispositionis-arbitrio",
+      "john22/summa-providit-altitudo-consilii",
+      "paul03/in-apostolatus-culmine",
+      "pius05/exponi-nobis-nuper",
+      "pius10/pope-st-pius-x"
     ],
     "noAddressee": [
       "alex04/dignum-arbitramur-et-congruum",
@@ -309,7 +288,7 @@
   "counts": {
     "withYear": 401,
     "withType": 393,
-    "withEnglishTitle": 375,
+    "withEnglishTitle": 396,
     "translated": 32,
     "withClosingDate": 333
   }

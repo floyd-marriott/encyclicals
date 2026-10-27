@@ -1,7 +1,7 @@
 {
   "slug": "superna-caelestis",
   "incipit": "Superna Caelestis",
-  "englishTitle": "Canonizing St. Bonaventure of Bagnoregio \\[Bull\\]April 14, 1482 A.D.",
+  "englishTitle": "Canonizing St. Bonaventure of Bagnoregio April 14, 1482 A.D.",
   "pope": {
     "slug": "sixtus04",
     "name": "Sixtus IV",
@@ -9,7 +9,7 @@
     "number": 4,
     "fullName": "Sixtus IV"
   },
-  "type": "encyclical-letter",
+  "type": "bull",
   "year": 1482,
   "date": null,
   "dateApproximate": false,

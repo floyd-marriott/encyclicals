@@ -1,7 +1,7 @@
 {
   "slug": "super-cathedram-principis-apostolorum",
   "incipit": "Super Cathedram Principis Apostolorum",
-  "englishTitle": "Establishing the Catholic Mission in Vietnam September 8, 1659 \\[Bull\\]",
+  "englishTitle": "Establishing the Catholic Mission in Vietnam September 8, 1659",
   "pope": {
     "slug": "alex07",
     "name": "Alexander VII",
@@ -9,7 +9,7 @@
     "number": 7,
     "fullName": "Alexander VII"
   },
-  "type": "encyclical-letter",
+  "type": "bull",
   "year": 1659,
   "date": "1659",
   "dateApproximate": true,

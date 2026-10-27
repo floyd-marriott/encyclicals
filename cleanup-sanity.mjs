@@ -4,7 +4,7 @@ import {readFileSync} from 'fs'
 import path from 'path'
 import {fileURLToPath} from 'url'
 import {stripSummaryFromBody} from './lib/summary.mjs'
-import {inferDocumentKind, tagDocumentId, tagLabelFromSlug} from './lib/tags.mjs'
+import {inferDocumentKind, inferEnglishTitle, tagDocumentId, tagLabelFromSlug} from './lib/tags.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = path.join(__dirname, 'encyclicals/markdown')
@@ -92,8 +92,9 @@ async function main() {
       stats.kindsSet++
     }
 
-    if (!existing.englishTitle && meta.incipit) {
-      patch.englishTitle = meta.incipit
+    const englishTitle = inferEnglishTitle(popeSlug, slug, meta.englishTitle)
+    if (englishTitle && englishTitle !== existing.englishTitle) {
+      patch.englishTitle = englishTitle
       stats.titlesBackfilled++
     }
 

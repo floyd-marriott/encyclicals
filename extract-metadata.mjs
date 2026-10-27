@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import {inferEnglishTitle} from './lib/tags.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -293,26 +294,132 @@ function isTitleStopLine(cleanLine) {
   return /^(?:Blessing|Venerable|Beloved|Health|Greetings|INTRODUCTION|CHAPTER|1\.|1\s|\[|_Blessing)/i.test(cleanLine);
 }
 
-function extractEnglishTitle(content) {
+const TYPE_MARKER_RE = /(?:\\\[|\[)(Bull|Brief|Latin|Christmas Message)(?:\\\]|\])/gi;
+const TYPE_MARKER_STRIP_RE = /(?:\\\[|\[)(?:Bull|Brief|Latin|Christmas Message)(?:\\\]|\])/gi;
+const STRUCTURAL_ALL_CAPS = /^(?:ENCYCLICAL|BULL|BRIEF|APOSTOLIC|MOTU|LETTER|CONSTITUTION)\b/;
+
+function containsTypeMarker(text, type) {
+  return new RegExp(`(?:\\\\\\[|\\[)${type}(?:\\\\\\]|\\])`, 'i').test(text);
+}
+
+function stripTypeMarkers(text) {
+  return text
+    .replace(TYPE_MARKER_STRIP_RE, ' ')
+    .replace(/\s*\\Bull\\\s*/gi, ' ')
+    .replace(/\s*\\Brief\\\s*/gi, ' ')
+    .replace(/\s*\\Latin\\\s*/gi, ' ')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
+function isLikelyEnglishTitle(s) {
+  const clean = stripMarkdownInline(s).trim();
+  if (clean.length < 4) return false;
+  if (/^(On|The|Our|Against|Decree|Proclaiming|For|To|An|A|One)\b/i.test(clean)) return true;
+  if (/\b(the|and|for|against|with|from)\b/i.test(clean)) return true;
+  if (/\bof (the|a|an|all|every|his|her|our|their|st\.|saint)\b/i.test(clean)) return true;
+  if (/\bon (the|a|an|all|st\.|saint|teaching|social|capital|labor|christian|holy|blessed|promoting|establishing|rural|psychotherapy|observance|mercy|peace|capital|labor)\b/i.test(clean)) return true;
+  if (/\b(in the|in a|in all|along with|co-patron|foreign missions|apostolic mandate|syllabus|oath|errors|modernism|jubilee|mandate|naming|enslaving|natives|canary|islands|salamanca|university|seal|graduates|rights|psychology|teaching|directives|midwives|democracy|rural|internal|function|moral|proofs|perfection|canonisation|canonization|protection|jew|jewish|clergy|sanctity|devotion|precious blood|peace on earth|miscellaneous|protection of st|legislation|marriage|applied|papal|music|sacred|observance|oriental|rites)\b/i.test(clean)) {
+    return true;
+  }
+  return false;
+}
+
+function isTitleCaseEnglishTitle(s) {
+  const clean = stripMarkdownInline(s).trim();
+  const words = clean.split(/\s+/);
+  if (words.length < 2) return false;
+  const hasLower = words.some(w => /^[a-z]/.test(w));
+  const hasUpper = words.some(w => /^[A-Z]/.test(w));
+  if (hasLower && hasUpper) return true;
+  // Multi-word Title Case: "Applied Psychology", "Marriage Legislation"
+  if (words.every(w => /^[A-Z][A-Za-z'.-]*$/.test(w))) return true;
+  return false;
+}
+
+function normalizeExtractedTitle(title) {
+  const clean = stripMarkdownInline(title).trim();
+  const letters = clean.replace(/[^A-Za-z]/g, '');
+  if (letters.length > 0 && letters === letters.toUpperCase()) {
+    return clean
+      .toLowerCase()
+      .replace(/(?:^|\s|[-–.])\S/g, (c) => c.toUpperCase());
+  }
+  return clean;
+}
+
+function isUsableTitleHeading(h2) {
+  if (h2.length <= 2) return false;
+  if (/^(?:\\\[|\[)(?:Bull|Brief|Latin)(?:\\\]|\])\s*(?:Latin)?\s*$/i.test(h2)) return false;
+  if (h2.startsWith('ENCYCLICAL OF POPE') || h2.startsWith('ENCYCLICAL LETTER') || h2.startsWith('ENCYCLICAL ')) {
+    return false;
+  }
+  if (h2.match(/^_The_\s+\*\*Holy See\*\*/)) return false;
+  if (h2.match(/^[A-Z][A-Z\s.]+$/) && STRUCTURAL_ALL_CAPS.test(h2)) return false;
+  return isLikelyEnglishTitle(h2) || isTitleCaseEnglishTitle(h2) ||
+    (h2.match(/^[A-Z][A-Z\s.]+$/) && h2.length > 15);
+}
+
+function headerLineLimit(lines) {
+  const popeIdx = lines.findIndex(l => /^Pope\s+/i.test(stripMarkdownInline(l.trim())));
+  return Math.min(popeIdx >= 0 ? popeIdx + 3 : 20, 25);
+}
+
+function finishEnglishTitle(title) {
+  if (!title) return null;
+  if (/^(?:\\?\[?)Bull(?:\]?\\?)\s*(?:Latin)?\s*$/i.test(title.trim())) return null;
+  if (/^(?:\\?\[?)Latin(?:\]?\\?)\s*$/i.test(title.trim())) return null;
+  let clean = stripTypeMarkers(title.trim());
+  clean = stripMarkdownInline(clean).replace(/\s+/g, ' ').trim();
+  if (!clean) return null;
+  return normalizeExtractedTitle(clean);
+}
+
+function extractEnglishTitle(content, incipit) {
   const lines = content.split('\n');
-  // Only scan the first half of the file for title info
+  const headerEnd = headerLineLimit(lines);
   const scanLimit = Math.min(lines.length, Math.floor(lines.length / 2));
 
-  // First pass: look for H2 headings in first half of document
+  // H2 in header region — best signal for English subtitle
+  for (let i = 0; i < headerEnd; i++) {
+    const t = lines[i].trim();
+    if (t.startsWith('## ')) {
+      const h2 = t.slice(3).trim();
+      if (isUsableTitleHeading(h2)) return finishEnglishTitle(h2);
+    }
+  }
+
+  // H1 in header — skip when it repeats the Latin incipit
+  for (let i = 0; i < headerEnd; i++) {
+    const t = lines[i].trim();
+    if (t.startsWith('# ')) {
+      const h1 = t.slice(2).trim();
+      if (incipit && h1.toLowerCase() === incipit.toLowerCase()) continue;
+      if (isLikelyEnglishTitle(h1)) return finishEnglishTitle(h1);
+    }
+  }
+
+  // Bold standalone title lines in header (e.g. Eugene IV allocutions)
+  for (let i = 0; i < headerEnd; i++) {
+    const t = lines[i].trim();
+    const boldMatch = t.match(/^\*{1,2}([^*]+)\*{1,2}\s*$/);
+    if (boldMatch && isLikelyEnglishTitle(boldMatch[1])) return finishEnglishTitle(boldMatch[1]);
+  }
+
+  // ENCYCLICAL OF POPE ... ON [SUBJECT] block (Leo XIII Longinqua-style)
+  const headerBlock = lines.slice(0, 20).join('\n');
+  const encOnMatch = headerBlock.match(/ENCYCLICAL\s+OF\s+POPE\s+[A-Z\s]+\s+ON\s*\n?\s*([A-Z][A-Z\s]+)/i);
+  if (encOnMatch) {
+    const subject = encOnMatch[1].replace(/\s+/g, ' ').trim();
+    if (subject.length > 3) return finishEnglishTitle(`On ${subject.charAt(0) + subject.slice(1).toLowerCase()}`);
+  }
+
+  // H2 anywhere in first half of document
   for (let i = 0; i < scanLimit; i++) {
     const t = lines[i].trim();
     if (t.startsWith('## ')) {
       const h2 = t.slice(3).trim();
-      if (
-        h2.length > 2 &&
-        !h2.startsWith('ENCYCLICAL OF POPE') &&
-        !h2.startsWith('ENCYCLICAL LETTER') &&
-        !h2.startsWith('ENCYCLICAL ') &&
-        !h2.match(/^[A-Z][A-Z\s]+$/) && // skip all-caps structural lines
-        !h2.match(/^_The_\s+\*\*Holy See\*\*/) // skip Vatican footer
-      ) {
-        return h2;
-      }
+      if (isUsableTitleHeading(h2)) return finishEnglishTitle(h2);
     }
   }
 
@@ -334,7 +441,7 @@ function extractEnglishTitle(content) {
         }
       }
       if (subjectLines.length > 0) {
-        return subjectLines.join(' ').replace(/\s+/g, ' ').trim();
+        return finishEnglishTitle(subjectLines.join(' ').replace(/\s+/g, ' ').trim());
       }
     }
   }
@@ -397,11 +504,11 @@ function extractEnglishTitle(content) {
     }
 
     if (subjectParts.length > 0) {
-      return subjectParts.join(' ').replace(/\s+/g, ' ').trim();
+      return finishEnglishTitle(subjectParts.join(' ').replace(/\s+/g, ' ').trim());
     }
   }
 
-  // Third pass: look for "ON [SUBJECT]" lines within first 50 lines (multi-line support)
+  // "ON [SUBJECT]" lines within first 50 lines (multi-line support)
   for (let i = 0; i < Math.min(50, lines.length); i++) {
     const t = lines[i].trim().replace(/[*_\[\]]/g, '').trim();
     if (/^on\s+/i.test(t) && t.length > 5) {
@@ -414,7 +521,7 @@ function extractEnglishTitle(content) {
         if (subjectParts.includes(next)) break;
         subjectParts.push(next);
       }
-      return subjectParts.join(' ').replace(/\s+/g, ' ').trim();
+      return finishEnglishTitle(subjectParts.join(' ').replace(/\s+/g, ' ').trim());
     }
   }
 
@@ -535,7 +642,7 @@ function extractDocumentType(content, slug, popeSlug) {
     if (/^Allocution\b/i.test(h2)) return 'allocution';
     if (/^Constitution\b/i.test(h2)) return 'constitution';
     if (/^Motu Proprio/i.test(h2)) return 'motu-proprio';
-    if (/\[Bull\]|Papal Bull/i.test(h2)) return 'bull';
+    if (containsTypeMarker(h2, 'Bull') || /Papal Bull/i.test(h2)) return 'bull';
   }
 
   // Spanish/Portuguese and medieval bull markers
@@ -543,7 +650,7 @@ function extractDocumentType(content, slug, popeSlug) {
   if (/Constitution issued by Pope|Declaration of the supreme Pontiff/i.test(firstPart)) {
     return 'apostolic-constitution';
   }
-  if (/\[Bull\]|Papal Bull|\bBULL OF\b/i.test(firstPart.slice(0, 1500))) return 'bull';
+  if (containsTypeMarker(firstPart.slice(0, 1500), 'Bull') || /Papal Bull|\bBULL OF\b/i.test(firstPart.slice(0, 1500))) return 'bull';
   if (/bishop,\s*servant of the servants of God/i.test(firstPart.slice(0, 800))) return 'bull';
   if (/CLEMENT,\s*BISHOP,\s*Servant/i.test(firstPart)) return 'bull';
 
@@ -989,7 +1096,10 @@ async function main() {
       const fileSize = fs.statSync(filePath).size;
 
       const incipit = extractIncipit(content, docSlug);
-      let englishTitle = extractEnglishTitle(content);
+      let englishTitle = inferEnglishTitle(popeSlug, docSlug, extractEnglishTitle(content, incipit));
+      if (!englishTitle && isLikelyEnglishTitle(incipit)) {
+        englishTitle = incipit;
+      }
       const { popeName: rawPopeName, year: yearFromAuthor, yearApproximate: yearApprox } = extractPopeAndYear(content, popeSlug);
       let popeName = reconcilePopeName(rawPopeName, popeSlug);
       const type = extractDocumentType(content, docSlug, popeSlug);

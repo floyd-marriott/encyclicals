@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-20T19:35:12.810Z",
+  "generatedAt": "2026-07-21T16:08:32.658Z",
   "totalDocuments": 401,
   "totalPopes": 43,
   "documents": [
     {
       "slug": "dignum-arbitramur-et-congruum",
       "incipit": "Dignum Arbitramur et Congruum",
-      "englishTitle": null,
+      "englishTitle": "On Teaching Rights of Salamanca Graduates",
       "popeSlug": "alex04",
       "popeName": "Alexander IV",
       "type": "bull",
@@ -14,6 +14,8 @@
       "date": "1255",
       "tags": [
         "christology",
+        "education",
+        "justice",
         "moral-theology"
       ],
       "translated": false
@@ -21,7 +23,7 @@
     {
       "slug": "inter-ea-quae-placita",
       "incipit": "Inter Ea Quae Placita",
-      "englishTitle": null,
+      "englishTitle": "On the University of Salamanca",
       "popeSlug": "alex04",
       "popeName": "Alexander IV",
       "type": "bull",
@@ -37,7 +39,7 @@
     {
       "slug": "petitionibus-vestris-benignum-impertientes",
       "incipit": "Petitionibus Vestris Benignum Impertientes",
-      "englishTitle": null,
+      "englishTitle": "On the Seal of the University of Salamanca",
       "popeSlug": "alex04",
       "popeName": "Alexander IV",
       "type": "bull",
@@ -72,10 +74,10 @@
     {
       "slug": "super-cathedram-principis-apostolorum",
       "incipit": "Super Cathedram Principis Apostolorum",
-      "englishTitle": "Establishing the Catholic Mission in Vietnam September 8, 1659 \\[Bull\\]",
+      "englishTitle": "Establishing the Catholic Mission in Vietnam September 8, 1659",
       "popeSlug": "alex07",
       "popeName": "Alexander VII",
-      "type": "encyclical-letter",
+      "type": "bull",
       "year": 1659,
       "date": "1659",
       "tags": [
@@ -1316,7 +1318,7 @@
     {
       "slug": "caritas-in-veritate",
       "incipit": "Caritas in veritate",
-      "englishTitle": "INTEGRAL HUMAN DEVELOPMENT IN CHARITY AND TRUTH",
+      "englishTitle": "Integral Human Development In Charity And Truth",
       "popeSlug": "ben16",
       "popeName": "Benedict XVI",
       "type": "encyclical-letter",
@@ -1341,7 +1343,7 @@
     {
       "slug": "deus-caritas-est",
       "incipit": "Deus caritas est",
-      "englishTitle": "CHRISTIAN LOVE",
+      "englishTitle": "Christian Love",
       "popeSlug": "ben16",
       "popeName": "Benedict XVI",
       "type": "encyclical-letter",
@@ -1363,7 +1365,7 @@
     {
       "slug": "spe-salvi",
       "incipit": "Spe salvi",
-      "englishTitle": "CHRISTIAN HOPE",
+      "englishTitle": "Christian Hope",
       "popeSlug": "ben16",
       "popeName": "Benedict XVI",
       "type": "encyclical-letter",
@@ -1430,7 +1432,6 @@
     {
       "slug": "ex-supernae-dispositionis-arbitrio",
       "incipit": "Ex Supernae Dispositionis Arbitrio",
-      "englishTitle": "Latin",
       "popeSlug": "clem08",
       "popeName": "Clement VIII",
       "type": "bull",
@@ -1710,7 +1711,7 @@
     {
       "slug": "sicut-dudum",
       "incipit": "Sicut Dudum",
-      "englishTitle": null,
+      "englishTitle": "Against the Enslaving of Black Natives from the Canary Islands",
       "popeSlug": "eugene04",
       "popeName": "Eugene IV",
       "type": "bull",
@@ -1730,7 +1731,7 @@
     {
       "slug": "dilexit-nos",
       "incipit": "Dilexit nos",
-      "englishTitle": "THE HUMAN AND DIVINE LOVE OF THE HEART OF JESUS CHRIST",
+      "englishTitle": "The Human And Divine Love Of The Heart Of Jesus Christ",
       "popeSlug": "franc",
       "popeName": "Francis",
       "type": "encyclical-letter",
@@ -1748,7 +1749,7 @@
     {
       "slug": "fratelli-tutti",
       "incipit": "Fratelli tutti",
-      "englishTitle": "FRATERNITY AND SOCIAL FRIENDSHIP",
+      "englishTitle": "Fraternity And Social Friendship",
       "popeSlug": "franc",
       "popeName": "Francis",
       "type": "encyclical-letter",
@@ -1764,7 +1765,7 @@
     {
       "slug": "laudato-si",
       "incipit": "Laudato si'",
-      "englishTitle": "CARE FOR OUR COMMON HOME",
+      "englishTitle": "Care For Our Common Home",
       "popeSlug": "franc",
       "popeName": "Francis",
       "type": "encyclical-letter",
@@ -1781,7 +1782,7 @@
     {
       "slug": "lumen-fidei",
       "incipit": "Lumen fidei",
-      "englishTitle": "FAITH",
+      "englishTitle": "Faith",
       "popeSlug": "franc",
       "popeName": "Francis",
       "type": "encyclical-letter",
@@ -1822,7 +1823,7 @@
     {
       "slug": "papal-protection-of-the-jews",
       "incipit": "Papal Protection of the Jews",
-      "englishTitle": null,
+      "englishTitle": "Papal Protection of the Jews",
       "popeSlug": "greg10",
       "popeName": "Gregory X",
       "type": "bull",
@@ -2154,7 +2155,6 @@
     {
       "slug": "summa-providit-altitudo-consilii",
       "incipit": "Summa providit altitudo consilii",
-      "englishTitle": "\\[Bull\\] Latin",
       "popeSlug": "john22",
       "popeName": "John XXII",
       "type": "bull",
@@ -2474,7 +2474,7 @@
     {
       "slug": "dives-in-misericordia",
       "incipit": "Dives in Misericordia",
-      "englishTitle": null,
+      "englishTitle": "On the Mercy of God",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
       "type": "encyclical-letter",
@@ -2625,7 +2625,7 @@
     {
       "slug": "redemptoris-mater",
       "incipit": "Redemptoris Mater",
-      "englishTitle": null,
+      "englishTitle": "On the Blessed Virgin Mary in the Life of the Pilgrim Church",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
       "type": "encyclical-letter",
@@ -2648,7 +2648,7 @@
     {
       "slug": "redemptoris-missio",
       "incipit": "Redemptoris Missio",
-      "englishTitle": "the permanent validity of the Church's missionary mandate",
+      "englishTitle": "On the permanent validity of the Church's missionary mandate",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
       "type": "encyclical-letter",
@@ -2672,7 +2672,7 @@
     {
       "slug": "slavorum-apostoli",
       "incipit": "Slavorum Apostoli",
-      "englishTitle": null,
+      "englishTitle": "On Saints Cyril and Methodius",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
       "type": "apostolic-letter",
@@ -2695,7 +2695,7 @@
     {
       "slug": "sollicitudo-rei-socialis",
       "incipit": "Sollicitudo Rei Socialis",
-      "englishTitle": null,
+      "englishTitle": "On Social Concern",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
       "type": "encyclical-letter",
@@ -2720,7 +2720,7 @@
     {
       "slug": "ut-unum-sint",
       "incipit": "Ut Unum Sint",
-      "englishTitle": "commitment to Ecumenism",
+      "englishTitle": "On commitment to Ecumenism",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
       "type": "encyclical-letter",
@@ -2740,7 +2740,7 @@
     {
       "slug": "veritatis-splendor",
       "incipit": "Veritatis Splendor",
-      "englishTitle": null,
+      "englishTitle": "On the Splendor of Truth",
       "popeSlug": "jp02",
       "popeName": "John Paul II",
       "type": "encyclical-letter",
@@ -3919,7 +3919,7 @@
     {
       "slug": "longinqua-january-6-1895",
       "incipit": "Longinqua (January 6, 1895)",
-      "englishTitle": null,
+      "englishTitle": "On Catholicism in the United States",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
       "type": "encyclical-letter",
@@ -3966,7 +3966,7 @@
     {
       "slug": "magni-nobis",
       "incipit": "Magni Nobis",
-      "englishTitle": "the Catholic University of America",
+      "englishTitle": "On the Catholic University of America",
       "popeSlug": "leo13",
       "popeName": "Leo XIII",
       "type": "encyclical-letter",
@@ -4885,7 +4885,7 @@
     {
       "slug": "encyclical-letter-of-his-holiness-leo-xiv-magnifica-humanitas",
       "incipit": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas",
-      "englishTitle": "SAFEGUARDING THE HUMAN PERSON IN THE TIME OF ARTIFICIAL INTELLIGENCE",
+      "englishTitle": "Safeguarding The Human Person In The Time Of Artificial Intelligence",
       "popeSlug": "leo14",
       "popeName": "Leo XIV",
       "type": "encyclical-letter",
@@ -4947,7 +4947,6 @@
     {
       "slug": "in-apostolatus-culmine",
       "incipit": "In apostolatus culmine",
-      "englishTitle": "\\[Latin\\]",
       "popeSlug": "paul03",
       "popeName": "Paul III",
       "type": "bull",
@@ -5208,7 +5207,6 @@
     {
       "slug": "exponi-nobis-nuper",
       "incipit": "Exponi nobis nuper",
-      "englishTitle": "\\[Latin\\]",
       "popeSlug": "pius05",
       "popeName": "Pius V",
       "type": "encyclical-letter",
@@ -5331,7 +5329,7 @@
     {
       "slug": "diu-satis",
       "incipit": "Diu Satis",
-      "englishTitle": "\\[English\\] On a Return to Gospel Principles",
+      "englishTitle": "\\English\\ On a Return to Gospel Principles",
       "popeSlug": "pius07",
       "popeName": "Pius VII",
       "type": "encyclical-letter",
@@ -6141,7 +6139,7 @@
     {
       "slug": "the-syllabus-of-errors",
       "incipit": "The Syllabus Of Errors",
-      "englishTitle": null,
+      "englishTitle": "The Syllabus Of Errors",
       "popeSlug": "pius09",
       "popeName": "Pius IX",
       "type": "apostolic-letter",
@@ -6406,7 +6404,7 @@
     {
       "slug": "haerent-animo",
       "incipit": "Haerent Animo",
-      "englishTitle": null,
+      "englishTitle": "To The Catholic Clergy On Priestly Sanctity",
       "popeSlug": "pius10",
       "popeName": "Pius X",
       "type": "encyclical-letter",
@@ -6515,7 +6513,7 @@
     {
       "slug": "lamentabili-sane",
       "incipit": "Lamentabili Sane",
-      "englishTitle": null,
+      "englishTitle": "Syllabus Condemning The Errors Of The Modernists",
       "popeSlug": "pius10",
       "popeName": "Pius X",
       "type": "encyclical-letter",
@@ -6599,7 +6597,6 @@
     {
       "slug": "pope-st-pius-x",
       "incipit": "Pope St. Pius X",
-      "englishTitle": null,
       "popeSlug": "pius10",
       "popeName": "Pius X",
       "type": "apostolic-constitution",
@@ -6688,7 +6685,7 @@
     {
       "slug": "the-oath-against-modernism",
       "incipit": "The Oath Against Modernism",
-      "englishTitle": null,
+      "englishTitle": "The Oath Against Modernism",
       "popeSlug": "pius10",
       "popeName": "Pius X",
       "type": "encyclical-letter",
@@ -7651,7 +7648,7 @@
     {
       "slug": "applied-psychology",
       "incipit": "Applied Psychology",
-      "englishTitle": null,
+      "englishTitle": "Applied Psychology",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": null,
@@ -7739,7 +7736,7 @@
     {
       "slug": "counsel-to-teaching-sisters",
       "incipit": "Counsel To Teaching Sisters",
-      "englishTitle": null,
+      "englishTitle": "Counsel To Teaching Sisters",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": null,
@@ -7810,7 +7807,7 @@
     {
       "slug": "democracy-and-a-lasting-peace",
       "incipit": "Democracy And A Lasting Peace",
-      "englishTitle": "\\[Christmas Message\\]",
+      "englishTitle": "Democracy And A Lasting Peace",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": "encyclical-letter",
@@ -8027,7 +8024,7 @@
     {
       "slug": "guiding-principles-of-the-lay-apostolate",
       "incipit": "---",
-      "englishTitle": null,
+      "englishTitle": "Guiding Principles Of The Lay Apostolate",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": null,
@@ -8162,7 +8159,7 @@
     {
       "slug": "laetamur-admodum",
       "incipit": "Laetamur Admodum",
-      "englishTitle": null,
+      "englishTitle": "Pray for Peace in Poland, Hungary, and the Middle East",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": "encyclical-letter",
@@ -8449,7 +8446,7 @@
     {
       "slug": "on-rural-life",
       "incipit": "On Rural Life",
-      "englishTitle": "Rural Life",
+      "englishTitle": "The Pope Speaks On Rural Life",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": "encyclical-letter",
@@ -8543,7 +8540,7 @@
     {
       "slug": "papal-directives-for-the-woman-of-today",
       "incipit": "Papal Directives For The Woman Of Today",
-      "englishTitle": null,
+      "englishTitle": "Papal Directives For The Woman Of Today",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": null,
@@ -8754,7 +8751,7 @@
     {
       "slug": "si-diligis-canonisation-of-st-pius-x",
       "incipit": "Si Diligis – Canonisation Of St Pius X",
-      "englishTitle": null,
+      "englishTitle": "Si Diligis – Canonisation Of St Pius X",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": "encyclical-letter",
@@ -8829,7 +8826,7 @@
     {
       "slug": "the-function-of-art",
       "incipit": "The Function Of Art",
-      "englishTitle": null,
+      "englishTitle": "The Function Of Art",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": null,
@@ -8847,7 +8844,7 @@
     {
       "slug": "the-internal-order-of-states-and-people",
       "incipit": "The Internal Order Of States And People",
-      "englishTitle": "\\[Christmas Message\\]",
+      "englishTitle": "The Internal Order Of States And People",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": "encyclical-letter",
@@ -8869,7 +8866,7 @@
     {
       "slug": "the-moral-limits-of-medical-research-and-treatment",
       "incipit": "The Moral Limits Of Medical Research And Treatment",
-      "englishTitle": null,
+      "englishTitle": "The Moral Limits Of Medical Research And Treatment",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": null,
@@ -8889,7 +8886,7 @@
     {
       "slug": "the-proofs-for-the-existence-of-god-in-the-light-of-modern-natural-science",
       "incipit": "The Proofs For The Existence Of God In The Light Of Modern Natural Science",
-      "englishTitle": null,
+      "englishTitle": "The Proofs For The Existence Of God In The Light Of Modern Natural Science",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": null,
@@ -8908,7 +8905,7 @@
     {
       "slug": "the-states-of-perfection",
       "incipit": "The States Of Perfection",
-      "englishTitle": null,
+      "englishTitle": "The States Of Perfection",
       "popeSlug": "pius12",
       "popeName": "Pius XII",
       "type": "apostolic-constitution",
@@ -8927,10 +8924,10 @@
     {
       "slug": "superna-caelestis",
       "incipit": "Superna Caelestis",
-      "englishTitle": "Canonizing St. Bonaventure of Bagnoregio \\[Bull\\]April 14, 1482 A.D.",
+      "englishTitle": "Canonizing St. Bonaventure of Bagnoregio April 14, 1482 A.D.",
       "popeSlug": "sixtus04",
       "popeName": "Sixtus IV",
-      "type": "encyclical-letter",
+      "type": "bull",
       "year": 1482,
       "date": null,
       "tags": [

@@ -8,7 +8,7 @@ import {
   normalizeSummaryMarkdown,
   summaryDocumentId,
 } from './lib/summary.mjs'
-import {inferDocumentKind, tagDocumentId, tagLabelFromSlug} from './lib/tags.mjs'
+import {inferDocumentKind, inferEnglishTitle, tagDocumentId, tagLabelFromSlug} from './lib/tags.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = path.join(__dirname, 'encyclicals/markdown')
@@ -101,7 +101,7 @@ async function main() {
       _id: `doc-${popeSlug}-${slug}`,
       slug,
       incipit: meta.incipit,
-      englishTitle: meta.englishTitle || meta.incipit,
+      englishTitle: inferEnglishTitle(popeSlug, slug, meta.englishTitle),
       pope: {_ref: `pope-${popeSlug}`, _type: 'reference'},
       documentKind: inferDocumentKind(popeSlug, slug, meta.type),
       year: meta.year,

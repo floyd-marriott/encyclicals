@@ -1,7 +1,7 @@
 {
   "slug": "dignum-arbitramur-et-congruum",
   "incipit": "Dignum Arbitramur et Congruum",
-  "englishTitle": null,
+  "englishTitle": "On Teaching Rights of Salamanca Graduates",
   "pope": {
     "slug": "alex04",
     "name": "Alexander IV",
@@ -20,6 +20,8 @@
   "translationSource": null,
   "tags": [
     "christology",
+    "education",
+    "justice",
     "moral-theology"
   ],
   "wordCount": 269,
